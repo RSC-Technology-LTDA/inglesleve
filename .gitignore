@@ -2,3 +2,5 @@
 .env
 __pycache__/
 output/*/*.html
+.DS_Store
+launch/

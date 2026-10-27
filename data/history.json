@@ -1,5 +1,166 @@
 [
   {
+    "date": "2026-10-14",
+    "format": "welcome",
+    "theme": "Boas-vindas e apresentação da página",
+    "terms": [
+      "welcome",
+      "you're welcome",
+      "make yourself at home",
+      "see you tomorrow",
+      "everyday english",
+      "one minute a day",
+      "easy pronunciation",
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday",
+      "saturday",
+      "sunday"
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "format": "reading_challenge",
+    "theme": "Uma manhã que deu tudo errado",
+    "terms": [
+      "go off",
+      "rush out",
+      "pouring",
+      "soaked",
+      "grumpy",
+      "turn around",
+      "drizzling",
+      "damp"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "format": "visual_vocab",
+    "theme": "Vocabulário do supermercado",
+    "terms": [
+      "aisle",
+      "produce",
+      "frozen food",
+      "bakery",
+      "deli",
+      "checkout",
+      "cart",
+      "basket",
+      "bag",
+      "receipt",
+      "coupon",
+      "cashier",
+      "self-checkout",
+      "line",
+      "on sale",
+      "out of stock",
+      "did you find everything okay",
+      "rewards card",
+      "cash back",
+      "express lane"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "format": "idiom",
+    "theme": "Phrasal verb do dia: figure out",
+    "terms": [
+      "figure out",
+      "figure it out",
+      "that figures"
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "format": "confusing_pairs",
+    "theme": "2 falsos amigos (actually, pretend) e o par borrow x lend",
+    "terms": [
+      "actually",
+      "currently",
+      "pretend",
+      "intend",
+      "borrow",
+      "lend",
+      "eventually"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "format": "word_curiosity",
+    "theme": "Palavras-valise: hangry, brunch e cia",
+    "terms": [
+      "portmanteau",
+      "hangry",
+      "brunch",
+      "staycation",
+      "frenemy",
+      "smog",
+      "spork",
+      "snap at someone"
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "format": "situation_phrases",
+    "theme": "Frases para usar na farmácia",
+    "terms": [
+      "sore throat",
+      "headache",
+      "coming down with something",
+      "stuffy",
+      "nauseous",
+      "something for allergies",
+      "cough drops",
+      "prescription",
+      "over the counter",
+      "generic",
+      "pick up a prescription",
+      "how often",
+      "take it with food",
+      "drowsy",
+      "pharmacist"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "format": "visual_vocab",
+    "theme": "Roupas para o frio",
+    "terms": [
+      "sweater",
+      "hoodie",
+      "jacket",
+      "coat",
+      "flannel",
+      "vest",
+      "scarf",
+      "gloves",
+      "mittens",
+      "beanie",
+      "earmuffs",
+      "boots",
+      "wool socks",
+      "sweatpants",
+      "leggings",
+      "long johns",
+      "sweatshirt",
+      "bundle up",
+      "freezing"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "format": "idiom",
+    "theme": "Phrasal verb do dia: run out of",
+    "terms": [
+      "run out of",
+      "run out",
+      "running out of",
+      "run low on"
+    ]
+  },
+  {
     "date": "2026-10-27",
     "format": "visual_vocab",
     "theme": "Vocabulário de Halloween",

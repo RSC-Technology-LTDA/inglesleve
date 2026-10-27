@@ -24,8 +24,11 @@ _LETTER = re.compile(r"^\s*[A-Fa-f]\s*[\)\.:\-]\s+")
 _AUTOFIT_JS ="""() => {
   const f = document.querySelector('.frame');
   const c = document.querySelector('.content, .main, .hero');
+  // Mede pelo último elemento (rodapé/cta): scrollHeight não acusa estouro sobre o padding.
+  const limit = f.getBoundingClientRect().bottom - parseFloat(getComputedStyle(f).paddingBottom);
+  const over = () => f.lastElementChild.getBoundingClientRect().bottom > limit + 1;
   let z = 1;
-  while (c && f.scrollHeight > f.clientHeight + 1 && z > 0.6) { z -= 0.04; c.style.zoom = z; }
+  while (c && over() && z > 0.6) { z -= 0.03; c.style.zoom = z; }
   return z;
 }"""
 

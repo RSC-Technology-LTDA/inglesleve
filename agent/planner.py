@@ -74,6 +74,20 @@ FORMATS = {
             "explicada no 'note' do slide seguinte ou no último slide), cta com 'quantas você acertou?'."
         ),
     },
+    # Fora do calendário (weekday None): só roda com --format.
+    "welcome": {
+        "weekday": None,
+        "label": "Boas-vindas",
+        "brief": (
+            "Post fixado de apresentação da página. Slides: cover acolhedor ('Bem-vindo ao Inglês Leve'); "
+            "'list' explicando a proposta (inglês do dia a dia, 1 minuto por dia, pronúncia sem enrolação); "
+            "'list' com o que sai em cada dia da semana (seg desafio de leitura, ter vocabulário visual, "
+            "qua expressão, qui 'não confunda', sex curiosidade, sáb frases para situações, dom quiz); "
+            "um 'term' com a primeira palavra de presente (algo útil e simpático); cta pedindo para seguir "
+            "e marcar um amigo que quer aprender inglês. Stories: apresentação e convite para responder "
+            "'qual seu nível de inglês?'."
+        ),
+    },
 }
 
 
