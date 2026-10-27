@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+{{ base_css }}
+/* 250px no topo e embaixo ficam livres para a UI do Instagram */
+.frame { padding: 260px 88px 280px; }
+body.question .frame, body.challenge .frame { background: var(--ink); color: var(--paper); }
+body.question .top, body.challenge .top { color: color-mix(in srgb, var(--paper) 70%, transparent); }
+body.answer .frame { background: var(--accent-2); }
+body.answer .top { color: var(--ink); }
+.main { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.tag { font-size: 36px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
+body.answer .tag { color: var(--ink); }
+h1 { font-size: {{ 132 if story.headline|length < 30 else (110 if story.headline|length < 50 else 92) }}px; margin-top: 24px; }
+.body { font-size: 56px; line-height: 1.35; margin-top: 40px; font-weight: 500; white-space: pre-line; }
+.opts { margin-top: 56px; display: flex; flex-direction: column; gap: 24px; }
+.opt { display: flex; gap: 24px; align-items: center; background: color-mix(in srgb, var(--paper) 12%, transparent); border-radius: 26px; padding: 40px 40px; font-size: 60px; font-weight: 600; }
+.opt b { width: 88px; height: 88px; border-radius: 18px; background: var(--accent); color: var(--ink); display: grid; place-items: center; flex: none; }
+.ans { margin-top: 56px; background: var(--paper); border-radius: 28px; padding: 48px; font-size: 68px; font-weight: 800; }
+.cta { font-size: 44px; font-weight: 700; color: var(--accent); }
+body.answer .cta, body.tip .cta { color: var(--ink); }
+</style>
+</head>
+<body class="{{ story.kind }}">
+<div class="frame">
+  <div class="top"><span class="flag"><span class="dot"></span>{{ brand.name }}</span><span>{{ index }}/{{ total }}</span></div>
+  <div class="main">
+  <div class="tag">{{ {'question': 'Pergunta do dia', 'answer': 'Resposta', 'tip': 'Dica rápida', 'challenge': 'Desafio'}[story.kind] }}</div>
+  <h1 class="display">{{ story.headline }}</h1>
+  {% if story.body %}<div class="body">{{ story.body }}</div>{% endif %}
+  {% if story.options %}
+  <div class="opts">{% for o in story.options %}<div class="opt"><b>{{ "ABCDEF"[loop.index0] }}</b>{{ o }}</div>{% endfor %}</div>
+  {% endif %}
+  {% if story.kind == 'answer' and story.answer %}<div class="ans">✅ {{ story.answer }}</div>{% endif %}
+  </div>
+  <div class="cta">
+    {% if story.kind in ['question', 'challenge'] %}Responde por DM 💬{% elif story.kind == 'tip' %}Post novo no feed 👆{% else %}Acertou? Manda um 🔥{% endif %}
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].emoji",
+        "problem": "O emoji 🏮 é uma lanterna de papel oriental (izakaya) e não lembra uma jack-o'-lantern. Pode confundir o aluno sobre o significado.",
+        "fix": "Use 🎃 (repetir com pumpkin é aceitável) ou combine 🎃🕯️ para reforçar a ideia de abóbora com vela dentro."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[5].example_pt",
+        "problem": "\"Aquele filme dava muito medo\" soa como algo habitual ou descritivo. A tradução mais natural de \"That movie was really scary\" (experiência pontual) é com o pretérito perfeito.",
+        "fix": "Trocar por \"Aquele filme deu muito medo!\" ou \"Aquele filme era muito assustador.\""
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[1].pronunciation",
+        "problem": "\"KÁS-tum\" não deixa claro que a vogal final é longa (/ˈkɑːstuːm/). O aluno pode encurtar demais o som.",
+        "fix": "Usar \"KÁS-tuum\", no mesmo padrão de \"SPUU-ki\" e \"TRIIT\"."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "A legenda diz que \"I'm going as a...\" é um bônus \"que não tá nos slides\", mas a expressão aparece no slide de CTA (feed[5].body). Há uma pequena incoerência.",
+        "fix": "Trocar por \"🎁 Bônus:\" sem a frase \"que não tá nos slides\", ou mover outra dica exclusiva para a legenda."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "A afirmação de que witch e which têm a mesma pronúncia é verdadeira para a grande maioria dos americanos. Ainda existem falantes (alguns sulistas e escoceses) que distinguem o \"wh\".",
+        "fix": "Opcional: \"Na maioria dos sotaques, 'witch' e 'which' (qual) soam iguais!\""
+      },
+      {
+        "severity": "minor",
+        "location": "hashtags[0]",
+        "problem": "A hashtag \"inglês\" com acento é tratada como diferente de #ingles e tende a ter menos alcance e consistência.",
+        "fix": "Usar \"ingles\" sem acento, no mesmo padrão das outras hashtags."
+      }
+    ],
+    "summary": "Pacote sólido e bem coerente. As 18 palavras batem com terms_used, os exemplos em inglês são naturais e corretos, e as pronúncias aportuguesadas estão boas, com tônica certa. O quiz tem uma única resposta correta, a pegadinha fantasy/costume/custom está factualmente correta e a estrutura respeita os limites (cover primeiro, cta por último, 6 itens por slide 'term'). Os stories conversam com o feed. Restam só ajustes de estilo: o emoji da jack-o'-lantern, um tempo verbal na tradução, a vogal longa em costume e uma incoerência leve na legenda. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "stories[3].body",
+        "problem": "\"Mouse\" é rato\" é uma simplificação. Em inglês, mouse é camundongo/ratinho e rat é o rato grande. Numa página de ensino, vale marcar a diferença, já que mouse vs. rat é uma confusão clássica.",
+        "fix": "Trocar por: \"Mouse\" é ratinho/camundongo (rato grande é \"rat\") e \"bird\" é pássaro."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[3].pt",
+        "problem": "\"Gostosuras ou travessuras\" é a tradução consagrada e está correta. Mas \"doces ou travessuras\" também é muito usada no Brasil e deixa mais claro o sentido de treat.",
+        "fix": "Opcional: \"gostosuras (ou doces) ou travessuras\"."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].note",
+        "problem": "A distinção \"spooky = medo divertido / scary = medo de verdade\" é útil, mas simplifica demais. \"Scary\" também se usa para coisas divertidas, como filmes e brinquedos de parque. A diferença real é de intensidade e de tom leve ou lúdico.",
+        "fix": "Sugestão: \"Spooky\" é um medinho gostoso, clima de Halloween; \"scary\" é mais forte, dá medo mesmo."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[4].pronunciation",
+        "problem": "Em \"haunted house\" (adjetivo + substantivo), a tônica principal costuma cair em HOUSE. Marcar as duas sílabas em maiúscula com o mesmo peso está aceitável, mas pode induzir a uma ênfase errada.",
+        "fix": "Opcional: \"rón-ted RÁUS\" para indicar que o peso maior está em house."
+      }
+    ],
+    "summary": "Pacote sólido e pronto para publicar. O inglês está correto e natural, e os exemplos são idiomáticos. As pronúncias aportuguesadas estão boas e com as tônicas certas (KÁS-tuum, SKÉ-le-tun, VÉM-pai-er, DJÉK-o-LÉN-tern). A nota sobre witch/which está correta, porque a fusão desses sons ocorre na maioria dos sotaques. O quiz tem uma única resposta correta e trabalha bem o falso cognato fantasy/custom/costume. A estrutura respeita os limites: cover primeiro, CTA por último, 6 itens por slide de termos. As 18 palavras batem com a capa e com terms_used, e legenda e stories são coerentes com o tema. Ficam só ajustes de estilo e nuance: mouse vs. rat, a nota spooky/scary e a tônica de haunted house."
+  }
+]

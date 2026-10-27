@@ -1,0 +1,304 @@
+{
+  "format": "visual_vocab",
+  "theme": "Vocabulário de Halloween",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Halloween em inglês: 18 palavras essenciais",
+      "subtitle": "Salva pra usar no dia 31! 🎃",
+      "body": "",
+      "items": [],
+      "note": ""
+    },
+    {
+      "kind": "term",
+      "title": "O básico do Halloween",
+      "subtitle": "O que você mais vai ouvir",
+      "body": "",
+      "items": [
+        {
+          "en": "pumpkin",
+          "pt": "abóbora",
+          "pronunciation": "PÂMP-kin",
+          "example_en": "Let's carve a pumpkin!",
+          "example_pt": "Bora esculpir uma abóbora!",
+          "emoji": "🎃"
+        },
+        {
+          "en": "costume",
+          "pt": "fantasia",
+          "pronunciation": "KÁS-tuum",
+          "example_en": "What's your costume this year?",
+          "example_pt": "Qual é sua fantasia esse ano?",
+          "emoji": "🦸"
+        },
+        {
+          "en": "candy",
+          "pt": "doce, bala",
+          "pronunciation": "KÉN-di",
+          "example_en": "Don't eat all the candy at once.",
+          "example_pt": "Não come todos os doces de uma vez.",
+          "emoji": "🍬"
+        },
+        {
+          "en": "trick-or-treat",
+          "pt": "gostosuras ou travessuras",
+          "pronunciation": "TRIK-or-TRIIT",
+          "example_en": "The kids went trick-or-treating.",
+          "example_pt": "As crianças foram pedir doces.",
+          "emoji": "🍭"
+        },
+        {
+          "en": "haunted house",
+          "pt": "casa assombrada",
+          "pronunciation": "RÓN-ted RÁUS",
+          "example_en": "I'm too scared to go in the haunted house.",
+          "example_pt": "Tô com medo demais de entrar na casa assombrada.",
+          "emoji": "🏚️"
+        },
+        {
+          "en": "spooky",
+          "pt": "sinistro, assustador (de leve)",
+          "pronunciation": "SPUU-ki",
+          "example_en": "It's spooky season!",
+          "example_pt": "Chegou a temporada do terror!",
+          "emoji": "🖤"
+        }
+      ],
+      "note": "Nos EUA, \"spooky season\" é outubro inteiro!"
+    },
+    {
+      "kind": "term",
+      "title": "As criaturas da noite",
+      "subtitle": "Quem aparece no dia 31",
+      "body": "",
+      "items": [
+        {
+          "en": "ghost",
+          "pt": "fantasma",
+          "pronunciation": "GÔUST",
+          "example_en": "I think this house has a ghost.",
+          "example_pt": "Acho que essa casa tem um fantasma.",
+          "emoji": "👻"
+        },
+        {
+          "en": "witch",
+          "pt": "bruxa",
+          "pronunciation": "UÍTCH",
+          "example_en": "She's dressed as a witch.",
+          "example_pt": "Ela tá fantasiada de bruxa.",
+          "emoji": "🧙‍♀️"
+        },
+        {
+          "en": "skeleton",
+          "pt": "esqueleto",
+          "pronunciation": "SKÉ-le-tun",
+          "example_en": "There's a skeleton on the porch.",
+          "example_pt": "Tem um esqueleto na varanda.",
+          "emoji": "💀"
+        },
+        {
+          "en": "vampire",
+          "pt": "vampiro",
+          "pronunciation": "VÉM-pai-er",
+          "example_en": "My son wants to be a vampire.",
+          "example_pt": "Meu filho quer ser vampiro.",
+          "emoji": "🧛"
+        },
+        {
+          "en": "zombie",
+          "pt": "zumbi",
+          "pronunciation": "ZÁM-bi",
+          "example_en": "I look like a zombie before coffee.",
+          "example_pt": "Pareço um zumbi antes do café.",
+          "emoji": "🧟"
+        },
+        {
+          "en": "bat",
+          "pt": "morcego",
+          "pronunciation": "BÉT",
+          "example_en": "A bat flew into the garage!",
+          "example_pt": "Um morcego entrou na garagem!",
+          "emoji": "🦇"
+        }
+      ],
+      "note": "Na maioria dos sotaques, \"witch\" e \"which\" (qual) soam iguais!"
+    },
+    {
+      "kind": "term",
+      "title": "Decoração e clima de terror",
+      "subtitle": "Pra montar o cenário",
+      "body": "",
+      "items": [
+        {
+          "en": "jack-o'-lantern",
+          "pt": "abóbora iluminada (com rosto)",
+          "pronunciation": "DJÉK-o-LÉN-tern",
+          "example_en": "Our jack-o'-lantern looks so creepy!",
+          "example_pt": "Nossa abóbora iluminada tá muito sinistra!",
+          "emoji": "🎃"
+        },
+        {
+          "en": "cobweb",
+          "pt": "teia de aranha",
+          "pronunciation": "KÁB-uéb",
+          "example_en": "We put fake cobwebs everywhere.",
+          "example_pt": "A gente colocou teias falsas pela casa toda.",
+          "emoji": "🕸️"
+        },
+        {
+          "en": "candle",
+          "pt": "vela",
+          "pronunciation": "KÉN-dol",
+          "example_en": "Light the candles, please.",
+          "example_pt": "Acende as velas, por favor.",
+          "emoji": "🕯️"
+        },
+        {
+          "en": "black cat",
+          "pt": "gato preto",
+          "pronunciation": "BLÉK KÉT",
+          "example_en": "A black cat crossed the street.",
+          "example_pt": "Um gato preto atravessou a rua.",
+          "emoji": "🐈‍⬛"
+        },
+        {
+          "en": "full moon",
+          "pt": "lua cheia",
+          "pronunciation": "FUL MUUN",
+          "example_en": "Look at that full moon!",
+          "example_pt": "Olha essa lua cheia!",
+          "emoji": "🌕"
+        },
+        {
+          "en": "scary",
+          "pt": "assustador, de dar medo",
+          "pronunciation": "SKÉ-ri",
+          "example_en": "That movie was really scary.",
+          "example_pt": "Aquele filme deu muito medo!",
+          "emoji": "😱"
+        }
+      ],
+      "note": "\"Spooky\" é medo divertido; \"scary\" é medo de verdade."
+    },
+    {
+      "kind": "quiz",
+      "title": "Como se diz \"fantasia\" (de Halloween) em inglês?",
+      "subtitle": "Cuidado com a pegadinha!",
+      "body": "",
+      "items": [
+        {
+          "en": "fantasy",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "costume",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "custom",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "dress",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: costume. \"Fantasy\" é imaginação/sonho e \"custom\" é costume (tradição)!"
+    },
+    {
+      "kind": "cta",
+      "title": "Pronto pro dia 31? 🎃",
+      "subtitle": "",
+      "body": "Salva esse post pra revisar antes do Halloween, manda pra aquele amigo que ama terror e comenta sua fantasia em inglês: \"I'm going as a...\" 👻",
+      "items": [],
+      "note": ""
+    }
+  ],
+  "caption": "Você sabe pedir doces em inglês ou ia travar no \"gostosuras ou travessuras\"? 🎃\n\nHoje tem 18 palavras de Halloween pra você entrar no clima da spooky season.\n\n🎁 Bônus: quando a criança bate na porta e grita \"Trick or treat!\", você responde \"Happy Halloween!\" e entrega o candy. 🍬 E se quiser elogiar a fantasia, é só dizer \"I love your costume!\" (Amei sua fantasia!). Pra contar de que você vai, nativo fala \"I'm going as a...\". Ex: \"I'm going as a witch\" = \"Vou de bruxa\".\n\nE aí, de que você iria fantasiado? Responde em inglês aqui nos comentários: \"I'm going as a...\" 👇",
+  "hashtags": [
+    "ingles",
+    "aprenderingles",
+    "inglesparabrasileiros",
+    "vocabularioemingles",
+    "halloween",
+    "halloweenemingles",
+    "inglesonline",
+    "dicasdeingles",
+    "englishvocabulary",
+    "learnenglish",
+    "spookyseason",
+    "inglesfacil"
+  ],
+  "stories": [
+    {
+      "kind": "question",
+      "headline": "Quiz relâmpago 🦇",
+      "body": "Como se diz \"morcego\" em inglês? Vota aí!",
+      "options": [
+        "mouse",
+        "bat",
+        "bird"
+      ],
+      "answer": "bat"
+    },
+    {
+      "kind": "tip",
+      "headline": "Pegadinha: fantasy ≠ fantasia",
+      "body": "Fantasia de Halloween é \"costume\". \"Fantasy\" é imaginação, tipo filme de fantasia. E \"custom\" é costume, tradição. 😉",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "challenge",
+      "headline": "Desafio do dia 🎃",
+      "body": "Me manda por DM de que você vai fantasiado, em inglês! Usa: \"I'm going as a ___\". Os melhores eu reposto!",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta do quiz 🦇",
+      "body": "Morcego é \"bat\" (fala BÉT). \"Mouse\" é rato e \"bird\" é pássaro. Acertou?",
+      "options": [],
+      "answer": "bat"
+    }
+  ],
+  "terms_used": [
+    "pumpkin",
+    "costume",
+    "candy",
+    "trick-or-treat",
+    "haunted house",
+    "spooky",
+    "ghost",
+    "witch",
+    "skeleton",
+    "vampire",
+    "zombie",
+    "bat",
+    "jack-o'-lantern",
+    "cobweb",
+    "candle",
+    "black cat",
+    "full moon",
+    "scary"
+  ]
+}

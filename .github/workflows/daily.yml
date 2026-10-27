@@ -1,0 +1,104 @@
+name: Publicação diária
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 12h de Brasília: gera o pacote e publica carrossel + stories
+    - cron: "0 21 * * *"   # 18h de Brasília: publica o story de resposta
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Horário a executar"
+        type: choice
+        options: [noon, evening]
+        default: noon
+      date:
+        description: "Data (AAAA-MM-DD); vazio = hoje"
+        required: false
+      dry_run:
+        description: "Só conferir, sem publicar"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+env:
+  TZ: America/Sao_Paulo
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Define horário e data
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLOT="${{ inputs.slot }}"
+            DAY="${{ inputs.date }}"
+          elif [ "${{ github.event.schedule }}" = "0 15 * * *" ]; then
+            SLOT=noon
+          else
+            SLOT=evening
+          fi
+          echo "SLOT=$SLOT" >> "$GITHUB_ENV"
+          echo "DAY=${DAY:-$(date +%F)}" >> "$GITHUB_ENV"
+          echo "DRY=${{ inputs.dry_run && '--dry-run' || '' }}" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Instala Chromium e fonte de emoji
+        if: env.SLOT == 'noon'
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q fonts-noto-color-emoji
+          python -m playwright install --with-deps chromium
+
+      - name: Gera o pacote do dia
+        if: env.SLOT == 'noon'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -f "output/$DAY/pack.json" ]; then
+            echo "Pacote de $DAY já existe; não gera de novo."
+          else
+            # Código 2 = reprovado no revisor: salva mesmo assim para você revisar; o publish.py não publica.
+            python run_daily.py --date "$DAY" || [ $? -eq 2 ]
+          fi
+          python publish.py prepare --date "$DAY"
+
+      - name: Salva o conteúdo no repositório
+        if: env.SLOT == 'noon'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output data
+          git diff --cached --quiet || git commit -m "Conteúdo de $DAY"
+          git pull --rebase -q && git push -q
+
+      - name: Publica no Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          # URL fixada no commit: o Instagram baixa exatamente as imagens enviadas acima.
+          export MEDIA_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/$(git rev-parse HEAD)"
+          python publish.py "$SLOT" --date "$DAY" $DRY
+
+      - name: Registra o que foi publicado
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*/published.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Publicado: $DAY ($SLOT)" && git pull --rebase -q && git push -q)

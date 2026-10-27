@@ -1,0 +1,40 @@
+{
+  "format": "confusing_pairs",
+  "theme": "Palavras que soam iguais",
+  "level": "A2",
+  "feed": [
+    {"kind": "cover", "title": "Mesmo som, sentido totalmente diferente", "subtitle": "3 pares que todo brasileiro confunde no inglês", "body": "", "items": [], "note": ""},
+    {"kind": "compare", "title": "A pronúncia é igual", "subtitle": "", "body": "", "items": [
+      {"en": "Night", "pt": "Noite", "pronunciation": "NÁIT", "example_en": "Good night!", "example_pt": "Boa noite!", "emoji": "🌙"},
+      {"en": "Knight", "pt": "Cavaleiro", "pronunciation": "NÁIT", "example_en": "A brave knight.", "example_pt": "Um cavaleiro corajoso.", "emoji": "🛡️"}
+    ], "note": "O K de knight é mudo, igual em know e knife."},
+    {"kind": "term", "title": "Outros pares parecidos", "subtitle": "Mesmo som, escrita diferente", "body": "", "items": [
+      {"en": "Flour", "pt": "Farinha", "pronunciation": "FLÁ-uer", "example_en": "", "example_pt": "", "emoji": "🌾"},
+      {"en": "Flower", "pt": "Flor", "pronunciation": "FLÁ-uer", "example_en": "", "example_pt": "", "emoji": "🌸"},
+      {"en": "Meat", "pt": "Carne", "pronunciation": "MÍIT", "example_en": "", "example_pt": "", "emoji": "🥩"},
+      {"en": "Meet", "pt": "Encontrar", "pronunciation": "MÍIT", "example_en": "", "example_pt": "", "emoji": "🤝"}
+    ], "note": "O contexto da frase é o que mostra qual é qual."},
+    {"kind": "list", "title": "Na prática", "subtitle": "", "body": "", "items": [
+      {"en": "I need two cups of flour.", "pt": "Preciso de duas xícaras de farinha.", "pronunciation": "", "example_en": "", "example_pt": "", "emoji": ""},
+      {"en": "She gave me a flower.", "pt": "Ela me deu uma flor.", "pronunciation": "", "example_en": "", "example_pt": "", "emoji": ""},
+      {"en": "Nice to meet you!", "pt": "Prazer em te conhecer!", "pronunciation": "náis tu MÍIT iú", "example_en": "", "example_pt": "", "emoji": ""},
+      {"en": "I don't eat meat.", "pt": "Eu não como carne.", "pronunciation": "", "example_en": "", "example_pt": "", "emoji": ""}
+    ], "note": ""},
+    {"kind": "quiz", "title": "Complete: “Nice to ___ you!”", "subtitle": "", "body": "", "items": [
+      {"en": "meat", "pt": "", "pronunciation": "", "example_en": "", "example_pt": "", "emoji": ""},
+      {"en": "meet", "pt": "", "pronunciation": "", "example_en": "", "example_pt": "", "emoji": ""},
+      {"en": "mate", "pt": "", "pronunciation": "", "example_en": "", "example_pt": "", "emoji": ""}
+    ], "note": "Resposta: B, meet (conhecer/encontrar)"},
+    {"kind": "reading", "title": "Desafio: consegue ler?", "subtitle": "Nível A2", "body": "Last night I went to a small café to meet a friend. She ordered a cake made with almond flour, and I bought a flower for her birthday. We talked for hours and walked home under the moon. It was a perfect night.", "items": [], "note": "Comenta quantas palavras você entendeu!"},
+    {"kind": "cta", "title": "Salva pra não esquecer", "body": "Qual par você confundia?\nComenta aqui 👇", "subtitle": "", "items": [], "note": ""}
+  ],
+  "caption": "Você fala igual, mas escreve diferente 👀\n\nEssas palavras são homófonas: soam igual, mas significam coisas diferentes. Bônus: \"right\" (certo) e \"write\" (escrever) também são assim!\n\nQual desses pares você já confundiu?",
+  "hashtags": ["aprenderingles", "ingles", "inglesparabrasileiros", "inglesonline", "dicasdeingles", "vocabulario", "pronuncia", "englishtips"],
+  "stories": [
+    {"kind": "question", "headline": "Qual é a farinha?", "body": "Uma delas é flor 🌸", "options": ["Flower", "Flour"], "answer": "Flour"},
+    {"kind": "tip", "headline": "K mudo antes de N", "body": "knight, know, knife, knee: o K não é pronunciado.", "options": [], "answer": ""},
+    {"kind": "challenge", "headline": "Escreve uma frase com MEET", "body": "As melhores eu reposto aqui ⭐", "options": [], "answer": ""},
+    {"kind": "answer", "headline": "Farinha é…", "body": "Flower é flor; flour é farinha. Mesmo som!", "options": [], "answer": "Flour"}
+  ],
+  "terms_used": ["night", "knight", "flour", "flower", "meat", "meet"]
+}
