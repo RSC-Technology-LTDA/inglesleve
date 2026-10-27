@@ -1,0 +1,67 @@
+{% set items = slide.items %}
+{% if cover_layout == 'statement' %}
+    <div class="hero st">
+      <h1 class="condensed st-title">{{ slide.title|hl }}</h1>
+      <div class="condensed st-strike">{{ slide.strike }}
+        <svg class="brush" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M3 22 Q48 46 97 80"/><path d="M4 82 Q50 52 96 18"/></svg>
+      </div>
+      {% if slide.subtitle %}<p class="st-sub">{{ slide.subtitle|hl }}
+        <svg class="brush" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 7 Q30 2 60 5 T99 4"/></svg>
+      </p>{% endif %}
+      {% if items and items[0].emoji %}<div class="st-emo">{{ emoji(items[0].emoji) }}</div>{% endif %}
+    </div>
+
+{% elif cover_layout == 'equation' %}
+    <div class="hero eq">
+      {% if slide.title %}<h1 class="display eq-title">{{ slide.title|hl }}</h1>{% endif %}
+      <div class="eq-row">
+        {% for it in items[:-1] %}
+        <div class="eq-in">{{ emoji(it.emoji) }}<div class="en display">{{ it.en }}</div><div class="pt">{{ it.pt }}</div></div>
+        {% if not loop.last %}<div class="op">+</div>{% endif %}
+        {% endfor %}
+      </div>
+      <div class="op eq-eq">=</div>
+      {% set res = items[-1] %}
+      <div class="eq-res">{{ emoji(res.emoji) }}<div><div class="en display">{{ res.en }}</div><div class="pt">{{ res.pt }}</div></div></div>
+    </div>
+
+{% elif cover_layout == 'versus' %}
+    <div class="hero vc">
+      {% if slide.title %}<h1 class="display vc-title">{{ slide.title|hl }}</h1>{% endif %}
+      <div class="vc-row">
+        {% for it in items[:2] %}
+        <div class="vc-side">
+          {{ emoji(it.emoji) }}
+          <div class="en display">{{ it.en }}</div>
+          {% if it.pronunciation %}<div class="pron">🗣 {{ it.pronunciation }}</div>{% endif %}
+          <div class="pt">{{ it.pt }}</div>
+        </div>
+        {% if loop.first %}<div class="vc-x">VS</div>{% endif %}
+        {% endfor %}
+      </div>
+      {% if slide.subtitle %}<p class="vc-sub">{{ slide.subtitle|hl }}</p>{% endif %}
+    </div>
+
+{% elif cover_layout == 'grid' %}
+    <div class="hero gr">
+      <h1 class="display gr-title">{{ slide.title|hl }}</h1>
+      <div class="gr-grid">
+        {% for it in items[:6] %}
+        <div class="gr-cell">{{ emoji(it.emoji) }}<div class="en display">{{ it.en }}</div><div class="pt">{{ it.pt }}</div></div>
+        {% endfor %}
+      </div>
+    </div>
+
+{% elif cover_layout == 'hero' %}
+    <div class="hero hr">
+      <div class="hr-emo">{{ emoji(items[0].emoji) }}</div>
+      <h1 class="condensed hr-title">{{ slide.title|hl }}</h1>
+      {% if slide.subtitle %}<p class="hr-sub">{{ slide.subtitle|hl }}</p>{% endif %}
+    </div>
+
+{% else %}
+    <div class="hero dk">
+      <h1 class="display">{{ slide.title|hl }}</h1>
+      {% if slide.subtitle %}<p>{{ slide.subtitle|hl }}</p>{% endif %}
+    </div>
+{% endif %}

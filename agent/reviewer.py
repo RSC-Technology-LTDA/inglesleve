@@ -15,7 +15,9 @@ Verifique item por item:
 5. Adequação: nada ofensivo, de duplo sentido constrangedor, político ou estereotipado.
 6. Estrutura: slides dentro dos limites (cover primeiro, cta por último, <=6 itens em 'term', \
 <=5 em 'list', exatamente 2 em 'compare'), textos curtos o bastante para caber em imagem, \
-quiz com uma única resposta correta.
+quiz com uma única resposta correta. Na cover, os itens precisam bater com o layout \
+(equation: 2 + resultado; versus: 2; grid: 4-6; statement: strike preenchido) e cada emoji deve \
+representar bem o termo.
 7. Coerência: stories, legenda e slides falam do mesmo tema; terms_used lista o que foi ensinado.
 
 Severidade: 'blocker' = erro factual/de inglês ou conteúdo inadequado; 'major' = tradução ou \

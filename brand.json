@@ -7,5 +7,32 @@
   "accent": "#FF8A3D",
   "accent_2": "#2EC4B6",
   "card": "#FFFFFF",
-  "keep_html": false
+  "keep_html": false,
+  "hot": "#E5383B",
+  "themes": [
+    {
+      "name": "sky",
+      "bg": "#DCEBFF"
+    },
+    {
+      "name": "butter",
+      "bg": "#FFEDB0"
+    },
+    {
+      "name": "mint",
+      "bg": "#D3F2E8"
+    },
+    {
+      "name": "blush",
+      "bg": "#FFDCD2"
+    },
+    {
+      "name": "lilac",
+      "bg": "#E6E0FF"
+    },
+    {
+      "name": "paper",
+      "bg": "#FFF8EE"
+    }
+  ]
 }

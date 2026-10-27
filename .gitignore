@@ -4,3 +4,4 @@ __pycache__/
 output/*/*.html
 .DS_Store
 launch/
+assets/emoji/

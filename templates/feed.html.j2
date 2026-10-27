@@ -8,20 +8,22 @@
 .title { font-size: 92px; }
 .subtitle { font-size: 42px; color: var(--muted); margin-top: 18px; line-height: 1.3; font-weight: 500; }
 
-/* cover */
-.cover .frame { background: var(--ink); color: var(--paper); }
-.cover .top, .cover .foot { color: color-mix(in srgb, var(--paper) 70%, transparent); }
-.cover .badge { background: var(--accent); color: var(--ink); }
-.cover .hero { margin: auto 0; }
-.cover .hero h1 { font-size: {{ 128 if slide.title|length < 40 else 104 }}px; }
-.cover .hero h1 em { font-style: normal; color: var(--accent); }
-.cover .hero p { font-size: 40px; margin-top: 36px; line-height: 1.3; opacity: .85; }
-.swipe { font-size: 30px; font-weight: 700; color: var(--accent); }
+/* cover escura (desafio de leitura e pacotes antigos) */
+.cover.L-dark .frame { background: var(--ink); color: var(--paper); }
+.cover.L-dark .top, .cover.L-dark .foot { color: color-mix(in srgb, var(--paper) 70%, transparent); }
+.cover.L-dark .badge { background: var(--accent); color: var(--ink); }
+.cover.L-dark em { color: var(--accent); }
+.dk { margin: auto 0; }
+.dk h1 { font-size: {{ 128 if slide.title|length < 40 else 104 }}px; }
+.dk p { font-size: 40px; margin-top: 36px; line-height: 1.3; opacity: .85; }
+.swipe { font-size: 30px; font-weight: 700; color: var(--hot); }
+.cover.L-dark .swipe { color: var(--accent); }
+{% if slide.kind == 'cover' %}{% include "cover.css.j2" %}{% endif %}
 
 /* term grid */
 .grid { margin-top: 40px; display: grid; gap: 26px; grid-template-columns: repeat({{ 1 if slide.items|length == 1 else 2 }}, 1fr); }
 .cell { background: var(--card); border-radius: 28px; padding: {{ '64px' if slide.items|length == 1 else ('30px 34px' if slide.items|length <= 4 else '22px 30px') }}; display: flex; flex-direction: column; gap: 6px; }
-.cell .emo { font-size: {{ 140 if slide.items|length == 1 else (80 if slide.items|length <= 4 else 56) }}px; line-height: 1.1; }
+.cell .emo { --s: {{ 220 if slide.items|length == 1 else (120 if slide.items|length <= 4 else 92) }}px; margin-bottom: 8px; }
 .cell .en { font-size: {{ 96 if slide.items|length == 1 else (62 if slide.items|length <= 4 else 50) }}px; }
 .cell .pt { font-size: {{ 44 if slide.items|length == 1 else (34 if slide.items|length <= 4 else 30) }}px; font-weight: 500; }
 .cell .pron { font-size: {{ 40 if slide.items|length == 1 else (30 if slide.items|length <= 4 else 27) }}px; }
@@ -33,16 +35,17 @@
 
 /* list */
 .list { margin-top: 48px; display: flex; flex-direction: column; gap: 22px; }
-.row { display: grid; grid-template-columns: 72px 1fr; gap: 22px; align-items: start; background: var(--card); border-radius: 26px; padding: 30px 32px; }
+.row { display: grid; grid-template-columns: 72px 1fr auto; gap: 22px; align-items: center; background: var(--card); border-radius: 26px; padding: 30px 32px; }
 .num { width: 64px; height: 64px; border-radius: 50%; background: var(--accent); color: var(--ink); display: grid; place-items: center; font-weight: 800; font-size: 28px; }
 .row .en { font-size: {{ 46 if slide.items|length <= 4 else 40 }}px; font-weight: 700; line-height: 1.2; }
 .row .pt { font-size: 34px; margin-top: 6px; }
 .row .pron { font-size: 30px; margin-top: 4px; display: block; }
+.row .emo { --s: {{ 100 if slide.items|length <= 4 else 84 }}px; }
 
 /* compare */
 .vs { margin-top: 56px; display: grid; grid-template-columns: 1fr 90px 1fr; align-items: center; }
 .vs .side { background: var(--card); border-radius: 28px; padding: 40px 30px; text-align: center; min-height: 700px; display: flex; flex-direction: column; justify-content: center; gap: 10px; }
-.vs .emo { font-size: 150px; }
+.vs .emo { --s: 220px; display: flex; justify-content: center; margin-bottom: 10px; }
 .vs .en { font-size: 80px; }
 .vs .pt { font-size: 40px; font-weight: 500; }
 .vs .pron { font-size: 34px; }
@@ -65,7 +68,7 @@
 .cta .dot { background: var(--ink); }
 </style>
 </head>
-<body class="{{ slide.kind }}">
+<body class="{{ slide.kind }}{% if slide.kind == 'cover' %} L-{{ cover_layout }}{% endif %}">
 <div class="frame">
   <div class="top">
     <span class="flag"><span class="dot"></span>{{ brand.name }}</span>
@@ -73,10 +76,7 @@
   </div>
 
   {% if slide.kind == 'cover' %}
-    <div class="hero">
-      <h1 class="display">{{ slide.title }}</h1>
-      {% if slide.subtitle %}<p>{{ slide.subtitle }}</p>{% endif %}
-    </div>
+    {% include "cover.html.j2" %}
     <div class="foot"><span>@{{ brand.handle }}</span><span class="swipe">arrasta →</span></div>
 
   {% elif slide.kind == 'cta' %}
@@ -97,7 +97,7 @@
       <div class="grid">
         {% for it in slide.items %}
         <div class="cell">
-          {% if it.emoji %}<div class="emo">{{ it.emoji }}</div>{% endif %}
+          {% if it.emoji %}<div class="emo">{{ emoji(it.emoji) }}</div>{% endif %}
           <div class="en display">{{ it.en }}</div>
           {% if it.pronunciation %}<div class="pron">🗣 {{ it.pronunciation }}</div>{% endif %}
           <div class="pt">{{ it.pt }}</div>
@@ -121,6 +121,7 @@
             <div class="pt">{{ it.pt }}</div>
             {% if it.pronunciation %}<span class="pron">🗣 {{ it.pronunciation }}</span>{% endif %}
           </div>
+          {% if it.emoji %}<div class="emo">{{ emoji(it.emoji) }}</div>{% else %}<span></span>{% endif %}
         </div>
         {% endfor %}
       </div>
@@ -129,7 +130,7 @@
       <div class="vs">
         {% for it in slide.items[:2] %}
         <div class="side">
-          {% if it.emoji %}<div class="emo">{{ it.emoji }}</div>{% endif %}
+          {% if it.emoji %}<div class="emo">{{ emoji(it.emoji) }}</div>{% endif %}
           <div class="en display">{{ it.en }}</div>
           {% if it.pronunciation %}<div class="pron">🗣 {{ it.pronunciation }}</div>{% endif %}
           <div class="pt">{{ it.pt }}</div>

@@ -31,7 +31,11 @@ def write_outputs(out: Path, pack: ContentPack, review_log: list, status: str, b
     hashtags = " ".join("#" + h.lstrip("#") for h in pack.hashtags)
     (out / "caption.txt").write_text(f"{pack.caption}\n\n{hashtags}\n", encoding="utf-8")
     (out / "STATUS").write_text(status + "\n", encoding="utf-8")
-    files = render(pack, brand, out)
+    try:
+        seed = date.fromisoformat(out.name).toordinal()  # cor do post muda a cada dia
+    except ValueError:
+        seed = None
+    files = render(pack, brand, out, seed)
     print(f"{len(files)} imagens em {out}")
 
 

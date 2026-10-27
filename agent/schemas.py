@@ -6,9 +6,10 @@ manter o schema compatível com structured outputs da Claude API.
 
 from typing import List, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 Level = Literal["A1", "A2", "B1", "B2", "C1"]
+Layout = Literal["auto", "statement", "equation", "versus", "grid", "hero", "dark"]
 
 
 class Item(BaseModel):
@@ -29,6 +30,17 @@ class Slide(BaseModel):
     body: str = Field(description="Texto corrido (usado em 'reading' e 'cta'); vazio nos outros")
     items: List[Item]
     note: str = Field(description="Observação/dica curta no rodapé do slide, ou vazio")
+    layout: Layout = Field(description="Só na cover: o desenho da capa. Nos outros slides use 'auto'")
+    strike: str = Field(description="Só na cover 'statement': a palavra errada que aparece riscada; senão vazio")
+
+    @model_validator(mode="before")
+    @classmethod
+    def _old_packs(cls, data):
+        # Pacotes gerados antes das capas variadas não têm layout/strike.
+        if isinstance(data, dict):
+            data.setdefault("layout", "auto")
+            data.setdefault("strike", "")
+        return data
 
 
 class Story(BaseModel):

@@ -21,7 +21,7 @@ Regras de conteúdo:
 - Conteúdo original: não copie posts de outras páginas.
 
 Formato dos slides (campo kind):
-- cover: título-gancho grande + subtítulo curto. items vazio.
+- cover: a capa (ver abaixo).
 - term: 1 a 6 itens de vocabulário (com emoji quando fizer sentido).
 - reading: texto corrido no campo body.
 - list: frases numeradas (items com en/pt).
@@ -29,6 +29,19 @@ Formato dos slides (campo kind):
 - quiz: title é a pergunta; items são as alternativas (en = alternativa, pt = vazio); note com a resposta.
   Não coloque letras nas alternativas ("A)", "B."): o template já numera. Vale também para options dos stories.
 - cta: convite para salvar/compartilhar/comentar, no body.
+
+Capa: é o que aparece no grid do perfil, então precisa ser visual e mostrar o conteúdo, não só texto. \
+Escolha o layout (campo layout) entre os sugeridos para o formato e preencha:
+- statement: "pare de dizer X". title curto (ex: "Pare de dizer"), strike = a palavra errada que aparece \
+riscada (ex: "finished"), subtitle completa a ideia (ex: "quando algo *acabar*"). items: 1 item só com emoji, ou vazio.
+- equation: palavra que junta duas. items = 2 ingredientes + o resultado por último (en, pt, emoji). title curto ou vazio.
+- versus: dois termos lado a lado. items = exatamente 2 (en, pt, pronunciation, emoji). title curto (ex: "Não confunda").
+- grid: vocabulário visual. items = 4 a 6 termos do post (en, pt curtinho, emoji). title de até 5 palavras.
+- hero: uma ilustração grande. items = 1 item cujo emoji resume o tema. title forte de até 6 palavras, subtitle curto.
+- dark: só title e subtitle, fundo escuro (desafio de leitura).
+Marque com *asteriscos* uma palavra-chave do title para destacá-la em cor. Os emojis viram ilustrações 3D: \
+prefira objetos, comidas, animais e rostos concretos que representem o termo (sem bandeiras). \
+Nos slides que não são cover, layout = 'auto' e strike = ''.
 
 Stories (3 a 5): comece com um 'question' ou 'challenge' que puxe interação (responder por DM), \
 inclua um 'tip' relacionado ao post e, se houver pergunta, um 'answer' para ser postado mais tarde.
@@ -44,6 +57,7 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
         f"Perfil: @{handle}",
         f"Formato de hoje: {fmt} ({spec['label']})",
         f"Instruções do formato: {spec['brief']}",
+        f"Layout de capa sugerido: {spec['cover']}",
         "Temas recentes (evite repetir):\n" + ("\n".join(planner.recent_themes(history)) or "(nenhum)"),
         "Termos já ensinados (não repita):\n" + (", ".join(planner.recent_terms(history)) or "(nenhum)"),
     ]

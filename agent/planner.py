@@ -11,6 +11,7 @@ FORMATS = {
     "reading_challenge": {
         "weekday": 0,
         "label": "Desafio de leitura",
+        "cover": "dark",
         "brief": (
             "Post 'Se você conseguir ler esse texto, seu inglês é nível X'. "
             "Slides: cover com o desafio e o nível; 1 slide 'reading' com um texto curto e "
@@ -22,6 +23,7 @@ FORMATS = {
     "visual_vocab": {
         "weekday": 1,
         "label": "Vocabulário visual",
+        "cover": "grid",
         "brief": (
             "Grade de vocabulário de um único campo semântico (ex: cozinha, aeroporto, "
             "question words, pronomes indefinidos). Slides 'term' com 4-6 itens cada, todos "
@@ -31,6 +33,7 @@ FORMATS = {
     "idiom": {
         "weekday": 2,
         "label": "Expressão do dia",
+        "cover": "statement ou hero",
         "brief": (
             "Uma expressão idiomática ou phrasal verb muito usado no dia a dia nos EUA. "
             "Slides: cover; 'term' com 1 item (significado, pronúncia, exemplo); 'list' com 3-4 "
@@ -41,6 +44,7 @@ FORMATS = {
     "confusing_pairs": {
         "weekday": 3,
         "label": "Não confunda",
+        "cover": "versus",
         "brief": (
             "Pares que brasileiros confundem: homófonos (night/knight), falsos cognatos "
             "(pretend/fingir), ou singular/plural irregular (person/people). Use slides 'compare' "
@@ -50,6 +54,7 @@ FORMATS = {
     "word_curiosity": {
         "weekday": 4,
         "label": "Curiosidade",
+        "cover": "equation, versus ou hero",
         "brief": (
             "Curiosidade sobre uma palavra: origem, palavra-valise (hungry + angry = hangry), "
             "gíria nova, diferença EUA × Reino Unido. Slides: cover com gancho curioso; "
@@ -59,6 +64,7 @@ FORMATS = {
     "situation_phrases": {
         "weekday": 5,
         "label": "Frases para situações",
+        "cover": "hero ou grid",
         "brief": (
             "Frases prontas para uma situação real (pedir comida, check-in no hotel, small talk "
             "no trabalho, farmácia). Slides 'list' com 4-5 frases cada (en, pt, pronúncia "
@@ -68,6 +74,7 @@ FORMATS = {
     "weekly_quiz": {
         "weekday": 6,
         "label": "Quiz da semana",
+        "cover": "grid ou hero",
         "brief": (
             "Revisão do que foi ensinado nos últimos 6 dias (veja os termos recentes). "
             "Slides 'quiz' com 1 pergunta e 3 alternativas cada (items = alternativas, a correta "
@@ -78,6 +85,7 @@ FORMATS = {
     "welcome": {
         "weekday": None,
         "label": "Boas-vindas",
+        "cover": "hero",
         "brief": (
             "Post fixado de apresentação da página. Slides: cover acolhedor ('Bem-vindo ao Inglês Leve'); "
             "'list' explicando a proposta (inglês do dia a dia, 1 minuto por dia, pronúncia sem enrolação); "
