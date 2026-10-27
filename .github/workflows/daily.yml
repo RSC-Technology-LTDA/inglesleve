@@ -90,6 +90,7 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_LOGIN: ${{ vars.IG_LOGIN || 'facebook' }}
         run: |
           # URL fixada no commit: o Instagram baixa exatamente as imagens enviadas acima.
           export MEDIA_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/$(git rev-parse HEAD)"

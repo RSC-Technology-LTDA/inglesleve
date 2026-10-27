@@ -1,6 +1,7 @@
 name: Renova token do Instagram
 
-# O token de longa duração vale 60 dias; renovar toda semana mantém a folga.
+# Só para o login do Instagram (variável IG_LOGIN=instagram), cujo token vale 60 dias.
+# Com login do Facebook (padrão) o token de Página não expira e este job é pulado.
 on:
   schedule:
     - cron: "0 12 * * 1"   # segundas, 9h de Brasília
@@ -8,6 +9,7 @@ on:
 
 jobs:
   refresh:
+    if: vars.IG_LOGIN == 'instagram'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

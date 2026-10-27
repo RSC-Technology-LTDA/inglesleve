@@ -78,24 +78,27 @@ O workflow `.github/workflows/daily.yml` roda sozinho em dois horários (horári
 
 ### Configuração (uma vez)
 
-**1. App na Meta** (com a conta já como Criador de conteúdo)
-1. Em [developers.facebook.com](https://developers.facebook.com/apps), clique em *Criar app* e escolha o caso de uso de gerenciar mensagens e conteúdo no Instagram.
-2. Em *Configuração da API com login do Instagram*, vá em *Gerar tokens de acesso* e adicione a conta @inglesleve.br.
-3. Autorize as permissões `instagram_business_basic` e `instagram_business_content_publish`.
-4. Copie o **token**, que vale 60 dias, e o **ID da conta** que aparece ao lado.
+**1. Página do Facebook vinculada.** O login do Instagram sem Página não está disponível para esta conta na Meta, então o caminho é o login do Facebook:
+1. Crie uma Página no Facebook (ex: "Inglês Leve"). Pode ser simples, ela só serve de ponte.
+2. No app do Instagram, vá em *Editar perfil → Página* e vincule a @inglesleve.br a essa Página. A conta já é de Criador de conteúdo, o que basta.
 
-O app pode ficar em modo de desenvolvimento, já que só publica na sua própria conta.
+**2. App na Meta** (`ingles leve br publicador`, App ID 1653787706451922)
+1. Em [Explorador da Graph API](https://developers.facebook.com/tools/explorer), escolha o app e adicione as permissões `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement` e `business_management`.
+2. Clique em *Generate Access Token* e autorize a Página e a conta do Instagram.
+3. Pegue a *Chave secreta do app* em *Configurações do app → Básico*.
+4. Rode o script abaixo. Ele pede o token e a chave sem mostrá-los na tela, gera o **token permanente da Página** (que não expira) e grava os secrets `IG_ACCESS_TOKEN` e `IG_USER_ID` no repositório:
+   ```bash
+   .venv/bin/python tools/ig_token.py --repo RSC-Technology-LTDA/inglesleve
+   ```
 
-**2. Repositório no GitHub (público)**: em *Settings → Secrets and variables → Actions*, crie:
+O app pode ficar em modo de desenvolvimento, já que só publica na sua própria conta, da qual você é admin.
 
-| Secret | Valor |
-|---|---|
-| `ANTHROPIC_API_KEY` | Sua chave da Claude API |
-| `IG_ACCESS_TOKEN` | Token gerado no passo 1 |
-| `IG_USER_ID` | ID da conta do Instagram (opcional; se faltar, o script descobre) |
-| `GH_PAT` | Token *fine-grained* do GitHub, só para este repositório, com permissão **Secrets: Read and write**. Usado pela renovação automática do token |
+**3. Chave da Claude API**: copie o `.env` local para os secrets:
+```bash
+gh secret set -f .env -R RSC-Technology-LTDA/inglesleve
+```
 
-**3. Renovação do token**: `.github/workflows/refresh-token.yml` renova o token do Instagram toda segunda-feira e grava o novo valor no secret.
+**Login do Instagram (alternativa).** Se um dia a Meta liberar a "API com login do Instagram" para a conta, crie a variável de repositório `IG_LOGIN=instagram` e o secret `GH_PAT` (token *fine-grained* com **Secrets: Read and write**). Nesse modo o token vale 60 dias e o workflow `refresh-token.yml` o renova toda segunda.
 
 ### Testar localmente
 
