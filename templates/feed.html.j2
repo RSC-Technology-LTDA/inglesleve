@@ -63,6 +63,7 @@
 .cta .hero h1 { font-size: 104px; }
 .cta .hero p { font-size: 42px; margin-top: 36px; line-height: 1.35; font-weight: 500; white-space: pre-line; }
 .cta .answers { margin-top: 36px; background: var(--paper); border-radius: 24px; padding: 26px 32px; font-size: 32px; line-height: 1.45; font-weight: 600; }
+.cta em { color: var(--ink); text-decoration: underline; text-decoration-thickness: 6px; text-underline-offset: 8px; }
 .cta .handle { font-size: 48px; font-weight: 800; margin-top: 56px; }
 .cta .top, .cta .foot { color: var(--ink); }
 .cta .dot { background: var(--ink); }
@@ -81,7 +82,7 @@
 
   {% elif slide.kind == 'cta' %}
     <div class="hero">
-      <h1 class="display">{{ slide.title }}</h1>
+      <h1 class="display">{{ slide.title|hl }}</h1>
       {% if slide.body %}<p>{{ slide.body }}</p>{% endif %}
       {% if answers %}<div class="answers">{% for a in answers %}<div>✅ {{ a }}</div>{% endfor %}</div>{% endif %}
       <div class="handle">@{{ brand.handle }}</div>
@@ -90,8 +91,8 @@
 
   {% else %}
     <div class="content">
-    <h2 class="display title">{{ slide.title }}</h2>
-    {% if slide.subtitle %}<p class="subtitle">{{ slide.subtitle }}</p>{% endif %}
+    <h2 class="display title">{{ slide.title|hl }}</h2>
+    {% if slide.subtitle %}<p class="subtitle">{{ slide.subtitle|hl }}</p>{% endif %}
 
     {% if slide.kind == 'term' %}
       <div class="grid">

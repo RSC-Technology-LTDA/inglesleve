@@ -19,6 +19,8 @@ h1 { font-size: {{ 132 if story.headline|length < 30 else (110 if story.headline
 .opt { display: flex; gap: 24px; align-items: center; background: color-mix(in srgb, var(--paper) 12%, transparent); border-radius: 26px; padding: 40px 40px; font-size: 60px; font-weight: 600; }
 .opt b { width: 88px; height: 88px; border-radius: 18px; background: var(--accent); color: var(--ink); display: grid; place-items: center; flex: none; }
 .ans { margin-top: 56px; background: var(--paper); border-radius: 28px; padding: 48px; font-size: 68px; font-weight: 800; }
+body.question em, body.challenge em { color: var(--accent); }
+body.answer em { color: var(--ink); }
 .cta { font-size: 44px; font-weight: 700; color: var(--accent); }
 body.answer .cta, body.tip .cta { color: var(--ink); }
 </style>
@@ -28,7 +30,7 @@ body.answer .cta, body.tip .cta { color: var(--ink); }
   <div class="top"><span class="flag"><span class="dot"></span>{{ brand.name }}</span><span>{{ index }}/{{ total }}</span></div>
   <div class="main">
   <div class="tag">{{ {'question': 'Pergunta do dia', 'answer': 'Resposta', 'tip': 'Dica rápida', 'challenge': 'Desafio'}[story.kind] }}</div>
-  <h1 class="display">{{ story.headline }}</h1>
+  <h1 class="display">{{ story.headline|hl }}</h1>
   {% if story.body %}<div class="body">{{ story.body }}</div>{% endif %}
   {% if story.options %}
   <div class="opts">{% for o in story.options %}<div class="opt"><b>{{ "ABCDEF"[loop.index0] }}</b>{{ o }}</div>{% endfor %}</div>

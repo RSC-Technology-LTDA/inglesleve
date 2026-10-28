@@ -1,0 +1,95 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[1].note (pronúncia de 'freaked out')",
+        "problem": "'FRIKT-áut' marca a tônica de forma contraditória. As maiúsculas sugerem tônica em 'freaked', mas a tônica do phrasal verb está na partícula (freaked OUT). Também fica inconsistente com 'frik-ÁUT' no mesmo slide, e o aluno A2 vai acentuar errado.",
+        "fix": "Padronizar: 'No passado: freaked out (frikt-ÁUT).'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].subtitle",
+        "problem": "'Do susto à notícia boa' promete um exemplo de notícia boa, mas os 4 exemplos são de susto, preocupação ou medo. A legenda também diz que serve 'até pra notícia boa demais'.",
+        "fix": "Trocar um item por algo como 'I freaked out when I got the job!' = 'Eu surtei quando consegui o emprego!' (emoji 🎉), ou ajustar o subtítulo para 'Do susto ao nervosismo'."
+      },
+      {
+        "severity": "minor",
+        "location": "hashtags[13]",
+        "problem": "#halloween não tem relação com o tema e parece hashtag oportunista, o que pode prejudicar o alcance qualificado.",
+        "fix": "Remover ou substituir por #inglesnapratica ou #falaringles."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[3].body",
+        "problem": "'O certo é' sugere que 'I was desperate...' é gramaticalmente errado. Na verdade, é gramatical, só não transmite a ideia de surtar ou entrar em pânico.",
+        "fix": "Usar 'O mais natural é \"I freaked out when I saw the spider.\"' e manter a explicação sobre desperate."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].example_en",
+        "problem": "Comma splice em 'Don't freak out, it's just a spider.' É aceitável no informal, mas numa página de ensino pode ser polido.",
+        "fix": "Opcional: 'Don't freak out. It's just a spider.' ou 'Don't freak out — it's just a spider.'"
+      }
+    ],
+    "summary": "O pacote está coerente, com inglês natural, traduções boas, quiz com uma única resposta correta e estrutura dentro dos limites (cover statement com strike preenchido, 2 itens no compare, 4 na list, cta por último). O bloqueio é a pronúncia de 'freaked out', cuja marcação de tônica está contraditória e errada (deveria ser frikt-ÁUT). Há ainda ajustes menores: o subtítulo da list promete 'notícia boa' sem exemplo, a hashtag #halloween é irrelevante, o 'O certo é' no story de resposta deve virar 'O mais natural é' e há uma vírgula de estilo no exemplo do slide de termo. Corrigida a pronúncia, pode ser aprovado."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].en / feed[0].strike",
+        "problem": "Marcar \"I was desperate when I lost my phone\" com ❌ como \"erro\" é exagerado. A frase é gramaticalmente correta e possível em inglês. O problema é de naturalidade e intensidade: soa como desespero ou desesperança real. Um aluno atento pode questionar o rótulo de 'erro'.",
+        "fix": "Suavizar o enquadramento, por exemplo com o título \"Tradução literal × jeito *nativo*\". Outra opção é trocar o ❌ por ⚠️ ou acrescentar \"(não é errado, mas soa pesado demais)\"."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].note / stories[3].body",
+        "problem": "\"Desperate é mais 'precisando muito'\" simplifica demais. Desperate também significa 'sem esperança' ('a desperate situation') e 'desesperado/disposto a tudo' ('desperate measures').",
+        "fix": "Reescrever como: \"Em inglês, desperate costuma indicar desespero real ou necessidade urgente: I'm desperate for coffee.\""
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items",
+        "problem": "Inconsistência no campo 'pt': no item ❌ ele traz uma explicação, enquanto no item ✅ traz a tradução.",
+        "fix": "Padronizar os dois itens. Uma opção é usar a tradução nos dois e mover a explicação para 'note'. Outra é dar uma explicação curta também ao item ✅ (ex.: \"Natural e na medida certa.\")."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].pronunciation",
+        "problem": "\"frik-ÁUT\" funciona, mas não mostra a ligação natural que o nativo faz (freak‿out soa \"fri-KÁUT\").",
+        "fix": "Opcional: adicionar no note \"Na fala rápida: fri-KÁUT\"."
+      }
+    ],
+    "summary": "Pacote sólido e coerente: o tema, os exemplos, as traduções, a pronúncia, o quiz (com uma única resposta correta), o caption e os stories estão alinhados. A estrutura respeita os limites: cover statement com strike preenchido, compare com exatamente 2 itens, list com 4 e CTA por último. O inglês está correto e natural, e as informações do bônus (freak-out como substantivo, flip out associado a raiva) estão corretas. Restam apenas ajustes de estilo: suavizar o rótulo de 'erro' em \"I was desperate\", ampliar a definição de desperate e padronizar o campo pt no compare. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "format / hashtags ('englishidioms')",
+        "problem": "O pacote está marcado como format 'idiom' e usa a hashtag #englishidioms, mas 'freak out' é um phrasal verb, não um idiom. Isso não chega a ser um erro de inglês, mas um aluno atento pode questionar a classificação.",
+        "fix": "Trocar a hashtag por #englishphrasalverbs ou #phrasalverbsdodia e, se o sistema permitir, ajustar o format para 'phrasal_verb'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].note",
+        "problem": "O exemplo 'I'm desperate for coffee' é um uso hiperbólico e casual de 'desperate'. Ele contradiz em parte a ideia de que a palavra 'soa pesado demais' e pode confundir quem está no A2.",
+        "fix": "Deixar claro que 'desperate for + algo' é um uso coloquial comum, enquanto 'I was desperate' sozinho, para um susto, soa dramático. Exemplo: 'Desperate sozinho soa dramático; desperate for = precisar muito: I'm desperate for coffee.'"
+      },
+      {
+        "severity": "minor",
+        "location": "caption (flip out)",
+        "problem": "A explicação de 'flip out' como 'quase um sinônimo, mais usado quando alguém fica bravo' está correta. Porém, flip out também se usa para empolgação e pânico, e o leitor pode achar que a palavra só serve para raiva.",
+        "fix": "Opcional: 'Flip out é quase um sinônimo e aparece muito quando alguém fica bravo.'"
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês é natural e correto em todos os exemplos: 'Don't freak out', 'freaked me out', 'I freaked out when I got the job'. As traduções são naturais em PT-BR. A pronúncia 'frik-ÁUT' marca corretamente a tônica na partícula, e a versão ligada 'fri-KÁUT' é boa. A estrutura respeita os limites: a cover statement tem o strike preenchido, a list tem 4 itens, o compare tem exatamente 2 e o CTA fica por último. O quiz tem uma única resposta correta. Stories, legenda e slides são coerentes. Há apenas ajustes de estilo e classificação. Aprovado."
+  }
+]
