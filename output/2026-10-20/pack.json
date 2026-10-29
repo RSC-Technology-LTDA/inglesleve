@@ -1,0 +1,281 @@
+{
+  "format": "situation_phrases",
+  "theme": "Frases para usar na farmácia",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Doente nos *EUA*?",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "sore throat",
+          "pt": "dor de garganta",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "😷"
+        },
+        {
+          "en": "headache",
+          "pt": "dor de cabeça",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤕"
+        },
+        {
+          "en": "stuffy nose",
+          "pt": "nariz entupido",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤧"
+        },
+        {
+          "en": "nauseous",
+          "pt": "enjoado(a)",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤢"
+        }
+      ],
+      "note": "",
+      "layout": "grid",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Explicando o que você sente",
+      "subtitle": "Comece pelos sintomas",
+      "body": "",
+      "items": [
+        {
+          "en": "I have a sore throat.",
+          "pt": "Estou com dor de garganta.",
+          "pronunciation": "ai hév a SÓR thrôut",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "😷"
+        },
+        {
+          "en": "I've had a headache since yesterday.",
+          "pt": "Estou com dor de cabeça desde ontem.",
+          "pronunciation": "aiv héd a RÉD-eik sins IÉS-ter-dei",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤕"
+        },
+        {
+          "en": "I think I'm coming down with something.",
+          "pt": "Acho que estou ficando doente.",
+          "pronunciation": "ai think aim KÂ-min DÁUN uidh SÂM-thin",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤧"
+        },
+        {
+          "en": "My nose is stuffy.",
+          "pt": "Estou com o nariz entupido.",
+          "pronunciation": "mai nouz iz STÂ-fi",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👃"
+        },
+        {
+          "en": "I feel nauseous.",
+          "pt": "Estou enjoado(a).",
+          "pronunciation": "ai fil NÓ-shâs",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤢"
+        }
+      ],
+      "note": "'Coming down with' = começando a ficar doente. Nativo usa muito!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Pedindo o remédio certo",
+      "subtitle": "Na prateleira ou no balcão",
+      "body": "",
+      "items": [
+        {
+          "en": "Do you have something for allergies?",
+          "pt": "Vocês têm algo pra alergia?",
+          "pronunciation": "du iu hév SÂM-thin for É-ler-djiz",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🌼"
+        },
+        {
+          "en": "Where can I find cough drops?",
+          "pt": "Onde encontro pastilha pra tosse?",
+          "pronunciation": "uér ken ai faind KÓF draps",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍬"
+        },
+        {
+          "en": "Do I need a prescription for this?",
+          "pt": "Preciso de receita pra isso?",
+          "pronunciation": "du ai nid a pri-SKRÍP-shan for dhis",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📝"
+        },
+        {
+          "en": "Is this available over the counter?",
+          "pt": "Isso é vendido sem receita?",
+          "pronunciation": "iz dhis a-VÊI-la-bol OU-ver dhâ KÁUN-ter",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛒"
+        },
+        {
+          "en": "Is there a generic version?",
+          "pt": "Tem genérico?",
+          "pronunciation": "iz dhér a dji-NÉ-rik VÂR-jan",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💲"
+        }
+      ],
+      "note": "Receita médica é 'prescription', não 'recipe' (isso é receita de comida!).",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Conversando com o farmacêutico",
+      "subtitle": "Tire suas dúvidas sem medo",
+      "body": "",
+      "items": [
+        {
+          "en": "I'm here to pick up a prescription.",
+          "pt": "Vim retirar um remédio receitado.",
+          "pronunciation": "aim hír tu pik ÂP a pri-SKRÍP-shan",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧾"
+        },
+        {
+          "en": "How often should I take it?",
+          "pt": "De quanto em quanto tempo eu tomo?",
+          "pronunciation": "rau Ó-fen xud ai TÊIK it",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏰"
+        },
+        {
+          "en": "Should I take it with food?",
+          "pt": "Devo tomar junto com comida?",
+          "pronunciation": "xud ai têik it uidh FUD",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "Does it make you drowsy?",
+          "pt": "Dá sono?",
+          "pronunciation": "dâz it meik iu DRÁU-zi",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "😴"
+        },
+        {
+          "en": "Can I talk to the pharmacist?",
+          "pt": "Posso falar com o farmacêutico?",
+          "pronunciation": "ken ai tók tu dhâ FAR-ma-sist",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👩‍⚕️"
+        }
+      ],
+      "note": "Remédio a gente 'take' (toma), não 'drink'. Vale até pra xarope!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra próxima viagem!",
+      "subtitle": "Ninguém merece ficar doente e travar no inglês",
+      "body": "Salva este post pra ter na mão quando precisar 💾 Manda pra aquele amigo que vai viajar e comenta: qual frase você achou mais útil?",
+      "items": [],
+      "note": "Siga @inglesleve.br pra inglês do dia a dia",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Ficar doente viajando já é ruim... travar no inglês na farmácia é pior! 💊\n\nHoje separei 15 frases prontas pra você explicar o que sente, achar o remédio e tirar dúvidas com o farmacêutico.\n\n🎁 Bônus que não está nos slides: nos EUA, paracetamol quase sempre se chama ACETAMINOPHEN (a-si-ta-MÍ-no-fen) ou pelo nome da marca, Tylenol. Se você pedir 'paracetamol', muita gente não vai entender! Outro detalhe: farmácia lá também é chamada de 'drugstore', e não tem nada de errado nisso, é só loja de remédios mesmo 😉\n\n👅 Dica de pronúncia: o 'th' aparece em várias frases (throat, something, the, this). Ele não é 't' nem 'f'! Coloque a ponta da língua entre os dentes e solte o ar. Em throat e something o som é soprado, sem voz; em the e this a garganta vibra (por isso escrevi 'dh').\n\nE aí, você já precisou ir numa farmácia no exterior? Conta nos comentários como foi! 👇",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "dicasdeingles",
+    "inglesparaviagem",
+    "vocabularioingles",
+    "inglesbasico",
+    "englishphrases",
+    "learnenglish",
+    "inglesdodiaadia",
+    "farmacia",
+    "morarnoseua",
+    "viagemeua"
+  ],
+  "stories": [
+    {
+      "kind": "question",
+      "headline": "Como se diz 'estou com o nariz entupido'?",
+      "body": "Responde aqui ou manda na DM! 👃",
+      "options": [
+        "My nose is stuffy.",
+        "My nose is closed.",
+        "My nose is full."
+      ],
+      "answer": "My nose is stuffy."
+    },
+    {
+      "kind": "tip",
+      "headline": "Dica rápida: drowsy 😴",
+      "body": "'Drowsy' é aquela sonolência que alguns remédios dão. Nas caixas americanas você vai ver muito: 'May cause drowsiness' = pode causar sonolência.",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "challenge",
+      "headline": "Desafio do dia 💪",
+      "body": "Você está com dor de cabeça e quer algo sem receita. Como você pede na farmácia? Manda sua frase na DM que eu corrijo!",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta da enquete ✅",
+      "body": "O certo é 'My nose is stuffy' (ou 'I'm stuffed up'). 'My nose is closed' soa estranho pra nativo!",
+      "options": [],
+      "answer": "My nose is stuffy."
+    }
+  ],
+  "terms_used": [
+    "sore throat",
+    "headache",
+    "coming down with something",
+    "stuffy",
+    "nauseous",
+    "something for allergies",
+    "cough drops",
+    "prescription",
+    "over the counter",
+    "generic",
+    "pick up a prescription",
+    "how often",
+    "take it with food",
+    "drowsy",
+    "pharmacist"
+  ]
+}

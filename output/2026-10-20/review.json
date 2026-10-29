@@ -1,0 +1,95 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[3].items[2].pt",
+        "problem": "'Should I take it with food?' significa 'Devo tomar junto com comida/com alimento?', e não 'Tenho que tomar depois de comer?'. Em contexto de remédio, 'com alimentos' e 'após as refeições' são instruções diferentes. Além disso, 'Should I' corresponde a 'Devo', não a 'Tenho que'. A tradução pode induzir o seguidor a erro numa situação de saúde.",
+        "fix": "Trocar por 'Devo tomar junto com comida?' ou 'Tomo junto com a refeição?'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].pt",
+        "problem": "'Vim buscar um remédio da receita.' soa truncado e pouco natural em PT-BR.",
+        "fix": "Usar 'Vim buscar um remédio com receita.' ou 'Vim retirar um remédio receitado.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].note",
+        "problem": "'nunca drink' é absoluto demais. Para xarope ou remédio líquido, nativos às vezes usam 'drink', embora 'take' seja o padrão.",
+        "fix": "Reformular para: 'Remédio a gente \"take\" (toma), não \"drink\". Vale até pra xarope!'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[3].en",
+        "problem": "'Is this over the counter?' é aceitável, mas a forma mais completa e natural para A2 é 'Is this available over the counter?'. Ela deixa a estrutura mais clara para o aluno.",
+        "fix": "Opcional: trocar por 'Is this available over the counter?' (iz dhis a-VÊI-la-bol OU-ver dhâ KÁUN-ter)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].title / feed[4].title",
+        "problem": "Há inconsistência de registro no imperativo: a capa usa 'Salve isso!' e o CTA usa 'Salva pra próxima viagem!'.",
+        "fix": "Padronizar a forma, por exemplo 'Salva isso!' na capa para combinar com o tom informal do CTA."
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês das 15 frases está correto e natural, as pronúncias aportuguesadas estão boas e com a tônica certa, e os fatos da legenda (acetaminophen/Tylenol, drugstore, 'May cause drowsiness') são verdadeiros. A estrutura respeita os limites (cover primeiro, CTA por último, 5 itens por lista) e stories, legenda e terms_used estão coerentes com o tema. O único problema que impede a aprovação é a tradução de 'Should I take it with food?' como 'depois de comer': ela altera o sentido de uma instrução de medicação. Após essa correção (e, de preferência, os ajustes menores), o pacote pode ser publicado."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'over the counter' e 'available over the counter' estão duplicados; o segundo apenas repete o primeiro.",
+        "fix": "Manter só 'over the counter'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].pronunciation",
+        "problem": "'thrôut' mantém o 'th' sem nenhuma orientação. Para um público A2, o 'th' de throat (/θ/) é justamente o som mais difícil, e o aluno tende a ler 't' ou 'f'.",
+        "fix": "Manter, mas incluir no note ou na legenda uma explicação curta do 'th' (língua entre os dentes), já que ele aparece em várias frases (throat, something, the, this)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].emoji",
+        "problem": "🏥 (hospital) não combina com a retirada de receita na farmácia.",
+        "fix": "Trocar por 💊 ou 🧾."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].emoji",
+        "problem": "🤒 (termômetro/febre) representa febre, não dor de garganta.",
+        "fix": "Considerar 😷 ou outro emoji mais neutro."
+      }
+    ],
+    "summary": "Pacote sólido e pronto para publicar. O inglês está correto e natural em todas as 15 frases, e as traduções são idiomáticas. As pronúncias seguem uma convenção consistente com tônicas corretas, inclusive acetaminophen (a-si-ta-MÍ-no-fen). As informações da legenda (acetaminophen/Tylenol, drugstore) e as notas (prescription vs. recipe, take vs. drink) estão corretas. A estrutura respeita os limites: cover primeiro, CTA por último e 3 listas com 5 itens, totalizando as 15 frases prometidas. O quiz tem uma única resposta correta, e stories, legenda e slides são coerentes entre si. Ficaram apenas ajustes cosméticos: duplicidade em terms_used, alguns emojis e uma orientação sobre o 'th'."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].pronunciation / feed[1].items[2].pronunciation / feed[2].items[0].pronunciation",
+        "problem": "As notações 'th' (thrôut, SÂM-thin) e 'dh' (uidh, dhis, dhâ) só são explicadas na legenda. Quem vê apenas os slides pode ler 'th' como 't'.",
+        "fix": "Acrescente uma nota curta num slide, por exemplo: \"th/dh = língua entre os dentes\". Outra opção é manter assim e apontar a dica da legenda no CTA."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[1].pronunciation",
+        "problem": "'RÉD-eik' usa o 'r' para representar o 'h' aspirado. Isso funciona para a maioria dos brasileiros, mas falantes do Sul podem ler como 'r' vibrante.",
+        "fix": "Opcional: mantenha 'RÉD-eik', que é a convenção comum, ou use 'HÉD-eik' com uma nota de que o 'h' soa como 'rr' de 'carro'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].note",
+        "problem": "A frase 'Vale até pra xarope!' é correta como regra geral ('take cough syrup'), mas nativos às vezes dizem 'drink' no uso casual com xarope. Dizer que 'drink' está errado pode ser absoluto demais.",
+        "fix": "Suavize, por exemplo: \"O padrão é 'take', até pra xarope!\""
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês é natural e correto em todas as 15 frases, as traduções são precisas e o falso cognato 'prescription' vs. 'recipe' está bem explicado. A pronúncia aportuguesada está boa, com as tônicas certas (NÓ-shâs, a-VÊI-la-bol, FAR-ma-sist, a-si-ta-MÍ-no-fen). A estrutura está correta: cover primeiro, CTA por último e 5 itens por lista, somando 15 como prometido. O quiz dos stories tem uma única resposta correta, e a dica sobre o 'th' surdo e sonoro está correta. Stories, legenda e terms_used estão coerentes com o tema. Só há ajustes menores de estilo; aprovado para publicação."
+  }
+]
