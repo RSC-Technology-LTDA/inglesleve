@@ -1,0 +1,218 @@
+{
+  "format": "confusing_pairs",
+  "theme": "Falsos amigos do dia a dia: push x pull, parents x relatives, lunch x snack",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Não *confunda*",
+      "subtitle": "A porta não mente: push não é puxar",
+      "body": "",
+      "items": [
+        {
+          "en": "push",
+          "pt": "empurrar",
+          "pronunciation": "PÚSH",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛒"
+        },
+        {
+          "en": "pull",
+          "pt": "puxar",
+          "pronunciation": "PÚL",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧲"
+        }
+      ],
+      "note": "",
+      "layout": "versus",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Push ou pull na porta?",
+      "subtitle": "O clássico do brasileiro no exterior",
+      "body": "",
+      "items": [
+        {
+          "en": "push",
+          "pt": "empurrar",
+          "pronunciation": "PÚSH",
+          "example_en": "Push the door, it's stuck.",
+          "example_pt": "Empurra a porta, ela tá emperrada.",
+          "emoji": "🛒"
+        },
+        {
+          "en": "pull",
+          "pt": "puxar",
+          "pronunciation": "PÚL",
+          "example_en": "Pull the handle hard.",
+          "example_pt": "Puxa a maçaneta com força.",
+          "emoji": "🧲"
+        }
+      ],
+      "note": "Push parece 'puxe', mas é EMPURRAR. Quem puxa é o pull.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Parents não são parentes",
+      "subtitle": "Falso cognato de família",
+      "body": "",
+      "items": [
+        {
+          "en": "parents",
+          "pt": "pai e mãe",
+          "pronunciation": "PÉ-rents",
+          "example_en": "My parents live in Recife.",
+          "example_pt": "Meus pais moram em Recife.",
+          "emoji": "👨‍👩‍👧"
+        },
+        {
+          "en": "relatives",
+          "pt": "parentes",
+          "pronunciation": "RÉ-la-tivz",
+          "example_en": "All my relatives came to the wedding.",
+          "example_pt": "Todos os meus parentes vieram pro casamento.",
+          "emoji": "👵"
+        }
+      ],
+      "note": "Parents = só pai e mãe. Tios, primos, avós e cia = relatives.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Lunch não é lanche",
+      "subtitle": "Cuidado na hora de comer",
+      "body": "",
+      "items": [
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "pronunciation": "LÂNTCH",
+          "example_en": "Let's get lunch at noon.",
+          "example_pt": "Bora almoçar ao meio-dia.",
+          "emoji": "🍝"
+        },
+        {
+          "en": "snack",
+          "pt": "lanche, lanchinho",
+          "pronunciation": "SNÉK",
+          "example_en": "I need a snack before the gym.",
+          "example_pt": "Preciso de um lanchinho antes da academia.",
+          "emoji": "🍪"
+        }
+      ],
+      "note": "Lunch é a refeição do meio do dia. Aquele lanchinho da tarde é snack.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "São 4 da tarde e bateu fome. Você quer um...",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "lunch",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "snack",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "relative",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: snack! Lunch é almoço (e relative é parente 😅).",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra não passar vergonha",
+      "subtitle": "",
+      "body": "Salve este post pra revisar antes da viagem e mande pra aquele amigo que sempre puxa a porta de PUSH. Comenta aqui: qual desses você já confundiu?",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Você já ficou puxando uma porta com PUSH escrito? Calma, todo brasileiro já passou por isso 😂\n\nHoje são 3 pares que enganam muito: push x pull, parents x relatives e lunch x snack.\n\nBônus: no dia a dia, muito americano fala \"my folks\" pra se referir aos pais, de um jeito carinhoso e informal. Ex: \"I'm visiting my folks this weekend.\" = \"Vou visitar meus pais nesse fim de semana.\"\n\nE aí, qual desses pares já te pegou? Conta nos comentários!",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "falsoscognatos",
+    "dicasdeingles",
+    "inglesdodiaadia",
+    "vocabularioingles",
+    "englishtips",
+    "learnenglish",
+    "inglesfacil",
+    "inglesbasico"
+  ],
+  "stories": [
+    {
+      "kind": "question",
+      "headline": "Teste rápido!",
+      "body": "Na porta está escrito PUSH. O que você faz? Vota aqui na enquete 👇",
+      "options": [
+        "Empurra",
+        "Puxa"
+      ],
+      "answer": "Empurra"
+    },
+    {
+      "kind": "tip",
+      "headline": "Parentes em inglês",
+      "body": "Parents = pai e mãe. Pra falar de tios, primos e avós, use relatives. Ex: \"My relatives are coming for dinner.\"",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "tip",
+      "headline": "Bateu a fome?",
+      "body": "Pra chamar alguém pra comer algo rápido, diga: \"Wanna grab a bite?\" (Bora comer alguma coisa?)",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta do teste",
+      "body": "PUSH = empurrar! Parece 'puxe', mas é o contrário. Quem puxa é o PULL. Quem acertou?",
+      "options": [],
+      "answer": "Empurra"
+    }
+  ],
+  "terms_used": [
+    "push",
+    "pull",
+    "parents",
+    "relatives",
+    "lunch",
+    "snack",
+    "my folks",
+    "grab a bite"
+  ]
+}

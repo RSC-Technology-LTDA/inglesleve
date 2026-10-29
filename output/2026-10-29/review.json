@@ -1,0 +1,76 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].items[1].pronunciation",
+        "problem": "'RÉ-la-tivs' termina com som de S. O plural 'relatives' termina em /z/ (/ˈrɛlətɪvz/).",
+        "fix": "Usar 'RÉ-la-tivz'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[1].pt",
+        "problem": "'beliscada' é pouco usual em PT-BR. O natural seria 'lanchinho' ou 'petisco'.",
+        "fix": "Trocar por 'lanche, lanchinho' ou 'lanche, petisco'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[0].emoji",
+        "problem": "👫 sugere casal ou amigos, não necessariamente pais.",
+        "fix": "Considerar 👨‍👩‍👧 para deixar claro que se trata de pai e mãe."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'uma porta escrito PUSH' tem concordância coloquial. Aceitável, mas pode soar descuidado numa página de ensino.",
+        "fix": "'uma porta com PUSH escrito' ou 'uma porta escrita PUSH'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].body",
+        "problem": "O story tem opções de enquete ('Empurra'/'Puxa'), mas pede resposta por DM, o que é incoerente com o formato.",
+        "fix": "Trocar por 'Vota aqui 👇' ou 'Responde na enquete 👇'."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural ('my folks', 'grab a bite', exemplos idiomáticos). As traduções estão adequadas e as pronúncias são boas no geral. A estrutura respeita os limites: cover versus com 2 itens, compares com 2 itens, quiz com resposta única, cta por último. Há coerência entre slides, legenda e stories. Restam só ajustes de estilo: o /z/ final em 'relatives', a palavra 'beliscada', o emoji de parents, a concordância na legenda e o 'DM' no story de enquete. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].pronunciation / feed[1].items[1].pronunciation",
+        "problem": "'PÚL' tende a ser lido como 'PÚU' por brasileiros, pois o L final vira U no PT-BR. O L escuro do inglês (/pʊl/) se perde.",
+        "fix": "Acrescente uma dica curta no note, como 'encoste a língua no céu da boca no L final', ou use 'PÚL (L com a língua no céu da boca)'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[0].emoji",
+        "problem": "👨‍👩‍👧 mostra uma família com filho, e não só pai e mãe. Isso enfraquece a mensagem 'parents = só pai e mãe'.",
+        "fix": "Use 👫 ou 👨‍👩 (o casal) para representar apenas os pais."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].example_en",
+        "problem": "'Push the door, it's stuck.' é uma comma splice. É aceitável no informal, mas numa página de ensino vale um exemplo impecável.",
+        "fix": "Troque por 'Push the door. It's stuck.' ou 'Push the door—it's stuck.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[0].pronunciation",
+        "problem": "O dígrafo 'SH' não é grafia do português. Funciona para quem já tem contato com inglês, mas pode confundir no nível A2.",
+        "fix": "Opcionalmente use 'PÚX' ou mantenha 'PÚSH' com uma nota de que 'sh' soa como 'x' em 'xícara'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4]",
+        "problem": "'Late lunch' às 4 da tarde existe nos EUA. Porém, o contexto de 'bateu fome' deixa 'snack' claramente como a melhor resposta, então a questão continua com resposta única.",
+        "fix": "Para eliminar qualquer dúvida, reformule para 'São 4 da tarde, você já almoçou e bateu uma fominha. Você quer um...'."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural, as traduções estão precisas e as pronúncias ficam razoavelmente próximas do som real, com a tônica certa. A estrutura respeita as regras: cover versus com 2 itens, compares com exatamente 2 itens, quiz com resposta única e cta no final. Stories, legenda e terms_used estão alinhados ao tema ('my folks' e 'grab a bite' aparecem como bônus na legenda e nos stories). Não há erros factuais nem conteúdo inadequado. Restam apenas ajustes de estilo: o L final de 'pull', o emoji de parents e uma comma splice. Aprovado."
+  }
+]
