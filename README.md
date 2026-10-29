@@ -1,14 +1,15 @@
 # insta-english-ai
 
-Agente que gera, todo dia, um carrossel e os stories de uma página de Instagram que ensina inglês
+Agente que gera, todo dia, um carrossel, os stories e um Reel narrado de uma página de Instagram que ensina inglês
 para brasileiros. Ele cuida das etapas **planejar → escrever → revisar → renderizar** e não publica nada:
 o pacote do dia fica numa pasta para você aprovar.
 
 ```
 planner  → escolhe o formato do dia da semana e evita repetir termos (data/history.json)
-writer   → Claude gera o pacote (slides, legenda, hashtags, stories) com saída estruturada
+writer   → Claude gera o pacote (slides, legenda, hashtags, stories, roteiro do Reel) com saída estruturada
 reviewer → uma segunda chamada ao Claude, como professor nativo, aponta erros; até 3 rodadas de correção
 render   → templates HTML/CSS → PNG via Playwright (feed 1080×1350, stories 1080×1920)
+reel     → cenas 1080×1920 + narração (edge-tts: narrador pt-BR e voz nativa en-US) → reel.mp4 com ffmpeg
 ```
 
 ## Instalação
@@ -35,6 +36,8 @@ A saída fica em `output/AAAA-MM-DD/`:
 |---|---|
 | `feed_01.png` … | Slides do carrossel, em ordem |
 | `story_01.png` … | Stories (o de tipo "Resposta" é para postar mais tarde) |
+| `reel.mp4` | Reel narrado de 15–30s (precisa do `ffmpeg` instalado) |
+| `reel_cover.png` | Capa do Reel |
 | `caption.txt` | Legenda + hashtags, pronta para colar |
 | `pack.json` | Conteúdo estruturado (dá para editar e renderizar de novo com `--from-json`) |
 | `review.json` | O que o revisor apontou em cada rodada |
@@ -68,7 +71,7 @@ O workflow `.github/workflows/daily.yml` roda sozinho em dois horários (horári
 | Horário | O que faz |
 |---|---|
 | **12h** | Gera o pacote do dia com o Claude, converte para JPEG, salva no repositório e publica o carrossel e os stories de pergunta, dica e desafio |
-| **18h** | Publica o story de resposta |
+| **18h** | Publica o story de resposta e o Reel (enviado direto para a Meta, sem hospedar o vídeo) |
 
 - As imagens são servidas pelo `raw.githubusercontent.com`, por isso o **repositório precisa ser público**. A URL é fixada no commit.
 - Se o revisor reprovar o pacote, nada é publicado e o job falha. O GitHub te avisa por e-mail. Corrija o `pack.json`, renderize de novo com `--from-json` e rode o workflow à mão.

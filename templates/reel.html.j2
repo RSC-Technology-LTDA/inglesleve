@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+{{ base_css }}
+/* Áreas livres para a UI do Reels: 250px no topo, ~360px embaixo (legenda) e 130px à direita (botões). */
+.frame { padding: 250px 140px 360px 100px; }
+.main { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.chip { display: inline-flex; align-items: center; gap: 14px; padding: 20px 42px; border-radius: 999px; font-size: 54px; font-weight: 800; color: #fff; margin-bottom: 40px; }
+.chip.wrong { background: var(--hot); }
+.chip.right { background: #1F9D55; }
+.emo { --s: {{ 460 if scene.kind in ['hook', 'cta'] else 360 }}px; margin-bottom: 50px; }
+h1 { font-size: {{ size }}px; }
+.hook h1, .cta h1 { line-height: 1.04; }
+.strike { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--hot); text-decoration-thickness: 14px; }
+.text { font-size: 64px; font-weight: 600; color: var(--muted); margin-top: 34px; line-height: 1.25; }
+.right h1 { color: var(--ink); }
+.handle { margin-top: 48px; font-size: 64px; font-weight: 800; color: var(--hot); }
+.top { font-size: 34px; }
+</style>
+</head>
+<body class="{{ scene.kind }}">
+<div class="frame">
+  <div class="top"><span class="flag"><span class="dot"></span>{{ brand.name }}</span></div>
+  <div class="main {{ scene.kind }}">
+    {% if scene.kind == 'wrong' %}<div class="chip wrong">✕ Brasileiro diz</div>
+    {% elif scene.kind == 'right' %}<div class="chip right">✓ Nativo diz</div>{% endif %}
+    {% if scene.emoji %}<div class="emo">{{ emoji(scene.emoji) }}</div>{% endif %}
+    {% if scene.kind == 'wrong' %}
+    <h1 class="display"><span class="strike">{{ scene.title|hl }}</span></h1>
+    {% elif scene.kind in ['hook', 'cta'] %}
+    <h1 class="condensed">{{ scene.title|hl }}</h1>
+    {% else %}
+    <h1 class="display">{{ scene.title|hl }}</h1>
+    {% endif %}
+    {% if scene.text and not (scene.kind == 'cta' and '@' in scene.text) %}<p class="text">{{ scene.text|hl }}</p>{% endif %}
+    {% if scene.kind == 'cta' %}<div class="handle">@{{ brand.handle }}</div>{% endif %}
+  </div>
+</div>
+</body>
+</html>

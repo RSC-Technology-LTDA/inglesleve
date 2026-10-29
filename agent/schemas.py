@@ -4,7 +4,7 @@ Todos os campos são obrigatórios (strings vazias quando não se aplicam) para
 manter o schema compatível com structured outputs da Claude API.
 """
 
-from typing import List, Literal
+from typing import List, Literal, Optional
 
 from pydantic import BaseModel, Field, model_validator
 
@@ -51,6 +51,20 @@ class Story(BaseModel):
     answer: str = Field(description="Resposta correta (em 'question' e 'answer'), senão vazio")
 
 
+class ReelScene(BaseModel):
+    kind: Literal["hook", "wrong", "right", "term", "example", "cta"]
+    title: str = Field(description="Texto grande na tela; nas cenas de inglês, o próprio inglês. *asteriscos* destacam uma palavra")
+    text: str = Field(description="Linha menor: tradução ou contexto em PT-BR, ou vazio")
+    emoji: str = Field(description="Um único emoji concreto que ilustra a cena, ou vazio")
+    say_pt: str = Field(description="Narração em PT-BR desta cena (falada, curta), ou vazio")
+    say_en: str = Field(description="Inglês lido pela voz nativa americana (só inglês, igual ao da tela), ou vazio")
+
+
+class Reel(BaseModel):
+    scenes: List[ReelScene] = Field(description="4 a 7 cenas; a primeira é 'hook' e a última é 'cta'")
+    caption: str = Field(description="Legenda curta do Reel em PT-BR: gancho + pergunta para os comentários, sem hashtags")
+
+
 class ContentPack(BaseModel):
     format: str
     theme: str = Field(description="Tema do dia em poucas palavras")
@@ -60,6 +74,15 @@ class ContentPack(BaseModel):
     hashtags: List[str] = Field(description="8 a 15 hashtags sem o símbolo #")
     stories: List[Story] = Field(description="3 a 5 stories do dia")
     terms_used: List[str] = Field(description="Termos/expressões em inglês ensinados hoje, em minúsculas")
+    reel: Optional[Reel] = Field(description="Roteiro do Reel do dia (sempre preencha)")
+
+    @model_validator(mode="before")
+    @classmethod
+    def _no_reel(cls, data):
+        # Pacotes anteriores aos Reels não têm roteiro.
+        if isinstance(data, dict):
+            data.setdefault("reel", None)
+        return data
 
 
 class Issue(BaseModel):

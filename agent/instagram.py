@@ -1,4 +1,4 @@
-"""Cliente mínimo da Instagram API para publicar carrossel e stories.
+"""Cliente mínimo da Instagram API para publicar carrossel, stories e Reels.
 
 Fluxo da API: cria um "container" por mídia a partir de uma URL pública de JPEG, espera o
 container ficar FINISHED e então publica com media_publish.
@@ -11,6 +11,7 @@ Os endpoints de publicação são os mesmos; muda só o host e como achamos o ID
 
 import os
 import time
+from pathlib import Path
 from typing import List, Optional
 
 import httpx
@@ -84,6 +85,24 @@ class Instagram:
             "POST", f"{self.user_id}/media", media_type="CAROUSEL", children=",".join(children), caption=caption
         )["id"]
         return self._publish(parent)
+
+    def publish_reel(self, video: Path, caption: str, cover_url: str = "") -> str:
+        """Envia o MP4 direto para a Meta (upload resumable), sem precisar hospedar o vídeo."""
+        params = {"media_type": "REELS", "upload_type": "resumable", "caption": caption, "share_to_feed": "true"}
+        if cover_url:
+            params["cover_url"] = cover_url
+        created = self._call("POST", f"{self.user_id}/media", **params)
+        data = video.read_bytes()
+        resp = self.http.post(
+            created.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{API_VERSION}/{created['id']}",
+            headers={"Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(len(data))},
+            content=data,
+            timeout=300,
+        )
+        if resp.status_code >= 400 or not resp.json().get("success", True):
+            raise InstagramError(f"upload do Reel: {resp.text}")
+        self._wait(created["id"], timeout=900)  # vídeo leva mais para processar que imagem
+        return self._call("POST", f"{self.user_id}/media_publish", creation_id=created["id"])["id"]
 
     def publish_story(self, image_url: str) -> str:
         container = self._call("POST", f"{self.user_id}/media", media_type="STORIES", image_url=image_url)["id"]

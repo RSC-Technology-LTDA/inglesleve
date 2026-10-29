@@ -19,6 +19,8 @@ quiz com uma única resposta correta. Na cover, os itens precisam bater com o la
 (equation: 2 + resultado; versus: 2; grid: 4-6; statement: strike preenchido) e cada emoji deve \
 representar bem o termo.
 7. Coerência: stories, legenda e slides falam do mesmo tema; terms_used lista o que foi ensinado.
+8. Reel: existe, começa com 'hook' e termina com 'cta', 4 a 7 cenas; say_en só em inglês e igual \
+ao inglês da tela; narração curta (até ~14 palavras por cena); o gancho é forte e o conteúdo bate com o post.
 
 Severidade: 'blocker' = erro factual/de inglês ou conteúdo inadequado; 'major' = tradução ou \
 pronúncia ruim, estrutura quebrada; 'minor' = estilo. approved = true somente sem blocker e sem major."""

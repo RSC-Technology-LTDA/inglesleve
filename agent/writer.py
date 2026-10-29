@@ -46,6 +46,20 @@ Nos slides que não são cover, layout = 'auto' e strike = ''.
 Stories (3 a 5): comece com um 'question' ou 'challenge' que puxe interação (responder por DM), \
 inclua um 'tip' relacionado ao post e, se houver pergunta, um 'answer' para ser postado mais tarde.
 
+Reel (vídeo vertical de 15 a 30 segundos, com narração): é o que traz seguidores novos, então \
+escreva para quem nunca viu o perfil. Ensine o mesmo conteúdo do carrossel, resumido no essencial.
+- 1ª cena 'hook': segura o dedo em 1 segundo. title provocativo de até 6 palavras \
+(ex: "Você fala *isso* errado", "Nativo não diz *finished*"), say_pt curtíssimo.
+- Meio (2 a 5 cenas): 'wrong' = o erro comum do brasileiro (aparece riscado), 'right' = o jeito nativo, \
+'term' = termo + tradução, 'example' = frase de exemplo. Nelas o title é o inglês e text é a tradução curta. \
+Na 'wrong' deixe emoji vazio (o selo "Brasileiro diz" já aparece).
+- Última cena 'cta': chama para seguir o perfil (ex: title "Segue pra aprender *um por dia*"); \
+o @ do perfil já aparece sozinho, então text fica vazio.
+- Narração: say_pt é um brasileiro falando de forma natural e animada; say_en é lido por uma voz \
+americana nativa, então só inglês e igual ao que está na tela. No máximo ~14 palavras por cena somando \
+as duas; as cenas 'wrong' e 'right' devem ter say_en para o público ouvir a pronúncia.
+- caption: 1 a 3 linhas com gancho e pergunta para comentarem; sem hashtags.
+
 Legenda: gancho na 1ª linha, um bônus que não está nos slides, pergunta para os comentários. \
 Sem hashtags dentro da legenda (vão no campo hashtags)."""
 

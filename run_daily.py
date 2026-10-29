@@ -17,6 +17,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from agent import planner
+from agent.reel import render_reel
 from agent.render import render
 from agent.schemas import ContentPack
 
@@ -37,6 +38,10 @@ def write_outputs(out: Path, pack: ContentPack, review_log: list, status: str, b
         seed = None
     files = render(pack, brand, out, seed)
     print(f"{len(files)} imagens em {out}")
+    try:
+        render_reel(pack, brand, out, seed)
+    except Exception as e:  # sem Reel o resto do dia continua valendo
+        print(f"  aviso: não consegui montar o Reel ({e})")
 
 
 def polish(day, fmt, history, brand, pack, verdict, log):

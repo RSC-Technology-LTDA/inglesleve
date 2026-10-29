@@ -7,7 +7,7 @@
       12h: carrossel + stories de pergunta/dica/desafio. Só publica se STATUS = approved.
 
   python publish.py evening --base-url ...
-      18h: story(s) de resposta.
+      18h: story(s) de resposta e o Reel do dia (output/<data>/reel.mp4).
 
 --dry-run confere arquivos e URLs sem publicar. O que já foi publicado fica em
 output/<data>/published.json, então rodar de novo não duplica posts.
@@ -120,17 +120,22 @@ def main() -> int:
 
     todo_feed = feed if feed and not slot_state["carousel"] else []
     todo_stories = [n for n in stories if n not in slot_state["stories"]]
-    urls = [url_for(args.base_url, out, n) for n in todo_feed + todo_stories]
-    if not urls:
+    # Reel às 18h: longe do carrossel, cada um tem sua janela de alcance.
+    reel = out / "reel.mp4"
+    todo_reel = args.slot == "evening" and pack.reel is not None and reel.exists() and not slot_state.get("reel")
+    cover = "reel_cover.jpg" if todo_reel and (out / "jpg" / "reel_cover.jpg").exists() else ""
+    urls = [url_for(args.base_url, out, n) for n in todo_feed + todo_stories + ([cover] if cover else [])]
+    if not urls and not todo_reel:
         print(f"Nada a publicar no horário '{args.slot}' (já publicado ou sem itens).")
         return 0
-    wait_reachable(urls)
+    if urls:
+        wait_reachable(urls)
 
     ig = Instagram(os.environ["IG_ACCESS_TOKEN"], os.getenv("IG_USER_ID") or None)
     if args.dry_run:
         # Confere também se o token vale e aponta para a conta certa.
         user = ig._call("GET", ig.user_id, fields="username")
-        print(f"Token OK para @{user['username']}. dry-run, publicaria:\n" + "\n".join(urls))
+        print(f"Token OK para @{user['username']}. dry-run, publicaria:\n" + "\n".join(urls + ([str(reel)] if todo_reel else [])))
         return 0
 
     try:
@@ -142,6 +147,11 @@ def main() -> int:
             # Salva depois de cada mídia: se algo falhar no meio, a próxima execução não duplica.
             slot_state["stories"][name] = ig.publish_story(url_for(args.base_url, out, name))
             print(f"story publicado: {name}")
+        if todo_reel:
+            hashtags = caption.splitlines()[-1] if caption.splitlines()[-1].startswith("#") else ""
+            reel_caption = f"{pack.reel.caption}\n\n{hashtags}".strip()
+            slot_state["reel"] = ig.publish_reel(reel, reel_caption, url_for(args.base_url, out, cover) if cover else "")
+            print(f"Reel publicado: {slot_state['reel']}")
     finally:
         save_state(out, state)
     return 0
