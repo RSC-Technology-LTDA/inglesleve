@@ -1,0 +1,10 @@
+{
+  "noon": {
+    "carousel": "manual",
+    "stories": {
+      "story_01.jpg": "manual",
+      "story_02.jpg": "manual",
+      "story_03.jpg": "manual"
+    }
+  }
+}
