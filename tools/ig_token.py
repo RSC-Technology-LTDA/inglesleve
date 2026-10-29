@@ -34,7 +34,7 @@ def set_secret(repo: str, name: str, value: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", help="owner/repo para gravar os secrets; sem isso, só mostra os valores")
-    ap.add_argument("--app-id", default="1653787706451922")
+    ap.add_argument("--app-id", default="1449621164045653")
     args = ap.parse_args()
 
     short = getpass.getpass("Token do Explorador da Graph API: ").strip()

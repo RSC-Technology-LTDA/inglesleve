@@ -82,7 +82,7 @@ O workflow `.github/workflows/daily.yml` roda sozinho em dois horários (horári
 1. Crie uma Página no Facebook (ex: "Inglês Leve"). Pode ser simples, ela só serve de ponte.
 2. No app do Instagram, vá em *Editar perfil → Página* e vincule a @inglesleve.br a essa Página. A conta já é de Criador de conteúdo, o que basta.
 
-**2. App na Meta** (`ingles leve br publicador`, App ID 1653787706451922)
+**2. App na Meta** (`ingles leve br publicador`, App ID 1449621164045653)
 1. Em [Explorador da Graph API](https://developers.facebook.com/tools/explorer), escolha o app e adicione as permissões `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement` e `business_management`.
 2. Clique em *Generate Access Token* e autorize a Página e a conta do Instagram.
 3. Pegue a *Chave secreta do app* em *Configurações do app → Básico*.

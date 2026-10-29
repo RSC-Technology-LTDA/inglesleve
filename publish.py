@@ -126,11 +126,13 @@ def main() -> int:
         return 0
     wait_reachable(urls)
 
+    ig = Instagram(os.environ["IG_ACCESS_TOKEN"], os.getenv("IG_USER_ID") or None)
     if args.dry_run:
-        print("dry-run, publicaria:\n" + "\n".join(urls))
+        # Confere também se o token vale e aponta para a conta certa.
+        user = ig._call("GET", ig.user_id, fields="username")
+        print(f"Token OK para @{user['username']}. dry-run, publicaria:\n" + "\n".join(urls))
         return 0
 
-    ig = Instagram(os.environ["IG_ACCESS_TOKEN"], os.getenv("IG_USER_ID") or None)
     try:
         if todo_feed:
             media_id = ig.publish_carousel([url_for(args.base_url, out, n) for n in todo_feed], caption)
