@@ -9,7 +9,9 @@
   },
   "evening": {
     "carousel": null,
-    "stories": {},
+    "stories": {
+      "story_04.jpg": "18122930093073917"
+    },
     "reel": "18033093377887399"
   }
 }
