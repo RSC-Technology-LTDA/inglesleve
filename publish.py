@@ -9,6 +9,9 @@
   python publish.py evening --base-url ...
       18h: story(s) de resposta e o Reel do dia (output/<data>/reel.mp4).
 
+  python publish.py reel ...
+      Só o Reel, fora de hora (o story de resposta continua para as 18h).
+
 --dry-run confere arquivos e URLs sem publicar. O que já foi publicado fica em
 output/<data>/published.json, então rodar de novo não duplica posts.
 """
@@ -80,7 +83,7 @@ def story_names(pack: ContentPack, evening: bool) -> list:
 def main() -> int:
     load_dotenv(ROOT / ".env")
     ap = argparse.ArgumentParser()
-    ap.add_argument("slot", choices=["prepare", "noon", "evening"])
+    ap.add_argument("slot", choices=["prepare", "noon", "evening", "reel"])
     ap.add_argument("--date", type=date.fromisoformat, default=date.today())
     ap.add_argument("--base-url", default=os.getenv("MEDIA_BASE_URL"))
     ap.add_argument("--dry-run", action="store_true")
@@ -104,10 +107,11 @@ def main() -> int:
 
     pack = ContentPack.model_validate_json((out / "pack.json").read_text(encoding="utf-8"))
     state = load_state(out)
-    slot_state = state.setdefault(args.slot, {"carousel": None, "stories": {}})
+    # "reel" publica só o Reel do horário das 18h, fora de hora; o registro fica no "evening".
+    slot_state = state.setdefault("evening" if args.slot == "reel" else args.slot, {"carousel": None, "stories": {}})
 
     feed = [f"feed_{i:02d}.jpg" for i in range(1, len(pack.feed) + 1)] if args.slot == "noon" else []
-    stories = story_names(pack, evening=args.slot == "evening")
+    stories = [] if args.slot == "reel" else story_names(pack, evening=args.slot == "evening")
     caption = (out / "caption.txt").read_text(encoding="utf-8").strip()
     if len(caption) > CAPTION_LIMIT:
         print(f"Legenda com {len(caption)} caracteres; o limite é {CAPTION_LIMIT}.")
@@ -122,7 +126,7 @@ def main() -> int:
     todo_stories = [n for n in stories if n not in slot_state["stories"]]
     # Reel às 18h: longe do carrossel, cada um tem sua janela de alcance.
     reel = out / "reel.mp4"
-    todo_reel = args.slot == "evening" and pack.reel is not None and reel.exists() and not slot_state.get("reel")
+    todo_reel = args.slot in ("evening", "reel") and pack.reel is not None and reel.exists() and not slot_state.get("reel")
     cover = "reel_cover.jpg" if todo_reel and (out / "jpg" / "reel_cover.jpg").exists() else ""
     urls = [url_for(args.base_url, out, n) for n in todo_feed + todo_stories + ([cover] if cover else [])]
     if not urls and not todo_reel:
