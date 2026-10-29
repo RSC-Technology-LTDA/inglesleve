@@ -5,7 +5,7 @@ from typing import List, Optional
 
 from . import planner
 from .llm import ask
-from .schemas import ContentPack, Review
+from .schemas import ContentPack, Reel, Review
 
 SYSTEM = """Você é o redator de uma página de Instagram que ensina inglês para brasileiros \
 (público adulto iniciante/intermediário). O tom é leve, direto e prático, como um amigo que mora nos EUA.
@@ -92,3 +92,12 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
 
 def write(day: date, fmt: str, history: List[dict], handle: str, feedback: Optional[Review] = None, previous: Optional[ContentPack] = None) -> ContentPack:
     return ask(SYSTEM, build_prompt(day, fmt, history, handle, feedback, previous), ContentPack)
+
+
+def write_reel(pack: ContentPack) -> Reel:
+    """Só o roteiro do Reel, para um pacote que já existe (ex: gerado antes dos Reels)."""
+    prompt = (
+        "Escreva apenas o roteiro do Reel para o pacote abaixo, seguindo as regras de Reel.\n\n"
+        + pack.model_copy(update={"reel": None}).model_dump_json(indent=1)
+    )
+    return ask(SYSTEM, prompt, Reel)

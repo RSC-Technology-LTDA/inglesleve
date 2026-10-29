@@ -214,5 +214,58 @@
     "snack",
     "my folks",
     "grab a bite"
-  ]
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Push *não* é puxar",
+        "text": "",
+        "emoji": "🚪",
+        "say_pt": "Todo brasileiro já errou isso!",
+        "say_en": ""
+      },
+      {
+        "kind": "wrong",
+        "title": "Push = puxar",
+        "text": "Parece 'puxe', mas não é!",
+        "emoji": "",
+        "say_pt": "Viu isso na porta e puxou?",
+        "say_en": "Push"
+      },
+      {
+        "kind": "right",
+        "title": "*Push* the door",
+        "text": "Empurra a porta (puxar é pull)",
+        "emoji": "🚪",
+        "say_pt": "Push é empurrar! Puxar é pull.",
+        "say_en": "Push the door."
+      },
+      {
+        "kind": "term",
+        "title": "*Parents* x relatives",
+        "text": "Pai e mãe x parentes",
+        "emoji": "👨‍👩‍👧",
+        "say_pt": "Parents é só pai e mãe. Parentes é",
+        "say_en": "relatives."
+      },
+      {
+        "kind": "term",
+        "title": "*Lunch* x snack",
+        "text": "Almoço x lanchinho",
+        "emoji": "🍪",
+        "say_pt": "Lunch é almoço. Lanchinho é",
+        "say_en": "snack."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra não cair *nessa*",
+        "text": "",
+        "emoji": "🧠",
+        "say_pt": "Segue o perfil pra aprender um por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Você já ficou puxando uma porta escrito PUSH? 😂 Push, parents e lunch enganam todo brasileiro. Qual desses já te pegou? Conta aqui!"
+  }
 }

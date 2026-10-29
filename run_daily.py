@@ -6,6 +6,7 @@ Uso:
   python run_daily.py --format idiom       # força um formato
   python run_daily.py --from-json samples/sample_pack.json   # só renderiza (sem API)
   python run_daily.py --polish             # aplica os ajustes do revisor ao pacote do dia
+  python run_daily.py --add-reel           # escreve só o Reel de um pacote que ainda não tem
 """
 
 import argparse
@@ -25,6 +26,13 @@ ROOT = Path(__file__).resolve().parent
 MAX_ROUNDS = 3
 
 
+def out_seed(out: Path):
+    try:
+        return date.fromisoformat(out.name).toordinal()  # cor do post muda a cada dia
+    except ValueError:
+        return None
+
+
 def write_outputs(out: Path, pack: ContentPack, review_log: list, status: str, brand: dict) -> None:
     out.mkdir(parents=True, exist_ok=True)
     (out / "pack.json").write_text(pack.model_dump_json(indent=2), encoding="utf-8")
@@ -32,10 +40,7 @@ def write_outputs(out: Path, pack: ContentPack, review_log: list, status: str, b
     hashtags = " ".join("#" + h.lstrip("#") for h in pack.hashtags)
     (out / "caption.txt").write_text(f"{pack.caption}\n\n{hashtags}\n", encoding="utf-8")
     (out / "STATUS").write_text(status + "\n", encoding="utf-8")
-    try:
-        seed = date.fromisoformat(out.name).toordinal()  # cor do post muda a cada dia
-    except ValueError:
-        seed = None
+    seed = out_seed(out)
     files = render(pack, brand, out, seed)
     print(f"{len(files)} imagens em {out}")
     try:
@@ -66,6 +71,7 @@ def main() -> int:
     ap.add_argument("--format", choices=list(planner.FORMATS))
     ap.add_argument("--from-json", type=Path, help="Renderiza um pack.json existente, sem chamar a API")
     ap.add_argument("--polish", action="store_true", help="Aplica os ajustes do revisor ao pacote já gerado nessa data")
+    ap.add_argument("--add-reel", action="store_true", help="Escreve e monta só o Reel do pacote já gerado nessa data")
     ap.add_argument("--out", type=Path, default=ROOT / "output")
     args = ap.parse_args()
 
@@ -86,6 +92,14 @@ def main() -> int:
         if verdict.approved:
             planner.record(args.date, pack.format, pack.theme, pack.terms_used)
         return 0 if verdict.approved else 2
+
+    if args.add_reel:
+        from agent import writer
+
+        pack = ContentPack.model_validate_json((out / "pack.json").read_text(encoding="utf-8"))
+        pack.reel = writer.write_reel(pack)
+        (out / "pack.json").write_text(pack.model_dump_json(indent=2), encoding="utf-8")
+        return 0 if render_reel(pack, brand, out, out_seed(out)) else 1
 
     if args.from_json:
         pack = ContentPack.model_validate_json(args.from_json.read_text(encoding="utf-8"))
