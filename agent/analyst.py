@@ -47,7 +47,12 @@ que formato repetir, que gancho testar), não genéricas ("poste com consistênc
 viram instruções para o redator: escreva como regra curta e acionável, que valha para qualquer formato \
 (o formato de cada dia continua mandando na estrutura).
 Contexto: a publicação automática começou em 29/10/2026; posts anteriores (e os de kind 'manual') foram \
-feitos à mão. Alguns posts são extras, fora do calendário de formatos."""
+feitos à mão. Alguns posts são extras, fora do calendário de formatos.
+Limites da publicação automática (não sugira o que ela não faz): stories saem só como imagem, sem \
+figurinhas (enquete, quiz, link, menção, repost de Reel), então a interação é por resposta no DM; \
+o total de seguidores é gravado todo dia às 18h e as métricas dos posts são atualizadas nessa coleta (os dos últimos \
+dias ainda estão amadurecendo). Sugestões que dependem de ação manual (collab, responder comentários) \
+são bem-vindas, mas marque-as como manuais."""
 
 
 def _rate(n, d):
