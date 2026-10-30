@@ -18,6 +18,7 @@ import numpy as np
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
+from . import planner
 from .render import _AUTOFIT_JS, STORY_SIZE, _css, _env, pick_theme
 from .schemas import ContentPack, ReelScene
 
@@ -26,6 +27,7 @@ GAP = 0.25        # pausa entre a fala em PT e o inglês
 TAIL = 0.5        # respiro no fim de cada cena
 MIN_SCENE = 1.8   # cenas sem narração (ou muito curtas) ficam pelo menos isso
 ZOOM = 0.05       # quanto cada cena aproxima do início ao fim
+THINK = 1.6       # pausa extra nas cenas 'question' para o público pensar
 VOICES = {"pt": "pt-BR-AntonioNeural", "en": "en-US-AvaMultilingualNeural"}
 
 
@@ -33,6 +35,8 @@ def _title_size(scene: ReelScene) -> int:
     n = len(scene.title.replace("*", ""))
     if scene.kind in ("hook", "cta"):
         return 210 if n < 14 else (175 if n < 24 else 140)
+    if scene.kind == "question":
+        return 130 if n < 22 else (108 if n < 40 else 90)
     return 170 if n < 12 else (140 if n < 22 else (112 if n < 36 else 94))
 
 
@@ -51,12 +55,13 @@ def render_scenes(pack: ContentPack, brand: dict, work: Path, seed: Optional[int
     """[(png, caixa onde a coruja falando entra ou None)]."""
     css = _css(brand, pick_theme(brand, pack, seed), *STORY_SIZE)
     tpl = _env.get_template("reel.html.j2")
+    series = planner.FORMATS.get(pack.format, {}).get("series", "")
     files = []
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": STORY_SIZE[0], "height": STORY_SIZE[1]})
         for i, scene in enumerate(pack.reel.scenes, 1):
-            html = tpl.render(scene=scene, brand=brand, base_css=css, size=_title_size(scene), talk=talking(scene, brand))
+            html = tpl.render(scene=scene, brand=brand, base_css=css, size=_title_size(scene), talk=talking(scene, brand), series=series)
             page.set_content(html, wait_until="networkidle")
             page.evaluate("document.fonts.ready")
             page.evaluate(_AUTOFIT_JS)
@@ -140,7 +145,7 @@ def scene_audio(scene: ReelScene, voices: dict, work: Path, i: int) -> tuple:
             _speak(text.strip(), voices[lang], mp3)
             parts.append(mp3)
     total = sum(_duration(p) for p in parts) + GAP * max(len(parts) - 1, 0)
-    dur = max(total + TAIL, MIN_SCENE)
+    dur = max(total + TAIL + (THINK if scene.kind == "question" else 0), MIN_SCENE)
     wav = work / f"scene_{i:02d}.wav"
     pt = parts[0] if scene.say_pt.strip() else None
     if not parts:

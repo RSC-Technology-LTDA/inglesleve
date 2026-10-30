@@ -20,8 +20,12 @@ quiz com uma única resposta correta. Na cover, os itens precisam bater com o la
 o 1º item é mesmo um erro comum e o 2º a forma natural, e os *asteriscos* marcam a diferença e cada emoji deve \
 representar bem o termo.
 7. Coerência: stories, legenda e slides falam do mesmo tema; terms_used lista o que foi ensinado.
-8. Reel: existe, começa com 'hook' e termina com 'cta', 4 a 7 cenas; say_en só em inglês e igual \
-ao inglês da tela; narração curta (até ~14 palavras por cena); o gancho é forte e o conteúdo bate com o post.
+8. Stories: seguem o roteiro do formato (o 'format' do pacote); 'poll' com exatamente 2 options, \
+'question' com 3, 'guess' com emoji, 'fix' com um erro real e a correção no answer; cada pergunta tem uma \
+única resposta certa e o 'answer' responde a todas.
+9. Reel: existe, começa com 'hook' e termina com 'cta', 4 a 9 cenas; say_en só em inglês e igual \
+ao inglês da tela; narração curta (até ~14 palavras por cena, 'read' até ~35); toda 'question' é seguida \
+de uma 'reveal' com a resposta; 'versus' tem "a | b" no title e no text; o gancho é forte e o conteúdo bate com o post.
 
 Severidade: 'blocker' = erro factual/de inglês ou conteúdo inadequado; 'major' = tradução ou \
 pronúncia ruim, estrutura quebrada; 'minor' = estilo. approved = true somente sem blocker e sem major."""

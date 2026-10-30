@@ -44,24 +44,32 @@ class Slide(BaseModel):
 
 
 class Story(BaseModel):
-    kind: Literal["question", "answer", "tip", "challenge"]
+    kind: Literal["question", "answer", "tip", "challenge", "poll", "truefalse", "guess", "fill", "speak", "fix"]
     headline: str
     body: str
-    options: List[str] = Field(description="Alternativas (só em 'question'), senão lista vazia")
-    answer: str = Field(description="Resposta correta (em 'question' e 'answer'), senão vazio")
+    options: List[str] = Field(description="Alternativas ('question' 3, 'poll' 2, 'fill' 2-3), senão lista vazia")
+    answer: str = Field(description="Resposta correta (nas perguntas e em 'answer'), senão vazio")
+    emoji: str = Field(description="Um emoji concreto (obrigatório em 'guess'), ou vazio")
+
+    @model_validator(mode="before")
+    @classmethod
+    def _old_stories(cls, data):
+        if isinstance(data, dict):
+            data.setdefault("emoji", "")
+        return data
 
 
 class ReelScene(BaseModel):
-    kind: Literal["hook", "wrong", "right", "term", "example", "cta"]
+    kind: Literal["hook", "wrong", "right", "term", "example", "question", "reveal", "read", "versus", "cta"]
     title: str = Field(description="Texto grande na tela; nas cenas de inglês, o próprio inglês. *asteriscos* destacam uma palavra")
-    text: str = Field(description="Linha menor: tradução ou contexto em PT-BR, ou vazio")
+    text: str = Field(description="Linha menor: tradução ou contexto em PT-BR, ou vazio. Em 'question', as alternativas separadas por ' | '; em 'versus', as duas traduções separadas por ' | '")
     emoji: str = Field(description="Um único emoji concreto que ilustra a cena, ou vazio")
     say_pt: str = Field(description="Narração em PT-BR desta cena (falada, curta), ou vazio")
     say_en: str = Field(description="Inglês lido pela voz nativa americana (só inglês, igual ao da tela), ou vazio")
 
 
 class Reel(BaseModel):
-    scenes: List[ReelScene] = Field(description="4 a 7 cenas; a primeira é 'hook' e a última é 'cta'")
+    scenes: List[ReelScene] = Field(description="4 a 9 cenas; a primeira é 'hook' e a última é 'cta'")
     caption: str = Field(description="Legenda curta do Reel em PT-BR: gancho + pergunta para os comentários, sem hashtags")
 
 

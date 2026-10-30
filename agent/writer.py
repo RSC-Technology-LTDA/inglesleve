@@ -1,4 +1,4 @@
-"""Redator: gera o pacote do dia (carrossel, legenda e stories)."""
+"""Redator: gera o pacote do dia (carrossel, legenda, stories e roteiro do Reel)."""
 
 from datetime import date
 from typing import List, Optional
@@ -47,21 +47,37 @@ Marque com *asteriscos* uma palavra-chave do title para destacá-la em cor. Os e
 prefira objetos, comidas, animais e rostos concretos que representem o termo (sem bandeiras). \
 Nos slides que não são cover, layout = 'auto' e strike = ''.
 
-Stories (3 a 5): comece com um 'question' ou 'challenge' que puxe interação (responder por DM), \
-inclua um 'tip' relacionado ao post e, se houver pergunta, um 'answer' para ser postado mais tarde.
+Stories (3 a 5): siga o roteiro de stories do formato. Os interativos saem ao meio-dia e pedem resposta \
+por DM; o 'answer' sai às 18h e responde TODOS eles. Tipos (campo kind):
+- question: pergunta com 3 alternativas em options; answer = a correta.
+- poll: "isso ou aquilo", headline é a pergunta e options = exatamente 2.
+- truefalse: headline é uma afirmação; options vazio; answer = "Verdadeiro" ou "Falso" + o porquê curto.
+- guess: adivinhar a palavra pelo emoji (campo emoji obrigatório); body dá a dica (ex: "_ _ _ _ · 4 letras").
+- fill: headline com uma lacuna ___; options = 2-3 palavras.
+- speak: headline = frase em inglês para falar em voz alta; body = pronúncia aportuguesada; pedem áudio no DM.
+- fix: headline = frase errada comum, *asteriscos* no trecho errado; answer = a frase certa.
+- challenge: desafio livre; tip: dica ligada ao post (headline + body); answer: headline + body + answer.
 
 Reel (vídeo vertical de 15 a 30 segundos, com narração): é o que traz seguidores novos, então \
 escreva para quem nunca viu o perfil. Ensine o mesmo conteúdo do carrossel, resumido no essencial.
 - 1ª cena 'hook': segura o dedo em 1 segundo. title provocativo de até 6 palavras \
 (ex: "Você fala *isso* errado", "Nativo não diz *finished*"), say_pt curtíssimo.
-- Meio (2 a 5 cenas): 'wrong' = o erro comum do brasileiro (aparece riscado), 'right' = o jeito nativo, \
-'term' = termo + tradução, 'example' = frase de exemplo. Nelas o title é o inglês e text é a tradução curta. \
-Na 'wrong' deixe emoji vazio (o selo "Brasileiro diz" já aparece).
+- Meio: siga o roteiro de Reel do formato. Tipos de cena:
+  'wrong' = o erro comum do brasileiro (aparece riscado), 'right' = o jeito nativo, 'term' = termo + tradução, \
+'example' = frase de exemplo; nelas o title é o inglês e text é a tradução curta. Na 'wrong' e na 'right' deixe \
+emoji vazio (a coruja já aparece).
+  'question' = pergunta na tela com pausa para pensar (title = a pergunta; text = alternativas separadas por \
+' | ', ou vazio; emoji opcional, sem emoji aparece a coruja pensando); a cena seguinte é a 'reveal' com a \
+resposta (title = resposta em inglês, text = tradução ou explicação curta).
+  'read' = texto curto em inglês para ler junto (title = o texto, até ~35 palavras, sem asteriscos; say_en lê \
+o mesmo texto; text vazio).
+  'versus' = dois termos parecidos (title = "termo1 | termo2", text = "tradução1 | tradução2", emoji vazio).
 - Última cena 'cta': chama para seguir o perfil (ex: title "Segue pra aprender *um por dia*"); \
 o @ do perfil já aparece sozinho, então text fica vazio.
 - Narração: say_pt é um brasileiro falando de forma natural e animada; say_en é lido por uma voz \
 americana nativa, então só inglês e igual ao que está na tela. No máximo ~14 palavras por cena somando \
-as duas; as cenas 'wrong' e 'right' devem ter say_en para o público ouvir a pronúncia.
+as duas (exceto 'read'); 'wrong', 'right', 'reveal', 'versus' e 'read' devem ter say_en para o público \
+ouvir a pronúncia. O Reel inteiro fica entre 15 e 35 segundos.
 - caption: 1 a 3 linhas com gancho e pergunta para comentarem; sem hashtags.
 
 Legenda: gancho na 1ª linha, um bônus que não está nos slides, pergunta para os comentários. \
@@ -76,6 +92,8 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
         f"Formato de hoje: {fmt} ({spec['label']})",
         f"Instruções do formato: {spec['brief']}",
         f"Layout de capa sugerido: {spec['cover']}",
+        f"Roteiro dos stories: {spec['stories']}",
+        f"Roteiro do Reel (quadro '{spec['series']}'): {spec['reel']}",
         "Temas recentes (evite repetir):\n" + ("\n".join(planner.recent_themes(history)) or "(nenhum)"),
         "Termos já ensinados (não repita):\n" + (", ".join(planner.recent_terms(history)) or "(nenhum)"),
     ]
@@ -100,8 +118,10 @@ def write(day: date, fmt: str, history: List[dict], handle: str, feedback: Optio
 
 def write_reel(pack: ContentPack) -> Reel:
     """Só o roteiro do Reel, para um pacote que já existe (ex: gerado antes dos Reels)."""
+    spec = planner.FORMATS.get(pack.format, {})
     prompt = (
-        "Escreva apenas o roteiro do Reel para o pacote abaixo, seguindo as regras de Reel.\n\n"
-        + pack.model_copy(update={"reel": None}).model_dump_json(indent=1)
+        "Escreva apenas o roteiro do Reel para o pacote abaixo, seguindo as regras de Reel.\n"
+        + (f"Roteiro do formato (quadro '{spec['series']}'): {spec['reel']}\n" if spec.get("reel") else "")
+        + "\n" + pack.model_copy(update={"reel": None}).model_dump_json(indent=1)
     )
     return ask(SYSTEM, prompt, Reel)

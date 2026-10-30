@@ -6,39 +6,65 @@
 {{ base_css }}
 /* 250px no topo e embaixo ficam livres para a UI do Instagram */
 .frame { padding: 260px 88px 280px; }
-body.question .frame, body.challenge .frame { background: var(--ink); color: var(--paper); }
-body.question .top, body.challenge .top { color: color-mix(in srgb, var(--paper) 70%, transparent); }
+body.question .frame, body.challenge .frame, body.poll .frame, body.truefalse .frame, body.fill .frame { background: var(--ink); color: var(--paper); }
+body.question .top, body.challenge .top, body.poll .top, body.truefalse .top, body.fill .top { color: color-mix(in srgb, var(--paper) 70%, transparent); }
 body.answer .frame { background: var(--accent-2); }
 body.answer .top { color: var(--ink); }
+body.fix .frame { background: #FFDCD2; }
 .main { flex: 1; display: flex; flex-direction: column; justify-content: center; }
 .tag { font-size: 36px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
+body.answer .tag, body.fix .tag { color: var(--hot); }
 body.answer .tag { color: var(--ink); }
 h1 { font-size: {{ 132 if story.headline|length < 30 else (110 if story.headline|length < 50 else 92) }}px; margin-top: 24px; }
 .body { font-size: 56px; line-height: 1.35; margin-top: 40px; font-weight: 500; white-space: pre-line; }
 .opts { margin-top: 56px; display: flex; flex-direction: column; gap: 24px; }
 .opt { display: flex; gap: 24px; align-items: center; background: color-mix(in srgb, var(--paper) 12%, transparent); border-radius: 26px; padding: 40px 40px; font-size: 60px; font-weight: 600; }
 .opt b { width: 88px; height: 88px; border-radius: 18px; background: var(--accent); color: var(--ink); display: grid; place-items: center; flex: none; }
+.or { align-self: center; font-size: 40px; font-weight: 800; letter-spacing: .1em; color: var(--accent); }
+.poll .opt { justify-content: center; text-align: center; font-size: 64px; padding: 52px 40px; }
+.tf { margin-top: 64px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.tf div { border-radius: 28px; padding: 44px 0; text-align: center; font-size: 60px; font-weight: 800; color: #fff; }
+.tf .v { background: #1F9D55; }
+.tf .f { background: var(--hot); }
+.chips { margin-top: 56px; display: flex; flex-wrap: wrap; gap: 22px; }
+.chips span { background: var(--accent); color: var(--ink); border-radius: 999px; padding: 22px 44px; font-size: 56px; font-weight: 800; }
+.guess .emo { --s: 560px; align-self: center; margin-bottom: 40px; }
+.guess .body { font-size: 72px; font-weight: 800; letter-spacing: .12em; text-align: center; }
+.guess h1 { text-align: center; }
+.speak .body { color: var(--accent); font-weight: 700; font-size: 64px; }
+.speak .emo { --s: 220px; margin-bottom: 30px; }
+.fix .owl { align-self: flex-end; height: 560px; margin: -40px -30px 0 0; filter: drop-shadow(0 14px 20px rgb(0 0 0 / .14)); }
 .ans { margin-top: 56px; background: var(--paper); border-radius: 28px; padding: 48px; font-size: 68px; font-weight: 800; }
-body.question em, body.challenge em { color: var(--accent); }
+body.question em, body.challenge em, body.poll em, body.truefalse em, body.fill em { color: var(--accent); }
 body.answer em { color: var(--ink); }
 .cta { font-size: 44px; font-weight: 700; color: var(--accent); }
-body.answer .cta, body.tip .cta { color: var(--ink); }
+body.answer .cta, body.tip .cta, body.fix .cta, body.speak .cta, body.guess .cta { color: var(--ink); }
 </style>
 </head>
 <body class="{{ story.kind }}">
 <div class="frame">
   <div class="top"><span class="flag"><span class="dot"></span>{{ brand.name }}</span><span>{{ index }}/{{ total }}</span></div>
-  <div class="main">
-  <div class="tag">{{ {'question': 'Pergunta do dia', 'answer': 'Resposta', 'tip': 'Dica rápida', 'challenge': 'Desafio'}[story.kind] }}</div>
+  <div class="main {{ story.kind }}">
+  {% if story.kind == 'guess' and story.emoji %}<div class="emo">{{ emoji(story.emoji) }}</div>{% endif %}
+  {% if story.kind == 'speak' %}<div class="emo">{{ emoji(story.emoji or '🎙️') }}</div>{% endif %}
+  <div class="tag">{{ {'question': 'Pergunta do dia', 'answer': 'Resposta', 'tip': 'Dica rápida', 'challenge': 'Desafio',
+      'poll': 'Isso ou aquilo?', 'truefalse': 'Verdadeiro ou falso?', 'guess': 'Adivinha a palavra',
+      'fill': 'Complete a frase', 'speak': 'Fala em voz alta', 'fix': 'Corrige essa frase'}[story.kind] }}</div>
   <h1 class="display">{{ story.headline|hl }}</h1>
   {% if story.body %}<div class="body">{{ story.body }}</div>{% endif %}
-  {% if story.options %}
+  {% if story.kind == 'poll' and story.options %}
+  <div class="opts">{% for o in story.options[:2] %}{% if not loop.first %}<div class="or">ou</div>{% endif %}<div class="opt">{{ o|hl }}</div>{% endfor %}</div>
+  {% elif story.kind == 'fill' and story.options %}
+  <div class="chips">{% for o in story.options %}<span>{{ o }}</span>{% endfor %}</div>
+  {% elif story.options and story.kind != 'answer' %}
   <div class="opts">{% for o in story.options %}<div class="opt"><b>{{ "ABCDEF"[loop.index0] }}</b>{{ o }}</div>{% endfor %}</div>
   {% endif %}
-  {% if story.kind == 'answer' and story.answer %}<div class="ans">✅ {{ story.answer }}</div>{% endif %}
+  {% if story.kind == 'truefalse' %}<div class="tf"><div class="v">✓ Verdadeiro</div><div class="f">✕ Falso</div></div>{% endif %}
+  {% if story.kind == 'fix' %}{% set owl = mascot(brand.mascot_wrong) %}{% if owl %}<img class="owl" src="{{ owl }}" alt="">{% endif %}{% endif %}
+  {% if story.kind == 'answer' and story.answer %}<div class="ans">✅ {{ story.answer|hl }}</div>{% endif %}
   </div>
   <div class="cta">
-    {% if story.kind in ['question', 'challenge'] %}Responde por DM 💬{% elif story.kind == 'tip' %}Post novo no feed 👆{% else %}Acertou? Manda um 🔥{% endif %}
+    {% if story.kind == 'speak' %}Manda um áudio no DM 🎙️{% elif story.kind == 'fix' %}Como é o certo? Responde por DM 💬{% elif story.kind == 'tip' %}Post novo no feed 👆{% elif story.kind == 'answer' %}Acertou? Manda um 🔥{% else %}Responde por DM 💬{% endif %}
   </div>
 </div>
 </body>

@@ -20,16 +20,41 @@ h1 { font-size: {{ size }}px; }
 .right h1 { color: var(--ink); }
 .handle { margin-top: 48px; font-size: 64px; font-weight: 800; color: var(--hot); }
 .top { font-size: 34px; }
+.series { background: var(--ink); color: var(--paper); padding: 10px 26px; border-radius: 999px; font-weight: 800; }
+.chip.question { background: var(--ink); }
+.chip.reveal { background: #1F9D55; }
+.chip.read { background: var(--accent); color: var(--ink); }
+.opts { margin-top: 44px; display: flex; flex-direction: column; gap: 22px; width: 100%; }
+.opts div { background: var(--card); border-radius: 26px; padding: 30px 36px; font-size: 64px; font-weight: 700; }
+.read h1 { font-size: {{ 100 if scene.title|length < 90 else (86 if scene.title|length < 140 else 72) }}px; line-height: 1.25; text-align: left; font-weight: 700; }
+.read .text { font-size: 46px; text-align: left; }
+.vs { display: flex; flex-direction: column; align-items: stretch; gap: 0; width: 100%; }
+.vs .card { background: var(--card); border-radius: 34px; padding: 50px 40px; }
+.vs .card h1 { font-size: 150px; }
+.vs .card p { font-size: 64px; font-weight: 600; color: var(--muted); margin-top: 14px; }
+.vs .x { align-self: center; width: 130px; height: 130px; margin: -30px 0; z-index: 1; border-radius: 50%; background: var(--hot); color: #fff; display: grid; place-items: center; font-size: 70px; font-weight: 800; }
 </style>
 </head>
 <body class="{{ scene.kind }}">
 <div class="frame">
-  <div class="top"><span class="flag"><span class="dot"></span>{{ brand.name }}</span></div>
+  <div class="top"><span class="flag"><span class="dot"></span>{{ brand.name }}</span>{% if series %}<span class="series">{{ series }}</span>{% endif %}</div>
   <div class="main {{ scene.kind }}">
     {% if scene.kind == 'wrong' %}<div class="chip wrong">✕ Brasileiro diz</div>
-    {% elif scene.kind == 'right' %}<div class="chip right">✓ Nativo diz</div>{% endif %}
-    {% set owl = mascot(brand.mascot_wrong if scene.kind == 'wrong' else (brand.mascot_right if scene.kind == 'right' else '')) %}
+    {% elif scene.kind == 'right' %}<div class="chip right">✓ Nativo diz</div>
+    {% elif scene.kind == 'question' %}<div class="chip question">🤔 Pensa rápido</div>
+    {% elif scene.kind == 'reveal' %}<div class="chip reveal">✓ Resposta</div>
+    {% elif scene.kind == 'read' %}<div class="chip read">🎧 Lê comigo</div>{% endif %}
+    {% if scene.kind == 'versus' %}
+    {% set a, b = (scene.title.split('|') + [''])[:2] %}{% set ta, tb = (scene.text.split('|') + [''])[:2] %}
+    <div class="vs">
+      <div class="card"><h1 class="display">{{ a.strip()|hl }}</h1>{% if ta.strip() %}<p>{{ ta.strip() }}</p>{% endif %}</div>
+      <div class="x">×</div>
+      <div class="card"><h1 class="display">{{ b.strip()|hl }}</h1>{% if tb.strip() %}<p>{{ tb.strip() }}</p>{% endif %}</div>
+    </div>
+    {% else %}
+    {% set owl = mascot(brand.mascot_wrong if scene.kind == 'wrong' or (scene.kind == 'question' and not scene.emoji) else (brand.mascot_right if scene.kind == 'right' or (scene.kind == 'reveal' and not scene.emoji) else '')) %}
     {% if talk %}<div class="talker"></div>
+    {% elif scene.kind == 'read' %}
     {% elif owl %}<img class="owl" src="{{ owl }}" alt="">
     {% elif scene.emoji %}<div class="emo">{{ emoji(scene.emoji) }}</div>{% endif %}
     {% if scene.kind == 'wrong' %}
@@ -39,8 +64,11 @@ h1 { font-size: {{ size }}px; }
     {% else %}
     <h1 class="display">{{ scene.title|hl }}</h1>
     {% endif %}
-    {% if scene.text and not (scene.kind == 'cta' and '@' in scene.text) %}<p class="text">{{ scene.text|hl }}</p>{% endif %}
+    {% if scene.kind == 'question' and '|' in scene.text %}
+    <div class="opts">{% for o in scene.text.split('|') %}<div>{{ o.strip()|hl }}</div>{% endfor %}</div>
+    {% elif scene.text and not (scene.kind == 'cta' and '@' in scene.text) %}<p class="text">{{ scene.text|hl }}</p>{% endif %}
     {% if scene.kind == 'cta' %}<div class="handle">@{{ brand.handle }}</div>{% endif %}
+    {% endif %}
   </div>
 </div>
 </body>
