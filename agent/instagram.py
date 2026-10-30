@@ -137,6 +137,14 @@ class Instagram:
                 out[m["name"]] = m["values"][0].get("value")
         return out
 
+    # Comentários (precisa de instagram_manage_comments).
+    def comments(self, media_id: str) -> List[dict]:
+        fields = "id,text,username,timestamp,like_count,replies{id,username}"
+        return self._call("GET", f"{media_id}/comments", fields=fields, limit=50).get("data", [])
+
+    def reply(self, comment_id: str, message: str) -> str:
+        return self._call("POST", f"{comment_id}/replies", message=message)["id"]
+
 
 def refresh_token(token: str, http: Optional[httpx.Client] = None) -> dict:
     """Troca um token de longa duração por outro novo (mais 60 dias). Retorna access_token e expires_in."""
