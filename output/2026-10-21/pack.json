@@ -1,0 +1,288 @@
+{
+  "format": "wrong_right",
+  "theme": "6 erros clássicos de brasileiro no dia a dia",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Para de *errar* isso",
+      "subtitle": "Idade em inglês não é com 'have'",
+      "body": "",
+      "items": [
+        {
+          "en": "I *have* 30 years old",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I *am* 30 years old",
+          "pt": "Eu tenho 30 anos",
+          "pronunciation": "ai ém THÂR-ti yirz ÔULD",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Dica: 'I'm 30' sozinho também é super natural.",
+      "layout": "fix",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Perdeu o ônibus?",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "I *lost* the bus",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I *missed* the bus",
+          "pt": "Eu perdi o ônibus",
+          "pronunciation": "ai MIST dhâ BÂS",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "'Lose' é perder algo (chaves, jogo). Perder ônibus, voo ou aula é 'miss'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Na hora de perguntar",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Can I *make* a question?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Can I *ask* a question?",
+          "pt": "Posso fazer uma pergunta?",
+          "pronunciation": "kén ai ÉSK â KUÉS-tchân",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Pergunta se faz com 'ask', nunca com 'make'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Pedindo explicação",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Can you *explain me*?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Can you *explain it to me*?",
+          "pt": "Pode me explicar?",
+          "pronunciation": "kén iu eks-PLÊIN it tu MI",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "'Explain' pede 'to' antes da pessoa.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Lugar cheio",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "*It has* a lot of people here",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "*There are* a lot of people here",
+          "pt": "Tem muita gente aqui",
+          "pronunciation": "dhér âr â LÓT âv PI-pôl HIR",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "'Tem' no sentido de 'existe' é 'there is/there are'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Depende de quê?",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "It depends *of* the weather",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "It depends *on* the weather",
+          "pt": "Depende do tempo",
+          "pronunciation": "it di-PÉNDZ ón dhâ UÉ-dhâr",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "'Depend' sempre anda com 'on'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Agora você fala *certo*",
+      "subtitle": "",
+      "body": "Salva pra revisar e manda pro amigo que ainda diz 'I lost the bus'. Qual desses você cometia? 👇",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Você ainda diz 'I have 30 years old'? Relaxa, quase todo brasileiro já disse! 😅\n\nNo carrossel tem 6 erros clássicos que a gente traduz direto do português. Bônus: o verbo 'miss' também significa 'sentir falta'. Então 'I missed the bus' é 'perdi o ônibus', mas 'I miss you' é 'sinto sua falta'. Um verbo, dois usos super comuns!\n\nQual desses erros você mais cometia? Conta aqui embaixo 👇",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "dicasdeingles",
+    "inglesfacil",
+    "errosdeingles",
+    "falaringles",
+    "inglesdodiaadia",
+    "englishtips",
+    "learnenglish",
+    "inglesbasico"
+  ],
+  "stories": [
+    {
+      "kind": "question",
+      "headline": "Qual está certa?",
+      "body": "Você chegou atrasado no ponto e o ônibus já foi. Como fala? Responde aqui por DM!",
+      "options": [
+        "I lost the bus",
+        "I missed the bus"
+      ],
+      "answer": "I missed the bus"
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta: I missed the bus",
+      "body": "'Lose' é perder algo, tipo as chaves ou um jogo. Perder ônibus, voo ou aula é 'miss'.",
+      "options": [],
+      "answer": "I missed the bus"
+    },
+    {
+      "kind": "tip",
+      "headline": "Idade sem 'have'",
+      "body": "Em inglês você É sua idade: 'I'm 30'. Pode até cortar o 'years old', fica super natural.",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "challenge",
+      "headline": "Desafio do dia",
+      "body": "Corrija a frase e manda por DM: 'Can I make a question?'",
+      "options": [],
+      "answer": ""
+    }
+  ],
+  "terms_used": [
+    "I'm 30 years old",
+    "miss the bus",
+    "ask a question",
+    "explain it to me",
+    "there are",
+    "depend on"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Brasileiro erra *isso* sempre",
+        "text": "",
+        "emoji": "😬",
+        "say_pt": "Para de cometer esses dois erros!",
+        "say_en": ""
+      },
+      {
+        "kind": "wrong",
+        "title": "I have 30 years old",
+        "text": "Idade não é com 'have'",
+        "emoji": "",
+        "say_pt": "Não diga:",
+        "say_en": "I have 30 years old."
+      },
+      {
+        "kind": "right",
+        "title": "I'm 30 years old",
+        "text": "Eu tenho 30 anos",
+        "emoji": "🎂",
+        "say_pt": "Diga:",
+        "say_en": "I'm 30 years old."
+      },
+      {
+        "kind": "wrong",
+        "title": "I lost the bus",
+        "text": "'Lose' é perder algo",
+        "emoji": "",
+        "say_pt": "E nada de:",
+        "say_en": "I lost the bus."
+      },
+      {
+        "kind": "right",
+        "title": "I *missed* the bus",
+        "text": "Eu perdi o ônibus",
+        "emoji": "🚌",
+        "say_pt": "O certo é:",
+        "say_en": "I missed the bus."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra falar *certo*",
+        "text": "",
+        "emoji": "🦉",
+        "say_pt": "Segue pra aprender um erro por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Você também falava assim? 😅 Comenta qual desses erros você já cometeu!"
+  }
+}

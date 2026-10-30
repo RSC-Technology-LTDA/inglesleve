@@ -125,28 +125,15 @@
   },
   {
     "date": "2026-10-21",
-    "format": "visual_vocab",
-    "theme": "Roupas para o frio",
+    "format": "wrong_right",
+    "theme": "6 erros clássicos de brasileiro no dia a dia",
     "terms": [
-      "sweater",
-      "hoodie",
-      "jacket",
-      "coat",
-      "flannel",
-      "vest",
-      "scarf",
-      "gloves",
-      "mittens",
-      "beanie",
-      "earmuffs",
-      "boots",
-      "wool socks",
-      "sweatpants",
-      "leggings",
-      "long johns",
-      "sweatshirt",
-      "bundle up",
-      "freezing"
+      "I'm 30 years old",
+      "miss the bus",
+      "ask a question",
+      "explain it to me",
+      "there are",
+      "depend on"
     ]
   },
   {

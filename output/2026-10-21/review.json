@@ -1,0 +1,88 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "O português ficou truncado e soa estranho: 'Pergunta a gente 'ask', nunca 'make'.' Falta um verbo.",
+        "fix": "Trocar por: \"Pergunta se faz com 'ask', nunca com 'make'.\""
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].pronunciation",
+        "problem": "'ai-ÉM' coloca a tônica no 'am', o que soa enfático e pouco natural. Na fala neutra a ênfase cai em THIRty e OLD. 'TÂR-ti' também apaga o som de 'th'.",
+        "fix": "Usar \"ai ém THÂR-ti yirz ÔULD\" ou, alinhado ao reel, \"aim THÂR-ti yirz ÔULD\"."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[1].pronunciation",
+        "problem": "'dhér ÁR' coloca a tônica no 'are', que na fala natural é reduzido. Soa robótico.",
+        "fix": "Usar \"dhér âr â LÓT âv PI-pôl HIR\" ou a forma contraída \"dhér-âr\"."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].note",
+        "problem": "A regra 'Lose é perder um objeto' é uma simplificação, já que também se diz lose a game e lose weight. Para A2 é aceitável, mas pode gerar dúvida.",
+        "fix": "Opcional: \"'Lose' é perder algo (chaves, jogo). Perder ônibus, voo ou aula é 'miss'.\""
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].body",
+        "problem": "O texto do CTA é longo (cerca de 40 palavras) e pode ficar apertado na imagem.",
+        "fix": "Encurtar para: \"Salva pra revisar e manda pro amigo que ainda diz 'I lost the bus'. Qual desses você cometia? 👇\""
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used[0]",
+        "problem": "'i'm' está em minúscula. O pronome 'I' é sempre maiúsculo em inglês.",
+        "fix": "Trocar por \"I'm 30 years old\"."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0] / feed[0].title",
+        "problem": "O imperativo está inconsistente: o reel usa 'Para de' e o feed usa 'Pare de'. É detalhe de estilo.",
+        "fix": "Padronizar uma das formas, por exemplo 'Para de' em ambos, que é mais coloquial."
+      }
+    ],
+    "summary": "O pacote está sólido. Os seis pares erro/correção são clássicos reais de brasileiros e o inglês está correto e natural. As traduções estão boas e a curiosidade sobre 'miss' (sentir falta) é verdadeira. A estrutura está dentro das regras: cover 'fix' com 2 itens, cta por último. O reel tem 6 cenas, começa com hook, termina com cta e o say_en bate com a tela. Stories e legenda estão coerentes com o tema. Os ajustes pendentes são apenas de estilo: tônica em duas pronúncias, a nota truncada do slide 3, CTA longo e a minúscula em 'i'm'. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[5].note",
+        "problem": "A nota diz que 'Depend' sempre anda com 'on'. 'Depend upon' também existe, num registro mais formal. O absoluto 'sempre' é tecnicamente impreciso, mas serve para A2.",
+        "fix": "Trocar por: \"'Depend' anda com 'on' (nunca com 'of').\""
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[1].pronunciation; feed[3].items[1].pronunciation",
+        "problem": "Em pergunta corrida, 'can' e 'you' costumam ser reduzidos ('kân', 'iâ'). 'kén' soa enfático, mas não está errado.",
+        "fix": "Opcional: 'kân ai ÉSK â KUÉS-tchân' e 'kân iu eks-PLÊIN it tu MI'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].body",
+        "problem": "O story tipo 'question' já tem opções de enquete, mas pede resposta por DM. Isso confunde a interação, e o challenge também pede DM.",
+        "fix": "Trocar por 'Vota aqui embaixo!' e deixar a DM só para o desafio."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items / feed[1..5].items",
+        "problem": "Todos os campos de emoji estão vazios. Não é obrigatório, mas emojis no item correto (🎂, 🚌, ❓, 💡, 👥, ☀️) dariam mais apelo visual e manteriam a coerência com o reel.",
+        "fix": "Adicionar emoji no 2º item (forma correta) de cada slide 'fix'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].title",
+        "problem": "'Brasileiro erra isso sempre' generaliza um pouco. O tom é comum no nicho e não chega a ser ofensivo.",
+        "fix": "Opcional: 'Você erra *isso*?' ou '2 erros que *todo mundo* comete'."
+      }
+    ],
+    "summary": "O pacote está sólido. Todas as frases corretas são inglês natural: I'm 30, missed the bus, ask a question, explain it to me, there are, depends on. Os erros apontados são de fato clássicos de brasileiro, e as traduções e notas estão corretas. As pronúncias aportuguesadas estão aceitáveis e com tônica certa. A estrutura está ok: cover 'fix' com 2 itens, CTA no fim, slides 'fix' com 2 itens e asteriscos na diferença. Os 6 erros batem com terms_used, e stories e legenda estão coerentes. O reel tem 6 cenas, começa com hook, termina com cta, e say_en está igual ao texto da tela. Há apenas ajustes de estilo menores. Aprovado."
+  }
+]
