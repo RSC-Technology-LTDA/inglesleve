@@ -372,14 +372,14 @@
         "kind": "hook",
         "title": "Acerta as *3*?",
         "text": "Quiz relâmpago de inglês",
-        "emoji": "⚡",
-        "say_pt": "Quiz relâmpago! Acerta as três?",
+        "emoji": "🎃",
+        "say_pt": "Duvido você acertar as três!",
         "say_en": ""
       },
       {
         "kind": "question",
-        "title": "Como se diz 'parentes'?",
-        "text": "parents | relatives",
+        "title": "Como se diz 'parentes' (tios, primos)?",
+        "text": "parents | relatives | cousins",
         "emoji": "",
         "say_pt": "Como se diz parentes, tipo tios e primos?",
         "say_en": ""
@@ -389,50 +389,50 @@
         "title": "relatives",
         "text": "parentes (parents = pais)",
         "emoji": "👨‍👩‍👧",
-        "say_pt": "Parents é pais!",
+        "say_pt": "A resposta certa é:",
         "say_en": "relatives"
       },
       {
         "kind": "question",
-        "title": "'Lanchinho' em inglês?",
-        "text": "lunch | snack",
+        "title": "'He freaked out.' O que ele fez?",
+        "text": "Ficou calmo | Surtou | Foi embora",
         "emoji": "",
-        "say_pt": "E lanchinho da tarde?",
-        "say_en": ""
+        "say_pt": "O que ele fez aqui:",
+        "say_en": "He freaked out."
       },
       {
         "kind": "reveal",
-        "title": "snack",
-        "text": "lanchinho (lunch = almoço)",
-        "emoji": "🍪",
-        "say_pt": "Lunch é almoço!",
-        "say_en": "snack"
+        "title": "He freaked out.",
+        "text": "Ele surtou! (freak out = surtar)",
+        "emoji": "😱",
+        "say_pt": "Ele surtou! Repete comigo:",
+        "say_en": "He freaked out."
       },
       {
         "kind": "question",
-        "title": "'Surtar' em inglês?",
-        "text": "freak out | figure out",
+        "title": "Abóbora com vela dentro é…",
+        "text": "pumpkin pie | jack-o'-lantern | haunted house",
         "emoji": "",
-        "say_pt": "Última: como se diz surtar?",
+        "say_pt": "E a abóbora de Halloween com vela dentro?",
         "say_en": ""
       },
       {
         "kind": "reveal",
-        "title": "freak out",
-        "text": "surtar, pirar",
-        "emoji": "😱",
-        "say_pt": "Isso aí!",
-        "say_en": "freak out"
+        "title": "jack-o'-lantern",
+        "text": "abóbora de Halloween (pumpkin pie = torta)",
+        "emoji": "🎃",
+        "say_pt": "O nome dela é:",
+        "say_en": "jack-o'-lantern"
       },
       {
         "kind": "cta",
-        "title": "Quantas você *acertou*?",
+        "title": "Quantas *acertou*? Segue pra mais",
         "text": "",
-        "emoji": "🏆",
-        "say_pt": "Comenta quantas acertou e segue pra aprender mais!",
+        "emoji": "",
+        "say_pt": "Quantas você acertou? Comenta e segue pra aprender mais!",
         "say_en": ""
       }
     ],
-    "caption": "Quiz relâmpago: acerta as 3 sem pausar? ⚡ Comenta seu placar aqui embaixo!"
+    "caption": "Quiz relâmpago de Halloween: 3 perguntas, sem colar 🎃\nQuantas você acertou? Comenta seu placar de 0 a 3 👇"
   }
 }

@@ -75,7 +75,11 @@ o mesmo texto; text vazio).
 - Última cena 'cta': chama para seguir o perfil (ex: title "Segue pra aprender *um por dia*"); \
 o @ do perfil já aparece sozinho, então text fica vazio.
 - Narração: say_pt é um brasileiro falando de forma natural e animada; say_en é lido por uma voz \
-americana nativa, então só inglês e igual ao que está na tela. No máximo ~14 palavras por cena somando \
+americana nativa, então só inglês e igual ao que está na tela. O narrador fala primeiro e a voz \
+americana completa: quando a cena tem say_en, say_pt é uma deixa curta que termina em dois-pontos e \
+apresenta exatamente o que vem a seguir (ex: "Mas nos Estados Unidos é:", "A resposta certa é:"). \
+Na 'reveal', say_pt NUNCA cita a alternativa errada nem outra palavra em inglês (quem ouve confunde \
+qual é a certa); a comparação com a errada fica só na tela, no text. No máximo ~14 palavras por cena somando \
 as duas (exceto 'read'); 'wrong', 'right', 'reveal', 'versus' e 'read' devem ter say_en para o público \
 ouvir a pronúncia. O Reel inteiro fica entre 15 e 35 segundos.
 - caption: 1 a 3 linhas com gancho e pergunta para comentarem; sem hashtags.

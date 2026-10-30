@@ -25,7 +25,8 @@ representar bem o termo.
 única resposta certa e o 'answer' responde a todas.
 9. Reel: existe, começa com 'hook' e termina com 'cta', 4 a 9 cenas; say_en só em inglês e igual \
 ao inglês da tela; narração curta (até ~14 palavras por cena, 'read' até ~35); toda 'question' é seguida \
-de uma 'reveal' com a resposta; 'versus' tem "a | b" no title e no text; o gancho é forte e o conteúdo bate com o post.
+de uma 'reveal' com a resposta, cujo say_pt é só uma deixa ('A resposta certa é:') sem citar a \
+alternativa errada nem outra palavra em inglês; 'versus' tem "a | b" no title e no text; o gancho é forte e o conteúdo bate com o post.
 
 Severidade: 'blocker' = erro factual/de inglês ou conteúdo inadequado; 'major' = tradução ou \
 pronúncia ruim, estrutura quebrada; 'minor' = estilo. approved = true somente sem blocker e sem major."""
