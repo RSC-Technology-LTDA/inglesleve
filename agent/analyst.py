@@ -44,7 +44,10 @@ levam o post a não seguidores) e retenção nos Reels.
 Analise os números com honestidade: com poucos dados, diga que a amostra é pequena e não invente \
 padrões. Compare formatos, ganchos e tipos de post. Sugestões precisam ser concretas (o que escrever, \
 que formato repetir, que gancho testar), não genéricas ("poste com consistência"). As writer_tips \
-viram instruções para o redator: escreva como regra curta e acionável."""
+viram instruções para o redator: escreva como regra curta e acionável, que valha para qualquer formato \
+(o formato de cada dia continua mandando na estrutura).
+Contexto: a publicação automática começou em 29/10/2026; posts anteriores (e os de kind 'manual') foram \
+feitos à mão. Alguns posts são extras, fora do calendário de formatos."""
 
 
 def _rate(n, d):
@@ -56,7 +59,8 @@ def table(data: dict, day: date, days: int = 28) -> dict:
     since = (day - timedelta(days=days)).isoformat()
     rows, groups = [], defaultdict(list)
     for media_id, m in data["media"].items():
-        when = m.get("date") or (m.get("timestamp") or "")[:10]
+        # Dia real em que foi ao ar (posts extras usam pastas de outras datas).
+        when = (m.get("timestamp") or "")[:10] or m.get("date") or ""
         if when < since:
             continue
         ins = m.get("insights", {})
