@@ -123,7 +123,7 @@ def audience_markdown(audience: dict) -> List[str]:
     lines = ["## Quem segue a página", ""]
     for key in ("country", "state", "city", "age", "gender"):
         values = audience.get(key, {})
-        rows, total = list(values.items())[:10], sum(values.values())
+        rows, total = list(values.items())[: 45 if key == "city" else 10], sum(values.values())
         if not rows:
             continue
         lines += [f"**{names[key]}**", "", f"| {names[key]} | Seguidores | % |", "|---|---:|---:|"]
