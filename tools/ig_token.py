@@ -1,7 +1,7 @@
 """Gera o token permanente da Página do Facebook vinculada ao Instagram e grava nos secrets do GitHub.
 
 1. No Explorador da Graph API (developers.facebook.com/tools/explorer), escolha o app, peça as
-   permissões instagram_basic, instagram_content_publish, pages_show_list,
+   permissões instagram_basic, instagram_content_publish, instagram_manage_insights, pages_show_list,
    pages_read_engagement e business_management, e clique em "Generate Access Token".
 2. Rode:  .venv/bin/python tools/ig_token.py --repo RSC-Technology-LTDA/inglesleve
    O script pede o token gerado, o App ID e a chave secreta do app (sem mostrar na tela),

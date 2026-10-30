@@ -3,7 +3,7 @@
 from datetime import date
 from typing import List, Optional
 
-from . import planner
+from . import analyst, planner
 from .llm import ask
 from .schemas import ContentPack, Reel, Review
 
@@ -88,7 +88,7 @@ Legenda: gancho na 1ª linha, um bônus que não está nos slides, pergunta para
 Sem hashtags dentro da legenda (vão no campo hashtags)."""
 
 
-def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Optional[Review], previous: Optional[ContentPack]) -> str:
+def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Optional[Review], previous: Optional[ContentPack], extra: str = "") -> str:
     spec = planner.FORMATS[fmt]
     parts = [
         f"Data: {day.isoformat()}",
@@ -101,6 +101,11 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
         "Temas recentes (evite repetir):\n" + ("\n".join(planner.recent_themes(history)) or "(nenhum)"),
         "Termos já ensinados (não repita):\n" + (", ".join(planner.recent_terms(history)) or "(nenhum)"),
     ]
+    tips = analyst.writer_tips()
+    if tips:
+        parts.append("Aprendizados das métricas da página (aplique quando couber no formato):\n" + "\n".join(f"- {t}" for t in tips))
+    if extra:
+        parts.append(extra)
     if fmt == "weekly_quiz":
         week = planner.last_week_terms(history, day)
         parts.append("Termos da semana para revisar:\n" + (", ".join(week) or "(sem histórico: escolha termos básicos do cotidiano)"))
@@ -116,8 +121,8 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
     return "\n\n".join(parts)
 
 
-def write(day: date, fmt: str, history: List[dict], handle: str, feedback: Optional[Review] = None, previous: Optional[ContentPack] = None) -> ContentPack:
-    return ask(SYSTEM, build_prompt(day, fmt, history, handle, feedback, previous), ContentPack)
+def write(day: date, fmt: str, history: List[dict], handle: str, feedback: Optional[Review] = None, previous: Optional[ContentPack] = None, extra: str = "") -> ContentPack:
+    return ask(SYSTEM, build_prompt(day, fmt, history, handle, feedback, previous, extra), ContentPack)
 
 
 def write_reel(pack: ContentPack) -> Reel:

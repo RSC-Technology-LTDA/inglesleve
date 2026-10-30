@@ -3,13 +3,13 @@ name: Publicação diária
 on:
   schedule:
     - cron: "0 15 * * *"   # 12h de Brasília: gera o pacote e publica carrossel + stories
-    - cron: "0 21 * * *"   # 18h de Brasília: publica o story de resposta e o Reel
+    - cron: "0 21 * * *"   # 18h de Brasília: publica o story de resposta e o Reel, coleta métricas (domingo: relatório)
   workflow_dispatch:
     inputs:
       slot:
         description: "Horário a executar"
         type: choice
-        options: [noon, evening, reel, links]
+        options: [noon, evening, reel, links, metrics]
         default: noon
       date:
         description: "Data (AAAA-MM-DD); vazio = hoje"
@@ -87,6 +87,7 @@ jobs:
           git pull --rebase -q && git push -q
 
       - name: Publica no Instagram
+        if: env.SLOT != 'metrics'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -96,10 +97,24 @@ jobs:
           export MEDIA_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/$(git rev-parse HEAD)"
           python publish.py "$SLOT" --date "$DAY" $DRY
 
+      - name: Coleta métricas (e relatório aos domingos)
+        if: always() && (env.SLOT == 'evening' || env.SLOT == 'metrics') && !inputs.dry_run
+        continue-on-error: true  # métricas nunca derrubam a publicação
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_LOGIN: ${{ vars.IG_LOGIN || 'facebook' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          REPORT=""
+          if [ "$SLOT" = "metrics" ] || [ "$(date +%u)" = "7" ]; then REPORT="--report"; fi
+          python metrics.py --date "$DAY" $REPORT
+          if ls reports/insights-$DAY.md >/dev/null 2>&1; then cat "reports/insights-$DAY.md" >> "$GITHUB_STEP_SUMMARY"; fi
+
       - name: Registra o que foi publicado
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/*/published.json 2>/dev/null || true
+          git add output/*/published.json data reports 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Publicado: $DAY ($SLOT)" && git pull --rebase -q && git push -q)

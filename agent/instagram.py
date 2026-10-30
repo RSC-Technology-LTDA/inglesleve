@@ -1,4 +1,4 @@
-"""Cliente mínimo da Instagram API para publicar carrossel, stories e Reels.
+"""Cliente mínimo da Instagram API para publicar carrossel, stories e Reels e ler métricas.
 
 Fluxo da API: cria um "container" por mídia a partir de uma URL pública de JPEG, espera o
 container ficar FINISHED e então publica com media_publish.
@@ -107,6 +107,35 @@ class Instagram:
     def publish_story(self, image_url: str) -> str:
         container = self._call("POST", f"{self.user_id}/media", media_type="STORIES", image_url=image_url)["id"]
         return self._publish(container)
+
+    # Métricas. Seguidores, curtidas e comentários vêm com instagram_basic; alcance, salvamentos,
+    # compartilhamentos e seguidores ganhos por post precisam de instagram_manage_insights.
+    INSIGHTS = {
+        "FEED": "reach,views,saved,shares,likes,comments,total_interactions,follows,profile_visits",
+        "REELS": "reach,views,saved,shares,likes,comments,total_interactions,ig_reels_avg_watch_time",
+        "STORY": "reach,views,replies,shares,follows,profile_visits,navigation",
+    }
+
+    def account(self) -> dict:
+        return self._call("GET", self.user_id, fields="username,followers_count,follows_count,media_count")
+
+    def recent_media(self, limit: int = 50) -> List[dict]:
+        fields = "id,caption,media_type,media_product_type,permalink,timestamp,like_count,comments_count"
+        return self._call("GET", f"{self.user_id}/media", fields=fields, limit=limit).get("data", [])
+
+    def live_stories(self) -> List[dict]:
+        # Stories só aparecem (e só têm métricas) nas 24h em que estão no ar.
+        return self._call("GET", f"{self.user_id}/stories", fields="id,timestamp,permalink").get("data", [])
+
+    def media_insights(self, media_id: str, product_type: str) -> dict:
+        data = self._call("GET", f"{media_id}/insights", metric=self.INSIGHTS.get(product_type, self.INSIGHTS["FEED"]))
+        out = {}
+        for m in data.get("data", []):
+            if m.get("total_value"):
+                out[m["name"]] = m["total_value"].get("value")
+            elif m.get("values"):
+                out[m["name"]] = m["values"][0].get("value")
+        return out
 
 
 def refresh_token(token: str, http: Optional[httpx.Client] = None) -> dict:

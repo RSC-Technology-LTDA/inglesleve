@@ -168,7 +168,30 @@ FORMATS = {
             "acertou?'."
         ),
     },
-    # Fora do calendário (weekday None): só roda com --format.
+    # Fora do calendário (weekday None): só roda com --format ou, o "milestone", quando uma meta é batida.
+    "milestone": {
+        "weekday": None,
+        "label": "Meta de seguidores",
+        "cover": "hero",
+        "brief": (
+            "Post comemorativo da meta de seguidores (o número e a próxima meta vêm no prompt). Festa e "
+            "gratidão, mas ensinando: cover 'hero' com o número no title (ex: '*1.000* obrigados!') e emoji "
+            "🎉; 1 'list' com 4-5 expressões em inglês para comemorar e agradecer (ex: We did it!, I couldn't "
+            "have done it without you); 1 'list' relembrando os 3-4 conteúdos que mais fizeram sucesso (lista "
+            "no prompt, com o termo em inglês e a tradução); 1 'term' com uma palavra de presente; cta pedindo "
+            "para compartilhar com um amigo que quer aprender inglês, rumo à próxima meta."
+        ),
+        "series": "Obrigado!",
+        "stories": (
+            "1 'tip' agradecendo, com o número; 1 'poll' 'Qual foi seu post favorito?' com 2 dos conteúdos "
+            "de sucesso; 1 'question' 'Rumo à próxima meta: o que você quer aprender?' com 3 opções; 1 "
+            "'answer' agradecendo e prometendo o conteúdo mais votado."
+        ),
+        "reel": (
+            "hook com o número (ex: 'Somos *1.000*!'); 2-3 'example' com expressões para comemorar e "
+            "agradecer em inglês; cta 'Rumo aos X: compartilha com um amigo e segue'."
+        ),
+    },
     "welcome": {
         "weekday": None,
         "label": "Boas-vindas",

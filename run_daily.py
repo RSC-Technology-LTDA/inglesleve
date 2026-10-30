@@ -7,6 +7,8 @@ Uso:
   python run_daily.py --from-json samples/sample_pack.json   # só renderiza (sem API)
   python run_daily.py --polish             # aplica os ajustes do revisor ao pacote do dia
   python run_daily.py --add-reel           # escreve só o Reel de um pacote que ainda não tem
+
+Quando uma meta de seguidores é batida (metrics.py), o post do dia seguinte vira o comemorativo.
 """
 
 import argparse
@@ -17,6 +19,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+import metrics
 from agent import planner
 from agent.reel import render_reel
 from agent.render import render
@@ -49,12 +52,12 @@ def write_outputs(out: Path, pack: ContentPack, review_log: list, status: str, b
         print(f"  aviso: não consegui montar o Reel ({e})")
 
 
-def polish(day, fmt, history, brand, pack, verdict, log):
+def polish(day, fmt, history, brand, pack, verdict, log, extra=""):
     """Pacote aprovado com ajustes 'minor': aplica uma vez e só fica com a versão nova se ela também for aprovada."""
     from agent import reviewer, writer
 
     print(f"  polimento: aplicando {len(verdict.issues)} ajuste(s) do revisor…")
-    revised = writer.write(day, fmt, history, brand["handle"], feedback=verdict, previous=pack)
+    revised = writer.write(day, fmt, history, brand["handle"], feedback=verdict, previous=pack, extra=extra)
     new_verdict = reviewer.review(revised)
     log.append({"round": "polish", **new_verdict.model_dump()})
     if new_verdict.approved:
@@ -109,13 +112,27 @@ def main() -> int:
     from agent import reviewer, writer  # importa o SDK só quando vai usar a API
 
     fmt = args.format or planner.format_for(args.date)
+    extra, milestone = "", 0
+    if not args.format:
+        milestone = metrics.pending_milestone()
+    if milestone or fmt == "milestone":
+        from agent import analyst
+
+        milestone = milestone or metrics.reached_milestone()
+        fmt = "milestone"
+        nxt = next((m for m in metrics.MILESTONES if m > milestone), milestone * 2)
+        extra = (
+            f"Meta atingida: {milestone:,} seguidores; próxima meta: {nxt:,} (escreva os números no formato "
+            "brasileiro, com ponto: 1.000, 10.000, 1 milhão).".replace(",", ".")
+            + "\nConteúdos que mais fizeram sucesso: " + ("; ".join(analyst.top_themes()) or "(sem dados: use os temas recentes)")
+        )
     history = planner.load_history()
-    print(f"{args.date} · formato: {fmt}")
+    print(f"{args.date} · formato: {fmt}" + (f" ({milestone} seguidores)" if milestone else ""))
 
     pack, verdict, log = None, None, []
     for round_no in range(1, MAX_ROUNDS + 1):
         print(f"  rodada {round_no}: escrevendo…")
-        pack = writer.write(args.date, fmt, history, brand["handle"], feedback=verdict, previous=pack)
+        pack = writer.write(args.date, fmt, history, brand["handle"], feedback=verdict, previous=pack, extra=extra)
         print(f"  rodada {round_no}: revisando…")
         verdict = reviewer.review(pack)
         log.append({"round": round_no, **verdict.model_dump()})
@@ -124,12 +141,14 @@ def main() -> int:
             break
 
     if verdict.approved and verdict.issues:
-        pack, verdict = polish(args.date, fmt, history, brand, pack, verdict, log)
+        pack, verdict = polish(args.date, fmt, history, brand, pack, verdict, log, extra)
 
     status = "approved" if verdict.approved else "needs_human_review"
     write_outputs(out, pack, log, status, brand)
     if verdict.approved:
         planner.record(args.date, fmt, pack.theme, pack.terms_used)
+        if milestone:
+            metrics.mark_celebrated(milestone, args.date)
     else:
         print("  ATENÇÃO: não passou no revisor; veja review.json antes de publicar.")
     return 0 if verdict.approved else 2
