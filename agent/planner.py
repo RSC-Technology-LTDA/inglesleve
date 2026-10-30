@@ -6,7 +6,7 @@ from pathlib import Path
 
 HISTORY_PATH = Path(__file__).resolve().parent.parent / "data" / "history.json"
 
-# Um formato por dia da semana (0 = segunda).
+# Formatos por dia da semana (0 = segunda). Dia com mais de um formato alterna a cada semana.
 FORMATS = {
     "reading_challenge": {
         "weekday": 0,
@@ -49,6 +49,18 @@ FORMATS = {
             "Pares que brasileiros confundem: homófonos (night/knight), falsos cognatos "
             "(pretend/fingir), ou singular/plural irregular (person/people). Use slides 'compare' "
             "(2 itens cada) para 2-3 pares, um 'quiz' e o cta."
+        ),
+    },
+    "wrong_right": {
+        "weekday": 3,
+        "label": "Fala certo",
+        "cover": "fix",
+        "brief": (
+            "Erros clássicos de brasileiro em frases do dia a dia, no estilo 'não diga × diga' "
+            "(ex: 'I have 27 years old' × 'I am 27 years old', 'I lost the bus' × 'I missed the bus'). "
+            "A cover já é o primeiro erro (layout 'fix', 2 itens). Depois 4-6 slides 'fix', um erro "
+            "por slide, e o cta. Frases curtas e completas; marque com *asteriscos* só a(s) palavra(s) "
+            "que muda(m) entre a errada e a certa."
         ),
     },
     "word_curiosity": {
@@ -100,8 +112,8 @@ FORMATS = {
 
 
 def format_for(day: date) -> str:
-    wd = day.weekday()
-    return next(name for name, f in FORMATS.items() if f["weekday"] == wd)
+    options = [name for name, f in FORMATS.items() if f["weekday"] == day.weekday()]
+    return options[day.isocalendar().week % len(options)]
 
 
 def load_history() -> list:

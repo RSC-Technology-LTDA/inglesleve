@@ -9,7 +9,7 @@ from typing import List, Literal, Optional
 from pydantic import BaseModel, Field, model_validator
 
 Level = Literal["A1", "A2", "B1", "B2", "C1"]
-Layout = Literal["auto", "statement", "equation", "versus", "grid", "hero", "dark"]
+Layout = Literal["auto", "statement", "equation", "versus", "grid", "hero", "dark", "fix"]
 
 
 class Item(BaseModel):
@@ -24,7 +24,7 @@ class Item(BaseModel):
 
 
 class Slide(BaseModel):
-    kind: Literal["cover", "term", "reading", "list", "compare", "quiz", "cta"]
+    kind: Literal["cover", "term", "reading", "list", "compare", "quiz", "fix", "cta"]
     title: str
     subtitle: str
     body: str = Field(description="Texto corrido (usado em 'reading' e 'cta'); vazio nos outros")

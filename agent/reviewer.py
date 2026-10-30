@@ -16,7 +16,8 @@ Verifique item por item:
 6. Estrutura: slides dentro dos limites (cover primeiro, cta por último, <=6 itens em 'term', \
 <=5 em 'list', exatamente 2 em 'compare'), textos curtos o bastante para caber em imagem, \
 quiz com uma única resposta correta. Na cover, os itens precisam bater com o layout \
-(equation: 2 + resultado; versus: 2; grid: 4-6; statement: strike preenchido) e cada emoji deve \
+(equation: 2 + resultado; versus: 2; grid: 4-6; statement: strike preenchido; fix: 2). Em 'fix' \
+o 1º item é mesmo um erro comum e o 2º a forma natural, e os *asteriscos* marcam a diferença e cada emoji deve \
 representar bem o termo.
 7. Coerência: stories, legenda e slides falam do mesmo tema; terms_used lista o que foi ensinado.
 8. Reel: existe, começa com 'hook' e termina com 'cta', 4 a 7 cenas; say_en só em inglês e igual \

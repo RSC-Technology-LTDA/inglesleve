@@ -28,6 +28,9 @@ Formato dos slides (campo kind):
 - compare: exatamente 2 itens lado a lado; note explica a diferença.
 - quiz: title é a pergunta; items são as alternativas (en = alternativa, pt = vazio); note com a resposta.
   Não coloque letras nas alternativas ("A)", "B."): o template já numera. Vale também para options dos stories.
+- fix: "não diga × diga". items = exatamente 2: o 1º é a frase errada (en, pt vazio), o 2º a certa \
+(en + tradução em pt). *asteriscos* marcam a(s) palavra(s) que muda(m). note opcional explica em 1 linha. \
+O mascote (coruja em dúvida × coruja feliz) já aparece no template; deixe os emojis vazios.
 - cta: convite para salvar/compartilhar/comentar, no body.
 
 Capa: é o que aparece no grid do perfil, então precisa ser visual e mostrar o conteúdo, não só texto. \
@@ -39,6 +42,7 @@ riscada (ex: "finished"), subtitle completa a ideia (ex: "quando algo *acabar*")
 - grid: vocabulário visual. items = 4 a 6 termos do post (en, pt curtinho, emoji). title de até 5 palavras.
 - hero: uma ilustração grande. items = 1 item cujo emoji resume o tema. title forte de até 6 palavras, subtitle curto.
 - dark: só title e subtitle, fundo escuro (desafio de leitura).
+- fix: a capa é o primeiro "não diga × diga", com os mesmos 2 itens de um slide 'fix' (title pode ficar vazio).
 Marque com *asteriscos* uma palavra-chave do title para destacá-la em cor. Os emojis viram ilustrações 3D: \
 prefira objetos, comidas, animais e rostos concretos que representem o termo (sem bandeiras). \
 Nos slides que não são cover, layout = 'auto' e strike = ''.

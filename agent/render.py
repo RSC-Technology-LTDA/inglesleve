@@ -145,6 +145,7 @@ def cover_layout(slide) -> str:
         "equation": len(slide.items) >= 3 and emojis == len(slide.items),
         "versus": len(slide.items) >= 2 and emojis >= 2,
         "grid": len(slide.items) >= 4,
+        "fix": len(slide.items) >= 2,
         "hero": emojis >= 1 and bool(slide.items[0].emoji.strip()) if slide.items else False,
     }
     return slide.layout if ok.get(slide.layout) else "dark"

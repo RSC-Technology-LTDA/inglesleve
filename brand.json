@@ -35,5 +35,7 @@
       "bg": "#FFF8EE"
     }
   ],
-  "mascot": "assets/mascot/owl.webp"
+  "mascot": "assets/mascot/owl.webp",
+  "mascot_wrong": "assets/mascot/owl_wrong.webp",
+  "mascot_right": "assets/mascot/owl_right.webp"
 }

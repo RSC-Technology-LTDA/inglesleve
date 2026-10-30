@@ -1,0 +1,42 @@
+{# Errado × certo: metade de cima com a frase errada e a coruja em dúvida, embaixo a certa com a coruja feliz.
+   items[0] = errado, items[1] = certo (com a tradução em pt). *asteriscos* marcam a palavra que muda. #}
+{% set bad, good = slide.items[0], slide.items[1] %}
+{% macro size(text) %}{% set n = text.replace('*', '')|length %}{{ 108 if n < 14 else (88 if n < 22 else (70 if n < 32 else 58)) }}{% endmacro %}
+<style>
+.frame.fx { padding: 0; display: grid; grid-template-rows: 1fr 12px 1fr; }
+.fx .half { position: relative; padding: 56px 70px; display: flex; flex-direction: column; overflow: hidden; }
+.fx .bad { background: #FFDCD2; }
+.fx .good { background: #D3F2E8; }
+.fx .bar { background: var(--ink); }
+.fx .chip { align-self: flex-start; display: inline-flex; gap: 12px; align-items: center; padding: 12px 28px; border-radius: 999px; font-size: 32px; font-weight: 800; color: #fff; }
+.fx .bad .chip { background: var(--hot); }
+.fx .good .chip { background: #1F9D55; }
+.fx .txt { flex: 1; display: flex; flex-direction: column; justify-content: center; max-width: 510px; position: relative; z-index: 1; }
+.fx h2 { line-height: 1.05; }
+.fx .bad em { color: var(--hot); }
+.fx .good em { color: #1F9D55; }
+.fx .pt { font-size: 38px; font-weight: 600; margin-top: 18px; color: var(--muted); }
+.fx .why { font-size: 28px; font-weight: 500; margin-top: 14px; color: var(--muted); line-height: 1.3; }
+.fx .owl { position: absolute; right: 14px; bottom: -6px; height: 610px; filter: drop-shadow(0 14px 20px rgb(0 0 0 / .14)); }
+.fx .good .owl { height: 580px; }
+.fx .meta { font-size: 26px; font-weight: 700; color: var(--muted); }
+.fx .swipe { font-size: 32px; }
+</style>
+<div class="frame fx">
+  <div class="half bad">
+    <span class="chip">✕ Não diga</span>
+    <div class="txt"><h2 class="display" style="font-size: {{ size(bad.en) }}px">{{ bad.en|hl }}</h2></div>
+    {% set owl = mascot(brand.mascot_wrong) %}{% if owl %}<img class="owl" src="{{ owl }}" alt="">{% endif %}
+  </div>
+  <div class="bar"></div>
+  <div class="half good">
+    <span class="chip">✓ Diga</span>
+    <div class="txt">
+      <h2 class="display" style="font-size: {{ size(good.en) }}px">{{ good.en|hl }}</h2>
+      {% if good.pt %}<div class="pt">{{ good.pt }}</div>{% endif %}
+      {% if slide.note %}<div class="why">{{ slide.note }}</div>{% endif %}
+    </div>
+    <div class="meta">{% if slide.kind == 'cover' %}<span class="swipe">arrasta →</span>{% else %}@{{ brand.handle }} · {{ index }}/{{ total }}{% endif %}</div>
+    {% set owl = mascot(brand.mascot_right) %}{% if owl %}<img class="owl" src="{{ owl }}" alt="">{% endif %}
+  </div>
+</div>

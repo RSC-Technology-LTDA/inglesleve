@@ -72,6 +72,9 @@
 </style>
 </head>
 <body class="{{ slide.kind }}{% if slide.kind == 'cover' %} L-{{ cover_layout }}{% endif %}">
+{% if slide.kind == 'fix' or cover_layout == 'fix' %}
+{% include "fix.html.j2" %}
+{% else %}
 <div class="frame">
   <div class="top">
     <span class="flag"><span class="dot"></span>{{ brand.name }}</span>
@@ -158,5 +161,6 @@
     <div class="foot"><span>@{{ brand.handle }}</span><span>{{ format_label }}</span></div>
   {% endif %}
 </div>
+{% endif %}
 </body>
 </html>
