@@ -11,6 +11,7 @@
 .chip.wrong { background: var(--hot); }
 .chip.right { background: #1F9D55; }
 .emo { --s: {{ 460 if scene.kind in ['hook', 'cta'] else 360 }}px; margin-bottom: 50px; }
+.talker { width: 470px; height: 604px; margin-bottom: 26px; }  /* a coruja falando entra aqui no vídeo */
 .owl { height: 560px; margin-bottom: 30px; filter: drop-shadow(0 14px 20px rgb(0 0 0 / .14)); }
 h1 { font-size: {{ size }}px; }
 .hook h1, .cta h1 { line-height: 1.04; }
@@ -28,7 +29,8 @@ h1 { font-size: {{ size }}px; }
     {% if scene.kind == 'wrong' %}<div class="chip wrong">✕ Brasileiro diz</div>
     {% elif scene.kind == 'right' %}<div class="chip right">✓ Nativo diz</div>{% endif %}
     {% set owl = mascot(brand.mascot_wrong if scene.kind == 'wrong' else (brand.mascot_right if scene.kind == 'right' else '')) %}
-    {% if owl %}<img class="owl" src="{{ owl }}" alt="">
+    {% if talk %}<div class="talker"></div>
+    {% elif owl %}<img class="owl" src="{{ owl }}" alt="">
     {% elif scene.emoji %}<div class="emo">{{ emoji(scene.emoji) }}</div>{% endif %}
     {% if scene.kind == 'wrong' %}
     <h1 class="display"><span class="strike">{{ scene.title|hl }}</span></h1>
