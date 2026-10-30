@@ -22,6 +22,7 @@ from agent.instagram import Instagram, InstagramError
 ROOT = Path(__file__).resolve().parent
 METRICS_PATH = ROOT / "data" / "metrics.json"
 MILESTONES_PATH = ROOT / "data" / "milestones.json"
+AUDIENCE_PATH = ROOT / "data" / "audience.json"
 MILESTONES = [1_000, 5_000, 10_000, 50_000, 100_000, 500_000, 1_000_000]
 
 
@@ -93,6 +94,26 @@ def collect(ig: Instagram, today: date) -> dict:
     return data
 
 
+def collect_audience(ig: Instagram, today: date) -> dict:
+    """Seguidores por país, estado, cidade, idade e gênero (o estado é somado a partir das cidades)."""
+    audience = {"date": today.isoformat()}
+    for breakdown in ("country", "city", "age", "gender"):
+        try:
+            audience[breakdown] = ig.follower_demographics(breakdown)
+        except InstagramError as err:
+            print(f"aviso: sem dados de seguidores por {breakdown}: {err}")
+            return {}
+    states = {}
+    for city, n in audience["city"].items():
+        state = city.rsplit(", ", 1)[-1].replace(" (state)", "") if ", " in city else "?"
+        states[state] = states.get(state, 0) + n
+    audience["state"] = dict(sorted(states.items(), key=lambda kv: -kv[1]))
+    save(AUDIENCE_PATH, audience)
+    top = ", ".join(f"{k} {v}" for k, v in list(audience["state"].items())[:3])
+    print(f"público salvo em {AUDIENCE_PATH.relative_to(ROOT)} (estados: {top})")
+    return audience
+
+
 def check_milestones(followers: int, today: date) -> list:
     """Meta nova atingida → fica 'pending' até o post comemorativo sair."""
     state = load(MILESTONES_PATH, {})
@@ -137,6 +158,7 @@ def main() -> int:
     ig = Instagram(os.environ["IG_ACCESS_TOKEN"], os.getenv("IG_USER_ID") or None)
     data = collect(ig, args.date)
     check_milestones(data["followers"][-1]["followers"], args.date)
+    collect_audience(ig, args.date)
     if args.report:
         from agent import analyst
 

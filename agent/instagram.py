@@ -137,6 +137,17 @@ class Instagram:
                 out[m["name"]] = m["values"][0].get("value")
         return out
 
+    def follower_demographics(self, breakdown: str) -> dict:
+        """Seguidores por country, city, age ou gender (precisa de 100+ seguidores e instagram_manage_insights)."""
+        data = self._call("GET", f"{self.user_id}/insights", metric="follower_demographics", period="lifetime",
+                          metric_type="total_value", breakdown=breakdown)
+        out = {}
+        for metric in data.get("data", []):
+            for b in metric.get("total_value", {}).get("breakdowns", []):
+                for r in b.get("results", []):
+                    out[", ".join(r["dimension_values"])] = r["value"]
+        return dict(sorted(out.items(), key=lambda kv: -kv[1]))
+
     # Comentários (precisa de instagram_manage_comments).
     def comments(self, media_id: str) -> List[dict]:
         fields = "id,text,username,timestamp,like_count,replies{id,username}"

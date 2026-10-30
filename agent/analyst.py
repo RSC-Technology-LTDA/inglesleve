@@ -17,6 +17,7 @@ from .llm import ask
 
 ROOT = Path(__file__).resolve().parent.parent
 INSIGHTS_PATH = ROOT / "data" / "insights.json"
+AUDIENCE_PATH = ROOT / "data" / "audience.json"
 REPORTS = ROOT / "reports"
 
 
@@ -100,9 +101,35 @@ def build_prompt(data: dict, day: date) -> str:
         "Formatos (dia 0 = segunda):\n" + json.dumps(formats, ensure_ascii=False),
         "Posts das últimas 4 semanas e médias por tipo/formato:\n" + json.dumps(table(data, day), ensure_ascii=False, indent=1),
     ]
+    audience = _audience()
+    if audience:
+        short = {k: dict(list(v.items())[:10]) for k, v in audience.items() if isinstance(v, dict)}
+        parts.append("Quem segue a página (top 10 de cada; estado somado das 45 maiores cidades):\n" + json.dumps(short, ensure_ascii=False))
     if previous:
         parts.append("Análise anterior (veja se as sugestões funcionaram):\n" + json.dumps(previous, ensure_ascii=False))
     return "\n\n".join(parts)
+
+
+def _audience() -> dict:
+    return json.loads(AUDIENCE_PATH.read_text(encoding="utf-8")) if AUDIENCE_PATH.exists() else {}
+
+
+def audience_markdown(audience: dict, followers: int) -> List[str]:
+    """Tabelas de público, calculadas direto dos números (sem passar pelo modelo)."""
+    if not audience:
+        return []
+    names = {"country": "País", "state": "Estado", "city": "Cidade", "age": "Idade", "gender": "Gênero"}
+    labels = {"F": "Mulheres", "M": "Homens", "U": "Não informado"}
+    lines = ["## Quem segue a página", ""]
+    for key in ("country", "state", "city", "age", "gender"):
+        rows = list(audience.get(key, {}).items())[:10]
+        if not rows:
+            continue
+        lines += [f"**{names[key]}**", "", f"| {names[key]} | Seguidores | % |", "|---|---:|---:|"]
+        lines += [f"| {labels.get(k, k) if key == 'gender' else k} | {v} | {100 * v / followers:.0f}% |" for k, v in rows]
+        lines.append("")
+    lines += ["Estado e cidade cobrem só as 45 cidades com mais seguidores (limite da API).", ""]
+    return lines
 
 
 def to_markdown(ins: Insights, day: date, data: dict) -> str:
@@ -115,6 +142,7 @@ def to_markdown(ins: Insights, day: date, data: dict) -> str:
     lines += ["", "## Sugestões"]
     lines += [f"{i}. **[{r.area}] {r.change}**  \n   {r.why}" for i, r in enumerate(ins.recommendations, 1)]
     lines += ["", "## Já aplicado no redator", *[f"- {t}" for t in ins.writer_tips], "", "## Teste da semana", ins.experiment, ""]
+    lines += audience_markdown(_audience(), f[-1]["followers"])
     return "\n".join(lines)
 
 
