@@ -1,0 +1,82 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[6].items[2]",
+        "problem": "No gabarito, o campo 'en' traz a palavra em português ('3. Surtou'), mas a pronúncia 'FRIKT ÁUT' é de 'freaked out'. No slide, a pronúncia aparece colada a uma palavra em português, o que confunde o aluno e quebra o padrão en/pt dos outros itens.",
+        "fix": "Trocar para en: '3. freaked out', pt: 'surtou (freak out = surtar, pirar)' e manter a pronúncia 'FRIKT ÁUT'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items",
+        "problem": "A capa mostra ghost, bat e candy, mas nenhuma dessas palavras é cobrada no quiz nem no reel. A capa promete um conteúdo que o post não entrega.",
+        "fix": "Substituir por termos realmente cobrados, como relatives, jack-o'-lantern e grab a bite. Outra opção é manter só pumpkin, snack e freak out e completar com relatives e jack-o'-lantern."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "A lista inclui ghost, bat e candy, que não foram ensinados (só aparecem na capa). Também falta 'take a bite', que é explicado no gabarito e na legenda.",
+        "fix": "Remover ghost, bat e candy (ou ensiná-los de fato) e adicionar 'take a bite'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[0].pronunciation",
+        "problem": "'RÉ-la-tivs': o 's' final de relatives soa como /z/.",
+        "fix": "Usar 'RÉ-la-tivz'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "Em 'Can I take a bite? = Me dá uma mordida?', a tradução está ok no sentido, mas a forma literal ajuda mais um aluno A2.",
+        "fix": "Usar 'Can I take a bite? = Posso dar uma mordida?'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].options",
+        "problem": "A opção 'Roupa de festa' fica um pouco próxima de 'costume' (traje), o que pode gerar contestação.",
+        "fix": "Trocar por um distrator claramente errado, como 'Costela' ou 'Custo'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[7].body",
+        "problem": "O texto do CTA está longo para caber confortavelmente numa imagem.",
+        "fix": "Encurtar para: 'Comenta seu placar de 0 a 5 👇 Salva e manda pro amigo que estuda com você!'"
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural (relatives, snack, freaked out, jack-o'-lantern, grab a bite), cada quiz tem uma única resposta certa, os stories seguem o roteiro e o reel está bem estruturado, com toda question seguida de reveal e say_en batendo com a tela. O único problema que impede a aprovação é o item 3 do gabarito: o campo em inglês está em português ('Surtou') e a pronúncia de 'freaked out' fica associada à palavra errada. Os demais pontos são ajustes de coerência (capa e terms_used com palavras não ensinadas) e de estilo."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[0].items[5]",
+        "problem": "'costume' aparece na capa, mas não é cobrado em nenhum slide do quiz nem no gabarito; só aparece nos stories. Isso gera uma leve incoerência com o '5 perguntas' do carrossel.",
+        "fix": "Troque 'costume' na capa por outro termo do quiz ou deixe a capa com os 5 itens cobrados (o grid aceita 4 a 6)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[5].pronunciation",
+        "problem": "'KÓS-tum' se aproxima mais do britânico. No inglês americano a vogal tônica é /ɑ/, mais aberta.",
+        "fix": "Usar 'KÁS-tum' (ou 'KÁS-tchum'), que fica mais fiel ao som americano."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[3].body",
+        "problem": "'hábito é habit' está correto. Porém o falso cognato clássico de 'costume' (PT) é 'custom', o que tornaria a dica mais completa.",
+        "fix": "Sugestão: \"'Costume' = fantasia (costume/hábito = 'habit' ou 'custom')\"."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'freaked out' duplica 'freak out', e o tema promete Halloween, mas no feed só há um item temático (jack-o'-lantern).",
+        "fix": "Remover 'freaked out' de terms_used. Opcionalmente, incluir mais um item de Halloween no quiz."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural (relatives, snack, freak out, jack-o'-lantern, grab a bite / take a bite). Os quizzes têm resposta única e o gabarito fica no penúltimo slide, como diz a legenda. Os stories seguem o formato: question com 3 opções, guess com emoji e 8 letras certas para 'skeleton', e o answer responde a todas. O reel tem 8 cenas, hook→cta, cada question é seguida de reveal e o say_en bate com a tela. Há apenas ajustes menores de coerência da capa, pronúncia americana de 'costume' e terms_used. Aprovado."
+  }
+]

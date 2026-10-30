@@ -1,0 +1,438 @@
+{
+  "format": "weekly_quiz",
+  "theme": "Quiz da semana: Halloween, freak out e falsos amigos",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Quiz da *semana*",
+      "subtitle": "Você lembra de tudo?",
+      "body": "",
+      "items": [
+        {
+          "en": "relatives",
+          "pt": "parentes",
+          "pronunciation": "RÉ-la-tivz",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👨‍👩‍👧"
+        },
+        {
+          "en": "snack",
+          "pt": "lanchinho",
+          "pronunciation": "SNÉK",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍪"
+        },
+        {
+          "en": "freak out",
+          "pt": "surtar",
+          "pronunciation": "FRIK ÁUT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "😱"
+        },
+        {
+          "en": "jack-o'-lantern",
+          "pt": "abóbora com vela",
+          "pronunciation": "DJÉK-o-LÉN-tern",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎃"
+        },
+        {
+          "en": "grab a bite",
+          "pt": "comer algo",
+          "pronunciation": "GRÉB a BÁIT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍔"
+        },
+        {
+          "en": "costume",
+          "pt": "fantasia",
+          "pronunciation": "KÓS-tum",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎭"
+        }
+      ],
+      "note": "",
+      "layout": "grid",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Como se diz 'parentes' (tios, primos)?",
+      "subtitle": "Pergunta 1",
+      "body": "",
+      "items": [
+        {
+          "en": "parents",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "relatives",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "cousins only",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Anota sua resposta! Gabarito no fim 👀",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Qual é o 'lanchinho' da tarde?",
+      "subtitle": "Pergunta 2",
+      "body": "",
+      "items": [
+        {
+          "en": "lunch",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "snack",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "dinner",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Anota sua resposta! Gabarito no fim 👀",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "'He freaked out.' O que ele fez?",
+      "subtitle": "Pergunta 3",
+      "body": "",
+      "items": [
+        {
+          "en": "Ficou calmo",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Surtou",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Foi embora",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Anota sua resposta! Gabarito no fim 👀",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Abóbora esculpida com vela dentro é…",
+      "subtitle": "Pergunta 4",
+      "body": "",
+      "items": [
+        {
+          "en": "pumpkin pie",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "jack-o'-lantern",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "haunted house",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Anota sua resposta! Gabarito no fim 👀",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "'Vamos comer algo rapidinho?'",
+      "subtitle": "Pergunta 5",
+      "body": "",
+      "items": [
+        {
+          "en": "Wanna grab a bite?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Wanna take a bite?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Wanna catch a food?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Última! Gabarito no próximo slide 👉",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Gabarito ✅",
+      "subtitle": "Confere aí quantas você acertou",
+      "body": "",
+      "items": [
+        {
+          "en": "1. relatives",
+          "pt": "parentes (parents = pais)",
+          "pronunciation": "RÉ-la-tivz",
+          "example_en": "All my relatives came for dinner.",
+          "example_pt": "Todos os meus parentes vieram jantar.",
+          "emoji": "👨‍👩‍👧"
+        },
+        {
+          "en": "2. snack",
+          "pt": "lanchinho (lunch = almoço)",
+          "pronunciation": "SNÉK",
+          "example_en": "I need a snack.",
+          "example_pt": "Preciso de um lanchinho.",
+          "emoji": "🍪"
+        },
+        {
+          "en": "3. freaked out",
+          "pt": "surtou (freak out = surtar, pirar)",
+          "pronunciation": "FRIKT ÁUT",
+          "example_en": "She freaked out when she saw the spider.",
+          "example_pt": "Ela surtou quando viu a aranha.",
+          "emoji": "😱"
+        },
+        {
+          "en": "4. jack-o'-lantern",
+          "pt": "abóbora de Halloween com vela",
+          "pronunciation": "DJÉK-o-LÉN-tern",
+          "example_en": "Let's carve a jack-o'-lantern.",
+          "example_pt": "Bora esculpir uma abóbora de Halloween.",
+          "emoji": "🎃"
+        },
+        {
+          "en": "5. Wanna grab a bite?",
+          "pt": "Bora comer algo rapidinho?",
+          "pronunciation": "GRÉB a BÁIT",
+          "example_en": "Wanna grab a bite after work?",
+          "example_pt": "Bora comer algo depois do trabalho?",
+          "emoji": "🍔"
+        }
+      ],
+      "note": "'Take a bite' existe, mas é 'dar uma mordida'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Quantas você acertou?",
+      "subtitle": "Conta nos comentários!",
+      "body": "Comenta seu placar de 0 a 5 👇 Salva e manda pro amigo que estuda com você!",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Quiz da semana! Você lembra do que aprendeu nos últimos dias? 🎃\n\n5 perguntas rapidinhas sobre Halloween, freak out e aqueles falsos amigos que confundem todo mundo. Anota as respostas e confere o gabarito no penúltimo slide.\n\nBônus: lembra da pegadinha 'take a bite'? Ela existe, mas é 'dar uma mordida'. Ex: Can I take a bite? = Posso dar uma mordida? 😋\n\nE aí, quantas você acertou de 5? Conta aqui embaixo 👇",
+  "hashtags": [
+    "inglesleve",
+    "quizdeingles",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "inglesfacil",
+    "vocabularioingles",
+    "halloween",
+    "falsoscognatos",
+    "dicasdeingles",
+    "inglesbasico",
+    "inglesdodiaadia"
+  ],
+  "stories": [
+    {
+      "kind": "question",
+      "headline": "O que significa 'costume' em inglês?",
+      "body": "Responde no DM! Resposta às 18h 👀",
+      "options": [
+        "Costume, hábito",
+        "Fantasia",
+        "Custo"
+      ],
+      "answer": "Fantasia",
+      "emoji": "🎭"
+    },
+    {
+      "kind": "truefalse",
+      "headline": "'My folks' é um jeito informal de dizer 'meus pais'.",
+      "body": "Verdadeiro ou falso? Manda no DM!",
+      "options": [],
+      "answer": "Verdadeiro: 'my folks' é bem casual e quer dizer meus pais (ou minha família).",
+      "emoji": "👨‍👩‍👦"
+    },
+    {
+      "kind": "guess",
+      "headline": "Que palavra é essa?",
+      "body": "_ _ _ _ _ _ _ _ · 8 letras · Manda no DM!",
+      "options": [],
+      "answer": "skeleton",
+      "emoji": "💀"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje ✅",
+      "body": "1) 'Costume' = fantasia (hábito é 'habit'). 2) Verdadeiro: 'my folks' = meus pais. 3) 💀 = skeleton (esqueleto).",
+      "options": [],
+      "answer": "Fantasia · Verdadeiro · skeleton",
+      "emoji": ""
+    }
+  ],
+  "terms_used": [
+    "relatives",
+    "parents",
+    "snack",
+    "lunch",
+    "freak out",
+    "freaked out",
+    "jack-o'-lantern",
+    "grab a bite",
+    "take a bite",
+    "costume",
+    "my folks",
+    "skeleton"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Acerta as *3*?",
+        "text": "Quiz relâmpago de inglês",
+        "emoji": "⚡",
+        "say_pt": "Quiz relâmpago! Acerta as três?",
+        "say_en": ""
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz 'parentes'?",
+        "text": "parents | relatives",
+        "emoji": "",
+        "say_pt": "Como se diz parentes, tipo tios e primos?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "relatives",
+        "text": "parentes (parents = pais)",
+        "emoji": "👨‍👩‍👧",
+        "say_pt": "Parents é pais!",
+        "say_en": "relatives"
+      },
+      {
+        "kind": "question",
+        "title": "'Lanchinho' em inglês?",
+        "text": "lunch | snack",
+        "emoji": "",
+        "say_pt": "E lanchinho da tarde?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "snack",
+        "text": "lanchinho (lunch = almoço)",
+        "emoji": "🍪",
+        "say_pt": "Lunch é almoço!",
+        "say_en": "snack"
+      },
+      {
+        "kind": "question",
+        "title": "'Surtar' em inglês?",
+        "text": "freak out | figure out",
+        "emoji": "",
+        "say_pt": "Última: como se diz surtar?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "freak out",
+        "text": "surtar, pirar",
+        "emoji": "😱",
+        "say_pt": "Isso aí!",
+        "say_en": "freak out"
+      },
+      {
+        "kind": "cta",
+        "title": "Quantas você *acertou*?",
+        "text": "",
+        "emoji": "🏆",
+        "say_pt": "Comenta quantas acertou e segue pra aprender mais!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Quiz relâmpago: acerta as 3 sem pausar? ⚡ Comenta seu placar aqui embaixo!"
+  }
+}
