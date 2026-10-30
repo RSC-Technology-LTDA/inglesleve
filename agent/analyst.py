@@ -114,7 +114,7 @@ def _audience() -> dict:
     return json.loads(AUDIENCE_PATH.read_text(encoding="utf-8")) if AUDIENCE_PATH.exists() else {}
 
 
-def audience_markdown(audience: dict, followers: int) -> List[str]:
+def audience_markdown(audience: dict) -> List[str]:
     """Tabelas de público, calculadas direto dos números (sem passar pelo modelo)."""
     if not audience:
         return []
@@ -122,13 +122,15 @@ def audience_markdown(audience: dict, followers: int) -> List[str]:
     labels = {"F": "Mulheres", "M": "Homens", "U": "Não informado"}
     lines = ["## Quem segue a página", ""]
     for key in ("country", "state", "city", "age", "gender"):
-        rows = list(audience.get(key, {}).items())[:10]
+        values = audience.get(key, {})
+        rows, total = list(values.items())[:10], sum(values.values())
         if not rows:
             continue
         lines += [f"**{names[key]}**", "", f"| {names[key]} | Seguidores | % |", "|---|---:|---:|"]
-        lines += [f"| {labels.get(k, k) if key == 'gender' else k} | {v} | {100 * v / followers:.0f}% |" for k, v in rows]
+        lines += [f"| {labels.get(k, k) if key == 'gender' else k} | {v} | {100 * v / total:.0f}% |" for k, v in rows]
         lines.append("")
-    lines += ["Estado e cidade cobrem só as 45 cidades com mais seguidores (limite da API).", ""]
+    lines += ["% sobre os seguidores com o dado informado. Estado e cidade cobrem só as 45 cidades com mais "
+              "seguidores (limite da API).", ""]
     return lines
 
 
@@ -142,7 +144,7 @@ def to_markdown(ins: Insights, day: date, data: dict) -> str:
     lines += ["", "## Sugestões"]
     lines += [f"{i}. **[{r.area}] {r.change}**  \n   {r.why}" for i, r in enumerate(ins.recommendations, 1)]
     lines += ["", "## Já aplicado no redator", *[f"- {t}" for t in ins.writer_tips], "", "## Teste da semana", ins.experiment, ""]
-    lines += audience_markdown(_audience(), f[-1]["followers"])
+    lines += audience_markdown(_audience())
     return "\n".join(lines)
 
 
