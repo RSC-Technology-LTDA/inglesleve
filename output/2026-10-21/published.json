@@ -1,10 +1,11 @@
 {
   "noon": {
-    "carousel": null,
+    "carousel": "18195833668396503",
     "stories": {
       "story_01.jpg": "skipped",
       "story_02.jpg": "skipped",
-      "story_03.jpg": "skipped"
+      "story_03.jpg": "skipped",
+      "story_04.jpg": "18116609744116576"
     }
   }
 }
