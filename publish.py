@@ -12,6 +12,9 @@
   python publish.py reel ...
       Só o Reel, fora de hora (o story de resposta continua para as 18h).
 
+  python publish.py links --date 2026-10-30
+      Não publica nada: busca o link (permalink) do carrossel e do Reel já publicados.
+
 --dry-run confere arquivos e URLs sem publicar. O que já foi publicado fica em
 output/<data>/published.json, então rodar de novo não duplica posts.
 """
@@ -28,7 +31,7 @@ import httpx
 from dotenv import load_dotenv
 from PIL import Image
 
-from agent.instagram import Instagram
+from agent.instagram import Instagram, InstagramError
 from agent.schemas import ContentPack
 
 ROOT = Path(__file__).resolve().parent
@@ -80,10 +83,25 @@ def story_names(pack: ContentPack, evening: bool) -> list:
     return [f"story_{i:02d}.jpg" for i, s in enumerate(pack.stories, 1) if (s.kind == "answer") == evening]
 
 
+def fill_links(ig: Instagram, state: dict) -> None:
+    """Guarda em published.json o link do carrossel e do Reel (stories não têm link público)."""
+    for slot, data in state.items():
+        links = data.setdefault("links", {})
+        for kind in ("carousel", "reel"):
+            if data.get(kind) and kind not in links:
+                try:
+                    links[kind] = ig._call("GET", data[kind], fields="permalink")["permalink"]
+                except (InstagramError, KeyError) as err:
+                    print(f"sem link para {kind} ({slot}): {err}")
+                    continue
+            if kind in links:
+                print(f"{kind} ({slot}): {links[kind]}")
+
+
 def main() -> int:
     load_dotenv(ROOT / ".env")
     ap = argparse.ArgumentParser()
-    ap.add_argument("slot", choices=["prepare", "noon", "evening", "reel"])
+    ap.add_argument("slot", choices=["prepare", "noon", "evening", "reel", "links"])
     ap.add_argument("--date", type=date.fromisoformat, default=date.today())
     ap.add_argument("--base-url", default=os.getenv("MEDIA_BASE_URL"))
     ap.add_argument("--dry-run", action="store_true")
@@ -95,6 +113,11 @@ def main() -> int:
         return 1
     if args.slot == "prepare":
         prepare(out)
+        return 0
+    if args.slot == "links":
+        state = load_state(out)
+        fill_links(Instagram(os.environ["IG_ACCESS_TOKEN"], os.getenv("IG_USER_ID") or None), state)
+        save_state(out, state)
         return 0
 
     status = (out / "STATUS").read_text(encoding="utf-8").strip()
@@ -156,6 +179,7 @@ def main() -> int:
             reel_caption = f"{pack.reel.caption}\n\n{hashtags}".strip()
             slot_state["reel"] = ig.publish_reel(reel, reel_caption, url_for(args.base_url, out, cover) if cover else "")
             print(f"Reel publicado: {slot_state['reel']}")
+        fill_links(ig, state)
     finally:
         save_state(out, state)
     return 0

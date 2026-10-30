@@ -9,7 +9,7 @@ on:
       slot:
         description: "Horário a executar"
         type: choice
-        options: [noon, evening, reel]
+        options: [noon, evening, reel, links]
         default: noon
       date:
         description: "Data (AAAA-MM-DD); vazio = hoje"
