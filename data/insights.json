@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-30",
+  "summary": "Não é possível medir o crescimento da semana. Há só um registro de seguidores (835 em 30/10, 21 posts), e alcance, seguidores ganhos, compartilhamentos e salvamentos vieram vazios em todos os posts. Por isso não dá para dizer o que trouxe seguidores. O único sinal é curtidas, numa amostra muito pequena (1 post por formato). Os posts automáticos tiveram de 1 a 8 curtidas. Os 15 posts manuais de 27/10 tiveram média de 17,4, mas o conteúdo deles é desconhecido e não dá para comparar. A operação também não seguiu o plano: só 2 Reels em 4 semanas, vários dias sem post e formatos fora do dia previsto (ex.: quiz numa quinta).",
+  "best": [
+    "29/10 · reel · falsos amigos (push x pull): 8 curtidas, o maior entre os automáticos. O gancho 'Push não é puxar' cita a palavra e contraria o que o brasileiro acha. O carrossel do mesmo tema teve metade.",
+    "21/10 · carrossel · 6 erros clássicos de brasileiro (wrong_right): 6 curtidas e o único comentário entre os carrosséis. O tema 'erro que você comete' gera identificação.",
+    "20/10 · carrossel · frases na farmácia (situation_phrases): 4 curtidas. O gancho 'Doente nos EUA?' traz uma situação concreta. Ressalva: as curtidas medem engajamento, não conversão, que não foi medida."
+  ],
+  "worst": [
+    "22/10 · reel · quiz da semana: 1 curtida. O gancho 'Acerta as 3?' é genérico, não diz sobre o quê, e o quiz saiu numa quinta em vez de domingo.",
+    "29/10 · carrossel · falsos amigos: 4 curtidas contra 8 do Reel com o mesmo conteúdo. O gancho 'Não confunda' só repete o nome do formato e não dá motivo para parar.",
+    "30/10 · carrossel · fall x autumn: 3 curtidas, mas foi publicado no dia da coleta e ainda não teve tempo de rodar. Não dá para julgar ainda; o tema é curiosidade, não erro."
+  ],
+  "recommendations": [
+    {
+      "area": "crescimento",
+      "change": "Antes de qualquer ajuste de conteúdo, corrigir a coleta. Puxar reach, follows, shares, saved e retenção de Reel pela API de Insights (exige conta Business/Criador e permissão instagram_manage_insights) 48h após cada post. Gravar o total de seguidores todo dia no mesmo horário.",
+      "why": "follows_per_1k_reach, shares_per_1k_reach e saves_per_1k_reach estão nulos em 100% dos posts, e há só 1 ponto de seguidores (835). A métrica principal, conversão, hoje é invisível."
+    },
+    {
+      "area": "reel",
+      "change": "Garantir o Reel diário às 18h, sem pular dias, e auditar por que o pipeline falhou de 23 a 28/10. Reel e carrossel do dia devem sair juntos, no formato certo do dia.",
+      "why": "Só 2 Reels em 4 semanas, e o Reel de 29/10 teve 2x as curtidas do carrossel com o mesmo tema (8 x 4). O Reel é o principal canal para não seguidores, e sem volume não há o que comparar."
+    },
+    {
+      "area": "gancho",
+      "change": "Trocar ganchos genéricos por uma afirmação contra-intuitiva com a palavra em inglês. Exemplos: 'Pretend não é pretender', 'Actually não é atualmente', 'Exquisite não é esquisito'. Proibir o nome do formato ou pergunta vaga como gancho.",
+      "why": "Mesmo tema em 29/10: 'Push não é puxar' teve 8 curtidas e 'Não confunda' teve 4. 'Acerta as 3?' teve 1. É uma amostra mínima, mas a direção é coerente."
+    },
+    {
+      "area": "formato",
+      "change": "Na próxima semana, priorizar o ângulo 'erro de brasileiro' também nos outros formatos. Exemplos: Situação real com '3 frases que brasileiro fala errado no restaurante'; Você sabia? com 'por que brasileiro erra X'.",
+      "why": "Os dois melhores automáticos foram 'erro/falso amigo': wrong_right (6 curtidas + 1 comentário) e reel confusing_pairs (8). Curiosidade pura (fall x autumn) e quiz ficaram em 3 e 1. Com n=1 por formato, é hipótese a validar."
+    },
+    {
+      "area": "legenda",
+      "change": "Fechar toda legenda e todo último slide com um CTA de compartilhamento específico ('Manda pra quem ainda fala push achando que é puxar'). Logo depois, CTA de seguir com promessa clara ('Siga @inglesleve.br: 1 erro corrigido por dia').",
+      "why": "Não há nenhum compartilhamento ou salvamento medido, e só 4 comentários nos 8 posts automáticos. Pedir a ação certa é a forma mais barata de gerar os sinais que levam o post a não seguidores."
+    },
+    {
+      "area": "crescimento",
+      "change": "Descobrir o que eram os 15 posts manuais de 27/10 (fotos, rosto, conteúdo antigo?). Não publicar mais de 2 no feed no mesmo dia.",
+      "why": "Média de 17,4 curtidas contra 1–8 dos automáticos, mas todos saíram no mesmo dia, sem tema registrado. Se o conteúdo deles performa melhor, vale incorporar o estilo; se foi efeito de importação, é ruído."
+    }
+  ],
+  "writer_tips": [
+    "Gancho = palavra em inglês + afirmação que contraria o senso comum (ex.: 'Actually não é atualmente'). Nunca use o nome do formato como gancho.",
+    "Sempre enquadre como erro de brasileiro: mostre ❌ o que falamos e ✅ o que o nativo fala, lado a lado.",
+    "Um exemplo de frase real por palavra, do dia a dia (mercado, trabalho, viagem), nada de definição de dicionário.",
+    "Último slide e fim da legenda: 'Manda pra quem ainda erra isso' + 'Siga @inglesleve.br para 1 erro corrigido por dia'.",
+    "Quiz e perguntas só com o tema explícito no gancho (ex.: 'Push ou pull na porta? 90% erra')."
+  ],
+  "experiment": "Teste de gancho no Reel de quinta (Não confunda): publicar o mesmo vídeo duas vezes como Trial Reel (mostrado só a não seguidores), mudando apenas a primeira tela. A: 'Pretend não é pretender'. B: 'Não confunda: pretend x intend'. Após 48h, comparar seguidores ganhos por 1.000 de alcance (métrica decisiva), retenção nos 3 primeiros segundos e compartilhamentos por 1.000. Só vale se a coleta de Insights estiver corrigida antes. A versão vencedora vira padrão de gancho na semana seguinte."
+}
