@@ -1,0 +1,131 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "reel.scenes[1].kind",
+        "problem": "A cena usa o tipo 'wrong' para 'autumn', o que deve marcá-la visualmente como erro (X vermelho). Só que 'autumn' está correto e é usado nos EUA, e o próprio carrossel diz 'Os dois estão certos'. Ensinar que 'autumn' é errado é factualmente enganoso e contradiz o post.",
+        "fix": "Troque o kind para 'term' (ou um tipo neutro de comparação) e use o texto 'certo, mas mais britânico/formal'. Outra opção é manter 'wrong' só se a tela deixar claro que não é um erro, por exemplo com o título 'Autumn ✔️ (mais britânico)'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].pronunciation / feed[2].items[1].pronunciation",
+        "problem": "'Ó-dum' reproduz a pronúncia americana, com o T flapeado. Mas o item está rotulado como 'Reino Unido', onde o T é bem pronunciado. Além disso, a vogal final é schwa, mais próxima de 'â' que de 'u'.",
+        "fix": "Use 'Ó-tâm', ou deixe explícito que 'Ó-dâm' é o jeito americano de pronunciar."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].note / stories[1]",
+        "problem": "A frase 'neste domingo, 1º de novembro' depende da data de publicação. O dia 1º/11 cai num domingo em 2026, mas se o post sair em outra semana a informação fica errada. Além disso, Havaí e a maior parte do Arizona não mudam o relógio.",
+        "fix": "Confirme que a publicação será na semana do dia 1º/11/2026. Para algo atemporal, use 'no 1º domingo de novembro' e, se quiser, acrescente 'na maior parte dos EUA'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "O trecho 'Ou seja: uma estação as folhas nascem, na outra elas caem' está agramatical em PT-BR, porque falta a preposição.",
+        "fix": "'Ou seja: numa estação as folhas nascem, na outra elas caem.'"
+      },
+      {
+        "severity": "minor",
+        "location": "stories[3].body",
+        "problem": "Em 'Os melhores eu repostei aqui!', o verbo está no passado, mas a ação é futura.",
+        "fix": "'Os melhores eu reposto aqui!' ou 'Vou repostar os melhores aqui!'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[3].pt",
+        "problem": "'Tempero de abóbora' sugere que o tempero é feito de abóbora. Na verdade, pumpkin spice é a mistura de especiarias usada na torta de abóbora.",
+        "fix": "'mix de especiarias da torta de abóbora (canela, cravo...)'"
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[2].emoji / reel.scenes[4].emoji",
+        "problem": "Os emojis estão inconsistentes. No feed, 🍂 é 'fall' e 🍁 é 'autumn', mas no reel 'Fall' aparece com 🍁. Além disso, ☕ não representa bem 'Fall is my favorite season'.",
+        "fix": "Use 🍂 na cena 'Fall' e 🍂 ou 🍁 na cena de exemplo."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[5].title",
+        "problem": "'Segue pra aprender *um por dia*' fica vago e não concorda com a narração ('uma curiosidade por dia').",
+        "fix": "'Segue pra aprender *uma curiosidade por dia*' ou 'Segue pra aprender *uma por dia*'."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'fall of the leaf' é ensinado no slide de leitura e no reel, mas não aparece na lista.",
+        "fix": "Adicione 'fall of the leaf' (e opcionalmente 'spring', citado na legenda)."
+      }
+    ],
+    "summary": "O pacote é sólido. O inglês dos slides está correto e natural, e a etimologia (fall of the leaf / spring of the leaf, autumn do latim via francês) confere. A estrutura do feed respeita os limites, o quiz tem uma única resposta e o reel tem 6 cenas com hook e cta. O único problema que impede a aprovação é o reel marcar 'autumn' como 'wrong', o que contradiz a mensagem central de que as duas formas estão certas. Corrija isso e ajuste os detalhes menores: a pronúncia britânica de autumn, a data do fall back, os dois erros de português e a consistência dos emojis."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[1].subtitle",
+        "problem": "O subtítulo diz 'Uma curiosidade de 400 anos', mas o corpo situa 'fall of the leaf' 'lá pelos anos 1500', ou seja, uns 500 anos atrás. A forma curta 'fall' é do século XVII, então '400 anos' só vale para ela. Do jeito que está, parece inconsistente.",
+        "fix": "Trocar por 'Uma curiosidade de quase 500 anos' ou 'Uma história que começou nos anos 1500'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].title / say_pt",
+        "problem": "'Americano quase não diz autumn' exagera um pouco. 'Autumn' é usado nos EUA, ainda que em registro mais formal ou poético, como o próprio post explica. Funciona como gancho, mas pode gerar comentários 'corrigindo'.",
+        "fix": "Opcional: 'Americano raramente diz *autumn*' ou 'No dia a dia, americano não diz *autumn*'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "A afirmação de que 'Spring' vem de 'spring of the leaf' é aceitável, mas simplifica. As fontes registram 'springing time', 'spring of the year' e 'spring of the leaf' (séc. XVI) como origens da forma curta.",
+        "fix": "Opcional: 'Spring vem de expressões como \"spring of the year\" e \"spring of the leaf\"…', para ficar mais preciso."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[3].emoji / feed[4].items[2].emoji",
+        "problem": "Os emojis de 'sweater weather' são inconsistentes: 🧶 (novelo) na lista e 🧣 (cachecol) no vocabulário. Nenhum dos dois é exatamente um suéter.",
+        "fix": "Padronizar com um único emoji (🧣 ou 🧥) nos dois slides."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural ('in the fall', 'fall foliage', 'leaf peeping', 'sweater weather', 'fall back/spring forward'). As traduções estão boas, as pronúncias são adequadas e a nota sobre o flap americano em 'autumn' ('Ó-dâm') é um ótimo detalhe. Os fatos conferem: a etimologia de 'fall of the leaf', 'autumn' vindo do latim via francês, e o fim do horário de verão no 1º domingo de novembro, com início em março, na maior parte dos EUA. A estrutura está dentro dos limites (cover versus com 2 itens, compare com 2, list com 4, term com 6, quiz com uma única resposta correta, CTA por último). O reel tem 6 cenas, começa com hook, termina com cta, e o say_en bate com a tela. Há apenas ajustes menores de estilo e precisão: o '400 anos' do subtítulo, o gancho levemente exagerado e a padronização de emoji. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[3]",
+        "problem": "O slide se chama 'Usando *fall* no dia a dia', mas a frase 'It's finally sweater weather!' não usa 'fall'. A frase está correta e é natural, mas foge do título.",
+        "fix": "Trocar por uma frase com 'fall', por exemplo 'Fall is just around the corner.' = 'O outono está chegando.' Outra opção é manter a frase e mudar o título para 'Frases de outono no dia a dia'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[3].pt",
+        "problem": "A tradução 'mix de especiarias da torta de abóbora (canela, cravo...)' é longa demais para caber bem no card.",
+        "fix": "Encurtar para 'mix de especiarias de outono (canela, cravo...)' ou 'tempero de torta de abóbora'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0]",
+        "problem": "'Americano raramente diz autumn' é um pouco exagerado. 'Autumn' aparece com frequência em textos formais, nomes e marketing nos EUA. O próprio post diz que é 'mais formal'.",
+        "fix": "Usar 'Americano quase não fala *autumn* no dia a dia', que é mais preciso e continua forte como gancho."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'spring' (no sentido de 'spring of the year/leaf') aparece só na legenda, não nos slides. 'fall of the leaf' também é mencionado só dentro do texto corrido.",
+        "fix": "Aceitável, mas se a ideia é listar só o que foi ensinado nos slides, retirar 'spring' ou incluir a curiosidade em uma nota do slide de leitura."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items",
+        "problem": "As alternativas do quiz estão em português, mas foram colocadas no campo 'en'.",
+        "fix": "Mover o texto das alternativas para o campo 'pt', ou confirmar que o template de quiz lê o campo 'en' como texto da opção."
+      }
+    ],
+    "summary": "O pacote está sólido e o conteúdo é correto. A etimologia confere: 'fall of the leaf' e 'spring of the leaf' são do século XVI, e 'autumn' vem do latim via francês antigo. Os dados sobre o horário de verão também estão certos: 1º domingo de novembro, na maior parte dos EUA. O inglês é natural e as pronúncias aportuguesadas são boas, incluindo o 'Ó-dâm' com flap no inglês americano. A estrutura está dentro dos limites: cover versus com 2 itens, compare com 2, list com 4, term com 6, quiz com uma única resposta e reel de 6 cenas com say_en igual à tela. Os apontamentos são só de estilo: uma frase fora do título do slide, um texto longo e um gancho levemente exagerado. Aprovado."
+  }
+]

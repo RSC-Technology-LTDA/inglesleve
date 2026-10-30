@@ -199,5 +199,23 @@
       "my folks",
       "grab a bite"
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "format": "word_curiosity",
+    "theme": "Fall x autumn: por que americano diz fall",
+    "terms": [
+      "fall",
+      "autumn",
+      "in the fall",
+      "fall of the leaf",
+      "spring",
+      "fall foliage",
+      "leaf peeping",
+      "sweater weather",
+      "pumpkin spice",
+      "fall back",
+      "spring forward"
+    ]
   }
 ]

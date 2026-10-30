@@ -1,0 +1,333 @@
+{
+  "format": "word_curiosity",
+  "theme": "Fall x autumn: por que americano diz fall",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Dois jeitos de dizer *outono*",
+      "subtitle": "E por que o americano prefere um deles",
+      "body": "",
+      "items": [
+        {
+          "en": "fall",
+          "pt": "outono (EUA)",
+          "pronunciation": "FÓL",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍂"
+        },
+        {
+          "en": "autumn",
+          "pt": "outono (Reino Unido)",
+          "pronunciation": "Ó-tâm",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍁"
+        }
+      ],
+      "note": "",
+      "layout": "versus",
+      "strike": ""
+    },
+    {
+      "kind": "reading",
+      "title": "De onde veio o *fall*?",
+      "subtitle": "Uma história que começou nos anos 1500",
+      "body": "Lá pelos anos 1500, os ingleses diziam \"fall of the leaf\": a estação em que as folhas caem. Com o tempo, virou só \"fall\". Os colonos levaram a palavra para a América e ela pegou. Já na Inglaterra, \"autumn\" (que veio do latim, via francês) ganhou a briga. Resultado: hoje o americano fala \"fall\" e o britânico fala \"autumn\".",
+      "items": [],
+      "note": "Fall = cair. O outono é literalmente a estação da queda das folhas 🍂",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Fall ou autumn?",
+      "subtitle": "Os dois estão certos, mas...",
+      "body": "",
+      "items": [
+        {
+          "en": "fall",
+          "pt": "outono — o do dia a dia nos EUA",
+          "pronunciation": "FÓL",
+          "example_en": "I love fall.",
+          "example_pt": "Eu amo o outono.",
+          "emoji": "🍂"
+        },
+        {
+          "en": "autumn",
+          "pt": "outono — padrão no Reino Unido",
+          "pronunciation": "Ó-tâm",
+          "example_en": "Autumn in London is lovely.",
+          "example_pt": "O outono em Londres é lindo.",
+          "emoji": "🍁"
+        }
+      ],
+      "note": "Nos EUA, 'autumn' existe (e soa 'Ó-dâm'), mas é mais formal ou poético. Na conversa, é 'fall'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Usando *fall* no dia a dia",
+      "subtitle": "Frases que você vai ouvir",
+      "body": "",
+      "items": [
+        {
+          "en": "Fall is my favorite season.",
+          "pt": "O outono é minha estação favorita.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍂"
+        },
+        {
+          "en": "We're moving in the fall.",
+          "pt": "A gente vai se mudar no outono.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📦"
+        },
+        {
+          "en": "The fall colors are amazing this year.",
+          "pt": "As cores do outono estão incríveis este ano.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🌳"
+        },
+        {
+          "en": "It's finally sweater weather!",
+          "pt": "Finalmente chegou o friozinho de blusa!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧣"
+        }
+      ],
+      "note": "Repara: 'in the fall' = no outono. Com artigo!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Vocabulário de *fall* nos EUA",
+      "subtitle": "O que todo americano fala nessa época",
+      "body": "",
+      "items": [
+        {
+          "en": "fall foliage",
+          "pt": "a folhagem colorida do outono",
+          "pronunciation": "FÓL FÔU-li-idj",
+          "example_en": "We drove up north to see the fall foliage.",
+          "example_pt": "Fomos pro norte ver as folhas do outono.",
+          "emoji": "🍁"
+        },
+        {
+          "en": "leaf peeping",
+          "pt": "passear só pra ver as folhas",
+          "pronunciation": "LIF PI-pin",
+          "example_en": "Leaf peeping is huge in Vermont.",
+          "example_pt": "Passeio pra ver folhas é febre em Vermont.",
+          "emoji": "👀"
+        },
+        {
+          "en": "sweater weather",
+          "pt": "clima de usar blusa",
+          "pronunciation": "SUÉ-der UÉ-der",
+          "example_en": "I love sweater weather.",
+          "example_pt": "Amo esse friozinho de blusa.",
+          "emoji": "🧣"
+        },
+        {
+          "en": "pumpkin spice",
+          "pt": "mix de especiarias da torta de abóbora (canela, cravo...)",
+          "pronunciation": "PÂMP-kin SPÁIS",
+          "example_en": "Pumpkin spice latte, please.",
+          "example_pt": "Um latte de pumpkin spice, por favor.",
+          "emoji": "☕"
+        },
+        {
+          "en": "fall back",
+          "pt": "atrasar o relógio 1 hora",
+          "pronunciation": "fól BÉK",
+          "example_en": "Don't forget to fall back on Sunday.",
+          "example_pt": "Não esquece de atrasar o relógio no domingo.",
+          "emoji": "⏰"
+        },
+        {
+          "en": "spring forward",
+          "pt": "adiantar o relógio 1 hora",
+          "pronunciation": "SPRING FÓR-uârd",
+          "example_en": "We spring forward in March.",
+          "example_pt": "A gente adianta o relógio em março.",
+          "emoji": "🌷"
+        }
+      ],
+      "note": "Truque americano: 'spring forward, fall back' pra lembrar do horário de verão.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "O que significa \"fall back\" no relógio?",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Adiantar o relógio 1 hora",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Atrasar o relógio 1 hora",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Cair para trás",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: atrasar o relógio 1 hora. Acontece no 1º domingo de novembro, na maior parte dos EUA.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Agora você fala *fall* como nativo",
+      "subtitle": "",
+      "body": "Salva esse post pra lembrar, manda pra aquele amigo que só fala 'autumn' e comenta: qual é a sua estação favorita, em inglês? 🍂",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Por que o americano chama o outono de \"fall\"? 🍂\n\nA resposta tá no carrossel: vem de \"fall of the leaf\", a estação em que as folhas caem. E o bônus: a primavera seguiu uma lógica parecida! \"Spring\" vem de expressões antigas como \"spring of the year\" e \"spring of the leaf\", a época em que as folhas \"brotam\" (spring = brotar, saltar). Ou seja: numa estação as folhas nascem, na outra elas caem. 🌷➡️🍂\n\nE aí, você aprendeu \"autumn\" ou \"fall\" na escola? Conta aqui nos comentários! 👇",
+  "hashtags": [
+    "inglesleve",
+    "inglesonline",
+    "aprenderingles",
+    "inglesparabrasileiros",
+    "vocabularioemingles",
+    "inglesamericano",
+    "dicasdeingles",
+    "fall",
+    "outono",
+    "curiosidadesdoingles",
+    "inglesbasico",
+    "estudeingles"
+  ],
+  "stories": [
+    {
+      "kind": "question",
+      "headline": "Como o americano chama o outono no dia a dia?",
+      "body": "Responde aqui ou me manda por DM! 🍂",
+      "options": [
+        "Autumn",
+        "Fall",
+        "Leaves"
+      ],
+      "answer": "Fall"
+    },
+    {
+      "kind": "tip",
+      "headline": "Novembro é mês de \"fall back\" nos EUA ⏰",
+      "body": "No 1º domingo de novembro, a maior parte dos EUA atrasa o relógio 1 hora. Pra lembrar: \"spring forward, fall back\" = na primavera adianta, no outono atrasa.",
+      "options": [],
+      "answer": ""
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta: FALL 🍂",
+      "body": "\"Autumn\" está certo, mas é mais britânico ou formal. Nos EUA, no papo do dia a dia, é \"fall\": \"I love fall!\"",
+      "options": [],
+      "answer": "Fall"
+    },
+    {
+      "kind": "challenge",
+      "headline": "Desafio do dia 🍁",
+      "body": "Me manda por DM uma frase em inglês usando \"fall\" ou \"sweater weather\". Os melhores eu reposto aqui!",
+      "options": [],
+      "answer": ""
+    }
+  ],
+  "terms_used": [
+    "fall",
+    "autumn",
+    "in the fall",
+    "fall of the leaf",
+    "spring",
+    "fall foliage",
+    "leaf peeping",
+    "sweater weather",
+    "pumpkin spice",
+    "fall back",
+    "spring forward"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Americano raramente diz *autumn*",
+        "text": "",
+        "emoji": "🍂",
+        "say_pt": "Americano raramente fala autumn!",
+        "say_en": ""
+      },
+      {
+        "kind": "term",
+        "title": "Autumn",
+        "text": "certo, mas mais britânico/formal",
+        "emoji": "🍁",
+        "say_pt": "Na escola a gente aprende:",
+        "say_en": "Autumn"
+      },
+      {
+        "kind": "right",
+        "title": "Fall",
+        "text": "outono (EUA)",
+        "emoji": "🍂",
+        "say_pt": "Mas nos Estados Unidos é:",
+        "say_en": "Fall"
+      },
+      {
+        "kind": "term",
+        "title": "Fall of the leaf",
+        "text": "a estação em que as folhas caem",
+        "emoji": "🍃",
+        "say_pt": "Vem de uma expressão antiga:",
+        "say_en": "Fall of the leaf"
+      },
+      {
+        "kind": "example",
+        "title": "Fall is my favorite season.",
+        "text": "O outono é minha estação favorita.",
+        "emoji": "🍂",
+        "say_pt": "Usa assim:",
+        "say_en": "Fall is my favorite season."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *uma curiosidade por dia*",
+        "text": "",
+        "emoji": "🦉",
+        "say_pt": "Segue pra aprender uma curiosidade por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Você aprendeu \"autumn\" na escola, mas no dia a dia o americano fala outra coisa 🍂 Você já sabia disso? Comenta aqui!"
+  }
+}
