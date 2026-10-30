@@ -101,6 +101,13 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
         "Temas recentes (evite repetir):\n" + ("\n".join(planner.recent_themes(history)) or "(nenhum)"),
         "Termos já ensinados (não repita):\n" + (", ".join(planner.recent_terms(history)) or "(nenhum)"),
     ]
+    track = planner.track_for(day) if fmt not in ("milestone", "welcome") else ""
+    if track:
+        parts.append(
+            f"Trilha temática de hoje: {planner.TRACKS[track]}\n"
+            "Escolha o tema do dia dentro desta trilha, seguindo a estrutura do formato de hoje "
+            "(ex: vocabulário visual de aeroporto, expressão usada em code review, frases para a entrevista)."
+        )
     tips = analyst.writer_tips()
     if tips:
         parts.append("Aprendizados das métricas da página (aplique quando couber no formato):\n" + "\n".join(f"- {t}" for t in tips))

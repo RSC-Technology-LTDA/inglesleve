@@ -217,6 +217,46 @@ FORMATS = {
 }
 
 
+# Trilhas temáticas: em alguns dias, o tema do post sai de uma trilha (o formato do dia continua o mesmo).
+# Revezam em ordem, então todas aparecem a cada ~2 semanas.
+TRACK_DAYS = (1, 3, 5)  # terça, quinta e sábado
+TRACKS = {
+    "viagem": (
+        "Viagem aos EUA e Disney: imigração no aeroporto, hotel, parques (filas, Lightning Lane, "
+        "personagens, fotos), restaurante e gorjeta, compras e outlets, Uber, emergências. Frases que o "
+        "turista brasileiro realmente usa."
+    ),
+    "visto": (
+        "Visto americano: perguntas comuns na entrevista do consulado (What's the purpose of your trip?, "
+        "How long will you stay?, Where do you work?) e como entender e responder em inglês, com o "
+        "vocabulário da viagem. Só o inglês: a entrevista no Brasil pode ser feita em português; não dê "
+        "orientação jurídica nem 'macetes' para aprovar, e as respostas de exemplo são sempre verdadeiras e simples."
+    ),
+    "entrevista": (
+        "Entrevista de emprego em inglês: perguntas clássicas (Tell me about yourself, Why should we hire "
+        "you?, What are your weaknesses?), estruturas de resposta, falar de experiência e salário, e os "
+        "erros que brasileiro comete (ex: 'I have 5 years of experience in' × 'I worked'). Vale para qualquer área."
+    ),
+    "trabalho_dev": (
+        "Inglês no trabalho para desenvolvedores: daily/standup, code review e PR, Slack, reportar bug, "
+        "deploy, estimativas, reuniões com time gringo, phrasal verbs de tech (roll back, ship, figure out, "
+        "look into) e os erros comuns de dev brasileiro (ex: 'I will do a PR' × 'I'll open a PR')."
+    ),
+    "trabalho": (
+        "Inglês no trabalho em outras profissões: reuniões e calls, e-mail profissional, atendimento ao "
+        "cliente, vendas, saúde, hotelaria; frases para pedir ajuda, discordar com educação e marcar reunião."
+    ),
+}
+
+
+def track_for(day: date) -> str:
+    """Trilha do dia, ou vazio nos dias sem trilha (e no quiz de domingo, que revisa a semana)."""
+    if day.weekday() not in TRACK_DAYS:
+        return ""
+    n = (day.toordinal() // 7) * len(TRACK_DAYS) + TRACK_DAYS.index(day.weekday())
+    return list(TRACKS)[n % len(TRACKS)]
+
+
 def format_for(day: date) -> str:
     options = [name for name, f in FORMATS.items() if f["weekday"] == day.weekday()]
     return options[day.isocalendar().week % len(options)]
@@ -246,9 +286,12 @@ def last_week_terms(history: list, day: date) -> list:
     return out
 
 
-def record(day: date, fmt: str, theme: str, terms: list) -> None:
+def record(day: date, fmt: str, theme: str, terms: list, track: str = "") -> None:
     history = [e for e in load_history() if e["date"] != day.isoformat()]
-    history.append({"date": day.isoformat(), "format": fmt, "theme": theme, "terms": terms})
+    entry = {"date": day.isoformat(), "format": fmt, "theme": theme, "terms": terms}
+    if track:
+        entry["track"] = track
+    history.append(entry)
     history.sort(key=lambda e: e["date"])
     HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
     HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")

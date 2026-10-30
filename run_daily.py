@@ -146,7 +146,7 @@ def main() -> int:
     status = "approved" if verdict.approved else "needs_human_review"
     write_outputs(out, pack, log, status, brand)
     if verdict.approved:
-        planner.record(args.date, fmt, pack.theme, pack.terms_used)
+        planner.record(args.date, fmt, pack.theme, pack.terms_used, planner.track_for(args.date))
         if milestone:
             metrics.mark_celebrated(milestone, args.date)
     else:
