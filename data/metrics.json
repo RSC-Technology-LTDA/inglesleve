@@ -2,7 +2,7 @@
   "followers": [
     {
       "date": "2026-10-30",
-      "followers": 838,
+      "followers": 874,
       "media": 21
     }
   ],
@@ -20,16 +20,16 @@
       "theme": "Quiz da semana: Halloween, freak out e falsos amigos",
       "kind": "reel",
       "hook": "Acerta as *3*?",
-      "updated": "2026-10-30T18:33:24+00:00",
+      "updated": "2026-10-30T20:19:15+00:00",
       "insights": {
-        "reach": 2,
-        "views": 7,
+        "reach": 33,
+        "views": 44,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
-        "ig_reels_avg_watch_time": 33484
+        "ig_reels_avg_watch_time": 11464
       }
     },
     "17912095482307835": {
@@ -45,10 +45,10 @@
       "theme": "Fall x autumn: por que americano diz fall",
       "kind": "carousel",
       "hook": "Dois jeitos de dizer *outono*",
-      "updated": "2026-10-30T18:33:24+00:00",
+      "updated": "2026-10-30T20:19:16+00:00",
       "insights": {
-        "reach": 11,
-        "views": 31,
+        "reach": 14,
+        "views": 36,
         "saved": 0,
         "shares": 0,
         "likes": 3,
@@ -63,7 +63,7 @@
       "timestamp": "2026-10-30T10:36:16+0000",
       "media_type": "CAROUSEL_ALBUM",
       "like_count": 6,
-      "comments_count": 1,
+      "comments_count": 3,
       "product": "FEED",
       "caption": "Você ainda diz 'I have 30 years old'? Relaxa, quase todo brasileiro já disse! 😅\n\nNo carrossel tem 6 erros clássicos que ",
       "date": "2026-10-21",
@@ -71,15 +71,15 @@
       "theme": "6 erros clássicos de brasileiro no dia a dia",
       "kind": "carousel",
       "hook": "Para de *errar* isso",
-      "updated": "2026-10-30T18:33:25+00:00",
+      "updated": "2026-10-30T20:19:17+00:00",
       "insights": {
-        "reach": 25,
-        "views": 55,
+        "reach": 28,
+        "views": 62,
         "saved": 3,
         "shares": 0,
         "likes": 6,
-        "comments": 1,
-        "total_interactions": 11,
+        "comments": 3,
+        "total_interactions": 13,
         "follows": 0,
         "profile_visits": 0
       }
@@ -93,10 +93,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:25+00:00",
+      "updated": "2026-10-30T20:19:17+00:00",
       "insights": {
-        "reach": 32,
-        "views": 56,
+        "reach": 35,
+        "views": 65,
         "saved": 0,
         "shares": 0,
         "likes": 3,
@@ -119,16 +119,16 @@
       "theme": "Falsos amigos do dia a dia: push x pull, parents x relatives, lunch x snack",
       "kind": "reel",
       "hook": "Push *não* é puxar",
-      "updated": "2026-10-30T18:33:26+00:00",
+      "updated": "2026-10-30T20:19:18+00:00",
       "insights": {
-        "reach": 135,
-        "views": 156,
+        "reach": 137,
+        "views": 158,
         "saved": 1,
         "shares": 0,
         "likes": 8,
         "comments": 0,
         "total_interactions": 9,
-        "ig_reels_avg_watch_time": 7517
+        "ig_reels_avg_watch_time": 7531
       }
     },
     "18645038866005315": {
@@ -144,10 +144,10 @@
       "theme": "Falsos amigos do dia a dia: push x pull, parents x relatives, lunch x snack",
       "kind": "carousel",
       "hook": "Não *confunda*",
-      "updated": "2026-10-30T18:33:27+00:00",
+      "updated": "2026-10-30T20:19:19+00:00",
       "insights": {
-        "reach": 36,
-        "views": 75,
+        "reach": 38,
+        "views": 84,
         "saved": 0,
         "shares": 0,
         "likes": 4,
@@ -170,10 +170,10 @@
       "theme": "Frases para usar na farmácia",
       "kind": "carousel",
       "hook": "Doente nos *EUA*?",
-      "updated": "2026-10-30T18:33:28+00:00",
+      "updated": "2026-10-30T20:19:19+00:00",
       "insights": {
-        "reach": 44,
-        "views": 93,
+        "reach": 49,
+        "views": 103,
         "saved": 0,
         "shares": 0,
         "likes": 4,
@@ -192,10 +192,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:28+00:00",
+      "updated": "2026-10-30T20:19:20+00:00",
       "insights": {
-        "reach": 49,
-        "views": 85,
+        "reach": 50,
+        "views": 86,
         "saved": 0,
         "shares": 0,
         "likes": 10,
@@ -214,10 +214,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:29+00:00",
+      "updated": "2026-10-30T20:19:20+00:00",
       "insights": {
-        "reach": 92,
-        "views": 172,
+        "reach": 97,
+        "views": 179,
         "saved": 2,
         "shares": 0,
         "likes": 27,
@@ -236,10 +236,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:30+00:00",
+      "updated": "2026-10-30T20:19:21+00:00",
       "insights": {
         "reach": 47,
-        "views": 63,
+        "views": 65,
         "saved": 2,
         "shares": 0,
         "likes": 23,
@@ -258,10 +258,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:30+00:00",
+      "updated": "2026-10-30T20:19:21+00:00",
       "insights": {
-        "reach": 45,
-        "views": 69,
+        "reach": 46,
+        "views": 70,
         "saved": 1,
         "shares": 0,
         "likes": 18,
@@ -280,7 +280,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:31+00:00",
+      "updated": "2026-10-30T20:19:22+00:00",
       "insights": {
         "reach": 58,
         "views": 110,
@@ -302,10 +302,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:31+00:00",
+      "updated": "2026-10-30T20:19:22+00:00",
       "insights": {
-        "reach": 54,
-        "views": 87,
+        "reach": 55,
+        "views": 90,
         "saved": 0,
         "shares": 0,
         "likes": 22,
@@ -324,10 +324,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:32+00:00",
+      "updated": "2026-10-30T20:19:23+00:00",
       "insights": {
         "reach": 61,
-        "views": 85,
+        "views": 88,
         "saved": 0,
         "shares": 0,
         "likes": 24,
@@ -346,10 +346,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:32+00:00",
+      "updated": "2026-10-30T20:19:23+00:00",
       "insights": {
         "reach": 54,
-        "views": 94,
+        "views": 97,
         "saved": 0,
         "shares": 0,
         "likes": 19,
@@ -368,10 +368,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:33+00:00",
+      "updated": "2026-10-30T20:19:24+00:00",
       "insights": {
-        "reach": 87,
-        "views": 157,
+        "reach": 88,
+        "views": 160,
         "saved": 1,
         "shares": 0,
         "likes": 18,
@@ -390,10 +390,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:34+00:00",
+      "updated": "2026-10-30T20:19:24+00:00",
       "insights": {
-        "reach": 42,
-        "views": 65,
+        "reach": 43,
+        "views": 68,
         "saved": 0,
         "shares": 0,
         "likes": 13,
@@ -412,7 +412,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:35+00:00",
+      "updated": "2026-10-30T20:19:25+00:00",
       "insights": {
         "reach": 49,
         "views": 77,
@@ -434,10 +434,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:35+00:00",
+      "updated": "2026-10-30T20:19:25+00:00",
       "insights": {
-        "reach": 39,
-        "views": 66,
+        "reach": 40,
+        "views": 71,
         "saved": 1,
         "shares": 0,
         "likes": 12,
@@ -456,10 +456,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:36+00:00",
+      "updated": "2026-10-30T20:19:26+00:00",
       "insights": {
         "reach": 74,
-        "views": 124,
+        "views": 129,
         "saved": 0,
         "shares": 0,
         "likes": 25,
@@ -478,10 +478,10 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-10-30T18:33:36+00:00",
+      "updated": "2026-10-30T20:19:26+00:00",
       "insights": {
         "reach": 44,
-        "views": 84,
+        "views": 87,
         "saved": 0,
         "shares": 0,
         "likes": 13,
@@ -502,15 +502,15 @@
       "kind": "story",
       "story_kind": "challenge",
       "hook": "Desafio do dia 🍁",
-      "updated": "2026-10-30T18:33:38+00:00",
+      "updated": "2026-10-30T20:19:27+00:00",
       "insights": {
-        "reach": 8,
-        "views": 9,
+        "reach": 9,
+        "views": 18,
         "replies": 0,
         "shares": 0,
         "follows": 0,
         "profile_visits": 0,
-        "navigation": 9
+        "navigation": 10
       }
     },
     "18470491231136658": {
@@ -524,15 +524,15 @@
       "kind": "story",
       "story_kind": "tip",
       "hook": "Novembro é mês de \"fall back\" nos EUA ⏰",
-      "updated": "2026-10-30T18:33:39+00:00",
+      "updated": "2026-10-30T20:19:28+00:00",
       "insights": {
-        "reach": 8,
-        "views": 10,
+        "reach": 11,
+        "views": 22,
         "replies": 0,
         "shares": 0,
         "follows": 0,
         "profile_visits": 1,
-        "navigation": 8
+        "navigation": 11
       }
     },
     "17885080092526509": {
@@ -546,10 +546,10 @@
       "kind": "story",
       "story_kind": "question",
       "hook": "Como o americano chama o outono no dia a dia?",
-      "updated": "2026-10-30T18:33:41+00:00",
+      "updated": "2026-10-30T20:19:29+00:00",
       "insights": {
-        "reach": 8,
-        "views": 10,
+        "reach": 9,
+        "views": 21,
         "replies": 0,
         "shares": 0,
         "follows": 0,
@@ -568,15 +568,15 @@
       "kind": "story",
       "story_kind": "answer",
       "hook": "Resposta do teste",
-      "updated": "2026-10-30T18:33:43+00:00",
+      "updated": "2026-10-30T20:19:30+00:00",
       "insights": {
-        "reach": 23,
-        "views": 26,
+        "reach": 24,
+        "views": 37,
         "replies": 0,
         "shares": 0,
         "follows": 0,
         "profile_visits": 0,
-        "navigation": 23
+        "navigation": 27
       }
     }
   }

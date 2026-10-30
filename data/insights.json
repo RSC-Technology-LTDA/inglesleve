@@ -1,54 +1,54 @@
 {
   "date": "2026-10-30",
-  "summary": "A página tem 838 seguidores, 3 a mais que os 835 da análise anterior. Mas a série diária tem só 1 ponto, então não dá para medir o crescimento da semana. Nenhum post registrou seguidores ganhos (follows = 0 em todos os posts; nulo nos Reels). Por isso não é possível dizer o que trouxe os +3. As visitas ao perfil (6 nos automáticos, 4 no manual de 30/10) são o único rastro. A automação tem só 2 dias (29 e 30/10), com 1 post por formato, e os posts de 30/10 foram medidos no próprio dia. A amostra é pequena demais para afirmar padrões. Dois sinais merecem teste. 1) O Reel de 29/10 alcançou 135 contas, cerca de 4,6x a média dos carrosséis automáticos (29). 2) O carrossel 'erro de brasileiro' teve 3 salvamentos em 25 de alcance (120 por mil); os outros carrosséis automáticos tiveram zero. Correção da análise anterior: as datas citadas lá (20 a 22/10) estavam erradas, pois esses posts são de 29 e 30/10. Também não houve falha do pipeline de 23 a 28/10, porque a automação só começou em 29/10.",
+  "summary": "A página tem 874 seguidores (coleta das 18h de 30/10), mas a série diária ainda tem 1 ponto só, então não dá para medir o crescimento da semana. A análise anterior, do mesmo dia, citava 838; a diferença de 36 provavelmente vem do horário ou da fonte da coleta e não pode ser atribuída a nenhum post. Follows = 0 em todos os posts que têm o campo e nulo nos Reels, então o que trouxe seguidores continua invisível. O melhor indicador disponível são as visitas ao perfil por alcance. Com 2 dias de automação e n=1 por formato, tudo abaixo é hipótese. As sugestões da análise anterior não podem ser avaliadas, porque nenhum post saiu depois delas. Três correções em relação àquela análise: 1) stickers de enquete e quiz e repost de Reel nos stories não são possíveis na automação; 2) Trial Reel também não é; 3) o registro diário de seguidores já existe. Os sinais atuais: o Reel é o motor de alcance (137 no de 29/10, contra média de 32 nos carrosséis automáticos), e o ângulo 'erro de brasileiro' é o único que gerou salvamentos e comentários. Os compartilhamentos estão em 0 nos 25 posts, e esse é o maior gargalo para chegar a não seguidores.",
   "best": [
-    "30/10 · carrossel · 6 erros clássicos de brasileiro (wrong_right): 120 salvamentos por mil de alcance (3/25), o único comentário entre os automáticos e 11 interações. O gancho 'Para de errar isso' e a lista de erros dão motivo para guardar o post.",
-    "29/10 · reel · falsos amigos push x pull (confusing_pairs): maior alcance de todos os posts (135, contra média de 55 dos manuais e 29 dos carrosséis automáticos). Teve 7,4 salvamentos por mil e 7,5 s de tempo médio de visualização. O gancho 'Push não é puxar' contraria o que o brasileiro acha.",
-    "29/10 · carrossel · falsos amigos (confusing_pairs): 3 visitas ao perfil com 36 de alcance (83 por mil), a maior taxa entre os automáticos, mesmo com gancho fraco ('Não confunda'). O tema falso amigo parece despertar interesse pela página. É um sinal fraco, com n=1."
+    "29/10 · reel · falsos amigos push x pull (confusing_pairs): maior alcance de todos os posts (137 de alcance e 158 visualizações), contra 56 dos manuais e 32 dos carrosséis automáticos. Teve 1 salvamento (7,3 por mil) e 7,5 s de tempo médio. O gancho 'Push não é puxar' contradiz o que o brasileiro acha.",
+    "30/10 · carrossel · 6 erros clássicos de brasileiro (wrong_right): 3 salvamentos em 28 de alcance (107 por mil), 3 comentários (os únicos entre os automáticos) e 13 interações. O gancho 'Para de errar isso' e o formato de lista ❌/✅ dão motivo para salvar.",
+    "29/10 · carrossel · falsos amigos (confusing_pairs): 3 visitas ao perfil em 38 de alcance (79 por mil), a maior taxa entre os carrosséis automáticos, mesmo com o gancho fraco 'Não confunda'. Ressalva: o post manual de 30/10 teve 4 visitas em 35 de alcance (114 por mil), sem tema registrado. É um sinal fraco, com n=1."
   ],
   "worst": [
-    "30/10 · carrossel · fall x autumn (word_curiosity): 11 de alcance e 0 salvamentos. Ficou abaixo do carrossel wrong_right publicado no mesmo dia (25 de alcance e 3 salvamentos). O gancho 'Dois jeitos de dizer outono' é curiosidade neutra: não mostra erro nem dá urgência. Ressalva: medido no dia da publicação.",
-    "29/10 · carrossel · frases na farmácia (situation_phrases): 44 de alcance, mas 0 salvamentos, 0 compartilhamentos e 4 curtidas. Era um extra fora do dia (formato de sábado) e disputou atenção com o carrossel do dia. O conteúdo é útil, mas nada no post pede para salvar.",
-    "30/10 · stories · fall x autumn: 8 de alcance em cada um dos 3 stories (cerca de 1% dos 838 seguidores) e 0 respostas, mesmo com 'Desafio do dia'. Em 29/10 o story alcançou 23. O Reel quiz de 30/10 (2 de alcance) foi medido horas depois de sair e não pode ser julgado. Ele também saiu fora do dia: quiz é de domingo, sexta é 'Você sabia?'."
+    "30/10 · carrossel · fall x autumn (word_curiosity): 14 de alcance, o menor entre os carrosséis, com 0 salvamentos e 0 compartilhamentos. No mesmo dia, o wrong_right fez 28 de alcance e 3 salvamentos. O gancho 'Dois jeitos de dizer outono' é curiosidade neutra, sem erro nem urgência. Ainda está amadurecendo.",
+    "30/10 · stories · fall x autumn: 3 stories com 9, 11 e 9 de alcance (cerca de 1% dos 874 seguidores) e 0 respostas. O story de 29/10 alcançou 24. O primeiro trazia 'Desafio do dia 🍁' sem dizer o que responder. Postar 3 stories de texto parecidos dilui a atenção.",
+    "30/10 · reel · quiz 'Acerta as 3?' (weekly_quiz): 33 de alcance, 1 curtida e 0 salvamentos. Saiu numa sexta com o formato de domingo e um gancho genérico. Ponto a favor: 11,5 s de tempo médio, contra 7,5 s do Reel de 29/10. Sem a duração do vídeo não dá para saber se a retenção foi melhor. 29/10 · carrossel extra de farmácia (situation_phrases): 49 de alcance, 0 salvamentos e 0 compartilhamentos, com conteúdo útil mas sem ângulo de erro."
   ],
   "recommendations": [
     {
-      "area": "crescimento",
-      "change": "Gravar o total de seguidores todo dia no mesmo horário. Coletar os Insights de cada post em 3 momentos: 24h, 72h e 7 dias depois, e não no dia da publicação. Nos Reels, registrar também a duração do vídeo para calcular a retenção em %. Marcar os posts extras com uma flag para não misturá-los com o calendário.",
-      "why": "A série de seguidores tem 1 ponto só (838). Follows é 0 em todos os 25 posts e nulo nos 2 Reels, mesmo com +3 seguidores no total. Os posts de 30/10 foram medidos no próprio dia (Reel quiz com 2 de alcance). Sem isso, a métrica principal, conversão, continua invisível."
-    },
-    {
-      "area": "formato",
-      "change": "Na próxima semana, todo post extra deve ser 'erro de brasileiro' (❌/✅), e o carrossel de quinta deve alternar com wrong_right. Nos outros formatos, usar o ângulo do erro. Exemplos: Situação real com '3 frases que brasileiro erra na farmácia'; Você sabia? com 'Por que brasileiro fala autumn e o americano não'.",
-      "why": "wrong_right teve 120 salvamentos por mil; confusing_pairs teve 135 de alcance no Reel e 83 visitas por mil no carrossel. Os ângulos neutros (farmácia, fall x autumn) tiveram 0 salvamentos. Cada formato tem n=1, então é hipótese a validar."
+      "area": "legenda",
+      "change": "Em todo post, fechar a legenda e o último slide (ou o frame final do Reel) com um pedido de compartilhamento que cite o erro específico do post. Exemplo: 'Manda pra aquele amigo que ainda fala I have 30 years'. Depois, acrescentar: 'Segue @inglesleve.br: 1 erro corrigido por dia'.",
+      "why": "Foram 0 compartilhamentos em 25 de 25 posts, manuais e automáticos. Sem compartilhamento, o carrossel não sai da base: os carrosséis automáticos tiveram média de 32 de alcance, 3,7% dos seguidores."
     },
     {
       "area": "reel",
-      "change": "Garantir que o Reel das 18h siga o formato do dia: sexta = 'Você sabia?', domingo = quiz. O primeiro frame deve trazer a palavra em inglês e a afirmação errada/certa, e não pergunta genérica.",
-      "why": "O Reel de 29/10 alcançou 135 contas, mais que qualquer carrossel (máximo de 44), e é o principal canal para não seguidores. Em 30/10 saiu um quiz numa sexta, com gancho genérico 'Acerta as 3?'."
+      "change": "O Reel das 18h deve seguir o formato do dia (sexta = 'Você sabia?', domingo = quiz). O primeiro frame deve ter a palavra em inglês e a contradição (ex.: 'Fall não é só cair'). Do quiz, vale aproveitar a mecânica de pergunta com pausa de 2 s antes da resposta, que pode ser o que segurou os 11,5 s.",
+      "why": "O Reel de 29/10 alcançou 137, mais que o triplo do maior carrossel automático (49). O Reel quiz fora do dia, com o gancho genérico 'Acerta as 3?', ficou em 33 de alcance, mas teve 11,5 s de tempo médio contra 7,5 s. Os dois sinais têm n=1."
     },
     {
-      "area": "legenda",
-      "change": "Terminar a legenda e o último slide com um pedido de compartilhamento que cite o erro do post. Exemplo: 'Manda pra quem ainda fala push achando que é puxar'. Depois, acrescentar: 'Siga @inglesleve.br: 1 erro corrigido por dia'. Nos carrosséis de lista, incluir um slide-resumo com 'Salva pra revisar antes da viagem'.",
-      "why": "Foram 0 compartilhamentos em todos os 25 posts, manuais e automáticos. O único post com salvamentos relevantes (wrong_right, 3) era uma lista fácil de revisar."
+      "area": "formato",
+      "change": "Aplicar o ângulo ❌ brasileiro fala / ✅ nativo fala dentro de cada formato do dia, sem trocar o calendário. Exemplos: Situação real com '3 frases que brasileiro erra na farmácia'; Expressão do dia com 'Não traduza ao pé da letra: break a leg'. Os extras fora do calendário devem ser sempre wrong_right.",
+      "why": "O wrong_right foi o único post automático com salvamentos (107 por mil) e comentários (3). Os carrosséis neutros (fall x autumn e farmácia) tiveram 0 salvamentos. Ainda é hipótese, com 1 post por formato."
     },
     {
       "area": "stories",
-      "change": "O primeiro story deve ser uma enquete ou quiz com sticker de 2 opções e o tema explícito (ex.: 'Outono nos EUA: fall ou autumn?'), e não 'Desafio do dia'. O story das 18h deve repostar o Reel com o sticker do post e a frase 'resposta no Reel'.",
-      "why": "Os stories de 30/10 tiveram 8 de alcance cada e 0 respostas. O de 29/10 teve 23 e também 0 respostas. Uma pergunta aberta sem sticker não gera interação, e sem interação o story não chega aos seguidores."
+      "change": "Publicar só imagem (a automação não tem stickers), com uma pergunta de 2 opções e pedido de resposta por DM com palavra exata. Exemplo: 'Outono nos EUA: FALL ou AUTUMN? Responde no direct só a palavra'. O story das 18h deve trazer a resposta e 'O Reel de hoje explica: está no perfil'. Testar 2 stories em vez de 3.",
+      "why": "Os 3 stories de 30/10 tiveram de 9 a 11 de alcance e 0 respostas, abaixo dos 24 do story único de 29/10. 'Desafio do dia' não diz o que responder."
     },
     {
       "area": "gancho",
-      "change": "Manter o padrão 'palavra em inglês + contradição ou erro' em até 6 palavras. Exemplos: 'Pretend não é pretender', 'Para de falar I have 30 years'. Evitar o nome do formato ('Não confunda') e curiosidade neutra ('Dois jeitos de dizer...').",
-      "why": "No mesmo dia, 'Para de errar isso' teve 25 de alcance e 3 salvamentos, contra 11 e 0 de 'Dois jeitos de dizer outono'. 'Push não é puxar' foi o post de maior alcance (135). A direção é coerente, mas com amostra mínima."
+      "change": "Gancho com até 6 palavras: palavra em inglês + erro ou contradição. Exemplos: 'Pretend não é pretender', 'Para de falar I have 30 years'. Banir o nome do formato ('Não confunda') e a curiosidade neutra ('Dois jeitos de dizer...').",
+      "why": "Os ganchos de contradição ou erro lideraram: 'Push não é puxar' teve 137 de alcance e 'Para de errar isso' teve 3 salvamentos. Os neutros ficaram atrás: 'Dois jeitos de dizer outono' teve 14 de alcance e 'Acerta as 3?' teve 33. É uma direção coerente, mas com amostra mínima."
+    },
+    {
+      "area": "crescimento",
+      "change": "[MANUAL] Responder em até 1h cada comentário dos posts com o próprio erro e uma pergunta de volta (ex.: 'E você, já falou I have 30 years?'), e fixar o melhor comentário. Na análise, usar a variação diária dos seguidores às 18h e as visitas ao perfil por mil como substitutos de follows, que hoje vêm 0 ou nulo.",
+      "why": "Os 3 comentários do wrong_right foram os únicos entre os automáticos, e ninguém respondeu. Follows é 0 ou nulo em todos os posts, mesmo com a base em 874, e as visitas ao perfil (3 em 38 e 4 em 35 de alcance) são o único rastro de conversão."
     }
   ],
   "writer_tips": [
     "Gancho com até 6 palavras, com a palavra em inglês e uma contradição ou erro (ex.: 'Actually não é atualmente'). Nunca use o nome do formato nem pergunta vaga.",
-    "Enquadre o conteúdo como erro de brasileiro: ❌ o que falamos e ✅ o que o nativo fala, lado a lado, com uma frase real do dia a dia.",
-    "Em todo carrossel com lista, feche com um slide-resumo que dê para salvar e com o texto 'Salva pra revisar'.",
-    "Último slide e fim da legenda: pedido de compartilhamento citando o erro do post ('Manda pra quem ainda fala X') e depois 'Siga @inglesleve.br: 1 erro corrigido por dia'.",
-    "Pergunta em story ou quiz sempre com 2 opções explícitas e o tema no texto (ex.: 'fall ou autumn?'). Nada de 'Desafio do dia' sem contexto."
+    "Mostre o conteúdo como ❌ o que o brasileiro fala e ✅ o que o nativo fala, lado a lado, com uma frase real do dia a dia.",
+    "Feche todo post com um pedido de compartilhamento citando o erro específico ('Manda pra quem ainda fala X') e depois 'Segue @inglesleve.br: 1 erro corrigido por dia'.",
+    "Em lista, termine com um slide ou frame-resumo de revisão rápida e o texto 'Salva pra revisar'.",
+    "Em story, faça a pergunta com 2 opções explícitas e o tema no texto, pedindo a resposta no direct com a palavra exata ('Responde FALL ou AUTUMN')."
   ],
-  "experiment": "Teste de gancho no Reel de quinta (Não confunda), com a mesma edição publicada 2 vezes como Trial Reel (mostrado só a não seguidores), mudando apenas o primeiro frame. Versão A, erro/contradição: 'Pretend não é pretender'. Versão B, nome do formato: 'Não confunda: pretend x intend'. Medir após 72h: alcance, retenção nos 3 primeiros segundos e tempo médio em % da duração, compartilhamentos e salvamentos por mil, e seguidores por mil. Com alcance perto de 100–150, seguidores por mil vai dar 0 ou 1 e não decide sozinho. A decisão sai por retenção somada a compartilhamentos e salvamentos, e só vale se cada versão passar de 300 de alcance. A versão vencedora vira o padrão de gancho na semana seguinte. Pré-requisito: a coleta de 72h já precisa estar funcionando."
+  "experiment": "Teste de gancho nos Reels da próxima semana, sem mudar formato nem edição. Segunda, quarta e sexta: primeiro frame de contradição ('X não é Y'). Terça, quinta e sábado: primeiro frame em pergunta ('Sabe o que é X?'). Domingo, quiz como controle. Medir cada Reel na coleta das 18h, 3 dias depois da publicação, para não comparar posts imaturos. Métricas: alcance, tempo médio de visualização (com a duração anotada para calcular %), compartilhamentos e salvamentos por mil, e visitas ao perfil por mil. Cruzar com a variação diária de seguidores às 18h. Com alcance de 30 a 150 por Reel, a diferença só conta se uma versão vencer em pelo menos 2 das 3 comparações de dia e somar ao menos o dobro de compartilhamentos e salvamentos. Caso contrário, repetir o teste mais uma semana antes de padronizar."
 }
