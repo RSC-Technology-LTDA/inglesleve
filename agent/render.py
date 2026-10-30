@@ -66,6 +66,19 @@ def highlight(text: str) -> Markup:
 
 
 _env.globals["emoji"] = emoji
+
+
+@lru_cache(maxsize=None)
+def mascot(path: str) -> str:
+    """Imagem do mascote (brand.json → mascot) como data URI, ou vazio se não houver."""
+    file = Path(__file__).resolve().parent.parent / path if path else None
+    if not file or not file.exists():
+        return ""
+    kind = "webp" if file.suffix == ".webp" else "png"
+    return f"data:image/{kind};base64," + base64.b64encode(file.read_bytes()).decode()
+
+
+_env.globals["mascot"] = mascot
 _env.filters["hl"] = highlight
 
 

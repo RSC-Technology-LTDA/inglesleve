@@ -34,5 +34,6 @@
       "name": "paper",
       "bg": "#FFF8EE"
     }
-  ]
+  ],
+  "mascot": "assets/mascot/owl.webp"
 }

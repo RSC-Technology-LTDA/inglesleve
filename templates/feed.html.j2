@@ -67,6 +67,8 @@
 .cta .handle { font-size: 48px; font-weight: 800; margin-top: 56px; }
 .cta .top, .cta .foot { color: var(--ink); }
 .cta .dot { background: var(--ink); }
+.cta .mascot { position: absolute; right: 36px; bottom: 0; height: 600px; filter: drop-shadow(0 18px 24px rgb(0 0 0 / .18)); }
+.cta:has(.mascot) .hero { max-width: 620px; }
 </style>
 </head>
 <body class="{{ slide.kind }}{% if slide.kind == 'cover' %} L-{{ cover_layout }}{% endif %}">
@@ -87,6 +89,7 @@
       {% if answers %}<div class="answers">{% for a in answers %}<div>✅ {{ a }}</div>{% endfor %}</div>{% endif %}
       <div class="handle">@{{ brand.handle }}</div>
     </div>
+    {% set owl = mascot(brand.mascot) %}{% if owl %}<img class="mascot" src="{{ owl }}" alt="">{% endif %}
     <div class="foot"><span>salva 🔖 · compartilha ✈️</span><span></span></div>
 
   {% else %}
