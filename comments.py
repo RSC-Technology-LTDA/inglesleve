@@ -11,6 +11,7 @@ import argparse
 import json
 import os
 import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -23,7 +24,8 @@ ROOT = Path(__file__).resolve().parent
 STATE_PATH = ROOT / "data" / "comments.json"
 DAYS = 14          # posts mais antigos que isso não são olhados
 MAX_REPLIES = 15   # por execução, para nunca parecer robô despejando respostas
-PER_USER_HOURS = 24  # no máximo 1 resposta por pessoa nesse intervalo (contas que comentam "Great" em tudo)
+PER_USER = 3         # no máximo 3 respostas por pessoa a cada PER_USER_HOURS (contas que comentam "Great" em tudo)
+PER_USER_HOURS = 24
 
 
 def post_content(date: str) -> str:
@@ -59,7 +61,7 @@ def main() -> int:
     since = datetime.now(timezone.utc) - timedelta(days=DAYS)
     replied = 0
     recent = datetime.now(timezone.utc) - timedelta(hours=PER_USER_HOURS)
-    answered = {e["user"] for e in state.values() if e.get("reply_id") and datetime.fromisoformat(e["at"]) > recent}
+    answered = Counter(e["user"] for e in state.values() if e.get("reply_id") and datetime.fromisoformat(e["at"]) > recent)
     try:
         for media in ig.recent_media(limit=30):
             if datetime.fromisoformat(media["timestamp"].replace("+0000", "+00:00")) < since:
@@ -80,13 +82,13 @@ def main() -> int:
                     continue
                 entry = {"media": media["id"], "user": comment.get("username"), "text": comment.get("text"),
                          "action": d.action, "reason": d.reason, "at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-                if d.action == "reply" and d.reply.strip() and comment.get("username") in answered:
-                    entry.update(action="ignore", reason="já respondemos essa pessoa nas últimas 24h")
-                    print(f"  ignorado @{comment.get('username')}: {comment.get('text')!r} (já respondida hoje)")
+                if d.action == "reply" and d.reply.strip() and answered[comment.get("username")] >= PER_USER:
+                    entry.update(action="ignore", reason=f"já respondemos {PER_USER} vezes essa pessoa em {PER_USER_HOURS}h")
+                    print(f"  ignorado @{comment.get('username')}: {comment.get('text')!r} (limite de {PER_USER} respostas por dia)")
                 elif d.action == "reply" and d.reply.strip():
                     if replied >= MAX_REPLIES:
                         continue  # fica para a próxima execução
-                    answered.add(comment.get("username"))
+                    answered[comment.get("username")] += 1
                     print(f"↳ @{comment.get('username')}: {comment.get('text')!r}\n   {d.reply}")
                     if args.dry_run:
                         continue
