@@ -217,5 +217,24 @@
       "fall back",
       "spring forward"
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "format": "situation_phrases",
+    "theme": "Frases prontas para a daily (standup) em inglês",
+    "terms": [
+      "wrap up",
+      "pick up",
+      "almost done",
+      "that's it for me",
+      "blocked on",
+      "waiting on",
+      "review my PR",
+      "look into",
+      "take this offline",
+      "blocker",
+      "impediment"
+    ],
+    "track": "trabalho_dev"
   }
 ]

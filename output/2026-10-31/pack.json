@@ -1,0 +1,339 @@
+{
+  "format": "situation_phrases",
+  "theme": "Frases prontas para a daily (standup) em inglês",
+  "level": "B1",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Daily em inglês *sem travar*",
+      "subtitle": "Frases prontas pro seu standup",
+      "body": "",
+      "items": [
+        {
+          "en": "daily standup",
+          "pt": "reunião diária",
+          "pronunciation": "DÊI-li STÉND-âp",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💻"
+        }
+      ],
+      "note": "",
+      "layout": "hero",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Ontem, hoje e *passando a vez*",
+      "subtitle": "O roteiro básico da sua fala",
+      "body": "",
+      "items": [
+        {
+          "en": "Yesterday I worked on the login page.",
+          "pt": "Ontem trabalhei na tela de login.",
+          "pronunciation": "IÉS-ter-dei ai UÂRKT ón dâ LÓ-guin peidj",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📅"
+        },
+        {
+          "en": "I wrapped up the payment ticket.",
+          "pt": "Terminei o ticket de pagamento.",
+          "pronunciation": "ai RÉPT âp dâ PEI-ment TÍ-ket",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✅"
+        },
+        {
+          "en": "Today I'm picking up the search bug.",
+          "pt": "Hoje vou pegar o bug da busca.",
+          "pronunciation": "tu-DEI aim PÍ-kin âp dâ SÂRTCH bâg",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🐛"
+        },
+        {
+          "en": "I'm almost done with the tests.",
+          "pt": "Tô quase terminando os testes.",
+          "pronunciation": "aim ÓL-moust DÂN uidh dâ tésts",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧪"
+        },
+        {
+          "en": "That's it for me.",
+          "pt": "É isso da minha parte.",
+          "pronunciation": "dhéts IT fór mi",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎤"
+        }
+      ],
+      "note": "Wrap up = terminar, fechar algo. Super comum no trabalho, ótima alternativa ao I finished.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Travou? *Fala assim*",
+      "subtitle": "Pra pedir ajuda sem enrolar",
+      "body": "",
+      "items": [
+        {
+          "en": "I'm blocked on the API.",
+          "pt": "Tô travado na API.",
+          "pronunciation": "aim BLÓKT ón dâ ei-pi-ÁI",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🚧"
+        },
+        {
+          "en": "I'm waiting on the design team.",
+          "pt": "Tô esperando o time de design.",
+          "pronunciation": "aim UÊI-tin ón dâ di-ZÁIN TÍIM",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏳"
+        },
+        {
+          "en": "Could someone review my PR?",
+          "pt": "Alguém pode revisar meu PR?",
+          "pronunciation": "kud SÂM-uân ri-VIÚ mai pi-ÁR",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👀"
+        },
+        {
+          "en": "I'll look into it.",
+          "pt": "Vou investigar isso.",
+          "pronunciation": "ail LUK ÍN-tu it",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🔍"
+        },
+        {
+          "en": "Let's take this offline.",
+          "pt": "Vamos falar disso depois da reunião.",
+          "pronunciation": "léts TÊIK dhis óf-LÁIN",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "☕"
+        }
+      ],
+      "note": "'Take this offline' não tem nada a ver com internet: é tirar o assunto da reunião.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Soa mais natural na daily",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "I have an *impediment*.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I have a *blocker*.",
+          "pt": "Tenho um impedimento / tô travado.",
+          "pronunciation": "ai hév â BLÓ-ker",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Impediment existe no Scrum, mas no dia a dia o mais comum é blocker.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Revisão *rápida*",
+      "subtitle": "As 5 que você mais vai usar",
+      "body": "",
+      "items": [
+        {
+          "en": "wrap up",
+          "pt": "terminar, fechar",
+          "pronunciation": "RÉP âp",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✅"
+        },
+        {
+          "en": "blocked on",
+          "pt": "travado em",
+          "pronunciation": "BLÓKT ón",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🚧"
+        },
+        {
+          "en": "waiting on",
+          "pt": "esperando (alguém/algo)",
+          "pronunciation": "UÊI-tin ón",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏳"
+        },
+        {
+          "en": "look into",
+          "pt": "investigar",
+          "pronunciation": "LUK ÍN-tu",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🔍"
+        },
+        {
+          "en": "take this offline",
+          "pt": "falar disso fora da reunião",
+          "pronunciation": "têik dhis óf-LÁIN",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "☕"
+        }
+      ],
+      "note": "Salva pra revisar antes da próxima daily!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Manda pro seu time 💻",
+      "subtitle": "",
+      "body": "Manda pra quem ainda só usa 'impediment' na daily 😉 Salva pra revisar antes do próximo standup. Segue @inglesleve.br: 1 erro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Sua daily em inglês não precisa ser um pesadelo 💻\n\nSalvei aqui o roteiro completo: o que você fez ontem, o que vai fazer hoje e como avisar que travou. E uma dica: 'impediment' existe no Scrum, mas no dia a dia o que mais se ouve é 'I have a blocker'.\n\nBônus que não está nos slides: quando o líder perguntar 'Any blockers?' e estiver tudo certo, responde só 'Nope, all good!' (Nada, tudo certo!). Curto e natural.\n\nSua daily já é em inglês ou ainda vai ser? Conta aqui nos comentários 👇\n\nManda pra quem ainda só usa 'impediment' na daily. Segue @inglesleve.br: 1 erro corrigido por dia.",
+  "hashtags": [
+    "inglesparadevs",
+    "inglesnotrabalho",
+    "aprenderingles",
+    "dicasdeingles",
+    "inglesonline",
+    "ingles",
+    "programador",
+    "desenvolvedor",
+    "devbrasil",
+    "techbrasil",
+    "englishforwork",
+    "dailystandup",
+    "inglesleve"
+  ],
+  "stories": [
+    {
+      "kind": "poll",
+      "headline": "Na daily, você travou numa tarefa. Qual soa mais natural: IMPEDIMENT ou BLOCKER?",
+      "body": "Vota na enquete 👇",
+      "options": [
+        "I have an impediment.",
+        "I have a blocker."
+      ],
+      "answer": "I have a blocker.",
+      "emoji": "🚧"
+    },
+    {
+      "kind": "fill",
+      "headline": "Esse assunto é longo. Let's take this ___.",
+      "body": "Completa a frase da daily e manda a palavra no direct: OFFLINE, OUTSIDE ou OUTLINE?",
+      "options": [
+        "offline",
+        "outside",
+        "outline"
+      ],
+      "answer": "offline",
+      "emoji": "☕"
+    },
+    {
+      "kind": "speak",
+      "headline": "I wrapped up the payment ticket.",
+      "body": "ai RÉPT âp dâ PEI-ment TÍ-ket · Manda o áudio no direct 🎤",
+      "options": [],
+      "answer": "",
+      "emoji": "🎤"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje 💻",
+      "body": "1) Na daily o mais natural é 'I have a blocker' (impediment não está errado, é mais termo de Scrum). 2) 'Let's take this offline' = vamos falar disso fora da reunião. Cuidado: 'Let's take this outside' é 'vamos resolver lá fora' (tipo briga) 😅 3) Áudios: em 'wrapped' o W é mudo e o -ed não vira -ED: soa RÉPT!",
+      "options": [],
+      "answer": "BLOCKER e OFFLINE",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "wrap up",
+    "pick up",
+    "almost done",
+    "that's it for me",
+    "blocked on",
+    "waiting on",
+    "review my PR",
+    "look into",
+    "take this offline",
+    "blocker",
+    "impediment"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Sua *daily* em inglês, pronta",
+        "text": "Na reunião com o time gringo",
+        "emoji": "💻",
+        "say_pt": "Sua daily em inglês, na ordem certa!",
+        "say_en": ""
+      },
+      {
+        "kind": "example",
+        "title": "Yesterday I wrapped up the login page.",
+        "text": "Ontem terminei a tela de login.",
+        "emoji": "✅",
+        "say_pt": "Primeiro, o que você terminou ontem:",
+        "say_en": "Yesterday I wrapped up the login page."
+      },
+      {
+        "kind": "example",
+        "title": "Today I'm picking up the search bug.",
+        "text": "Hoje vou pegar o bug da busca.",
+        "emoji": "🐛",
+        "say_pt": "Depois, o que vai fazer hoje:",
+        "say_en": "Today I'm picking up the search bug."
+      },
+      {
+        "kind": "example",
+        "title": "I'm blocked on the API.",
+        "text": "Tô travado na API.",
+        "emoji": "🚧",
+        "say_pt": "Travou? Fala assim:",
+        "say_en": "I'm blocked on the API."
+      },
+      {
+        "kind": "example",
+        "title": "That's it for me.",
+        "text": "É isso da minha parte.",
+        "emoji": "🎤",
+        "say_pt": "E pra passar a vez:",
+        "say_en": "That's it for me."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra arrasar no *inglês do trabalho*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil pra arrasar no inglês do trabalho!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Sua próxima daily em inglês, prontinha 💻 Qual dessas frases você mais vai usar? Comenta aí!"
+  }
+}

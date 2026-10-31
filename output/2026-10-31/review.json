@@ -1,0 +1,113 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[1].note",
+        "problem": "A nota diz que 'wrap up' é 'bem mais natural que I finished'. Isso não é verdade: 'I finished the payment ticket' é perfeitamente natural, e nativos usam as duas formas na daily. Numa página de ensino, sugerir que 'I finished' soa errado ou artificial ensina uma regra falsa.",
+        "fix": "Trocar por: 'Wrap up = terminar, fechar algo. Super comum no trabalho, uma ótima alternativa ao I finished.'"
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'Na daily ninguém fala I have an impediment' é exagero. Em times que seguem Scrum à risca, 'impediment' aparece sim, como a própria nota do slide fix reconhece. A legenda contradiz o slide.",
+        "fix": "Suavizar para: 'na daily o mais comum é I have a blocker, não I have an impediment'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].body",
+        "problem": "O story é um 'poll', mas o body pede para responder no direct. Isso é redundante e confunde com o sticker de enquete.",
+        "fix": "Trocar por algo como 'Vota na enquete 👇' ou 'Escolhe uma 👇'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[*].emoji",
+        "problem": "Os dois itens do slide fix estão sem emoji, enquanto os outros slides têm emoji por item. Fica inconsistente se o layout espera emoji.",
+        "fix": "Adicionar emojis: por exemplo ❌ no erro e 🚧 em 'blocker', ou confirmar que o layout fix não usa emoji."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[1].options",
+        "problem": "O distrator 'outside' forma o idioma real 'take this outside' (= resolver na briga, lá fora). Não é ambíguo como resposta, mas é uma oportunidade perdida e pode gerar dúvida.",
+        "fix": "Opcional: mencionar no story de respostas que 'take this outside' significa 'vamos resolver lá fora (na briga)' 😅. Também dá para trocar o distrator por 'offside'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[5].title",
+        "problem": "'Segue pra aprender um por dia' não bate com o slogan do perfil ('1 erro corrigido por dia') nem com o conteúdo do reel, que traz frases de situação e não um termo.",
+        "fix": "Alinhar: 'Segue pra *1 erro corrigido por dia*' ou 'Segue pra arrasar no *inglês do trabalho*'."
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês das frases é natural e idiomático, as traduções e pronúncias estão boas e a estrutura respeita os limites. O reel está coerente com o post e os stories têm resposta única. O único problema que impede a aprovação é a nota que apresenta 'I finished' como menos natural que 'wrap up', o que ensina algo falso. Há também ajustes menores: o exagero sobre 'impediment' na legenda, o body do poll, a falta de emojis no slide fix e o CTA do reel desalinhado do slogan. Corrigida a nota, pode publicar."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3] (fix) + feed[5].body + caption",
+        "problem": "Chamar 'I have an impediment' de 'erro clássico' exagera. A frase é gramaticalmente correta e 'impediment' é o termo oficial do Scrum Guide ('Any impediments?' existe em vários times). Ela só é menos comum que 'blocker' no dia a dia. O tom de zoeira ('quem ainda fala...') pode gerar correção nos comentários.",
+        "fix": "Trocar o título para algo como 'Soa mais natural na daily' e suavizar o CTA/legenda (ex.: 'Manda pra quem ainda só usa impediment'). A nota atual já explica bem a nuance."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[1].pronunciation",
+        "problem": "'tim' para 'team' induz ao brasileiro ler 'tchim' (nasal, com t palatalizado) e encurta a vogal longa /iː/.",
+        "fix": "Usar 'TÍIM' ou 'tíim': 'aim UÊI-tin ón dâ di-ZÁIN TÍIM'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[3].body",
+        "problem": "A dica de pronúncia de 'wrapped' foca só no -ed. O erro mais comum do brasileiro aqui é pronunciar o W.",
+        "fix": "Acrescentar: 'o W é mudo e o -ed não vira -ED: soa RÉPT'."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'review my pr' está em minúsculas, inconsistente com a sigla 'PR' usada no slide.",
+        "fix": "Padronizar como 'review my PR'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[*].emoji",
+        "problem": "Os emojis do slide fix estão vazios. Se o layout exibe emoji, o slide fica inconsistente com os demais.",
+        "fix": "Se o template usar emoji, adicionar ❌ no 1º item e 🚧 no 2º. Caso contrário, manter vazio."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está natural e correto ('wrap up', 'pick up', 'blocked on', 'waiting on', 'take this offline' e 'That's it for me' são exatamente o que nativos dizem em standups). As traduções estão boas, inclusive a nuance de 'take this offline' e de 'take this outside'. As pronúncias estão bem aproximadas, com tônica certa. A estrutura respeita os limites (cover primeiro, CTA por último, listas com 5 itens, fix com 2). Os stories seguem o roteiro situation_phrases (poll com 2 opções, fill, speak, answer cobrindo tudo). O reel tem 6 cenas, começa com hook, termina com CTA e o say_en bate com a tela. Só há ajustes de estilo, principalmente suavizar o enquadramento de 'impediment' como 'erro', já que é termo legítimo do Scrum. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "reel.scenes[1].title",
+        "problem": "No feed a frase é 'Yesterday I worked on the login page.', mas no reel virou 'Yesterday I wrapped up the login page.'. As duas estão corretas, só que a troca quebra um pouco a coerência entre post e reel, e quem salvar o carrossel não vai encontrar a mesma frase.",
+        "fix": "Use no reel a mesma frase do slide ('Yesterday I worked on the login page.' / 'Ontem trabalhei na tela de login.'). Outra opção é trocar a frase do slide para 'wrapped up', que já é ensinado no item seguinte."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0]",
+        "problem": "O gancho ('Sua daily em inglês, na ordem certa!') é informativo, mas fraco: não cria tensão nem toca na dor de quem trava na reunião.",
+        "fix": "Algo como: say_pt 'Travou na daily em inglês? Copia essas frases!', com title 'Travou na *daily* em inglês?'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items",
+        "problem": "Os itens do slide 'fix' estão sem emoji. Também vale reforçar que 'impediment' não está errado, é só menos coloquial, para não passar a ideia de erro grave (o note e a resposta dos stories já fazem isso bem).",
+        "fix": "Opcional: adicionar emojis (ex.: 📋 em impediment, 🚧 em blocker), ou manter o slide sem emoji se o layout 'fix' não os exibir."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].layout",
+        "problem": "O layout 'hero' não está entre os listados nas regras de cover (equation, versus, grid, statement, fix). Com um único item ele parece consistente, mas convém confirmar que o template suporta esse layout.",
+        "fix": "Confirme que 'hero' é um layout válido no template. Se não for, use 'statement' com strike preenchido (ex.: strike 'I have an impediment')."
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês é natural e correto ('wrap up', 'blocked on', 'waiting on', 'look into', 'take this offline', 'That's it for me'), as traduções são boas e as pronúncias aportuguesadas estão bem aproximadas, com a tônica certa. As afirmações também conferem: 'impediment' é termo do Scrum Guide e 'blocker' é mais coloquial; 'take this outside' tem de fato conotação de briga; em 'wrapped' o W é mudo e o -ed soa /t/. A estrutura está dentro dos limites: cover primeiro, CTA por último, listas com 5 itens, fix com 2. Os stories têm poll com 2 opções, uma resposta certa e answer cobrindo tudo, e o reel tem 6 cenas, começa com hook, termina com CTA e o say_en é igual ao texto da tela. Só há ajustes menores: alinhar a frase do reel com a do feed, fortalecer o gancho, completar os emojis do slide fix e confirmar o layout 'hero'. Aprovado."
+  }
+]
