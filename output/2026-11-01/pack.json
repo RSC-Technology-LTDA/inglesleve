@@ -1,0 +1,301 @@
+{
+  "format": "milestone",
+  "theme": "Comemoração de 1.000 seguidores: como comemorar e agradecer em inglês",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "*1.000* vezes obrigado!",
+      "subtitle": "E hoje tem inglês pra comemorar",
+      "body": "",
+      "items": [
+        {
+          "en": "We did it!",
+          "pt": "Conseguimos!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎉"
+        }
+      ],
+      "note": "",
+      "layout": "hero",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Como *comemorar* e agradecer",
+      "subtitle": "Frases que nativo usa de verdade",
+      "body": "",
+      "items": [
+        {
+          "en": "We did it!",
+          "pt": "Conseguimos!",
+          "pronunciation": "uí DI-dit",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏆"
+        },
+        {
+          "en": "I couldn't have done it without you.",
+          "pt": "Eu não teria conseguido sem vocês.",
+          "pronunciation": "ai KU-dn-tav DÂ-nit ui-DAUT iu",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤝"
+        },
+        {
+          "en": "This calls for a celebration!",
+          "pt": "Isso merece uma comemoração!",
+          "pronunciation": "dis KÓLZ for a se-le-BREI-shan",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🥳"
+        },
+        {
+          "en": "Thanks a million!",
+          "pt": "Muitíssimo obrigado!",
+          "pronunciation": "THENK-sa MI-lion",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💛"
+        },
+        {
+          "en": "You guys rock!",
+          "pt": "Vocês são demais!",
+          "pronunciation": "iu GAIZ RÁK",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤘"
+        }
+      ],
+      "note": "TH = língua entre os dentes. 'You guys' vale pra qualquer grupo, não só homens.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Os posts que vocês mais *amaram*",
+      "subtitle": "Relembra rapidinho",
+      "body": "",
+      "items": [
+        {
+          "en": "I'm 30 years old.",
+          "pt": "Eu tenho 30 anos. (e não 'I have 30 years')",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎂"
+        },
+        {
+          "en": "push x pull",
+          "pt": "empurrar x puxar",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🚪"
+        },
+        {
+          "en": "fall",
+          "pt": "outono (o jeito americano)",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍂"
+        },
+        {
+          "en": "freak out",
+          "pt": "surtar, entrar em pânico",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "😱"
+        }
+      ],
+      "note": "Perdeu algum? Tá tudo no perfil!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Uma palavra de *presente*",
+      "subtitle": "Pra celebrar cada conquista",
+      "body": "",
+      "items": [
+        {
+          "en": "milestone",
+          "pt": "marco, grande conquista",
+          "pronunciation": "MAIL-stoun",
+          "example_en": "1,000 followers is a huge milestone!",
+          "example_pt": "1.000 seguidores é um marco enorme!",
+          "emoji": "🏅"
+        }
+      ],
+      "note": "Em inglês o número usa vírgula: 1,000. Em português, ponto: 1.000.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Revisão *rápida*",
+      "subtitle": "O essencial de hoje",
+      "body": "",
+      "items": [
+        {
+          "en": "We did it!",
+          "pt": "Conseguimos!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Thanks a million!",
+          "pt": "Muitíssimo obrigado!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "You guys rock!",
+          "pt": "Vocês são demais!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "milestone",
+          "pt": "marco, conquista",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Salva pra revisar 📌",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Rumo aos *5.000*!",
+      "subtitle": "",
+      "body": "Manda pra um amigo que quer aprender inglês e ainda fala 'I have 30 years' 😅 Cada compartilhamento ajuda a gente a chegar nos 5.000! Segue @inglesleve.br: 1 erro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "We did it! Somos 1.000 por aqui! 🎉\n\nObrigado de verdade por cada curtida, comentário e mensagem. Essa página existe por causa de vocês.\n\nBônus que não está nos slides: quando alguém fizer um brinde ou disser algo com que você concorda muito, responda \"Cheers to that!\" (um brinde a isso!). Serve tanto com copo na mão quanto numa conversa normal.\n\nE agora, rumo aos 5.000! Me conta nos comentários: qual frase em inglês você quer aprender no próximo post?",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "inglesfacil",
+    "dicasdeingles",
+    "inglesamericano",
+    "vocabulario",
+    "inglesdodia",
+    "1000seguidores",
+    "frasesemingles",
+    "englishtips"
+  ],
+  "stories": [
+    {
+      "kind": "tip",
+      "headline": "Somos 1.000! 🎉",
+      "body": "Thanks a million! Muitíssimo obrigado por aprender inglês com a gente todo dia. Vocês são demais: you guys rock!",
+      "options": [],
+      "answer": "",
+      "emoji": "🎉"
+    },
+    {
+      "kind": "poll",
+      "headline": "Qual foi seu post favorito?",
+      "body": "Vota na enquete: PUSH x PULL ou FALL x AUTUMN?",
+      "options": [
+        "Push x pull",
+        "Fall x autumn"
+      ],
+      "answer": "",
+      "emoji": "⭐"
+    },
+    {
+      "kind": "question",
+      "headline": "Rumo à próxima meta: o que você quer aprender?",
+      "body": "Rumo aos 5.000! Responde no direct com VIAGEM, TRABALHO ou GÍRIAS.",
+      "options": [
+        "Inglês para viagem",
+        "Inglês no trabalho",
+        "Gírias americanas"
+      ],
+      "answer": "",
+      "emoji": "✈️"
+    },
+    {
+      "kind": "answer",
+      "headline": "Thank you so much! 💛",
+      "body": "Recebemos uma chuva de respostas! O conteúdo mais votado vira post especial nesta semana. Fica de olho!",
+      "options": [],
+      "answer": "O mais votado vem aí. This calls for a celebration!",
+      "emoji": "🥳"
+    }
+  ],
+  "terms_used": [
+    "we did it",
+    "i couldn't have done it without you",
+    "this calls for a celebration",
+    "thanks a million",
+    "you guys rock",
+    "milestone"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Somos *1.000*! Comemora comigo em inglês?",
+        "text": "",
+        "emoji": "🎉",
+        "say_pt": "Chegamos a mil! Aprende a comemorar em inglês:",
+        "say_en": ""
+      },
+      {
+        "kind": "example",
+        "title": "We did it!",
+        "text": "Conseguimos!",
+        "emoji": "🏆",
+        "say_pt": "Pra comemorar, diga:",
+        "say_en": "We did it!"
+      },
+      {
+        "kind": "example",
+        "title": "Thanks a million!",
+        "text": "Muitíssimo obrigado!",
+        "emoji": "💛",
+        "say_pt": "Pra agradecer muito:",
+        "say_en": "Thanks a million!"
+      },
+      {
+        "kind": "example",
+        "title": "I couldn't have done it without you.",
+        "text": "Eu não teria conseguido sem vocês.",
+        "emoji": "🤝",
+        "say_pt": "E pra vocês que seguem a gente:",
+        "say_en": "I couldn't have done it without you."
+      },
+      {
+        "kind": "cta",
+        "title": "Rumo aos *5.000*: compartilha e segue",
+        "text": "",
+        "emoji": "🚀",
+        "say_pt": "Rumo aos cinco mil! Compartilha com um amigo e segue!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Somos 1.000! 🎉 Aprende a comemorar em inglês com a gente. Qual dessas frases você vai usar primeiro?"
+  }
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[3].items[0].pronunciation",
+        "problem": "'MAI-ou-stoun' cria uma sílaba extra ('ou') que não existe. 'Milestone' /ˈmaɪlstoʊn/ tem só duas sílabas. O brasileiro vai acabar dizendo 'mai-ôu-stoun'.",
+        "fix": "Trocar por 'MAIL-stoun' (ou 'MAIU-stoun', com o L final escuro)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[1].pronunciation",
+        "problem": "'rév' com acento sugere 'have' tônico e pronunciado inteiro. Na fala natural vira 'couldn't've' /ˈkʊdntəv/, átono.",
+        "fix": "Usar 'ai KU-dn-tav DÂ-nit ui-DAUT iu' ou ao menos tirar o acento: 'rev'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[4].pronunciation",
+        "problem": "'RÓK' aproxima o 'rock' britânico. No inglês americano (proposta da página) o som é mais aberto, /rɑːk/.",
+        "fix": "Usar 'RÁK'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[1].body",
+        "problem": "O story é um poll com opções, mas o texto pede 'Responde PUSH ou FALL no direct!'. Isso é incoerente com o sticker de enquete.",
+        "fix": "Trocar por 'Vota na enquete!'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].subtitle / feed[4].note",
+        "problem": "'Salva pra revisar' aparece repetido no subtitle e na note do mesmo slide.",
+        "fix": "Mudar um deles, ex.: subtitle 'O essencial de hoje'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'algo que você concorda muito' fica regência informal demais para uma página de ensino.",
+        "fix": "'algo com que você concorda muito'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].title",
+        "problem": "'*1.000* obrigados!' soa estranho em PT-BR.",
+        "fix": "Considerar '*1.000* vezes obrigado!' ou 'Obrigado, *1.000*!'."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'cheers to that' só aparece na legenda, não nos slides. Aceitável, mas vale confirmar se deve constar como termo ensinado no pacote.",
+        "fix": "Manter se a legenda conta como conteúdo ensinado; senão, remover ou incluir em um slide."
+      }
+    ],
+    "summary": "Pacote coerente e simpático. O inglês está correto e natural (We did it, Thanks a million, You guys rock, This calls for a celebration, Cheers to that), e a estrutura de feed, stories e reel está dentro dos limites. Há um problema major que barra a publicação: a pronúncia de 'milestone' ('MAI-ou-stoun') adiciona uma sílaba inexistente, justamente na palavra-tema do post. Os demais pontos são ajustes de estilo: a pronúncia átona de 'have', 'rock' no padrão americano, a instrução do poll e pequenas redundâncias."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[1].items[3].pronunciation",
+        "problem": "'THENK-sa MI-lion' usa 'TH' sem indicação. O brasileiro tende a ler como 'T' ou 'TCH', e o som /θ/ não tem equivalente em português.",
+        "fix": "Manter, mas acrescentar no note: 'TH = língua entre os dentes'. Outra opção é usar uma convenção já explicada no perfil."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[1].pt / reel.scenes[3].text",
+        "problem": "No contexto de agradecer a 1.000 seguidores, 'sem você' (singular) soa menos natural que 'sem vocês'. Em inglês 'you' serve para os dois.",
+        "fix": "Usar 'Eu não teria conseguido sem vocês.' ou 'Eu não teria conseguido sem você(s).'"
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'cheers to that' aparece só na legenda, como bônus, e não nos slides. Os termos revisados no slide 3 ('I'm 30 years old', 'push x pull', 'fall', 'freak out') não estão listados.",
+        "fix": "Aceitável por ser bônus. Para coerência, levar 'Cheers to that!' para um slide ou removê-lo de terms_used. Os termos de revisão podem ficar de fora, já que não foram ensinados neste post."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[1].emoji",
+        "problem": "O emoji 🍂 favorece visualmente a opção 'Fall x autumn' na enquete.",
+        "fix": "Usar um emoji neutro, como ⭐ ou 🗳️."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0]",
+        "problem": "O gancho 'Somos 1.000!' é comemorativo, mas pouco atrativo para quem ainda não segue a página.",
+        "fix": "Algo como 'Somos *1.000*! Comemora comigo em inglês?', com say_pt 'Chegamos a mil! Aprende a comemorar em inglês:'."
+      },
+      {
+        "severity": "minor",
+        "location": "hashtags",
+        "problem": "'obrigado' é genérica demais e não atrai o público-alvo.",
+        "fix": "Trocar por algo como 'frasesemingles' ou 'inglesbasico'."
+      }
+    ],
+    "summary": "Pacote sólido e coerente com o formato milestone. O inglês está correto e natural: 'We did it!', 'I couldn't have done it without you', 'This calls for a celebration!', 'Thanks a million!', 'You guys rock!', 'milestone' e 'Cheers to that!'. As traduções estão adequadas e as pronúncias aproximam bem com tônicas certas. A nota sobre 'you guys' é verdadeira, e a nota sobre vírgula vs. ponto em 1,000 está correta. A estrutura está dentro dos limites: cover primeiro, CTA por último, listas com no máximo 5 itens e term com 1 item. Os stories seguem o roteiro: agradecimento, enquete com 2 opções, pergunta com 3 e resposta. O reel tem 5 cenas, começa com hook, termina com cta e o say_en é idêntico à tela. Só há ajustes de estilo: 'sem vocês' no plural, marcação do TH, emoji neutro na enquete, gancho mais forte e terms_used."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "stories[1].options[1]",
+        "problem": "A enquete fala em 'Fall x autumn', mas o slide 3 apresenta o post só como 'fall' (outono, jeito americano). A diferença é pequena, mas pode confundir quem não lembra do post original.",
+        "fix": "Alinhar os dois: no slide 3, usar 'fall x autumn' com pt 'outono (EUA x Reino Unido)', ou na enquete usar só 'Fall'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "O bônus 'Cheers to that!' é ensinado na legenda, mas não aparece em terms_used. Vale notar também que 'I'll drink to that!' é a forma mais idiomática para concordar fora de um brinde.",
+        "fix": "Opcional: incluir 'cheers to that' em terms_used, ou mencionar 'I'll drink to that!' como variante comum."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[2].pronunciation",
+        "problem": "'for a' em fala natural soa reduzido e ligado ('fər ə'). A forma 'for a' separada induz a pronúncia carregada.",
+        "fix": "Usar 'dis KÓLZ fo-ra se-le-BREI-shan'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[3].body",
+        "problem": "O story promete 'chuva de respostas' e post especial 'nesta semana'. Se os stories forem programados junto com o post, a afirmação pode não refletir a realidade.",
+        "fix": "Publicar só depois de receber as respostas, ou usar um texto neutro como 'O mais votado vira post especial em breve!'"
+      }
+    ],
+    "summary": "Pacote sólido e coerente com o tema de 1.000 seguidores. O inglês está correto e natural: 'We did it!', 'I couldn't have done it without you', 'This calls for a celebration!', 'Thanks a million!', 'You guys rock!' e 'milestone'. As traduções estão boas, as pronúncias aportuguesadas estão adequadas e a tônica está certa (MAIL-stoun, ui-DAUT). A nota sobre 1,000 x 1.000 está correta. A estrutura respeita os limites (cover primeiro, cta por último, listas com até 5 itens). Os stories seguem um roteiro de comemoração (tip, poll com 2 opções, question com 3, answer). O reel tem 5 cenas, começa com hook, termina com cta e o say_en bate com a tela. Só há ajustes de estilo e coerência menores, então está aprovado."
+  }
+]
