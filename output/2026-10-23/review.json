@@ -1,0 +1,154 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[3].items[1].pronunciation",
+        "problem": "A tônica de 'leftovers' está errada. O inglês americano é /ˈlɛftˌoʊvərz/, com a tônica em LEFT. 'léft-OU-vers' ensina o acento no lugar errado.",
+        "fix": "Trocar por 'LÉFT-ou-vers'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].pronunciation",
+        "problem": "Em 'set the clocks back', o acento principal cai na partícula do phrasal verb (BACK). Marcar só CLÓKS como tônica induz a uma entonação estranha.",
+        "fix": "Usar 'sét-dâ-clóks-BÉK' (ou 'sét-dâ-CLÓKS-BÉK')."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].subtitle / feed[1].items[0].example_en",
+        "problem": "O subtítulo diz 'Hoje o relógio voltou 1 hora nos EUA', o que amarra o post ao dia 1/11 e não vale para todo o país (Havaí e quase todo o Arizona não mudam). Além disso, o horário muda às 2h de domingo, então 'tonight' se refere à noite de sábado (31/10) e conflita com 'hoje voltou'.",
+        "fix": "Reescrever: 'No 1º domingo de novembro (1/11), o relógio volta 1 hora na maior parte dos EUA. Escurece bem mais cedo.' O exemplo com 'tonight' pode ficar, por ser genérico."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[1].pt / feed[6].items[1].pt / reel.scenes[1].text",
+        "problem": "'Obrigado pelo seu serviço' é um decalque que soa estranho em PT-BR. O sentido real é agradecer por ter servido ao país.",
+        "fix": "Usar 'obrigado por servir (ao país)' como tradução e, se quiser, explicar que é a frase padrão dita a militares e veteranos."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[2].pronunciation",
+        "problem": "No inglês americano, 'holiday' tem /ɑ/ na sílaba tônica ('HÁ-li-dei'). 'RÓ' puxa para o britânico.",
+        "fix": "Trocar por 'FÉ-de-ral-RÁ-li-dei'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[0].example_pt",
+        "problem": "A tradução está inconsistente. O item diz 'oferta-isca que lota a loja', mas o exemplo usa 'ofertas relâmpago', que em inglês seria 'flash sale' ou 'lightning deal'.",
+        "fix": "Usar 'As ofertas de abertura acabam às 10h.' ou 'As megaofertas da porta acabam às 10h.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items[0].example_pt",
+        "problem": "'O Friendsgiving este ano é cada um leva um prato.' soa truncado em PT-BR.",
+        "fix": "Trocar por 'Este ano o Friendsgiving vai ser no esquema cada um leva um prato.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].note",
+        "problem": "A nota usa a grafia britânica 'moustache', enquanto o item ensina a americana 'mustache'. O aluno pode achar que uma das duas está errada.",
+        "fix": "Trocar por 'Movember = moustache (grafia britânica; nos EUA, mustache) + November.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[1].emoji",
+        "problem": "🍱 (bento japonês) não remete a sobras de Thanksgiving.",
+        "fix": "Usar 🥡 ou 🍗."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].subtitle / stories[2].headline",
+        "problem": "O post promete '5 datas', mas apresenta 7 eventos em 5 slides, e o fim do horário de verão não é uma 'data' festiva.",
+        "fix": "Trocar por '5 momentos de novembro e o inglês de cada um' ou 'O que rola em novembro nos EUA'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[0].pronunciation",
+        "problem": "'no-VÉM-ber' aproxima mal a primeira sílaba, que é o ditongo /oʊ/.",
+        "fix": "Trocar por 'nou-VÉM-ber'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items[1].pronunciation",
+        "problem": "O artigo 'a' em 'bring a dish' é schwa. Com 'a', o aluno tende a ler 'á'.",
+        "fix": "Trocar por 'bring-â-DÍSH'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].subtitle / feed[6].note",
+        "problem": "'Salva pra revisar' aparece duplicado no subtítulo e na nota do mesmo slide.",
+        "fix": "Manter só um. Por exemplo, subtítulo 'As frases do mês' e nota 'Salva pra revisar 📌'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].title",
+        "problem": "O gancho está fraco e genérico ('tem isso').",
+        "fix": "Usar algo como '3 frases que todo americano usa em *November*' ou 'Vai pros EUA em *November*? Aprende isso'."
+      }
+    ],
+    "summary": "Pacote bem construído: as datas de 2026 batem (DST em 1/11, Thanksgiving em 26/11, Black Friday em 27/11, Cyber Monday em 30/11), os fatos estão corretos (armistício, lei de 1941, Filadélfia nos anos 60, Cyber Monday em 2005, Native American Heritage Month desde 1990), o inglês dos exemplos é natural e a estrutura do feed, dos stories e do reel está dentro das regras. O único bloqueio é a tônica errada de 'leftovers' (léft-OU-vers), que precisa virar 'LÉFT-ou-vers'. Os demais pontos são ajustes de estilo e precisão: tônica de 'set the clocks back', o 'hoje' do slide de DST, a tradução decalcada de 'thank you for your service', a inconsistência em 'doorbuster', a grafia de moustache, o emoji de leftovers e o gancho do reel. Corrigido o major, pode publicar."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[1..4].title / reel.scenes[1..3].text",
+        "problem": "The fixed dates (Nov 1, 26, 27 and 30) are correct only for 2026. In 2025, for example, DST ends Nov 2 and Thanksgiving falls on Nov 27. Without the year shown, the post goes stale or looks wrong if reposted.",
+        "fix": "Add the year to the cover or titles (e.g., 'Nov 26, 2026'), or lean on the rule ('4ª quinta', '1º domingo') and drop the fixed day number."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].say_pt",
+        "problem": "The hook promises 'três frases', but 'Food coma' and 'Doorbuster' are terms, not phrases.",
+        "fix": "Use 'Então aprende essas três expressões!' or '...esse inglês aqui!'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].subtitle",
+        "problem": "The subtitle says '5 momentos', but the slides cover 7 dates or traditions (DST, Veterans Day, Thanksgiving, Black Friday, Cyber Monday, Friendsgiving, Movember), grouped into 5 slides.",
+        "fix": "Change to '5 slides de novembro e o inglês de cada um' or 'As datas de novembro e o inglês de cada uma'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].title",
+        "problem": "'o mês todo' fits Movember, but Friendsgiving usually happens close to Thanksgiving, not throughout the month.",
+        "fix": "Use something like 'Friendsgiving & Movember · fim de mês / mês todo', or just 'Friendsgiving & Movember'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[0].emoji",
+        "problem": "The 🦃 emoji stands for Thanksgiving, not 'November' as a word.",
+        "fix": "Use 📅 or 🍂 for November and keep 🦃 for turkey."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[0].example_pt",
+        "problem": "The translation 'ofertas de abertura' doesn't match the definition 'oferta-isca que lota a loja' used on the same slide and in the reel.",
+        "fix": "Use 'As ofertas-relâmpago de abertura acabam às 10h.' or 'As super ofertas acabam às 10h.' so it stays consistent."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[4] / feed[7].body",
+        "problem": "The two promises don't match: the reel CTA says 'aprender *um por dia*', while the feed CTA says '1 erro corrigido por dia'.",
+        "fix": "Use the same promise in both places."
+      },
+      {
+        "severity": "minor",
+        "location": "stories",
+        "problem": "All 3 stories are passive (tip, speak, tip), with no poll or quiz for engagement. They may not follow the full month_facts script if it calls for an interactive story.",
+        "fix": "Turn one of the tips into a 'poll', e.g., 'Thanksgiving cai sempre numa...' with options 'quinta' / 'sexta' and the answer 'quinta'."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'fall back' is mentioned in the note on slide 2 but missing from terms_used. The list also includes event names (veterans day, cyber monday) that weren't taught as vocabulary.",
+        "fix": "Add 'fall back', or remove the note. Optionally separate event names from taught vocabulary."
+      }
+    ],
+    "summary": "Solid package: the English is natural and correct, translations are good, and pronunciations are reasonable with the right stress. The checked facts are true: Armistice on 11/11/1918 at 11h, Thanksgiving fixed by law in 1941, 'Black Friday' from Philadelphia police in the 1960s, Cyber Monday in 2005, Movember from moustache, and NAHM from 1990. The structure and reel are within limits. Only minor issues remain: the fixed dates are 2026-specific with no year shown, a few small inconsistencies, and the stories aren't interactive. Approved, with the year fix recommended."
+  }
+]

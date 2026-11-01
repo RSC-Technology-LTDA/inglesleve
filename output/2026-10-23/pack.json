@@ -1,0 +1,373 @@
+{
+  "format": "month_facts",
+  "theme": "Novembro nos EUA: datas, tradições e o inglês delas",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "*November* nos EUA",
+      "subtitle": "5 momentos de novembro e o inglês de cada um",
+      "body": "",
+      "items": [
+        {
+          "en": "November",
+          "pt": "novembro",
+          "pronunciation": "nou-VÉM-ber",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🦃"
+        }
+      ],
+      "note": "",
+      "layout": "hero",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Daylight Saving Time ends · Nov 1",
+      "subtitle": "No 1º domingo de novembro (1/11), o relógio volta 1 hora na maior parte dos EUA. Escurece bem mais cedo.",
+      "body": "",
+      "items": [
+        {
+          "en": "set the clocks back",
+          "pt": "atrasar o relógio",
+          "pronunciation": "sét-dâ-clóks-BÉK",
+          "example_en": "Don't forget to set the clocks back tonight.",
+          "example_pt": "Não esquece de atrasar o relógio hoje à noite.",
+          "emoji": "⏰"
+        },
+        {
+          "en": "an extra hour of sleep",
+          "pt": "uma hora a mais de sono",
+          "pronunciation": "ân-ÉKS-tra-AU-er-âv-SLIIP",
+          "example_en": "Best part of November? An extra hour of sleep.",
+          "example_pt": "Melhor parte de novembro? Uma hora a mais de sono.",
+          "emoji": "🛌"
+        },
+        {
+          "en": "it gets dark early",
+          "pt": "escurece cedo",
+          "pronunciation": "it-guéts-DARK-ÂR-li",
+          "example_en": "It gets dark so early now. It's only 5 p.m.!",
+          "example_pt": "Tá escurecendo cedo demais. São só 5 da tarde!",
+          "emoji": "🌙"
+        }
+      ],
+      "note": "Pra lembrar: 'Spring forward, fall back' (na primavera adianta, no outono atrasa).",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Veterans Day · Nov 11",
+      "subtitle": "Homenageia quem serviu nas Forças Armadas. Marca o fim da 1ª Guerra: dia 11/11/1918, às 11h.",
+      "body": "",
+      "items": [
+        {
+          "en": "veteran",
+          "pt": "veterano (ex-militar)",
+          "pronunciation": "VÉ-te-ran",
+          "example_en": "My grandpa is a veteran.",
+          "example_pt": "Meu avô é veterano.",
+          "emoji": "🎖️"
+        },
+        {
+          "en": "thank you for your service",
+          "pt": "obrigado por servir (ao país)",
+          "pronunciation": "THÉNK-iu-fór-iór-SÂR-vis",
+          "example_en": "Thank you for your service, sir.",
+          "example_pt": "Obrigado por servir ao país, senhor.",
+          "emoji": "🤝"
+        },
+        {
+          "en": "federal holiday",
+          "pt": "feriado nacional",
+          "pronunciation": "FÉ-de-ral-RÁ-li-dei",
+          "example_en": "The bank is closed. It's a federal holiday.",
+          "example_pt": "O banco tá fechado. É feriado nacional.",
+          "emoji": "🏦"
+        }
+      ],
+      "note": "'Thank you for your service' é a frase padrão dita a militares e veteranos.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Thanksgiving · Nov 26",
+      "subtitle": "Por lei desde 1941, cai sempre na 4ª quinta de novembro. O peru é tão central que o apelido é Turkey Day.",
+      "body": "",
+      "items": [
+        {
+          "en": "turkey",
+          "pt": "peru",
+          "pronunciation": "TÂR-ki",
+          "example_en": "Who's carving the turkey this year?",
+          "example_pt": "Quem vai cortar o peru este ano?",
+          "emoji": "🦃"
+        },
+        {
+          "en": "leftovers",
+          "pt": "sobras",
+          "pronunciation": "LÉFT-ou-vers",
+          "example_en": "Turkey sandwiches with the leftovers? Yes, please!",
+          "example_pt": "Sanduíche de peru com as sobras? Quero!",
+          "emoji": "🥡"
+        },
+        {
+          "en": "food coma",
+          "pt": "aquele sono depois de comer demais",
+          "pronunciation": "FUUD-KOU-ma",
+          "example_en": "I ate way too much. I'm in a food coma.",
+          "example_pt": "Comi demais. Tô em coma alimentar.",
+          "emoji": "😴"
+        }
+      ],
+      "note": "Pra desejar boas festas, é só: 'Happy Thanksgiving!'",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Black Friday & Cyber Monday · Nov 27 & 30",
+      "subtitle": "O nome Black Friday pegou nos anos 60, com a polícia da Filadélfia reclamando do caos. Cyber Monday surgiu em 2005.",
+      "body": "",
+      "items": [
+        {
+          "en": "doorbuster",
+          "pt": "oferta-isca que lota a loja",
+          "pronunciation": "DÓR-bâs-ter",
+          "example_en": "The doorbusters end at 10 a.m.",
+          "example_pt": "As ofertas de abertura acabam às 10h.",
+          "emoji": "🛍️"
+        },
+        {
+          "en": "good deal",
+          "pt": "bom negócio, boa promoção",
+          "pronunciation": "gud-DIIL",
+          "example_en": "Fifty percent off? That's a good deal!",
+          "example_pt": "50% de desconto? Que negócio bom!",
+          "emoji": "💸"
+        },
+        {
+          "en": "shop online",
+          "pt": "comprar pela internet",
+          "pronunciation": "shóp-ón-LAIN",
+          "example_en": "I skip the lines and shop online.",
+          "example_pt": "Eu fujo das filas e compro pela internet.",
+          "emoji": "💻"
+        }
+      ],
+      "note": "'Deal' sozinho já é promoção: 'Any deals today?'",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Friendsgiving & Movember · o mês todo",
+      "subtitle": "Friendsgiving é o Thanksgiving entre amigos. No Movember, homens deixam o bigode crescer pela saúde masculina.",
+      "body": "",
+      "items": [
+        {
+          "en": "potluck",
+          "pt": "encontro em que cada um leva um prato",
+          "pronunciation": "PÓT-lâk",
+          "example_en": "Friendsgiving is a potluck this year.",
+          "example_pt": "Este ano o Friendsgiving vai ser no esquema cada um leva um prato.",
+          "emoji": "🥘"
+        },
+        {
+          "en": "bring a dish",
+          "pt": "levar um prato",
+          "pronunciation": "bring-â-DÍSH",
+          "example_en": "I'll bring a dish. Is pie okay?",
+          "example_pt": "Eu levo um prato. Pode ser torta?",
+          "emoji": "🥧"
+        },
+        {
+          "en": "mustache",
+          "pt": "bigode",
+          "pronunciation": "MÂS-tésh",
+          "example_en": "He's growing a mustache for Movember.",
+          "example_pt": "Ele tá deixando o bigode crescer pro Movember.",
+          "emoji": "🥸"
+        }
+      ],
+      "note": "Movember = moustache (grafia britânica; nos EUA, mustache) + November.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Revisão rápida de novembro",
+      "subtitle": "As frases do mês",
+      "body": "",
+      "items": [
+        {
+          "en": "Set the clocks back tonight.",
+          "pt": "Atrasa o relógio hoje.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Thank you for your service.",
+          "pt": "Obrigado por servir ao país.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I'm in a food coma.",
+          "pt": "Tô em coma alimentar.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "That's a good deal!",
+          "pt": "Que negócio bom!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "It's a potluck, so bring a dish!",
+          "pt": "Cada um leva um prato!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Salva pra revisar 📌",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva e manda pra alguém",
+      "subtitle": "",
+      "body": "Salva pra consultar o mês todo e manda pra quem vai viajar pros EUA ou ama tudo de lá 🦃 Segue @inglesleve.br: inglês do dia a dia, todo dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Novembro nos EUA é peru, promoção e relógio atrasado 🦃⏰\n\nBônus: novembro também é Native American Heritage Month, o mês que celebra a história e a cultura dos povos nativos dos EUA, oficial desde 1990. Se ouvir 'Happy Native American Heritage Month' por lá, já sabe do que se trata!\n\nE aí, qual data você mais queria viver por lá: Thanksgiving ou Black Friday? Comenta aqui 👇",
+  "hashtags": [
+    "inglesonline",
+    "aprenderingles",
+    "inglesparabrasileiros",
+    "dicasdeingles",
+    "inglesfacil",
+    "vocabularioemingles",
+    "inglesamericano",
+    "estudaringles",
+    "thanksgiving",
+    "blackfriday",
+    "novembro",
+    "curiosidadeseua"
+  ],
+  "stories": [
+    {
+      "kind": "tip",
+      "headline": "Por que se chama *Black Friday*?",
+      "body": "O nome pegou nos anos 60, com a polícia da Filadélfia: o dia depois do Thanksgiving era um caos de trânsito e lojas lotadas. 🚓",
+      "options": [],
+      "answer": "",
+      "emoji": "🛍️"
+    },
+    {
+      "kind": "speak",
+      "headline": "Thank you for your service.",
+      "body": "THÉNK-iu-fór-iór-SÂR-vis (obrigado por servir ao país) · Manda um áudio no direct falando essa frase de Veterans Day!",
+      "options": [],
+      "answer": "",
+      "emoji": "🎖️"
+    },
+    {
+      "kind": "tip",
+      "headline": "O que rola em novembro nos EUA",
+      "body": "Thanksgiving, Black Friday, Veterans Day e mais, com o inglês de cada um. Tá no post de hoje 👉 Salva pra viagem!",
+      "options": [],
+      "answer": "",
+      "emoji": "🦃"
+    }
+  ],
+  "terms_used": [
+    "november",
+    "daylight saving time",
+    "set the clocks back",
+    "an extra hour of sleep",
+    "it gets dark early",
+    "veterans day",
+    "veteran",
+    "thank you for your service",
+    "federal holiday",
+    "thanksgiving",
+    "turkey",
+    "leftovers",
+    "food coma",
+    "black friday",
+    "cyber monday",
+    "doorbuster",
+    "good deal",
+    "shop online",
+    "friendsgiving",
+    "movember",
+    "potluck",
+    "bring a dish",
+    "mustache"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Vai pros EUA em *November*?",
+        "text": "",
+        "emoji": "📅",
+        "say_pt": "Então aprende essas três frases!",
+        "say_en": ""
+      },
+      {
+        "kind": "term",
+        "title": "Thank you for your service",
+        "text": "11/11 Veterans Day: obrigado por servir ao país",
+        "emoji": "🎖️",
+        "say_pt": "Dia 11 é Veterans Day. Pra agradecer um veterano:",
+        "say_en": "Thank you for your service."
+      },
+      {
+        "kind": "term",
+        "title": "Food coma",
+        "text": "26/11 Thanksgiving: o sono depois do peru",
+        "emoji": "😴",
+        "say_pt": "Dia 26 é Thanksgiving. Depois do peru, todo mundo entra em:",
+        "say_en": "Food coma."
+      },
+      {
+        "kind": "term",
+        "title": "Doorbuster",
+        "text": "27/11 Black Friday: a oferta que lota a loja",
+        "emoji": "🛍️",
+        "say_pt": "Dia 27 é Black Friday. A promoção que lota a loja é:",
+        "say_en": "Doorbuster."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *um por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue pra aprender inglês de verdade, um pouquinho por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Novembro nos EUA vai muito além da Black Friday 🦃 Qual dessas datas você queria viver por lá? Comenta aí!"
+  }
+}

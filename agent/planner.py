@@ -169,6 +169,23 @@ FORMATS = {
         ),
     },
     # Fora do calendário (weekday None): só roda com --format ou, o "milestone", quando uma meta é batida.
+    "month_facts": {
+        "weekday": None,
+        "label": "Curiosidades do mês",
+        "cover": "hero",
+        "brief": (
+            "Curiosidades do mês nos EUA (o mês vem no prompt): datas comemorativas, tradições e fatos "
+            "históricos verdadeiros e verificáveis, sempre puxando o inglês que eles ensinam (o nome da data, "
+            "expressões e vocabulário ligados a ela). Nada de política, eleições ou religião. Slides: cover "
+            "'hero' com o mês em inglês e um emoji do mês; 4-5 slides 'term', um por curiosidade (title = a data "
+            "ou tradição em inglês com o dia, subtitle = a curiosidade em 1-2 linhas em PT, items = 2-3 "
+            "palavras/expressões ligadas a ela com pronúncia e exemplo); cta pedindo para salvar e "
+            "compartilhar com quem vai viajar ou ama os EUA."
+        ),
+        "series": "Curiosidades do mês",
+        "stories": "1 'tip' com a curiosidade mais surpreendente do post; 1 'speak' com uma expressão do post; 1 'tip' chamando para o post.",
+        "reel": "hook com o mês ('Novembro nos EUA tem *isso*'); 3 'term' com as datas e o inglês delas; cta.",
+    },
     "milestone": {
         "weekday": None,
         "label": "Meta de seguidores",
