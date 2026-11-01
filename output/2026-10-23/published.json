@@ -1,10 +1,13 @@
 {
   "noon": {
-    "carousel": null,
+    "carousel": "18133371298818630",
     "stories": {
       "story_01.jpg": "skip",
       "story_02.jpg": "skip",
       "story_03.jpg": "skip"
+    },
+    "links": {
+      "carousel": "https://www.instagram.com/p/DfNJKjvGAWh/"
     }
   },
   "evening": {
@@ -14,6 +17,7 @@
       "story_02.jpg": "skip",
       "story_03.jpg": "skip"
     },
-    "reel": "skip"
+    "reel": "skip",
+    "links": {}
   }
 }
