@@ -72,5 +72,15 @@
     "action": "ignore",
     "reason": "já respondemos essa pessoa nas últimas 24h",
     "at": "2026-10-30T18:53:31+00:00"
+  },
+  "18349013899255006": {
+    "media": "18102024401648388",
+    "user": "carlosmoura6461",
+    "text": "Congrats!",
+    "action": "reply",
+    "reason": "Parabéns pela comemoração, relacionado ao post",
+    "at": "2026-11-01T19:39:00+00:00",
+    "reply": "@carlosmoura6461 Thanks a million, Carlos! This milestone is yours too. What phrase do you want to learn next? 🎉",
+    "reply_id": "18112126877221820"
   }
 }
