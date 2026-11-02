@@ -1,0 +1,76 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "A legenda diz 'Bônus que não está nos slides', mas 'I owe you one!' já aparece no slide de termos (exemplo de 'owe').",
+        "fix": "Troque para 'Bônus extra:' ou substitua 'I owe you one!' por outra expressão que não esteja nos slides, como 'Thanks for covering me!'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[2].headline / feed[2].note",
+        "problem": "A dica generaliza demais. Em inglês formal, 'realize a dream/goal/potential' existe e significa 'realizar'. No slide, a palavra 'aqui' resolve; no story, o headline soa absoluto.",
+        "fix": "Ajuste o story para algo como 'No dia a dia, realized = percebi', ou acrescente 'quase sempre'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[0].emoji",
+        "problem": "O emoji 🙋 (pessoa levantando a mão) não representa bem 'host' de restaurante.",
+        "fix": "Use 💁 (pessoa de recepção) ou 🛎️."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].body",
+        "problem": "A pronúncia aportuguesada deixa 'for a' sem adaptação, o que fica inconsistente com o resto da frase.",
+        "fix": "Use 'uí ÉSKT fór a tu-GÔU bóks'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body",
+        "problem": "O CTA tem cerca de 45 palavras e 4 chamadas diferentes, o que pode ficar apertado na imagem.",
+        "fix": "Enxugue, por exemplo: 'Comenta CONSEGUI ou a palavra que te pegou 👇 Salva e manda pra amiga que esquece a carteira 😅 Segue @inglesleve.br'."
+      }
+    ],
+    "summary": "Pacote sólido. O texto de leitura é natural, tem exatamente 95 palavras e usa vocabulário americano correto (check, server, to-go box). A tradução é fiel, as pronúncias estão boas e o quiz tem uma única resposta certa. Stories seguem o formato reading_challenge e o reel está bem estruturado (hook → read → terms → cta, com say_en igual à tela). Só há ajustes menores de estilo: o 'bônus' da legenda repete algo dos slides, a dica de 'realize' generaliza demais, um emoji é fraco e o CTA está longo. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].items[2].pronunciation",
+        "problem": "'bóks' usa o 'ó' aberto (som britânico). Em inglês americano, 'box' soa /bɑks/, mais perto de 'báks'.",
+        "fix": "Trocar para 'tu-GÔU báks'. Vale o mesmo para o story speak."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].body",
+        "problem": "'fór a' não reflete a redução natural de 'for a' na fala corrida (/fɚ ə/). O aluno tende a ler 'fór' com o 'r' forte e vogal cheia.",
+        "fix": "Usar 'uí ÉSKT fêr ə tu-GÔU báks' ou ao menos 'fâr a'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].title / reel.caption",
+        "problem": "A frase 'seu inglês é B1' é uma promessa exagerada: entender um texto curto não garante o nível B1. Não é erro, mas pode soar enganoso.",
+        "fix": "Suavizar para 'seu inglês já está chegando no B1' ou 'você está pronto pro B1'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body",
+        "problem": "O slogan '1 erro corrigido por dia' não combina com um post de desafio de leitura (não houve erro corrigido aqui).",
+        "fix": "Usar um slogan genérico, como 'inglês leve todo dia'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption / terms_used",
+        "problem": "A legenda ensina 'It's my treat', 'Thanks for getting this!' e 'split the check', que não aparecem em terms_used. É aceitável por ser bônus, mas fica incoerente com a lista.",
+        "fix": "Opcional: adicionar 'treat' e 'split the check' em terms_used ou deixar explícito que são extras."
+      }
+    ],
+    "summary": "O pacote está sólido. O texto em inglês é natural, gramaticalmente correto e tem exatamente 95 palavras, como o subtítulo informa. A tradução está fiel e natural, e os falsos cognatos (realize/realizar, account/check) foram bem explorados. O quiz e o fill têm uma única resposta correta, e o answer responde ao desafio. Os stories seguem o roteiro speak/fill/tip/answer. O reel tem 6 cenas, abre com hook, fecha com cta, e o say_en bate com o texto da tela. Restam só ajustes de estilo e de pronúncia: 'báks' em vez de 'bóks' e a redução de 'for a'. Aprovado."
+  }
+]

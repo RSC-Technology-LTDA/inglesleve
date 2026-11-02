@@ -1,0 +1,258 @@
+{
+  "format": "reading_challenge",
+  "theme": "Desafio de leitura: um jantar que quase deu ruim",
+  "level": "B1",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Se você ler *isso*, seu inglês é B1",
+      "subtitle": "Um jantar num restaurante que quase deu ruim 🍝",
+      "body": "",
+      "items": [],
+      "note": "",
+      "layout": "dark",
+      "strike": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Leia sem traduzir 👀",
+      "subtitle": "Nível B1 · 95 palavras",
+      "body": "Last Friday, I took my sister to a new Italian place downtown. We didn't have a reservation, so we had to wait almost forty minutes. The host kept apologizing, and when we finally sat down, our server was super friendly. I ordered the lasagna, and she got a mushroom risotto. Everything was delicious, but the portions were huge, so we asked for a to-go box. When the check came, I realized I had left my wallet at home. Luckily, my sister covered it. Now I owe her dinner, and she won't let me forget it.",
+      "items": [],
+      "note": "Travou em alguma palavra? Passa pro próximo slide 👉",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "As palavras que mais travam",
+      "subtitle": "Do texto, com pronúncia",
+      "body": "",
+      "items": [
+        {
+          "en": "host",
+          "pt": "recepcionista do restaurante",
+          "pronunciation": "RÔUST",
+          "example_en": "The host will seat you in a minute.",
+          "example_pt": "A recepcionista já vai te levar à mesa.",
+          "emoji": "💁"
+        },
+        {
+          "en": "server",
+          "pt": "garçom / garçonete",
+          "pronunciation": "SÂR-ver",
+          "example_en": "Our server forgot the drinks.",
+          "example_pt": "Nosso garçom esqueceu as bebidas.",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "to-go box",
+          "pt": "embalagem pra viagem",
+          "pronunciation": "tu-GÔU bóks",
+          "example_en": "Can I get a to-go box?",
+          "example_pt": "Me vê uma embalagem pra viagem?",
+          "emoji": "🥡"
+        },
+        {
+          "en": "check",
+          "pt": "a conta (no restaurante)",
+          "pronunciation": "TCHÉK",
+          "example_en": "Can we get the check, please?",
+          "example_pt": "A conta, por favor?",
+          "emoji": "🧾"
+        },
+        {
+          "en": "cover",
+          "pt": "pagar (por alguém)",
+          "pronunciation": "CÂ-ver",
+          "example_en": "I'll cover lunch today.",
+          "example_pt": "Hoje o almoço é por minha conta.",
+          "emoji": "💳"
+        },
+        {
+          "en": "owe",
+          "pt": "dever (algo a alguém)",
+          "pronunciation": "ÔU",
+          "example_en": "I owe you one!",
+          "example_pt": "Te devo uma!",
+          "emoji": "🤝"
+        }
+      ],
+      "note": "Bônus: 'realized' aqui é 'percebi', não 'realizei'!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Qual é o certo pra pedir a conta?",
+      "subtitle": "Pensa antes de passar 🤔",
+      "body": "",
+      "items": [
+        {
+          "en": "Can we get the account, please?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Can we get the check, please?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Can we get the count, please?",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "✅ Can we get the check, please? 'Account' é conta de banco ou de app.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Tradução completa",
+      "subtitle": "Confere se você entendeu tudo",
+      "body": "Sexta passada, levei minha irmã num restaurante italiano novo no centro. A gente não tinha reserva, então teve que esperar quase quarenta minutos. A recepcionista não parava de pedir desculpas e, quando finalmente sentamos, nosso garçom foi supersimpático. Eu pedi a lasanha e ela pediu um risoto de cogumelos. Tudo estava delicioso, mas as porções eram enormes, então pedimos uma embalagem pra viagem. Quando a conta chegou, percebi que tinha esquecido a carteira em casa. Ainda bem que minha irmã pagou. Agora eu devo um jantar pra ela, e ela não me deixa esquecer disso.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "E aí, conseguiu?",
+      "subtitle": "",
+      "body": "Comenta CONSEGUI ou a palavra que te pegou 👇 Manda pra amiga que sempre esquece a carteira 😅 Segue @inglesleve.br: 1 erro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Se você entender esse jantar em inglês sem traduzir, seu inglês já é B1 🍝\n\nBônus que não está nos slides: quando quiser pagar a conta de alguém, diga \"It's my treat\" (é por minha conta). Quando alguém pagar pra você, agradeça com \"Thanks for getting this!\" (valeu por pagar!). E se quiser dividir: \"Let's split the check\".\n\nComenta CONSEGUI se leu tudo, ou a palavra que te fez travar 👇",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "dicasdeingles",
+    "inglesfacil",
+    "leituraeningles",
+    "desafiodeingles",
+    "inglesb1",
+    "vocabularioingles",
+    "inglesnodiaadia",
+    "inglesamericano",
+    "inglesparaviagem",
+    "englishreading"
+  ],
+  "stories": [
+    {
+      "kind": "speak",
+      "headline": "We asked for a to-go box.",
+      "body": "uí ÉSKT fór a tu-GÔU bóks · Manda um áudio no DM lendo em voz alta 🎙️",
+      "options": [],
+      "answer": "",
+      "emoji": "🥡"
+    },
+    {
+      "kind": "fill",
+      "headline": "When the ___ came, I realized I had left my wallet at home.",
+      "body": "Qual palavra completa? Responde no DM 👇",
+      "options": [
+        "account",
+        "check",
+        "count"
+      ],
+      "answer": "check",
+      "emoji": "🧾"
+    },
+    {
+      "kind": "tip",
+      "headline": "No dia a dia, realized = percebi",
+      "body": "'I realized' quase sempre é 'eu percebi'. 'Realize a dream' existe, mas é mais formal: no papo, o americano diz 'my dream came true'. Reage 🔥 se você já confundiu isso.",
+      "options": [],
+      "answer": "",
+      "emoji": "💡"
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta do desafio de hoje",
+      "body": "When the check came, I realized I had left my wallet at home. No restaurante, a conta é 'check'. 'Account' é conta de banco.",
+      "options": [],
+      "answer": "check",
+      "emoji": "🧾"
+    }
+  ],
+  "terms_used": [
+    "host",
+    "server",
+    "to-go box",
+    "check",
+    "cover",
+    "owe",
+    "realize"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Consegue ler *isso*?",
+        "text": "Desafio de leitura · nível B1",
+        "emoji": "👀",
+        "say_pt": "Consegue ler isso em inglês?",
+        "say_en": ""
+      },
+      {
+        "kind": "read",
+        "title": "We asked for a to-go box. When the check came, I realized I had left my wallet at home.",
+        "text": "",
+        "emoji": "",
+        "say_pt": "",
+        "say_en": "We asked for a to-go box. When the check came, I realized I had left my wallet at home."
+      },
+      {
+        "kind": "term",
+        "title": "to-go box",
+        "text": "embalagem pra viagem",
+        "emoji": "🥡",
+        "say_pt": "Embalagem pra viagem é:",
+        "say_en": "to-go box"
+      },
+      {
+        "kind": "term",
+        "title": "check",
+        "text": "a conta (no restaurante)",
+        "emoji": "🧾",
+        "say_pt": "A conta do restaurante é:",
+        "say_en": "check"
+      },
+      {
+        "kind": "term",
+        "title": "realized",
+        "text": "percebi (aqui não é 'realizei'!)",
+        "emoji": "💡",
+        "say_pt": "E cuidado, isso aqui significa percebi:",
+        "say_en": "realized"
+      },
+      {
+        "kind": "cta",
+        "title": "Comenta *consegui* e segue",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Conseguiu? Comenta consegui e segue pra ler comigo!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Leu tudo sem travar? Então seu inglês já tá no B1 🍝 Comenta CONSEGUI ou a palavra que te pegou 👇"
+  }
+}
