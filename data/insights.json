@@ -1,54 +1,54 @@
 {
   "date": "2026-11-01",
-  "summary": "Os seguidores foram de 960 (30/10) para 1.165 (01/11), um ganho de 205 (+21%) em 2 dias. Quase tudo veio em 31/10 (+191); em 01/11 foram só +14. Nenhum post explica o salto: follows é 0 em todos os carrosséis e stories e nulo nos Reels, e o alcance somado dos posts medidos de 31/10 foi 134. A origem provável é externa (indicação, repost ou explorar). Os 42 seguidores de Campo Limpo Paulista, uma cidade pequena e 3ª da lista, reforçam a hipótese de uma divulgação local. Há também uma divergência: a análise anterior citava 874 em 30/10, e a série agora mostra 960. O sinal mais estável é o Reel como motor de alcance, com 113 a 157 por Reel, contra 12 a 85 nos carrosséis. As métricas amadurecem muito em 1 a 3 dias: o Reel quiz passou de 33 para 136 de alcance e o carrossel fall x autumn, de 14 para 41. Isso enfraquece parte das conclusões anteriores. A amostra segue pequena, com n=1 por formato.",
+  "summary": "De 960 (30/10) para 1.168 (01/11), um ganho de +208 em 2 dias. Quase tudo veio em 31/10 (+191); em 01/11 foram só +17, o ritmo orgânico real. Nenhum post explica o salto: follows é 0 em todos os carrosséis, stories e manuais, e nulo nos Reels. A causa provável é externa, reforçada pelos 42 seguidores de Campo Limpo Paulista, à frente de Salvador e BH (17). Esta análise é do mesmo dia da anterior, então nenhuma sugestão foi aplicada ainda e não há como avaliá-las. O único sinal consistente é o Reel como motor de alcance: 115 a 158 por Reel, contra 13 a 85 nos carrosséis. A amostra é muito pequena (n=1 por formato), e os posts de 31/10 e 01/11 ainda estão amadurecendo.",
   "best": [
-    "30/10 · carrossel · 6 erros clássicos de brasileiro (wrong_right): continua o melhor post automático em engajamento. Teve 3 salvamentos em 64 de alcance (46,9 por mil), 3 comentários e 13 interações. Os outros carrosséis automáticos tiveram 0 salvamentos. O ângulo ❌/✅ e o gancho 'Para de errar isso' dão motivo para salvar.",
-    "29/10 · reel · push x pull (confusing_pairs): maior alcance de todos os posts, com 157 de alcance e 175 visualizações, 8 curtidas e 1 salvamento. O tempo médio de 7,3 s fica na média dos Reels. O gancho de contradição 'Push não é puxar' funcionou como porta de entrada para não seguidores.",
-    "29/10 · carrossel · falsos amigos (confusing_pairs): 3 visitas ao perfil em 60 de alcance (50 por mil), a maior taxa entre os automáticos e o melhor substituto de conversão disponível. O post manual de 30/10 teve 4 visitas em 66, mas não tem tema registrado. É um sinal fraco."
+    "30/10 · carrossel · 6 erros clássicos de brasileiro (wrong_right): único post automático com salvamento relevante, 3 em 64 de alcance (46,9 por mil), além de 3 comentários. O ângulo ❌/✅ com erro universal dá motivo para guardar.",
+    "29/10 · reel · push x pull (confusing_pairs): maior alcance da série (158), 8 curtidas e 7,2 s de tempo médio. O gancho de contradição 'Push não é puxar' leva o post a não seguidores.",
+    "30/10 · reel · quiz da semana: alcance de 137 e a melhor retenção (8,2 s). A mecânica de pergunta com pausa segura mais que a explicação direta. Ressalva: nenhum desses 3 posts gerou follow mensurável, então a conversão real é desconhecida."
   ],
   "worst": [
-    "31/10 · carrossel · frases para a daily (situation_phrases): 21 de alcance, 1 curtida e 0 salvamentos. O tema 'standup de time de tecnologia' é nichado para uma base em que 49% têm entre 35 e 54 anos. Ainda amadurece, porque só passou 1 coleta.",
-    "31/10 · reel · daily em inglês: tempo médio de 3,5 s, metade dos outros Reels (7,1 a 8,2 s). Indica que o primeiro frame e o tema não seguraram quem não trabalha com daily. Ponto positivo: teve o único compartilhamento entre os 39 posts. Conteúdo útil para alguém específico é encaminhado.",
-    "01/11 · milestone (reel com 0 de alcance; carrossel com 12): o Reel com 0 de alcance indica coleta antes da publicação ou falha. Vale conferir se ele saiu. O conteúdo de comemoração fala com quem já segue: o carrossel teve 3 comentários, mas não leva o post a não seguidores. Ele ainda ocupou o domingo do quiz, que teve a melhor retenção (8,2 s)."
+    "31/10 · carrossel · frases para a daily (situation_phrases): alcance de 22, 1 curtida e 0 salvamentos. O tema 'standup de time tech' é nichado para uma base em que 49% têm entre 35 e 54 anos.",
+    "31/10 · reel · daily em inglês: tempo médio de 3,6 s, metade dos outros Reels (7,1 a 8,2 s), porque abriu com promessa genérica e tema de nicho. Ponto positivo: teve o único compartilhamento entre os 41 posts. O conteúdo útil para alguém específico é encaminhado.",
+    "01/11 · milestone e month_facts (carrosséis com 13 e 21 de alcance; Reel com 47, ainda amadurecendo): falam com quem já segue e ocuparam o domingo do quiz, o formato com a melhor retenção. O carrossel de 1.000 teve 3 comentários, mas 0 salvamentos e 0 compartilhamentos."
   ],
   "recommendations": [
     {
       "area": "crescimento",
-      "change": "[MANUAL] Descobrir o que causou os +191 de 31/10. Olhar nos Insights da conta a origem dos seguidores daquele dia, verificar menções e reposts externos e checar se houve divulgação em Campo Limpo Paulista ou Jundiaí. Se foi uma indicação de perfil ou de grupo, repetir de propósito: propor collab ou troca de menção a 2 ou 3 perfis de nicho parecido (professores, viagem, carreira) por semana.",
-      "why": "Foram +191 em um dia em que o alcance somado dos posts medidos foi 134 e os follows de post foram 0 ou nulos. Campo Limpo Paulista tem 42 seguidores, à frente de Salvador e BH (17), o que é anômalo para a população da cidade. Essa fonte rendeu mais que todo o conteúdo junto."
+      "change": "[MANUAL] Descobrir a origem dos +191 de 31/10 antes de qualquer outra coisa. Passos: ver nos Insights da conta as fontes de seguidores do dia, procurar menções, reposts e grupos (WhatsApp, Facebook) de Campo Limpo Paulista e Jundiaí, e perguntar por DM a 5 seguidores novos de lá como conheceram a página. Se foi indicação de um perfil ou grupo, repetir de propósito: propor collab ou troca de menção a 2 ou 3 perfis por semana (professores, viagem, carreira 35+).",
+      "why": "Uma única fonte externa rendeu +191 em 1 dia, contra +17 no dia seguinte só com conteúdo. O alcance somado dos posts medidos de 31/10 foi cerca de 137, com 0 follows atribuídos."
     },
     {
       "area": "reel",
-      "change": "Tratar o Reel como peça principal. No primeiro frame, mostrar a frase errada em inglês na tela com o ❌ (ex.: '❌ I have 30 years'). Fazer uma pergunta e pausar 2 s antes do ✅, aproveitando a mecânica do quiz em todos os formatos. Nunca abrir com promessa genérica ('Sua daily pronta').",
-      "why": "Os Reels alcançaram 113 a 157, mais de 2x a média dos carrosséis automáticos (cerca de 43). A melhor retenção foi a do quiz (8,2 s), que usa pergunta e pausa. A pior foi a do Reel 'daily' (3,5 s), que abriu com promessa sem tensão."
+      "change": "Tratar o Reel como peça principal do dia. Primeiro frame com a frase errada em inglês na tela e ❌ (ex.: '❌ I have 30 years'), depois 'Qual é o certo?' com 2 s de pausa antes do ✅, em todos os formatos. Nunca abrir com promessa ('Sua daily pronta') nem com o nome do formato.",
+      "why": "Os Reels automáticos maduros tiveram 115 a 158 de alcance, cerca de 3x a média dos carrosséis automáticos (cerca de 44). A melhor retenção foi a do quiz (8,2 s), que usa pergunta e pausa. A pior foi a do Reel 'daily' (3,6 s), que abriu com promessa."
     },
     {
       "area": "formato",
-      "change": "Escolher temas do cotidiano de adulto, sem nicho profissional: viagem, restaurante, séries, trabalho em geral (e-mail, reunião), família e saúde. Evitar temas que só um grupo usa, como daily e standup de time de tecnologia. Manter o ângulo ❌ brasileiro / ✅ nativo dentro do formato do dia.",
-      "why": "A base tem 35-44 (286), 25-34 (266) e 45-54 (210). O tema daily teve o pior carrossel (21 de alcance) e a pior retenção de Reel (3,5 s). O wrong_right, com erros universais, teve 46,9 salvamentos por mil."
+      "change": "Escolher temas que qualquer adulto vive (viagem, restaurante, série, e-mail de trabalho, médico, família) e usar o ângulo 'erro de brasileiro → jeito nativo' dentro do formato do dia. Cortar jargão de profissão específica. [MANUAL] Registrar o tema dos 16 posts manuais para comparar com os automáticos.",
+      "why": "O wrong_right teve 46,9 salvamentos por mil; o tema daily teve 22 de alcance e 3,6 s de retenção. Os manuais tiveram cerca de 24% de curtidas por alcance (17,9 em 74), contra cerca de 7% nos carrosséis automáticos. Sem tema registrado, não dá para saber o que eles faziam de diferente."
     },
     {
       "area": "legenda",
-      "change": "Fechar todo post com um pedido de compartilhamento que nomeie uma pessoa concreta da vida do leitor, e não 'um amigo'. Exemplos: 'Manda pro colega que tem reunião em inglês', 'Manda pra sua filha que vai fazer intercâmbio'. Conferir se a automação está mesmo aplicando o pedido sugerido na análise anterior.",
-      "why": "Foi 1 compartilhamento em 39 posts. Ele veio justamente do conteúdo mais 'útil para alguém' (o Reel da daily, com 8,8 por mil). Compartilhamento é o que leva o post a não seguidores."
+      "change": "Fechar todo post com pedido de compartilhamento para uma pessoa concreta, por exemplo: 'Manda pro colega que vive em reunião em inglês' ou 'Manda pra quem vai viajar pros EUA'. Depois, uma linha de follow com promessa: 'Segue @inglesleve.br: 1 erro corrigido por dia'.",
+      "why": "Foi 1 compartilhamento em 41 posts, e ele veio do conteúdo mais 'útil para alguém' (Reel daily, 8,7 por mil). Compartilhamento é o principal caminho para não seguidores, e os follows de post estão em 0."
     },
     {
       "area": "stories",
-      "change": "Story das 12h: uma única imagem com a frase errada e o pedido 'Reage 🔥 se você já falou assim', usando a reação rápida nativa, que não precisa de figurinha. Story das 18h: a resposta e 'Reel novo explicando no perfil'. Máximo de 2 stories por dia.",
-      "why": "Todos os stories medidos tiveram 0 respostas, com alcance de 21 a 43 (cerca de 3,5% da base). Responder por texto no DM é atrito alto, e a reação por emoji é 1 toque. Os stories de 31/10 e 01/11 vieram sem métricas, então vale checar a coleta."
+      "change": "No máximo 2 stories por dia. O das 12h traz uma imagem com a frase errada e 'Reage 🔥 se você já falou assim'. O das 18h traz a resposta e 'Reel novo explicando no perfil'. Cortar stories intermediários.",
+      "why": "Em 30/10 saíram 4 stories: o alcance caiu de 43 para 21 no story da resposta, e a navegação foi quase igual às visualizações. Foram 0 respostas em todos os stories medidos. A reação rápida tem menos atrito que responder por DM. Os stories de 31/10 e parte dos de 01/11 vieram sem métricas, então vale checar a coleta."
     },
     {
       "area": "horário",
-      "change": "Publicar no máximo 1 carrossel por dia. O extra só deve sair em dia sem post previsto e sempre no formato wrong_right, nunca como substituto do formato do dia (o domingo deveria ter sido o quiz).",
-      "why": "Em 29/10 e 30/10 saíram 2 carrosséis e 1 manual no mesmo dia, disputando a mesma base: o de farmácia teve 0 salvamentos e o fall x autumn, 41 de alcance. Em 01/11, os extras de milestone e month_facts fizeram 12 e 18 de alcance. A evidência é fraca, mas o custo de testar é zero."
+      "change": "No máximo 1 carrossel e 1 Reel por dia, sempre no formato do calendário. Extras comemorativos (milestone, month_facts) devem ir só para os stories e nunca substituir o quiz de domingo.",
+      "why": "Em 01/11 (domingo), os extras tiveram 13 e 21 de alcance no carrossel, e o quiz, que teve a melhor retenção (8,2 s) e alcance de 137, não saiu. Em 29/10 e 30/10, os carrosséis duplicados ficaram entre 42 e 85 de alcance, sem salvamentos (exceto o wrong_right). A evidência é fraca, mas o custo de testar é zero."
     }
   ],
   "writer_tips": [
-    "Primeiro slide ou frame: a frase errada em inglês com ❌, em até 6 palavras. Nunca o nome do formato nem uma promessa genérica.",
-    "Use temas do dia a dia de qualquer adulto (viagem, restaurante, série, e-mail, família) e evite jargão de profissão específica.",
-    "Antes de revelar o ✅, faça a pergunta e dê uma pausa ou um slide de suspense ('Qual é o certo?').",
+    "Abra o primeiro slide ou frame com a frase errada em inglês e ❌, em até 6 palavras. Nada de nome do formato ou promessa genérica.",
+    "Faça a pergunta 'Qual é o certo?' antes de revelar o ✅, com um slide ou uma pausa de suspense.",
+    "Use situações do dia a dia de qualquer adulto (viagem, restaurante, série, e-mail, médico) e evite jargão de profissão específica.",
     "Feche com 'Manda pro/pra [pessoa concreta] que [situação]' e depois 'Segue @inglesleve.br: 1 erro corrigido por dia'.",
-    "Em story, uma ideia por imagem e pedido de reação com 1 emoji ('Reage 🔥 se já errou isso'), em vez de resposta por texto."
+    "Em story, uma ideia por imagem e pedido de reação com 1 emoji ('Reage 🔥 se já errou isso'), nunca mais de 2 por dia."
   ],
-  "experiment": "Teste de gancho no primeiro frame do Reel, com tudo o mais igual. Semana 1: segunda, quarta e sexta abrem com a frase errada '❌ [frase em inglês]'; terça, quinta e sábado abrem com a pergunta 'Como se diz [X] em inglês?'. Domingo (quiz) fica como controle. Na semana 2, inverter os dias para não confundir gancho com formato. Medir cada Reel na coleta das 18h, 3 dias após a publicação, porque o quiz foi de 33 para 136 de alcance ao amadurecer. Métricas: alcance, tempo médio (anotando a duração para calcular %), e compartilhamentos e salvamentos por mil. Cruzar com a variação diária de seguidores, desconsiderando dias com pico externo como o de 31/10. Só padronizar se uma versão vencer em pelo menos 4 das 6 comparações e tiver tempo médio pelo menos 1,5 s maior."
+  "experiment": "Manter o teste de gancho no primeiro frame do Reel, que ainda não começou, porque esta análise é do mesmo dia da anterior. Na semana 1, segunda, quarta e sexta abrem com '❌ [frase errada em inglês]', e terça, quinta e sábado abrem com 'Como se diz [X] em inglês?'. O domingo (quiz) fica como controle. Na semana 2, inverter os dias para não confundir gancho com formato. Medir cada Reel na coleta das 18h, 3 dias após a publicação, porque o alcance chega a quadruplicar ao amadurecer. As métricas são alcance, tempo médio (anotando a duração do Reel para calcular a %) e compartilhamentos e salvamentos por mil. Cruzar com a variação diária de seguidores, excluindo dias de pico externo como 31/10. Só padronizar se uma versão vencer em pelo menos 4 das 6 comparações e tiver tempo médio pelo menos 1,5 s maior."
 }
