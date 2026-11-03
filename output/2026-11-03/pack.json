@@ -1,0 +1,412 @@
+{
+  "format": "visual_vocab",
+  "theme": "Vocabulário visual do hotel",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Inglês do *hotel*",
+      "subtitle": "12 palavras pra sua próxima viagem",
+      "body": "",
+      "items": [
+        {
+          "en": "front desk",
+          "pt": "recepção",
+          "pronunciation": "FRÂNT désk",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛎️"
+        },
+        {
+          "en": "key card",
+          "pt": "cartão do quarto",
+          "pronunciation": "KÍ-kárd",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💳"
+        },
+        {
+          "en": "luggage",
+          "pt": "bagagem",
+          "pronunciation": "LÂ-guidj",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧳"
+        },
+        {
+          "en": "elevator",
+          "pt": "elevador",
+          "pronunciation": "É-le-vei-ter",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛗"
+        },
+        {
+          "en": "room service",
+          "pt": "serviço de quarto",
+          "pronunciation": "RUM sêr-vis",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "wake-up call",
+          "pt": "ligação pra acordar",
+          "pronunciation": "UEIK-âp cól",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏰"
+        }
+      ],
+      "note": "",
+      "layout": "grid",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Na *chegada*",
+      "subtitle": "Do lobby até o quarto",
+      "body": "",
+      "items": [
+        {
+          "en": "front desk",
+          "pt": "recepção",
+          "pronunciation": "FRÂNT désk",
+          "example_en": "Ask at the front desk.",
+          "example_pt": "Pergunta na recepção.",
+          "emoji": "🛎️"
+        },
+        {
+          "en": "lobby",
+          "pt": "saguão",
+          "pronunciation": "LÁ-bi",
+          "example_en": "I'll meet you in the lobby.",
+          "example_pt": "Te encontro no saguão.",
+          "emoji": "🛋️"
+        },
+        {
+          "en": "reservation",
+          "pt": "reserva",
+          "pronunciation": "ré-zer-VEI-shan",
+          "example_en": "I have a reservation.",
+          "example_pt": "Tenho uma reserva.",
+          "emoji": "📅"
+        },
+        {
+          "en": "key card",
+          "pt": "cartão do quarto",
+          "pronunciation": "KÍ-kárd",
+          "example_en": "My key card isn't working.",
+          "example_pt": "Meu cartão do quarto não está funcionando.",
+          "emoji": "💳"
+        },
+        {
+          "en": "luggage",
+          "pt": "bagagem (sem plural)",
+          "pronunciation": "LÂ-guidj",
+          "example_en": "Can I leave my luggage here?",
+          "example_pt": "Posso deixar minhas malas aqui?",
+          "emoji": "🧳"
+        },
+        {
+          "en": "elevator",
+          "pt": "elevador",
+          "pronunciation": "É-le-vei-ter",
+          "example_en": "The elevator is on the left.",
+          "example_pt": "O elevador fica à esquerda.",
+          "emoji": "🛗"
+        }
+      ],
+      "note": "No inglês britânico, elevador é 'lift'. Nos EUA, é elevator.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "No *quarto*",
+      "subtitle": "O que pedir e onde achar",
+      "body": "",
+      "items": [
+        {
+          "en": "room service",
+          "pt": "serviço de quarto",
+          "pronunciation": "RUM sêr-vis",
+          "example_en": "Let's just order room service.",
+          "example_pt": "Vamos pedir no quarto mesmo.",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "housekeeping",
+          "pt": "camareira, limpeza",
+          "pronunciation": "RÁUS-kí-pin",
+          "example_en": "Housekeeping already came by.",
+          "example_pt": "A limpeza já passou.",
+          "emoji": "🧹"
+        },
+        {
+          "en": "wake-up call",
+          "pt": "ligação pra acordar",
+          "pronunciation": "UEIK-âp cól",
+          "example_en": "I need a wake-up call at 6.",
+          "example_pt": "Preciso que me liguem às 6.",
+          "emoji": "⏰"
+        },
+        {
+          "en": "ice machine",
+          "pt": "máquina de gelo",
+          "pronunciation": "ÁIS ma-shín",
+          "example_en": "The ice machine is down the hall.",
+          "example_pt": "A máquina de gelo fica no corredor.",
+          "emoji": "🧊"
+        },
+        {
+          "en": "toiletries",
+          "pt": "itens de higiene",
+          "pronunciation": "TÓI-le-triz",
+          "example_en": "Are toiletries included?",
+          "example_pt": "Os itens de higiene estão inclusos?",
+          "emoji": "🧴"
+        },
+        {
+          "en": "safe",
+          "pt": "cofre",
+          "pronunciation": "SÊIF",
+          "example_en": "Put your passport in the safe.",
+          "example_pt": "Coloca o passaporte no cofre.",
+          "emoji": "🔐"
+        }
+      ],
+      "note": "A maioria dos hotéis americanos tem ice machine no corredor, e é de graça!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Frases prontas na *recepção*",
+      "subtitle": "Copia e usa",
+      "body": "",
+      "items": [
+        {
+          "en": "I have a reservation under Silva.",
+          "pt": "Tenho uma reserva no nome de Silva.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Could I get an extra key card?",
+          "pt": "Pode me dar mais um cartão do quarto?",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Can I leave my luggage here?",
+          "pt": "Posso deixar minhas malas aqui?",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Could I get a wake-up call at 7?",
+          "pt": "Podem me ligar pra acordar às 7?",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Where's the ice machine?",
+          "pt": "Onde fica a máquina de gelo?",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Could I get...? é o jeito mais natural e educado de pedir algo.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Qual é o certo?",
+      "subtitle": "Falando da sua bagagem",
+      "body": "",
+      "items": [
+        {
+          "en": "My luggages are in the car.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "My luggage is in the car.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "My luggage are in the car.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: My luggage is in the car. Luggage não tem plural! Pra contar, diga 'two bags' ou 'two pieces of luggage'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra próxima *viagem*",
+      "subtitle": "",
+      "body": "Manda pro amigo que vai viajar pros EUA e não sabe pedir nem um cartão do quarto extra na recepção. Segue @inglesleve.br: 1 erro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Chegou no hotel e travou na recepção? Nunca mais. 🛎️\n\nBônus que não está nos slides: aquela plaquinha de 'Não perturbe' que você pendura na maçaneta se chama Do Not Disturb sign. E se quiser que a limpeza venha mais tarde, a frase é: Could housekeeping come by later?\n\nQual dessas palavras você já precisou usar numa viagem? Conta aqui nos comentários! 👇",
+  "hashtags": [
+    "inglesleve",
+    "inglesparaviagem",
+    "inglesonline",
+    "aprenderingles",
+    "inglesfacil",
+    "vocabularioemingles",
+    "inglesbasico",
+    "dicasdeingles",
+    "hotel",
+    "viagemeua",
+    "inglesdodiaadia",
+    "inglesparabrasileiros"
+  ],
+  "stories": [
+    {
+      "kind": "guess",
+      "headline": "Como se diz isso em inglês?",
+      "body": "L _ _ _ _ _ _ · 7 letras. Responde no DM!",
+      "options": [],
+      "answer": "luggage",
+      "emoji": "🧳"
+    },
+    {
+      "kind": "guess",
+      "headline": "Como se diz isso em inglês?",
+      "body": "É o balcão onde fica essa campainha. F _ _ _ _   D _ _ _ · 5 + 4 letras. Responde no DM!",
+      "options": [],
+      "answer": "front desk",
+      "emoji": "🛎️"
+    },
+    {
+      "kind": "tip",
+      "headline": "Luggage não tem plural",
+      "body": "Nada de 'luggages'. Diga 'my luggage' ou conte as malas: 'two bags' ou 'two pieces of luggage'. Reage 🔥 se já errou isso.",
+      "options": [],
+      "answer": "",
+      "emoji": "🧳"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje",
+      "body": "🧳 é luggage (LÂ-guidj) e 🛎️ é front desk (FRÂNT désk). Acertou as duas?",
+      "options": [],
+      "answer": "luggage e front desk",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "front desk",
+    "lobby",
+    "reservation",
+    "key card",
+    "luggage",
+    "elevator",
+    "room service",
+    "housekeeping",
+    "wake-up call",
+    "ice machine",
+    "toiletries",
+    "safe"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Você se vira no *hotel*?",
+        "text": "",
+        "emoji": "🛎️",
+        "say_pt": "Três palavras de hotel. Acerta?",
+        "say_en": ""
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz?",
+        "text": "",
+        "emoji": "🧳",
+        "say_pt": "Como se diz bagagem em inglês?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "luggage",
+        "text": "bagagem (sem plural!)",
+        "emoji": "🧳",
+        "say_pt": "Em inglês é:",
+        "say_en": "luggage"
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz?",
+        "text": "",
+        "emoji": "🛎️",
+        "say_pt": "E a recepção do hotel?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "front desk",
+        "text": "recepção",
+        "emoji": "🛎️",
+        "say_pt": "Nos Estados Unidos é:",
+        "say_en": "front desk"
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz?",
+        "text": "",
+        "emoji": "⏰",
+        "say_pt": "E a ligação do hotel pra te acordar?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "wake-up call",
+        "text": "ligação pra acordar",
+        "emoji": "⏰",
+        "say_pt": "Se chama:",
+        "say_en": "wake-up call"
+      },
+      {
+        "kind": "cta",
+        "title": "Segue: *1 erro corrigido* por dia",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil: um erro corrigido por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Bagagem, recepção e ligação pra acordar: quantas você acertou? Conta nos comentários! 🧳"
+  }
+}

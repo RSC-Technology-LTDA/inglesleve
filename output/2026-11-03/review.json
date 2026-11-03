@@ -1,0 +1,125 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "reel.scenes[1].say_pt",
+        "problem": "A pergunta 'Como se diz mala em inglês?' tem como resposta 'luggage', mas 'mala' (uma unidade) é 'suitcase' ou 'bag'. Luggage é incontável e equivale a 'bagagem'. Ensinar 'mala = luggage' induz justamente ao erro 'a luggage / luggages' que o próprio post combate.",
+        "fix": "Trocar por 'Como se diz bagagem em inglês?' (ou 'E as malas, a bagagem toda?')."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0]",
+        "problem": "O guess com 🧳 e '7 letras' aceita duas respostas certas: 'luggage' e 'baggage'. Isso fere a regra de resposta única. 'Suitcase' também é o nome mais literal do emoji.",
+        "fix": "Dar a primeira letra como pista ('L _ _ _ _ _ _ · 7 letras') ou mudar o headline para 'Como se diz bagagem em inglês?'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.caption",
+        "problem": "'despertador do hotel' não corresponde a 'wake-up call'. Despertador é 'alarm clock'; wake-up call é a ligação da recepção.",
+        "fix": "'Mala, recepção e ligação pra acordar: quantas você acertou?' (e trocar 'Mala' por 'Bagagem', em coerência com o reel)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "'Quase todo hotel americano tem ice machine' é exagerado. É comum em hotéis econômicos e médios, mas muitos hotéis de luxo ou urbanos não têm.",
+        "fix": "'A maioria dos hotéis americanos tem ice machine no corredor, e é de graça!'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].pronunciation / feed[1].items[3].pronunciation",
+        "problem": "'KÍ-card' mistura grafia inglesa na transcrição aportuguesada; o leitor pode ler 'card' à portuguesa.",
+        "fix": "'KÍ-kárd'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[1].pronunciation",
+        "problem": "No inglês americano (o padrão do post) 'lobby' soa mais como 'LÁ-bi' do que 'LÓ-bi'.",
+        "fix": "'LÁ-bi'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].pt / feed[1].items[3].pt",
+        "problem": "'cartão da porta' é compreensível, mas o natural no Brasil é 'cartão do quarto' ou 'cartão-chave'.",
+        "fix": "Usar 'cartão do quarto' (ajustar também a frase da lista: 'mais um cartão do quarto')."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body / reel.scenes[7]",
+        "problem": "O slogan '1 erro corrigido por dia' não combina com um post de vocabulário, e 'aprender um por dia' no reel fica vago (um o quê?).",
+        "fix": "No reel: 'Segue pra aprender uma palavra por dia!'. No CTA do feed, manter o slogan só se for a marca fixa do perfil."
+      }
+    ],
+    "summary": "Pacote sólido: inglês das frases correto e natural, quiz com resposta única, estrutura de feed, stories e reel dentro das regras, e terms_used coerente com os 12 termos. Há um problema major: o reel apresenta 'luggage' como tradução de 'mala', o que contradiz a lição de que luggage é incontável e deveria ser 'bagagem' (mala = suitcase). Também há ajustes menores: ambiguidade luggage/baggage no story, 'despertador' na legenda do reel, exagero sobre ice machine e pequenos refinamentos de pronúncia e tradução. Corrigir o item major antes de publicar."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[5].body / reel.scenes[7]",
+        "problem": "As promessas da página não batem. O CTA do feed diz '1 erro corrigido por dia', e o CTA do reel diz 'uma palavra por dia'. Essa diferença confunde o posicionamento da página.",
+        "fix": "Padronizar a promessa nos dois CTAs. Por exemplo, usar 'Segue @inglesleve.br: 1 dica de inglês por dia' em ambos, ou escolher uma das duas versões."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[4].example_pt",
+        "problem": "'Are toiletries included?' foi traduzido como 'Tem itens de higiene no quarto?'. O sentido é próximo, mas a tradução perde o 'included'.",
+        "fix": "Usar 'Os itens de higiene estão inclusos?' ou 'Tem itens de higiene inclusos?'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[3].emoji / stories[1].emoji",
+        "problem": "O emoji 🛗 (elevator) é recente, de 2021. Ele pode não aparecer em aparelhos ou sistemas mais antigos, e isso atrapalha justamente o story de adivinhação, que depende só do emoji.",
+        "fix": "Manter o 🛗 se a arte for renderizada como imagem, que é o caso do feed. No story interativo, vale conferir a renderização ou usar uma imagem no lugar do emoji nativo."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].note",
+        "problem": "A nota sugere só 'two bags' para contar as malas. A forma com 'luggage' também é útil e comum para o aluno.",
+        "fix": "Acrescentar 'ou two pieces of luggage' ao lado de 'two bags'."
+      }
+    ],
+    "summary": "O pacote está sólido e pode ser publicado. O inglês está natural e correto, e as pronúncias aproximam bem o som com a tônica certa. As traduções são adequadas e as notas são verdadeiras (lift britânico, ice machine grátis nos EUA). A estrutura respeita os limites: cover grid com 6 itens, term com 6, list com 5, quiz com uma única resposta certa e CTA por último. Os stories seguem o formato visual_vocab, com as contagens de letras corretas e uma resposta que cobre os dois guess. O reel tem gancho, pares question/reveal com deixas limpas e CTA no final. Os 12 terms_used batem com o subtítulo da cover. Ficam apenas ajustes de estilo: alinhar a promessa dos CTAs, refinar uma tradução, conferir a renderização do 🛗 e complementar a nota do quiz."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].items[1].pt",
+        "problem": "'housekeeping' é o serviço/departamento de limpeza. 'Camareira' é 'housekeeper' ou 'room attendant'. Listar 'camareira' primeiro pode induzir o aluno a usar 'housekeeping' para a pessoa.",
+        "fix": "Trocar por 'limpeza (serviço de quarto)' ou 'serviço de limpeza', sem 'camareira'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[4].pt / feed[0].items[2].pt",
+        "problem": "No term slide, 'bagagem (sem plural)' mistura tradução e observação gramatical. A cover usa só 'bagagem', o que gera inconsistência entre os slides.",
+        "fix": "Manter 'bagagem' no pt e mover '(sem plural)' para o note ou para o quiz, que já explica isso."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[0].pronunciation",
+        "problem": "'sêr-vis' aproxima o 'er' de 'service' (/ˈsɝːvɪs/) com o som fechado de 'ê', que fica um pouco distante do som real.",
+        "fix": "Usar 'RUM SÂR-vis' ou 'RUM SÉR-vis'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "'A maioria dos hotéis americanos' é uma generalização. A afirmação é comum em hotéis de rede média e em motels, mas não vale para todos.",
+        "fix": "Suavizar para 'Muitos hotéis americanos têm ice machine no corredor, e é de graça!'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body / reel.scenes[7]",
+        "problem": "O slogan '1 erro corrigido por dia' destoa de um post de vocabulário visual. É branding consistente, mas a conexão com o conteúdo é fraca.",
+        "fix": "Opcional: adicionar 'e vocabulário que você usa de verdade' ou manter como assinatura fixa do perfil."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural, com frases prontas idiomáticas ('Could I get...?', 'under Silva'). As traduções são boas e as pronúncias estão bem aproximadas, com tônicas certas. A estrutura está dentro dos limites: cover em grid com 6 itens, 2 term com 6 itens cada, list com 5 itens e quiz com uma única resposta certa. Os stories seguem o formato visual_vocab, com contagem de letras correta e answer cobrindo os dois guesses. O reel tem 8 cenas, cada question é seguida de reveal com deixa limpa, e say_en bate com a tela. Há apenas ajustes de estilo: tradução de housekeeping, 'sem plural' no campo pt, vogal de 'service' e uma generalização sobre ice machine. Aprovado."
+  }
+]

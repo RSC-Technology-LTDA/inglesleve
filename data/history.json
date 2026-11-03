@@ -295,6 +295,26 @@
     ]
   },
   {
+    "date": "2026-11-03",
+    "format": "visual_vocab",
+    "theme": "Vocabulário visual do hotel",
+    "terms": [
+      "front desk",
+      "lobby",
+      "reservation",
+      "key card",
+      "luggage",
+      "elevator",
+      "room service",
+      "housekeeping",
+      "wake-up call",
+      "ice machine",
+      "toiletries",
+      "safe"
+    ],
+    "track": "trabalho"
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",
