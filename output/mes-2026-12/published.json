@@ -1,0 +1,19 @@
+{
+  "noon": {
+    "carousel": null,
+    "stories": {
+      "story_01.jpg": "skip",
+      "story_02.jpg": "skip",
+      "story_03.jpg": "skip"
+    }
+  },
+  "evening": {
+    "carousel": null,
+    "stories": {
+      "story_01.jpg": "skip",
+      "story_02.jpg": "skip",
+      "story_03.jpg": "skip"
+    },
+    "reel": "skip"
+  }
+}

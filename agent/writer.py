@@ -101,7 +101,7 @@ def build_prompt(day: date, fmt: str, history: list, handle: str, feedback: Opti
         "Temas recentes (evite repetir):\n" + ("\n".join(planner.recent_themes(history)) or "(nenhum)"),
         "Termos já ensinados (não repita):\n" + (", ".join(planner.recent_terms(history)) or "(nenhum)"),
     ]
-    track = planner.track_for(day) if fmt not in ("milestone", "welcome") else ""
+    track = planner.track_for(day) if fmt not in ("milestone", "welcome", "month_facts") else ""
     if track:
         parts.append(
             f"Trilha temática de hoje: {planner.TRACKS[track]}\n"

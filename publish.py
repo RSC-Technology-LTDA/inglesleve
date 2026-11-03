@@ -12,6 +12,9 @@
   python publish.py reel ...
       Só o Reel, fora de hora (o story de resposta continua para as 18h).
 
+  python publish.py noon --dir output/mes-2026-12 ...
+      Publica um pacote extra fora das pastas de data (ex: o post de curiosidades do mês).
+
   python publish.py links --date 2026-10-30
       Não publica nada: busca o link (permalink) do carrossel e do Reel já publicados.
 
@@ -104,10 +107,11 @@ def main() -> int:
     ap.add_argument("slot", choices=["prepare", "noon", "evening", "reel", "links"])
     ap.add_argument("--date", type=date.fromisoformat, default=date.today())
     ap.add_argument("--base-url", default=os.getenv("MEDIA_BASE_URL"))
+    ap.add_argument("--dir", type=Path, help="Pasta do pacote, no lugar de output/<data>")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    out = day_dir(args.date)
+    out = args.dir.resolve() if args.dir else day_dir(args.date)
     if not (out / "pack.json").exists():
         print(f"Sem pacote em {out}; rode run_daily.py antes.")
         return 1

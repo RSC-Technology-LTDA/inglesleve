@@ -293,5 +293,34 @@
       "owe",
       "realize"
     ]
+  },
+  {
+    "date": "2026-12-01",
+    "format": "month_facts",
+    "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",
+    "terms": [
+      "national cookie day",
+      "bake",
+      "cookie dough",
+      "cookie exchange",
+      "wright brothers day",
+      "first flight",
+      "take off",
+      "the rest is history",
+      "ugly sweater day",
+      "ugly sweater party",
+      "tacky",
+      "winter solstice",
+      "the shortest day of the year",
+      "freezing",
+      "bundle up",
+      "new year's eve",
+      "countdown",
+      "ring in the new year",
+      "new year's resolution",
+      "december",
+      "happy holidays"
+    ],
+    "extra": true
   }
 ]

@@ -1,0 +1,268 @@
+{
+  "format": "month_facts",
+  "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "*December* nos EUA",
+      "subtitle": "5 curiosidades + o inglês de cada uma",
+      "body": "",
+      "items": [
+        {
+          "en": "December",
+          "pt": "dezembro",
+          "pronunciation": "di-SÉM-ber",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "☃️"
+        }
+      ],
+      "note": "",
+      "layout": "hero",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "National Cookie Day – Dec 4",
+      "subtitle": "Sim, existe um dia só pro cookie! Várias lojas de cookies nos EUA fazem promoção ou dão cookie de graça.",
+      "body": "",
+      "items": [
+        {
+          "en": "bake",
+          "pt": "assar (no forno)",
+          "pronunciation": "BÊIK",
+          "example_en": "Let's bake some cookies tonight.",
+          "example_pt": "Bora fazer uns cookies hoje à noite.",
+          "emoji": "🍪"
+        },
+        {
+          "en": "cookie dough",
+          "pt": "massa de cookie",
+          "pronunciation": "KU-ki DÔU",
+          "example_en": "Don't eat all the cookie dough!",
+          "example_pt": "Não come a massa de cookie toda!",
+          "emoji": "🥣"
+        },
+        {
+          "en": "cookie exchange",
+          "pt": "troca de cookies entre amigos",
+          "pronunciation": "KU-ki iks-TCHÊINDJ",
+          "example_en": "We're having a cookie exchange at work.",
+          "example_pt": "Vai ter troca de cookies no trabalho.",
+          "emoji": "🎁"
+        }
+      ],
+      "note": "Em dezembro, muita gente leva uma fornada e volta pra casa com cookies de todo mundo.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Wright Brothers Day – Dec 17",
+      "subtitle": "Em 17/12/1903, os irmãos Wright voaram perto de Kitty Hawk, na Carolina do Norte. O 1º voo deles durou só 12 segundos!",
+      "body": "",
+      "items": [
+        {
+          "en": "first flight",
+          "pt": "primeiro voo",
+          "pronunciation": "FÂRST FLÁIT",
+          "example_en": "Their first flight lasted 12 seconds.",
+          "example_pt": "O primeiro voo deles durou 12 segundos.",
+          "emoji": "✈️"
+        },
+        {
+          "en": "take off",
+          "pt": "decolar",
+          "pronunciation": "têik ÓF",
+          "example_en": "The plane takes off at 6.",
+          "example_pt": "O avião decola às 6.",
+          "emoji": "🛫"
+        },
+        {
+          "en": "the rest is history",
+          "pt": "o resto é história",
+          "pronunciation": "dê RÉST iz RIS-tô-ri",
+          "example_en": "They flew for 12 seconds, and the rest is history.",
+          "example_pt": "Voaram 12 segundos, e o resto é história.",
+          "emoji": "📜"
+        }
+      ],
+      "note": "Wright se fala 'RÁIT', igual a 'right'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Ugly Sweater Day – 3rd Friday (Dec 18)",
+      "subtitle": "Na 3ª sexta de dezembro, o povo vai pro trabalho e pra festas com o suéter mais brega possível.",
+      "body": "",
+      "items": [
+        {
+          "en": "ugly sweater party",
+          "pt": "festa do suéter brega",
+          "pronunciation": "Â-gli SUÉ-rer PAR-ti",
+          "example_en": "Are you going to the ugly sweater party?",
+          "example_pt": "Você vai na festa do suéter brega?",
+          "emoji": "🧶"
+        },
+        {
+          "en": "tacky",
+          "pt": "brega, cafona",
+          "pronunciation": "TÉ-ki",
+          "example_en": "The tackier, the better!",
+          "example_pt": "Quanto mais brega, melhor!",
+          "emoji": "🤡"
+        }
+      ],
+      "note": "Quem vence o concurso de suéter mais feio costuma ganhar prêmio!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Winter Solstice – Dec 21",
+      "subtitle": "Começa o inverno oficial nos EUA. É o dia com menos luz do sol do ano inteiro.",
+      "body": "",
+      "items": [
+        {
+          "en": "the shortest day of the year",
+          "pt": "o dia mais curto do ano",
+          "pronunciation": "dê XÓR-test DÊI âv dê ÍIR",
+          "example_en": "Today is the shortest day of the year.",
+          "example_pt": "Hoje é o dia mais curto do ano.",
+          "emoji": "🌙"
+        },
+        {
+          "en": "freezing",
+          "pt": "um frio de congelar",
+          "pronunciation": "FRÍ-zin",
+          "example_en": "It's freezing out there!",
+          "example_pt": "Tá um gelo lá fora!",
+          "emoji": "🥶"
+        },
+        {
+          "en": "bundle up",
+          "pt": "se agasalhar bem",
+          "pronunciation": "BÂN-dol ÂP",
+          "example_en": "Bundle up, it's snowing.",
+          "example_pt": "Se agasalha, tá nevando.",
+          "emoji": "🧣"
+        }
+      ],
+      "note": "Em 2026 cai dia 21 (em alguns anos, dia 22). No Brasil é o contrário: é o dia mais longo!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "New Year's Eve – Dec 31",
+      "subtitle": "Desde 1907 uma bola gigante desce em Times Square, Nova York, nos últimos 60 segundos do ano.",
+      "body": "",
+      "items": [
+        {
+          "en": "countdown",
+          "pt": "contagem regressiva",
+          "pronunciation": "KÁUNT-daun",
+          "example_en": "The countdown starts at 11:59.",
+          "example_pt": "A contagem regressiva começa às 23h59.",
+          "emoji": "⏰"
+        },
+        {
+          "en": "ring in the new year",
+          "pt": "receber/comemorar o ano novo",
+          "pronunciation": "RÍN in dê nu ÍIR",
+          "example_en": "Where are you ringing in the new year?",
+          "example_pt": "Onde você vai passar a virada?",
+          "emoji": "🎆"
+        },
+        {
+          "en": "New Year's resolution",
+          "pt": "meta de ano novo",
+          "pronunciation": "nu ÍIRZ ré-zo-LU-shân",
+          "example_en": "My New Year's resolution is to learn English.",
+          "example_pt": "Minha meta de ano novo é aprender inglês.",
+          "emoji": "📝"
+        }
+      ],
+      "note": "Lá pular ondas não é tradição: o clássico é o beijo à meia-noite e a música 'Auld Lang Syne'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra lembrar em dezembro",
+      "subtitle": "",
+      "body": "Manda pro amigo que vai viajar pros EUA no fim do ano (ou que ama tudo de lá) ✈️ Segue @inglesleve.br: 1 dose de inglês por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Nos EUA existe até um dia nacional do cookie 🍪 e dezembro tá cheio dessas!\n\nBônus que não tá nos slides: em dezembro você vai ouvir muito \"Happy holidays!\" (boas festas!). É o jeito neutro de desejar boas festas pra qualquer pessoa, em loja, e-mail ou no trabalho. E pra responder? Simples: \"You too!\" (pra você também!).\n\nDas 5 curiosidades, qual você não sabia? Conta aqui nos comentários 👇\n\nManda pro amigo que vai passar a virada nos EUA. Segue @inglesleve.br: 1 dose de inglês por dia.",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "dicasdeingles",
+    "inglesbasico",
+    "vocabularioemingles",
+    "curiosidadesdoseua",
+    "viagemeua",
+    "december",
+    "newyearseve",
+    "inglesfacil"
+  ],
+  "stories": [
+    {
+      "kind": "tip",
+      "headline": "O 1º voo dos irmãos Wright durou só 12 segundos ✈️",
+      "body": "Em 17/12/1903, os irmãos Wright voaram por 12 segundos na Carolina do Norte. Em inglês: \"and the rest is history\" (e o resto é história). Reage 🤯 se você não sabia!",
+      "options": [],
+      "answer": "",
+      "emoji": "✈️"
+    },
+    {
+      "kind": "speak",
+      "headline": "Where are you ringing in the new year?",
+      "body": "uér ar iú RÍN-in in dê nu ÍIR? · Manda um áudio no DM falando essa frase (e onde você vai passar a virada!)",
+      "options": [],
+      "answer": "",
+      "emoji": "🎆"
+    },
+    {
+      "kind": "tip",
+      "headline": "Dezembro nos EUA tem dia do cookie, do suéter brega e mais 🍪",
+      "body": "Saiu post com 5 curiosidades de dezembro e o inglês de cada uma. Corre lá no feed e salva pra sua viagem!",
+      "options": [],
+      "answer": "",
+      "emoji": "☃️"
+    }
+  ],
+  "terms_used": [
+    "national cookie day",
+    "bake",
+    "cookie dough",
+    "cookie exchange",
+    "wright brothers day",
+    "first flight",
+    "take off",
+    "the rest is history",
+    "ugly sweater day",
+    "ugly sweater party",
+    "tacky",
+    "winter solstice",
+    "the shortest day of the year",
+    "freezing",
+    "bundle up",
+    "new year's eve",
+    "countdown",
+    "ring in the new year",
+    "new year's resolution",
+    "december",
+    "happy holidays"
+  ],
+  "reel": null
+}

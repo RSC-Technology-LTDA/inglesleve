@@ -303,9 +303,12 @@ def last_week_terms(history: list, day: date) -> list:
     return out
 
 
-def record(day: date, fmt: str, theme: str, terms: list, track: str = "") -> None:
-    history = [e for e in load_history() if e["date"] != day.isoformat()]
+def record(day: date, fmt: str, theme: str, terms: list, track: str = "", extra: bool = False) -> None:
+    """extra=True: post fora da grade (ex: curiosidades do mês), registrado sem sobrescrever o post do dia."""
+    history = [e for e in load_history() if (e["date"], e.get("extra", False)) != (day.isoformat(), extra)]
     entry = {"date": day.isoformat(), "format": fmt, "theme": theme, "terms": terms}
+    if extra:
+        entry["extra"] = True
     if track:
         entry["track"] = track
     history.append(entry)

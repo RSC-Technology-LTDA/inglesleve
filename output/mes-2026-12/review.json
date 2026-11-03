@@ -1,0 +1,137 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "blocker",
+        "location": "stories[0].headline",
+        "problem": "'O 1º voo da história durou 12 segundos' é falso. Já existiam voos de balão desde 1783 e voos de planadores antes de 1903. Para o público brasileiro há ainda a polêmica de Santos-Dumont (14-bis, 1906): a frase vai gerar enxurrada de comentários corrigindo a página e minar a credibilidade.",
+        "fix": "Trocar por 'O 1º voo dos irmãos Wright durou só 12 segundos ✈️' ou 'O 1º voo de avião a motor dos EUA durou 12 segundos'. Evitar o rótulo 'primeiro voo da história'."
+      },
+      {
+        "severity": "major",
+        "location": "feed[3].title / reel.scenes[1].say_pt / reel.scenes[1].text",
+        "problem": "O National Ugly Sweater Day cai na 3ª sexta-feira de dezembro, então a data muda todo ano (ex.: 19/12 em 2025). O título fixa 'Dec 18' e contradiz o próprio subtítulo. O reel afirma 'Dia 18, todo mundo vai numa', o que é factualmente impreciso e exagerado.",
+        "fix": "Título: 'Ugly Sweater Day – 3rd Friday'. Reel text: 'festa do suéter brega · 3ª sexta de dezembro'. say_pt: 'Na 3ª sexta de dezembro, muita gente vai numa:'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].subtitle",
+        "problem": "Construção truncada: 'o povo vai trabalhar e pra festas'. O paralelismo está quebrado.",
+        "fix": "'Na 3ª sexta de dezembro, o povo vai pro trabalho e pra festas com o suéter mais brega possível.'"
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'É o jeito mais usado de desejar boas festas' é discutível, já que 'Merry Christmas' continua muito comum. O tema Happy Holidays vs. Merry Christmas é sensível nos EUA. Além disso, a legenda diz 'Manda pro amigo' e o CTA diz 'amiga': inconsistência leve.",
+        "fix": "'É o jeito neutro de desejar boas festas pra qualquer pessoa, em loja, e-mail ou no trabalho.' Padronizar amigo/amiga."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].subtitle",
+        "problem": "'Muita padaria nos EUA dá cookie de graça' generaliza. As promoções costumam ser de redes de cookies, não de padarias em geral.",
+        "fix": "'Várias lojas de cookies nos EUA fazem promoção ou dão cookie de graça.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items[2].example_en",
+        "problem": "'My New Year's resolution is to speak English' soa um pouco estranho para quem já fala alguma coisa. O mais natural é learn/improve.",
+        "fix": "'My New Year's resolution is to learn English.' / 'Minha meta de ano novo é aprender inglês.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].subtitle",
+        "problem": "Tecnicamente o voo foi em Kill Devil Hills, perto de Kitty Hawk. É aceitável, mas impreciso.",
+        "fix": "'perto de Kitty Hawk, na Carolina do Norte' (opcional)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].title",
+        "problem": "O solstício de inverno pode cair em 21 ou 22/12, conforme o ano e o fuso.",
+        "fix": "'Winter Solstice – Dec 21/22' ou 'por volta de 21/12' na nota."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[1].emoji",
+        "problem": "🤪 não representa bem 'tacky' (brega).",
+        "fix": "Usar 🎄 ou 🧥, ou manter 🧶 e trocar o do outro item."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.caption",
+        "problem": "A legenda do reel cita o dia do cookie, que não aparece em nenhuma cena do reel.",
+        "fix": "Citar algo do reel, ex.: 'Dezembro nos EUA tem festa do suéter brega, o dia mais curto do ano e muito mais 🎆'."
+      }
+    ],
+    "summary": "O pacote é bem montado: estrutura, pronúncias, traduções e reel estão corretos e coerentes. Há porém um erro factual grave no story 1 ('1º voo da história'), especialmente sensível para brasileiros por causa de Santos-Dumont. A data do Ugly Sweater Day está fixada em 18/12, quando na verdade é a 3ª sexta de dezembro, e o reel repete o erro. Corrigir esses dois pontos (e de preferência os minors) antes de publicar."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[1].emoji",
+        "problem": "🎄 não representa 'tacky' (brega). Uma árvore de Natal não remete a cafonice.",
+        "fix": "Use um emoji que sugira exagero ou cafonice, como 🤡 ou 🙈, ou mantenha 🧶 ligado ao suéter."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'um dia oficial do cookie' é impreciso. O National Cookie Day não é oficializado pelo governo; é uma data comemorativa informal, diferente do Wright Brothers Day, que tem proclamação presidencial.",
+        "fix": "Troque por 'existe até um dia nacional do cookie 🍪' ou 'um dia só pro cookie'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].note",
+        "problem": "'Lá ninguém pula ondas' é uma generalização absoluta.",
+        "fix": "Reformule: 'Lá pular ondas não é tradição: o clássico é o beijo à meia-noite e a música Auld Lang Syne.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[0].pronunciation",
+        "problem": "'óv' para 'of' sugere uma vogal aberta e tônica. Na fala natural, 'of' é átono e reduzido ('âv'/'â').",
+        "fix": "Use 'dê XÓR-test DÊI âv dê ÍIR'."
+      }
+    ],
+    "summary": "Pacote sólido. As datas estão corretas: Cookie Day 4/12, voo dos Wright em 17/12/1903 com 12 s, Ugly Sweater Day na 3ª sexta (18/12 em 2026), solstício em 21/12/2026 e ball drop desde 1907. O inglês é natural, as traduções estão boas e as pronúncias são adequadas. A estrutura do feed, dos stories e do reel está dentro das regras, com 5 curiosidades coerentes com a capa e o reel indo de hook a cta em 5 cenas. Restam só ajustes de estilo: o emoji de 'tacky', 'oficial' na legenda, uma generalização na nota do Réveillon e a redução de 'of' na pronúncia."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "reel.scenes[1].say_pt",
+        "problem": "'3ª' na narração pode ser lido errado pelo TTS (ex.: '3 a').",
+        "fix": "Escrever por extenso: 'Na terceira sexta de dezembro, muita gente vai numa:'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].title",
+        "problem": "'(Dec 18)' só vale para 2026, já que a data muda todo ano. O post pede 'Salva pra lembrar em dezembro', então em outro ano a data fica errada.",
+        "fix": "Usar 'Ugly Sweater Day – 3rd Friday of Dec' e deixar '(18/12 em 2026)' na note, como foi feito no slide do solstício."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].subtitle, feed[1].subtitle",
+        "problem": "Subtítulos longos (2 frases, ~120 caracteres) podem apertar o layout da imagem.",
+        "fix": "Encurtar, ex.: '17/12/1903: o 1º voo dos irmãos Wright, na Carolina do Norte, durou só 12 segundos!'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items[0].example_en",
+        "problem": "'The countdown starts at 11:59' está correto (a bola começa a descer às 23h59), mas o que todo mundo associa à 'countdown' é a contagem dos últimos 10 segundos. Pode confundir um pouco.",
+        "fix": "Opcional: 'Everyone shouts the countdown: 10, 9, 8…' ou manter e explicar que a descida da bola começa às 23h59."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[1].pt",
+        "problem": "'freezing' é adjetivo, e 'um frio de congelar' é locução substantiva. Fica um pouco desalinhado para nível A2.",
+        "fix": "Usar 'congelante / muito frio (de congelar)'."
+      }
+    ],
+    "summary": "Pacote sólido e factualmente correto: National Cookie Day em 4/12, voo dos Wright em 17/12/1903 com 12 s perto de Kitty Hawk, terceira sexta de dezembro de 2026 = 18/12, solstício em 21/12/2026, bola da Times Square desde 1907 e Auld Lang Syne. O inglês é natural, as traduções estão boas e as pronúncias aportuguesadas têm a tônica certa. A estrutura do feed, dos stories e do reel está dentro dos limites, e há coerência entre legenda, slides e terms_used. Só há ajustes de estilo: narração com '3ª' para o TTS, data do Ugly Sweater Day fixa no título, subtítulos longos e pequenos refinamentos de tradução e exemplo. Aprovado."
+  }
+]
