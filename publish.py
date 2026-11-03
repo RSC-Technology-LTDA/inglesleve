@@ -144,13 +144,12 @@ def main() -> int:
         print(f"Legenda com {len(caption)} caracteres; o limite é {CAPTION_LIMIT}.")
         return 1
 
-    missing = [n for n in feed + stories if not (out / "jpg" / n).exists()]
+    todo_feed = feed if feed and not slot_state["carousel"] else []
+    todo_stories = [n for n in stories if n not in slot_state["stories"]]
+    missing = [n for n in todo_feed + todo_stories if not (out / "jpg" / n).exists()]
     if missing:
         print(f"Faltam JPEGs (rode 'publish.py prepare'): {missing}")
         return 1
-
-    todo_feed = feed if feed and not slot_state["carousel"] else []
-    todo_stories = [n for n in stories if n not in slot_state["stories"]]
     # Reel às 18h: longe do carrossel, cada um tem sua janela de alcance.
     reel = out / "reel.mp4"
     todo_reel = args.slot in ("evening", "reel") and pack.reel is not None and reel.exists() and not slot_state.get("reel")
