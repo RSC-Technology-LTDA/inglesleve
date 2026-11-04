@@ -1,0 +1,58 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[1].note",
+        "problem": "A nota apresenta 'end up + verbo com -ing' como a fórmula, mas o slide seguinte usa 'ended up in a tiny town' (end up + lugar). O próprio termo também traduz como 'ir parar'. Isso pode confundir o aluno A2.",
+        "fix": "Completar a nota: 'Fórmula: end up + verbo com -ing (ended up staying) ou + lugar (ended up in Paris)'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[1].body",
+        "problem": "Em 'STEI-im', o final '-im' é uma aproximação aceitável, mas pouco usual. O padrão mais reconhecível para o '-ing' é 'in'. Em 'én-di-DÂP', o acento em 'én' compete com a tônica marcada em maiúsculas.",
+        "fix": "Usar 'ai ÉN-di-dâp STEI-in RÔUM' ou manter a tônica só nas maiúsculas: 'ai en-di-DÂP STEI-in RÔUM'."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'end up with' aparece só na legenda, não é ensinado nos slides, stories nem reel.",
+        "fix": "Remover 'end up with' de terms_used ou incluir um exemplo dele num slide (ex.: na lista)."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.caption",
+        "problem": "'o que você ended up fazendo hoje' mistura inglês e português no meio da frase. É divertido, mas pode reforçar uma estrutura híbrida estranha.",
+        "fix": "Trocar por: 'Conta aqui em inglês: Today I ended up...'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].say_pt",
+        "problem": "'Para de falar isso!' não diz o que é 'isso', porque a frase errada só aparece na cena seguinte. O gancho fica vago se a pessoa só ouvir o áudio.",
+        "fix": "Ex.: 'Para de usar finished pra dizer acabei!' (ou manter o say_pt sem inglês: 'Para de errar esse acabei!')."
+      }
+    ],
+    "summary": "Pacote sólido: o inglês está correto e natural, as traduções estão precisas e a estrutura do feed respeita os limites (cover statement com strike, quiz com uma resposta, compare com 2 itens, cta por último). Stories (poll com 2 opções e answer respondendo a tudo) e reel (hook→cta, 8 cenas, question→reveal com deixa limpa, say_en igual à tela) estão corretos. Só há ajustes de estilo: a fórmula na nota está incompleta, a transcrição de pronúncia pode melhorar, 'end up with' entrou em terms_used sem ser ensinado, a legenda do reel mistura idiomas e o gancho falado está vago. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "A legenda ensina 'end up with' como bônus, mas o termo não aparece em terms_used.",
+        "fix": "Adicionar 'end up with' a terms_used ou tirar o bônus da legenda."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].note",
+        "problem": "A fórmula cita só -ing e lugar. Omite 'end up + with' (citado na legenda) e 'end up + adjetivo' (ended up tired).",
+        "fix": "Opcional: 'end up + -ing / lugar / with + algo' para alinhar com o bônus da legenda."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural, com o contraste certo entre 'finished' e 'ended up'. Traduções e pronúncia ('en-DÂP', 'ai en-di-DÂP STEI-in RÔUM') estão boas. A estrutura respeita os limites: cover statement com strike, list com 4 itens, compare com 2, quiz com uma única resposta certa e CTA no fim. Os stories seguem o roteiro e o answer responde ao poll. O reel tem 8 cenas, hook e cta, a question é seguida de reveal com deixa neutra e o say_en bate com a tela. Só há ajustes menores de consistência. Aprovado."
+  }
+]
