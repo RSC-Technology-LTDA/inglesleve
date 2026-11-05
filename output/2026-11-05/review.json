@@ -1,0 +1,70 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "stories[1].headline",
+        "problem": "'Gorjeta nos EUA não é opcional' é exagerado. Legalmente, a gorjeta é voluntária; o que existe é uma forte expectativa social. Numa página de ensino, vale manter a precisão.",
+        "fix": "Trocar por 'Gorjeta nos EUA é quase obrigatória' ou 'Nos EUA, gorjeta é esperada'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[1].pronunciation",
+        "problem": "Em fala natural, o 'to' átono soa mais como 'tâ' do que 'tu'.",
+        "fix": "'áid LÁIK tâ tchék IN' (opcional; 'tu' ainda é compreensível)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].title",
+        "problem": "A cover com layout 'fix' está com o title vazio, e só o subtitle situa o contexto. Sem título, falta um gancho que diga ao leitor do que trata o carrossel.",
+        "fix": "Adicionar um título curto, ex.: '6 erros de brasileiro na Disney'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0] / reel.scenes[1]",
+        "problem": "O hook já mostra 'How much costs this?' e a cena seguinte repete a mesma frase errada logo depois. Isso cria redundância visual.",
+        "fix": "Deixar o hook só com texto em PT (ex.: 'Você fala assim na loja da Disney? ❌'), sem a frase em inglês."
+      },
+      {
+        "severity": "minor",
+        "location": "caption vs feed[6].body",
+        "problem": "Pequena inconsistência: o CTA do slide diz 'amiga', e a legenda diz 'amigo'.",
+        "fix": "Padronizar, ex.: 'Manda pra quem vai pra Disney'."
+      }
+    ],
+    "summary": "Pacote sólido. Os seis pares erro→correção são erros reais de brasileiros, e as correções estão naturais: 'How much does this cost?', 'I'd like to check in', 'take a photo', 'the line is really long', 'pay with a card', 'came to visit'. As traduções estão corretas e as pronúncias são boas, com tônicas certas e flap em 'FÔU-rou'. A estrutura está correta: cover fix com 2 itens, cta por último. Stories seguem fix → tip → answer, com resposta certa e explicação correta do presente contínuo. O reel tem 6 cenas, abre com hook e fecha com cta, e say_en bate com a tela. Os únicos pontos são de estilo e precisão: a afirmação de que a gorjeta 'não é opcional', o título da cover vazio e uma pequena redundância no reel. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].items[1].pronunciation",
+        "problem": "Em 'kén iu TÊIK a FÔU-rou óv âs', o 'of' átono soa como 'âv', não 'óv'. O artigo 'a' átono também soa mais como 'â'.",
+        "fix": "kén iu TÊIK â FÔU-rou âv âs"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[1].pronunciation",
+        "problem": "O artigo 'a' átono aparece como 'a'. Os outros slides usam 'â' para a vogal reduzida (schwa), então falta padronizar.",
+        "fix": "kén ai PÊI uíth â KÁRD"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].note",
+        "problem": "'I came to visit Orlando' está correto. Porém, na imigração, a resposta mais típica é 'I'm here on vacation' ou 'I'm here to visit Orlando'. Seria um bônus útil para o contexto do slide.",
+        "fix": "Opcional: acrescentar na note 'Também pode dizer: I'm here on vacation.'"
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0]",
+        "problem": "O erro do desafio ('I stay at the Hilton') não aparece no carrossel. Continua dentro do tema viagem, mas a conexão com o post é mais fraca.",
+        "fix": "Opcional: usar nos stories um dos 6 erros do carrossel ou mencionar que é um erro bônus."
+      }
+    ],
+    "summary": "Pacote sólido. Os 6 erros são reais e comuns entre brasileiros, as correções são naturais e as traduções estão boas. A estrutura está correta: cover em layout fix com 2 itens, cta por último. Os stories seguem o formato wrong_right com resposta única. O reel tem 6 cenas, abre com hook, fecha com cta, e o say_en bate com a tela. A dica de gorjeta (18–20%) e a de restroom/toilet estão corretas. Restam só ajustes menores de pronúncia (vogais átonas) e de coerência. Aprovado."
+  }
+]

@@ -324,6 +324,20 @@
     ]
   },
   {
+    "date": "2026-11-05",
+    "format": "wrong_right",
+    "theme": "Erros clássicos do turista brasileiro na viagem aos EUA e Disney",
+    "terms": [
+      "how much does this cost",
+      "check in",
+      "take a photo",
+      "the line is really long",
+      "pay with a card",
+      "came to visit"
+    ],
+    "track": "viagem"
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",
