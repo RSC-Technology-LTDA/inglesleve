@@ -1,0 +1,70 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "reel.scenes[3].text",
+        "problem": "A alternativa certa vem com a tradução '(de fininho)', e o título fala em 'sneakers'. A resposta fica óbvia e o quiz perde a graça.",
+        "fix": "Tirar as traduções das alternativas: 'sneak | snake | snack'. A tradução pode aparecer só no reveal."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[4].say_pt",
+        "problem": "O say_pt do reveal deveria ser só uma deixa, mas já explica o significado ('Vem do verbo que significa andar de fininho:').",
+        "fix": "Usar 'A resposta certa é:' e deixar a explicação para o text na tela."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].note",
+        "problem": "A nota diz que o passado de sneak no dia a dia americano é 'snuck', sem mencionar 'sneaked'. 'Snuck' é de fato o mais comum nos EUA, mas 'sneaked' também é padrão (e mais comum no Reino Unido). Como o post compara EUA e Reino Unido, vale citar os dois.",
+        "fix": "Ex.: 'Passado de sneak: snuck (mais comum nos EUA) ou sneaked.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "'Nunca só tennis' é absoluto demais: existe a forma informal 'tennies' e, em algumas regiões, 'tennis' para o calçado aparece na fala. Para A2 o conselho é válido, mas 'nunca' é forte.",
+        "fix": "Trocar por 'mas evite só tennis: soa como o esporte.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].emoji / feed[2].items[1].emoji",
+        "problem": "🏃 (pessoa correndo) remete à ação de correr, não ao calçado. Funciona para diferenciar visualmente, mas representa o termo de forma indireta.",
+        "fix": "Aceitável. Se quiser mais precisão, use 👟 nos dois e diferencie com bandeiras 🇺🇸/🇬🇧."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural, as traduções são boas e as pronúncias aportuguesadas são adequadas. A etimologia (sneak + sola silenciosa; Keds em 1917) bate com a versão aceita. A estrutura está dentro dos limites: cover versus com 2 itens, compare com 2, term com 4, list com 4, quiz com uma única resposta certa. Os stories (guess com emoji e 8 letras corretas, answer cobrindo tudo) e o reel (7 cenas, hook→cta, question→reveal) estão coerentes com o tema. Ficam só ajustes de estilo: o quiz do reel entrega a resposta, a deixa do reveal é longa demais e 'snuck' e 'nunca só tennis' merecem nuance. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "caption (Bônus)",
+        "problem": "A afirmação sobre a propaganda da Keds de 1917 é a versão popular. A palavra 'sneakers' já existia desde o fim do século XIX, e a atribuição ao publicitário Henry Nelson McKinney (agência N.W. Ayer) é tradicional, mas pouco documentada. O texto diz 'ajudou a espalhar', o que é aceitável, mas um leitor pode entender que a palavra nasceu ali.",
+        "fix": "Deixar explícito: 'A palavra já existia desde o século XIX, e uma propaganda dos tênis Keds em 1917 ajudou a popularizá-la nos EUA.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body / reel.scenes[6].say_pt",
+        "problem": "O CTA promete '1 erro corrigido por dia', mas o formato do post é word_curiosity (curiosidade de palavra), não correção de erro. É uma leve incoerência de marca e formato.",
+        "fix": "Usar um slogan neutro, ex.: 'Segue @inglesleve.br: inglês de verdade todo dia.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1].emoji / feed[2].items[1].emoji",
+        "problem": "🏃 (pessoa correndo) representa 'trainers' de forma indireta. Funciona como pista de 'calçado de treino', mas é menos claro que um emoji de calçado.",
+        "fix": "Opcional: usar 👟 nos dois e diferenciar por bandeira (🇺🇸 / 🇬🇧) no subtítulo, ou manter 🏃 se a intenção for remeter a 'training'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].example_en",
+        "problem": "O exemplo usa 'sneak up on', um phrasal verb diferente do 'sneak' simples apresentado ('andar de fininho'). Isso pode confundir um aluno A2.",
+        "fix": "Manter, mas adicionar no pt '(chegar de fininho em alguém)', ou trocar por 'He sneaked into the kitchen.' / 'Ele entrou de fininho na cozinha.'"
+      }
+    ],
+    "summary": "Pacote sólido e aprovado. O inglês está correto e natural ('sneakers', 'trainers', 'tennis shoes', 'snuck/sneaked' bem explicados), as traduções são naturais e as pronúncias aportuguesadas estão boas. A etimologia de 'sneak' (sola de borracha silenciosa) é a explicação aceita. A estrutura está dentro dos limites: cover versus com 2 itens, compare com 2, term com 4, list com 4, quiz com uma única resposta correta. Os stories estão coerentes, o guess tem emoji e 8 letras corretas, e o answer responde a tudo. O reel tem 7 cenas, começa com hook e termina com cta, e a question é seguida de reveal com deixa neutra. Os ajustes sugeridos são apenas de estilo: precisar a afirmação sobre a Keds de 1917, alinhar o slogan do CTA ao formato curiosidade e, opcionalmente, rever o emoji de 'trainers' e o exemplo com 'sneak up on'."
+  }
+]

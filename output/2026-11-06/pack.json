@@ -1,0 +1,304 @@
+{
+  "format": "word_curiosity",
+  "theme": "Sneakers: por que tênis não é tennis (e de onde vem a palavra)",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Tênis não é *tennis*",
+      "subtitle": "EUA × Reino Unido",
+      "body": "",
+      "items": [
+        {
+          "en": "sneakers",
+          "pt": "tênis (EUA)",
+          "pronunciation": "SNI-kers",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👟"
+        },
+        {
+          "en": "trainers",
+          "pt": "tênis (Reino Unido)",
+          "pronunciation": "TREI-ners",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏃"
+        }
+      ],
+      "note": "",
+      "layout": "versus",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Qual é o certo? \"Comprei um tênis novo\"",
+      "subtitle": "Pensa antes de passar 👀",
+      "body": "",
+      "items": [
+        {
+          "en": "I bought new tennis.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I bought new sneakers.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: I bought new sneakers. Tennis sozinho é o esporte!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Mesmo tênis, dois nomes",
+      "subtitle": "Depende de onde você está",
+      "body": "",
+      "items": [
+        {
+          "en": "sneakers",
+          "pt": "tênis (nos EUA)",
+          "pronunciation": "SNI-kers",
+          "example_en": "Nice sneakers!",
+          "example_pt": "Que tênis legal!",
+          "emoji": "👟"
+        },
+        {
+          "en": "trainers",
+          "pt": "tênis (no Reino Unido)",
+          "pronunciation": "TREI-ners",
+          "example_en": "I left my trainers at home.",
+          "example_pt": "Esqueci meu tênis em casa.",
+          "emoji": "🏃"
+        }
+      ],
+      "note": "Nos EUA também dá pra dizer tennis shoes, mas evite só tennis: soa como o esporte.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "De onde vem *sneakers*?",
+      "subtitle": "Do verbo sneak: andar de fininho",
+      "body": "",
+      "items": [
+        {
+          "en": "sneak",
+          "pt": "andar de fininho",
+          "pronunciation": "SNIK",
+          "example_en": "Don't sneak up on me!",
+          "example_pt": "Não chega de fininho assim!",
+          "emoji": "🐈"
+        },
+        {
+          "en": "sneaky",
+          "pt": "sorrateiro, espertinho",
+          "pronunciation": "SNI-ki",
+          "example_en": "That was sneaky!",
+          "example_pt": "Que espertinho!",
+          "emoji": "🦊"
+        },
+        {
+          "en": "sneak peek",
+          "pt": "uma espiadinha, prévia",
+          "pronunciation": "snik PIK",
+          "example_en": "Here's a sneak peek.",
+          "example_pt": "Olha uma prévia.",
+          "emoji": "👀"
+        },
+        {
+          "en": "sneak out",
+          "pt": "sair escondido",
+          "pronunciation": "snik ÁUT",
+          "example_en": "I snuck out early.",
+          "example_pt": "Saí de fininho mais cedo.",
+          "emoji": "🚪"
+        }
+      ],
+      "note": "A sola de borracha não fazia barulho: dava pra andar de fininho!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Use hoje mesmo",
+      "subtitle": "Frases do dia a dia",
+      "body": "",
+      "items": [
+        {
+          "en": "I need new sneakers for the trip.",
+          "pt": "Preciso de um tênis novo pra viagem.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "These sneakers are so comfy.",
+          "pt": "Esse tênis é muito confortável.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Can I wear sneakers to the restaurant?",
+          "pt": "Posso ir de tênis no restaurante?",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Here's a sneak peek of my new place.",
+          "pt": "Olha uma prévia do meu apê novo.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Passado de sneak: snuck (mais comum nos EUA) ou sneaked.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Agora você sabe 👟",
+      "subtitle": "",
+      "body": "Salva pra lembrar na próxima compra. Manda pro amigo que vai pros EUA só pra comprar tênis no outlet. Segue @inglesleve.br: 1 erro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Você chama tênis de \"tennis\"? Nos EUA isso é só o esporte 🎾\n\nTênis é sneakers, porque a sola de borracha deixava você andar de fininho (sneak) sem fazer barulho. No Reino Unido, o nome é trainers.\n\nBônus: em 1917, uma propaganda dos tênis Keds ajudou a espalhar a palavra sneakers pelos EUA. E em algumas regiões americanas você ainda ouve tennis shoes, que também está certo.\n\nE aí, você já falou \"I bought new tennis\"? Conta nos comentários 👇",
+  "hashtags": [
+    "inglesleve",
+    "inglesonline",
+    "aprenderingles",
+    "inglesparabrasileiros",
+    "dicasdeingles",
+    "vocabularioingles",
+    "inglesbritanico",
+    "inglesamericano",
+    "curiosidadesdoingles",
+    "sneakers",
+    "inglesnodiaadia",
+    "viagemeua",
+    "inglesfacil"
+  ],
+  "stories": [
+    {
+      "kind": "truefalse",
+      "headline": "No Reino Unido, tênis se chama \"trainers\".",
+      "body": "Verdadeiro ou falso? Responde no DM 📩",
+      "options": [],
+      "answer": "Verdadeiro: lá é trainers, nos EUA é sneakers.",
+      "emoji": "🏃"
+    },
+    {
+      "kind": "guess",
+      "headline": "Que palavra é essa em inglês americano?",
+      "body": "_ _ _ _ _ _ _ _ · 8 letras · manda no DM",
+      "options": [],
+      "answer": "sneakers",
+      "emoji": "👟"
+    },
+    {
+      "kind": "tip",
+      "headline": "Tennis sozinho = o esporte 🎾",
+      "body": "Pra falar do calçado: sneakers ou tennis shoes. Reage 🔥 se você já falou \"new tennis\"!",
+      "options": [],
+      "answer": "",
+      "emoji": "🎾"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje 👇",
+      "body": "1) Verdadeiro: no Reino Unido é trainers. 2) O emoji 👟 era sneakers, que vem de sneak (andar de fininho).",
+      "options": [],
+      "answer": "Verdadeiro · sneakers",
+      "emoji": "👟"
+    }
+  ],
+  "terms_used": [
+    "sneakers",
+    "trainers",
+    "tennis shoes",
+    "sneak",
+    "sneaky",
+    "sneak peek",
+    "sneak out"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Tênis não é *tennis*",
+        "text": "",
+        "emoji": "👟",
+        "say_pt": "Você chama tênis de tennis?",
+        "say_en": ""
+      },
+      {
+        "kind": "wrong",
+        "title": "I bought new *tennis*",
+        "text": "tennis = o esporte",
+        "emoji": "",
+        "say_pt": "Se você fala:",
+        "say_en": "I bought new tennis."
+      },
+      {
+        "kind": "right",
+        "title": "I bought new *sneakers*",
+        "text": "Comprei um tênis novo",
+        "emoji": "",
+        "say_pt": "Nos Estados Unidos é:",
+        "say_en": "I bought new sneakers."
+      },
+      {
+        "kind": "question",
+        "title": "De onde vem *sneakers*?",
+        "text": "sneak | snake | snack",
+        "emoji": "",
+        "say_pt": "E você sabe de onde vem essa palavra?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "sneak",
+        "text": "andar de fininho: a sola de borracha não fazia barulho",
+        "emoji": "🐈",
+        "say_pt": "A resposta certa é:",
+        "say_en": "sneak"
+      },
+      {
+        "kind": "example",
+        "title": "These sneakers are so comfy.",
+        "text": "Esse tênis é muito confortável.",
+        "emoji": "👟",
+        "say_pt": "Na prática:",
+        "say_en": "These sneakers are so comfy."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *um por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil: um erro corrigido por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Tênis em inglês NÃO é tennis 👟 Você sabia de onde vem sneakers? Comenta aqui!"
+  }
+}
