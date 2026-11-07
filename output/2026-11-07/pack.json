@@ -1,0 +1,349 @@
+{
+  "format": "situation_phrases",
+  "theme": "Entrevista do visto americano: perguntas e respostas simples em inglês",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Entrevista do *visto* em inglês",
+      "subtitle": "Entenda as perguntas e responda simples",
+      "body": "",
+      "items": [
+        {
+          "en": "visa interview",
+          "pt": "entrevista do visto",
+          "pronunciation": "VÍ-za ÍN-ter-viu",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛂"
+        }
+      ],
+      "note": "",
+      "layout": "hero",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Qual é o *certo*?",
+      "subtitle": "Pra dizer: quero conhecer Nova York",
+      "body": "",
+      "items": [
+        {
+          "en": "I want to know New York",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I want to visit New York",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: I want to visit New York (explico no próximo slide 👉)",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Conhecer um lugar não é know",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "I want to *know* New York",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I want to *visit* New York",
+          "pt": "Quero conhecer Nova York",
+          "pronunciation": "ai uónt tu VÍ-zit nu IÓRK",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Lugar: visit ou see. Know é pra pessoas ou pra saber algo.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "O que o *oficial* pergunta",
+      "subtitle": "As perguntas mais comuns",
+      "body": "",
+      "items": [
+        {
+          "en": "What's the purpose of your trip?",
+          "pt": "Qual é o motivo da viagem?",
+          "pronunciation": "uóts dã PÂR-pus óv iór TRIP",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✈️"
+        },
+        {
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?",
+          "pronunciation": "rau LÓN uil iu STEI",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📅"
+        },
+        {
+          "en": "Where do you work?",
+          "pt": "Onde você trabalha?",
+          "pronunciation": "uér du iu UÂRK",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💼"
+        },
+        {
+          "en": "Who are you traveling with?",
+          "pt": "Com quem você vai viajar?",
+          "pronunciation": "RU ar iu TRÉ-vu-lin uíth",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👫"
+        },
+        {
+          "en": "Have you been to the US before?",
+          "pt": "Você já foi aos EUA?",
+          "pronunciation": "RÉV iu bin tu dã iu-ÉS bi-FÓR",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🗺️"
+        }
+      ],
+      "note": "No Brasil a entrevista pode ser em português. Aqui é pra treinar o inglês!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Respostas *simples* e verdadeiras",
+      "subtitle": "Curto, direto e sempre a verdade",
+      "body": "",
+      "items": [
+        {
+          "en": "I'm going on vacation.",
+          "pt": "Vou de férias.",
+          "pronunciation": "aim GÔU-in ón vei-KÊI-shan",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏖️"
+        },
+        {
+          "en": "I'm staying for two weeks.",
+          "pt": "Vou ficar duas semanas.",
+          "pronunciation": "aim STÊI-in fór tchu UÍKS",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "I work as a nurse at a hospital.",
+          "pt": "Trabalho como enfermeira num hospital.",
+          "pronunciation": "ai UÂRK éz a NÂRS ét a RÓS-pi-tal",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏥"
+        },
+        {
+          "en": "I'm traveling with my wife.",
+          "pt": "Vou viajar com minha esposa.",
+          "pronunciation": "aim TRÉ-vu-lin uíth mai UÁIF",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💑"
+        },
+        {
+          "en": "No, this is my first time.",
+          "pt": "Não, é a primeira vez.",
+          "pronunciation": "nôu, dhis iz mai FÂRST taim",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🙋"
+        }
+      ],
+      "note": "Troque pela sua realidade: sua profissão, seu tempo de viagem.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Não entendeu? Diga *isso*",
+      "subtitle": "Pedir pra repetir é normal",
+      "body": "",
+      "items": [
+        {
+          "en": "Sorry, could you repeat that?",
+          "pt": "Desculpa, pode repetir?",
+          "pronunciation": "SÓ-ri, kud iu ri-PÍT dét",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🔁"
+        },
+        {
+          "en": "Could you speak a little slower?",
+          "pt": "Pode falar um pouco mais devagar?",
+          "pronunciation": "kud iu SPIK a LÍ-ral SLÔU-er",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🐢"
+        },
+        {
+          "en": "Sorry, I didn't catch that.",
+          "pt": "Desculpa, não peguei o que você disse.",
+          "pronunciation": "SÓ-ri, ai DÍ-dant KÉTCH dét",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👂"
+        },
+        {
+          "en": "What do you mean?",
+          "pt": "Como assim?",
+          "pronunciation": "uót du iu MIN",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤔"
+        }
+      ],
+      "note": "Melhor pedir pra repetir do que responder outra coisa.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra treinar antes da viagem",
+      "subtitle": "",
+      "body": "Manda pro seu amigo que vai tirar o visto esse ano. Segue @inglesleve.br: 1 erro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Vai tirar o visto americano e travou só de pensar na pergunta em inglês? ✈️\n\nNo Brasil a entrevista pode ser feita em português, mas entender essas perguntas em inglês ajuda demais na viagem, porque elas aparecem de novo em vários momentos.\n\nBônus: se alguém perguntar \"What do you do?\", a pessoa quer saber sua profissão, não o que você está fazendo agora. Responda simples: \"I'm a teacher.\" ou \"I'm an engineer.\"\n\nE lembra: resposta boa é resposta verdadeira e curta.\n\nQual dessas perguntas você teria mais dificuldade de entender? Conta aqui 👇\n\nManda pro amigo que vai tirar o visto esse ano!",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "inglesonline",
+    "aprenderingles",
+    "vistoamericano",
+    "viagemeua",
+    "inglesparaviagem",
+    "dicasdeingles",
+    "inglesbasico",
+    "englishtips",
+    "speakenglish",
+    "inglesdodia"
+  ],
+  "stories": [
+    {
+      "kind": "poll",
+      "headline": "Qual você usaria? Pra dizer \"vou de férias\"",
+      "body": "Vota aí e me manda no DM o porquê 👀",
+      "options": [
+        "My objective is to make tourism",
+        "I'm going on vacation"
+      ],
+      "answer": "I'm going on vacation",
+      "emoji": "🏖️"
+    },
+    {
+      "kind": "speak",
+      "headline": "I'm staying for two weeks.",
+      "body": "aim STÊI-in fór tchu UÍKS · Grava um áudio falando e manda no DM 🎙️",
+      "options": [],
+      "answer": "",
+      "emoji": "🗓️"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas do dia ✅",
+      "body": "Na enquete, o natural é \"I'm going on vacation\". \"Make tourism\" é tradução literal de \"fazer turismo\" e soa travado. Reage 🔥 se você já falaria do jeito literal!",
+      "options": [],
+      "answer": "I'm going on vacation.",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "what's the purpose of your trip",
+    "how long will you stay",
+    "where do you work",
+    "who are you traveling with",
+    "have you been to the us before",
+    "i'm going on vacation",
+    "i'm staying for two weeks",
+    "i work as",
+    "this is my first time",
+    "visit (conhecer um lugar)",
+    "could you repeat that",
+    "could you speak a little slower",
+    "i didn't catch that",
+    "what do you mean",
+    "visa interview"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Entrevista do visto *em inglês*",
+        "text": "As perguntas e respostas mais comuns",
+        "emoji": "🛂",
+        "say_pt": "Entrevista do visto, em inglês!",
+        "say_en": ""
+      },
+      {
+        "kind": "example",
+        "title": "What's the purpose of your trip?",
+        "text": "Qual é o motivo da viagem?",
+        "emoji": "✈️",
+        "say_pt": "O oficial pergunta:",
+        "say_en": "What's the purpose of your trip?"
+      },
+      {
+        "kind": "example",
+        "title": "I'm going on vacation.",
+        "text": "Vou de férias.",
+        "emoji": "🏖️",
+        "say_pt": "Você responde simples:",
+        "say_en": "I'm going on vacation."
+      },
+      {
+        "kind": "example",
+        "title": "How long will you stay?",
+        "text": "Quanto tempo você vai ficar?",
+        "emoji": "📅",
+        "say_pt": "Depois vem:",
+        "say_en": "How long will you stay?"
+      },
+      {
+        "kind": "example",
+        "title": "I'm staying for two weeks.",
+        "text": "Vou ficar duas semanas.",
+        "emoji": "🗓️",
+        "say_pt": "E você diz:",
+        "say_en": "I'm staying for two weeks."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *um por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Manda pra quem vai tirar o visto e segue o perfil!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Vai tirar o visto americano? Essas são as perguntas que mais aparecem 🛂 Qual você teria mais dificuldade de entender?"
+  }
+}

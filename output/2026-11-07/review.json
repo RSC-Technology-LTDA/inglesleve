@@ -1,0 +1,70 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "A regra 'Know é pra pessoas ou pra saber algo' simplifica demais. Também se usa 'know' para lugar no sentido de 'conhecer bem, estar familiarizado': 'I know New York well' é natural. O erro de verdade é usar 'know' no sentido de 'ir pela primeira vez'.",
+        "fix": "Trocar por: 'Conhecer (ir pela 1ª vez) = visit/see. Know + lugar = já conhecer bem (I know NY well).'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items[3]",
+        "problem": "'What do you mean?' está correto, mas dito seco numa entrevista com oficial pode soar um pouco confrontador, dependendo da entonação.",
+        "fix": "Trocar por 'Sorry, what do you mean?' ou acrescentar uma nota sobre o tom educado."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "O bônus ensina 'What do you do?', mas isso não aparece em terms_used nem nos slides.",
+        "fix": "Adicionar 'what do you do' a terms_used ou deixar claro que é só um extra da legenda."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[5].title",
+        "problem": "'Segue pra aprender *um por dia*' fica vago: um o quê? Não combina bem com a CTA do feed ('1 erro corrigido por dia').",
+        "fix": "Usar 'Segue pra corrigir *1 erro por dia*' ou 'Segue pra aprender *1 frase por dia*'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0]",
+        "problem": "O gancho é funcional, mas fraco. Repete o título sem criar tensão.",
+        "fix": "Ex.: say_pt 'Travou na entrevista do visto? Aprende essas 2 respostas!' e title 'Entrevista do visto: *não trave*'."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural, as traduções estão adequadas e a pronúncia aportuguesada é boa, com tônicas certas. A estrutura respeita os limites: cover hero com 1 item, quiz com uma única resposta certa, fix com erro real (know→visit), listas com até 5 itens e CTA no final. Stories seguem poll/speak/answer com resposta única. O reel tem hook e cta, 6 cenas e say_en idêntico à tela. A afirmação de que a entrevista no Brasil pode ser em português procede. Ficam só ajustes de estilo: nuance de 'know' com lugares, tom de 'What do you mean?', bônus fora de terms_used, CTA e gancho do reel. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[4].items[1].pronunciation; stories[1].body",
+        "problem": "'two' está transcrito como 'tchu'. Em inglês, 'two' é /tuː/, igual ao 'tu' do português, sem chiado. 'tchu' ensina o som de 'chew' /tʃuː/ e reforça um vício comum de brasileiros (palatalizar o T). A tônica está certa; o problema é o som.",
+        "fix": "Trocar por 'aim STÊI-in fór TU UÍKS' ou 'aim STÊI-in fór tu UÍKS' nos dois lugares (slide e story speak)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[4].pronunciation",
+        "problem": "Notação do 'th' inconsistente. Aqui 'this' vira 'dhis', mas no resto do pacote o mesmo som aparece como 'dã' (the) e 'dét' (that). Isso confunde quem segue o guia de pronúncia.",
+        "fix": "Padronizar: usar 'dis' (como em 'dã'/'dét') ou adotar 'dh' em todos os casos."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'Bônus extra' é redundante.",
+        "fix": "Usar só 'Bônus (só aqui na legenda):'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[4].emoji",
+        "problem": "🙋 não representa bem 'primeira vez'.",
+        "fix": "Usar 1️⃣ ou 🆕."
+      }
+    ],
+    "summary": "O pacote está coerente e o inglês está correto e natural: perguntas reais de entrevista, respostas curtas e frases úteis para pedir repetição. A estrutura também está ok: cover hero, quiz e fix bem montados, listas com até 5 itens, stories poll/speak/answer seguindo o formato, e o reel tem 6 cenas, começa com hook, termina com cta e o say_en bate com a tela. Há um problema de pronúncia que bloqueia a aprovação: 'two' transcrito como 'tchu', no slide e no story. Corrigir para 'tu' e ajustar os detalhes menores antes de publicar."
+  }
+]

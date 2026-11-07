@@ -352,6 +352,29 @@
     ]
   },
   {
+    "date": "2026-11-07",
+    "format": "situation_phrases",
+    "theme": "Entrevista do visto americano: perguntas e respostas simples em inglês",
+    "terms": [
+      "what's the purpose of your trip",
+      "how long will you stay",
+      "where do you work",
+      "who are you traveling with",
+      "have you been to the us before",
+      "i'm going on vacation",
+      "i'm staying for two weeks",
+      "i work as",
+      "this is my first time",
+      "visit (conhecer um lugar)",
+      "could you repeat that",
+      "could you speak a little slower",
+      "i didn't catch that",
+      "what do you mean",
+      "visa interview"
+    ],
+    "track": "visto"
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",
