@@ -375,6 +375,22 @@
     "track": "visto"
   },
   {
+    "date": "2026-11-08",
+    "format": "weekly_quiz",
+    "theme": "Quiz da semana: restaurante, hotel, tênis, viagem e entrevista do visto",
+    "terms": [
+      "check",
+      "ice machine",
+      "sneakers",
+      "visit (conhecer um lugar)",
+      "i didn't catch that",
+      "check in",
+      "housekeeping",
+      "luggage",
+      "late checkout"
+    ]
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",

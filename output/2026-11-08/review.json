@@ -1,0 +1,119 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "stories[2] (guess)",
+        "problem": "The puzzle has two correct answers. 'baggage' also has 7 letters and is found at airports and hotels, so the 'single correct answer' rule fails.",
+        "fix": "Give the first letter ('L _ _ _ _ _ _ · 7 letras') or change the clue to rule out 'baggage'."
+      },
+      {
+        "severity": "major",
+        "location": "feed[0] (cover, grid)",
+        "problem": "The cover shows all 5 correct answers (check, ice machine, sneakers, visit, I didn't catch that) before the quiz. The subtitle 'Responde antes de ver o gabarito' contradicts this, and the quiz becomes trivial.",
+        "fix": "Show only the Portuguese side on the cover (conta, máquina de gelo, tênis, conhecer, não entendi) and put '?' in 'en'. Alternatively, swap to a layout that doesn't reveal the answer, e.g. statement with 'Você sabe dizer isso em inglês?'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[3].pt",
+        "problem": "'know e meet são para pessoas' oversimplifies. 'know' is also used for places in the sense of being familiar with them ('I know Paris well').",
+        "fix": "Rewrite as: 'Conhecer (ir pela 1ª vez) = visit / have been to; know = já estar familiarizado'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[2].pt / reel.scenes[4].text",
+        "problem": "'tennis shoes' is very common in the US. Saying that 'tennis' is only the sport can be misleading.",
+        "fix": "Add: 'tennis shoes também existe, mas sneakers é o mais comum; só tennis = o esporte'."
+      },
+      {
+        "severity": "minor",
+        "location": "theme / feed[5]",
+        "problem": "The theme mentions 'entrevista do visto', but question 5 is about an 'atendente'.",
+        "fix": "Align them. Either change the theme to 'atendimento', or set question 5 in the visa interview ('Não entendeu o cônsul...')."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used[4]",
+        "problem": "'i didn't catch that' uses a lowercase 'I'.",
+        "fix": "Change to 'I didn't catch that'."
+      }
+    ],
+    "summary": "The English in the quizzes and answer key is correct and natural, and the pronunciation guides are good. The reel follows the structure: hook, question/reveal pairs, short cues and cta. Two issues block publication: the 'guess' story accepts 'baggage' as well as 'luggage', and the cover gives away every quiz answer. There are also small accuracy notes on know/visit and tennis shoes, plus a theme mismatch."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "stories[0], stories[1]",
+        "problem": "Os stories 'end up' e 'sneak peek' fogem do tema do pacote (restaurante, hotel, tênis, viagem, visto). Só 'luggage' conversa com viagem e hotel. Isso enfraquece a coerência entre stories, slides e legenda.",
+        "fix": "Trocar por perguntas de viagem. Exemplos: 'Como pedir a senha do Wi-Fi no hotel?' (What's the Wi-Fi password?) ou 'Como se diz \"fazer o check-in\" no aeroporto?' (check in)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[4].pronunciation",
+        "problem": "'SÓ-ri' reproduz o 'sorry' britânico. No inglês americano a vogal é aberta, /ˈsɑːri/. 'DI-dent' também força uma vogal que quase some em 'didn't' (/ˈdɪdnt/).",
+        "fix": "Usar 'SÁ-ri ai DÍ-dnt KÉTCH dét'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[3].pt",
+        "problem": "Texto denso para caber no card, com barras, ponto e vírgula e dois sinais de '='.",
+        "fix": "Encurtar para: 'Conhecer um lugar = visit / have been to; know = já conhecer bem'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[7].say_pt",
+        "problem": "'aprender um por dia' fica sem referente: um o quê?",
+        "fix": "'Comenta e segue pra corrigir um erro por dia!'"
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural: 'Can we get the check?', 'ice machine', 'sneakers', 'I visited Disney', 'Sorry, I didn't catch that' e 'late checkout'. Cada quiz tem uma única resposta certa e o gabarito está correto. A estrutura respeita os limites: a cover grid tem 5 itens, a list tem 5 e a cta vem por último. O reel tem 8 cenas, cada question é seguida da sua reveal, as deixas não citam alternativas e say_en é igual ao texto da tela. Restam só ajustes de estilo: alinhar os stories ao tema de viagem, ajustar a pronúncia americana de 'sorry'/'didn't', enxugar um texto do gabarito e corrigir uma frase vaga na narração do CTA."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[4].items[2].en / feed[6].items[3]",
+        "problem": "'I visited Disney.' está correto, mas o mais natural no dia a dia é 'I went to Disney.' ou 'I've been to Disney.'. 'Disney' sozinho é o nome da empresa, embora seja usado coloquialmente para o parque. O gabarito já cita 'have been to', mas o aluno pode achar que 'visited' é a única forma natural.",
+        "fix": "No pt do gabarito, acrescentar: 'também: I went to Disney / I've been to Disney (mais comum na fala)'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[2].pronunciation",
+        "problem": "O 's' final de 'sneakers' soa como /z/. 'SNÍ-kers' induz um 's' surdo.",
+        "fix": "Trocar por 'SNÍ-kerz'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].items[2].pt",
+        "problem": "O texto é longo para caber num item de lista em imagem.",
+        "fix": "Encurtar para 'Tennis shoes também vale; só tennis = o esporte'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[1]",
+        "problem": "Na capa, 'máquina de gelo' com 🧊 é praticamente a tradução literal de 'ice machine' e entrega a resposta da pergunta 2 antes do quiz.",
+        "fix": "Usar um pt menos literal, como 'gelo no hotel', ou aceitar que é a pergunta fácil do nível A2."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used[4]",
+        "problem": "'i didn't catch that' está com o pronome 'I' em minúscula, o que é erro de grafia em inglês.",
+        "fix": "Escrever 'I didn't catch that'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'Muitos hotéis liberam de graça' é verdade em parte: o late checkout gratuito depende da disponibilidade e muitas vezes é limitado a 1–2h ou a membros de programas de fidelidade.",
+        "fix": "Suavizar: 'Muitos hotéis liberam (sujeito à disponibilidade) se você pedir com educação.'"
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês das respostas corretas é natural ('Can we get the check?', 'ice machine', 'sneakers', 'Sorry, I didn't catch that.', 'I'd like to check in.'), os distratores são claramente errados e cada quiz tem uma única resposta certa. As pronúncias marcam bem a tônica e os fatos (ice machine gratuita no corredor, account = conta bancária) estão corretos. A estrutura respeita os limites: capa grid com 5 itens, lista com 5 e CTA por último. Os stories seguem o roteiro do weekly_quiz: question com 3 opções, truefalse, guess com emoji e 7 letras corretas, e answer cobrindo tudo. O reel tem 8 cenas, cada question é seguida de reveal com deixa neutra e o say_en bate com a tela. Restam apenas ajustes menores de estilo e precisão. Aprovado."
+  }
+]
