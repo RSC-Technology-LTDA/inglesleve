@@ -1,0 +1,58 @@
+name: Post avulso
+
+# Publica só o carrossel de uma pasta já gerada e commitada (ex: output/avulso/2026-11-09-idioms).
+on:
+  workflow_dispatch:
+    inputs:
+      dir:
+        description: "Pasta do pacote (com jpg/ e STATUS = approved)"
+        required: true
+      dry_run:
+        description: "Só conferir, sem publicar"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+env:
+  TZ: America/Sao_Paulo
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Publica no Instagram (só carrossel)
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_LOGIN: ${{ vars.IG_LOGIN || 'facebook' }}
+          DIR: ${{ inputs.dir }}
+        run: |
+          export MEDIA_BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/$(git rev-parse HEAD)"
+          python publish.py noon --dir "$DIR" ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Registra o que foi publicado
+        if: always()
+        env:
+          DIR: ${{ inputs.dir }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DIR/published.json" 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Publicado: $DIR" && git pull --rebase -q && git push -q)

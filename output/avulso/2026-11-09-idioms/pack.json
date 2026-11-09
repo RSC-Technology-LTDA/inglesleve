@@ -1,0 +1,417 @@
+{
+  "format": "idiom",
+  "theme": "Expressões e idioms do inglês do dia a dia",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Expressões que nativo usa *todo dia*",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Piece of cake",
+          "pt": "Moleza",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍰"
+        },
+        {
+          "en": "Break a leg!",
+          "pt": "Boa sorte!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍀"
+        },
+        {
+          "en": "Hang out",
+          "pt": "Sair junto",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍻"
+        },
+        {
+          "en": "Hold on",
+          "pt": "Espera aí",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✋"
+        },
+        {
+          "en": "Keep me posted",
+          "pt": "Me avisa",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📱"
+        },
+        {
+          "en": "Stay up",
+          "pt": "Ficar acordado",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🦉"
+        }
+      ],
+      "note": "",
+      "layout": "grid",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Com verbos do dia a dia",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Make it",
+          "pt": "Conseguir · “I made it!”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Figure out",
+          "pt": "Achar a solução · “I'll figure it out.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Find out",
+          "pt": "Ficar sabendo · “I just found out.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Come up with",
+          "pt": "Ter uma ideia · “I came up with an idea.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Run out of",
+          "pt": "Ficar sem · “We ran out of time.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Aprenda como bloco: nada de traduzir palavra por palavra.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Na rotina",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Wake up",
+          "pt": "Acordar · “I wake up at 7.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏰"
+        },
+        {
+          "en": "Hang out",
+          "pt": "Sair junto · “Wanna hang out?”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍻"
+        },
+        {
+          "en": "Hold on",
+          "pt": "Esperar · “Hold on a second.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✋"
+        },
+        {
+          "en": "Stay up",
+          "pt": "Ficar acordado · “I stayed up late.”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🌙"
+        },
+        {
+          "en": "Catch up",
+          "pt": "Pôr o papo em dia · “Let's catch up!”",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "☕"
+        }
+      ],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "No trabalho (parte 1)",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Let's get started.",
+          "pt": "Vamos começar.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Keep me posted.",
+          "pt": "Me mantenha informado.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Sounds good.",
+          "pt": "Combinado.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "That makes sense.",
+          "pt": "Faz sentido.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I'll take care of it.",
+          "pt": "Deixa comigo, eu cuido disso.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Ótimas para reuniões e calls com times de fora.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "No trabalho (parte 2)",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "We're on the same page.",
+          "pt": "Estamos alinhados.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "It's up to you.",
+          "pt": "Fica a seu critério.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I'll get back to you.",
+          "pt": "Te dou um retorno.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Bear with me.",
+          "pt": "Tenha paciência comigo.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "It depends.",
+          "pt": "Depende.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Idioms: não traduza ao pé da letra",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Break a leg!",
+          "pt": "Boa sorte!",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍀"
+        },
+        {
+          "en": "Piece of cake",
+          "pt": "Moleza",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍰"
+        },
+        {
+          "en": "Once in a blue moon",
+          "pt": "Raramente",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🌕"
+        },
+        {
+          "en": "Under the weather",
+          "pt": "Indisposto",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤒"
+        },
+        {
+          "en": "Cost an arm and a leg",
+          "pt": "Custar os olhos da cara",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💸"
+        },
+        {
+          "en": "The ball is in your court",
+          "pt": "A decisão é sua",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎾"
+        }
+      ],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "“The test was a *piece of cake*.” A prova foi…",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "muito difícil",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "muito fácil",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "muito longa",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: B, muito fácil (piece of cake = moleza)",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra *usar* essa semana",
+      "subtitle": "",
+      "body": "Qual dessas você já usa?\nComenta aqui 👇",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Para de traduzir palavra por palavra 🛑\n\nExpressão em inglês se aprende em bloco: \"piece of cake\" não tem nada a ver com bolo, é \"moleza\" mesmo.\n\nBônus que não coube nos slides:\n• Give up = desistir (\"Don't give up!\")\n• Look forward to = estar ansioso por (\"I'm looking forward to it.\")\n• Get along = se dar bem (\"We get along very well.\")\n• Speak of the devil = falando no diabo 😈\n• It's not my cup of tea = não faz meu estilo ☕\n• Better late than never = antes tarde do que nunca\n\nQual dessas você mais usa? Me conta nos comentários 👇",
+  "hashtags": [
+    "aprenderingles",
+    "ingles",
+    "inglesparabrasileiros",
+    "idioms",
+    "expressoesemingles",
+    "phrasalverbs",
+    "inglesonline",
+    "dicasdeingles",
+    "inglesnotrabalho",
+    "englishtips"
+  ],
+  "stories": [],
+  "terms_used": [
+    "make it",
+    "figure out",
+    "find out",
+    "come up with",
+    "run out of",
+    "wake up",
+    "hang out",
+    "hold on",
+    "stay up",
+    "catch up",
+    "let's get started",
+    "keep me posted",
+    "sounds good",
+    "that makes sense",
+    "i'll take care of it",
+    "we're on the same page",
+    "it's up to you",
+    "i'll get back to you",
+    "bear with me",
+    "it depends",
+    "break a leg",
+    "piece of cake",
+    "once in a blue moon",
+    "under the weather",
+    "cost an arm and a leg",
+    "the ball is in your court"
+  ],
+  "reel": null
+}
