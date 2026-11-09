@@ -1,54 +1,54 @@
 {
   "date": "2026-11-08",
-  "summary": "Na semana (01→08/11), a página foi de 1.168 para 1.213 seguidores (+45; +3,9%). Todo o ganho veio em 02 e 03/11 (+25 e +21). De 03 a 08/11 o número ficou parado (1.214 → 1.213). Nenhum post tem follow atribuído (0 em carrosséis e stories, nulo nos Reels), então é impossível dizer o que trouxe seguidores, e não vou inventar. Os sinais que existem são preocupantes. O alcance dos carrosséis maduros caiu de 55–96 (29–30/10) para 17–45 (01–06/11). O dos stories caiu de 38–43 para 7–18, menos de 1,5% da base. Os Reels estão estáveis em ~80–130, mas com só 1 compartilhamento em ~60 posts. Das sugestões anteriores, os temas universais foram aplicados (hotel, Disney, visto, restaurante) sem ganho visível. O limite de 2 stories por dia e o gancho '❌ frase errada' não foram aplicados. A amostra é pequena (n=1–2 por formato).",
+  "summary": "Na semana (01→08/11), a página passou de 1.168 para 1.213 seguidores (+45). Todo o ganho veio de 01 a 03/11. De 03 a 08/11 o número ficou parado (1.214 → 1.213). O salto de +191 em 31/10 continua sem explicação. Nenhum post tem follow atribuído (0 em carrosséis e stories, nulo nos Reels), então não dá para saber que conteúdo trouxe seguidores. A análise anterior é do mesmo dia (08/11) e usou os mesmos dados, por isso ainda não há como medir se as sugestões funcionaram. A próxima análise deve conferir se foram aplicadas. Os sinais: o alcance dos carrosséis caiu de 74 em média (29–30/10) para 26 (01–08/11). Os stories caíram para 5–11 de alcance, com 0 respostas em 17 medidos. Os Reels seguem entre 80 e 165 de alcance, com retenção que varia conforme o gancho. A amostra é pequena (1–2 posts por formato).",
   "best": [
-    "05/11 · reel · end up (idiom), gancho 'Nativo não diz *finished* aqui': maior número de salvamentos entre os Reels (3; 23,4 por mil), alcance de 128 e 4,8 s de tempo médio. É uma contradição que nomeia a palavra exata que o brasileiro usa errado.",
-    "06/11 · reel · sneakers (word_curiosity), gancho 'Tênis não é *tennis*': melhor retenção da semana (6,4 s) e alcance de 119. Repete o padrão 'X não é Y' de push x pull (7,1 s) e autumn (6,8 s). Teve 0 salvamentos: a curiosidade prende, mas não dá motivo para guardar.",
-    "02/11 · carrossel · desafio de leitura, gancho 'Se você ler *isso*, seu inglês é B1': melhor carrossel da semana, com 11 interações, 2 comentários, 1 salvamento (25,6 por mil) e 2 visitas ao perfil em 39 de alcance. A promessa de nível concreta (B1) gera autoavaliação e comentário."
+    "29/10 · reel · Não confunda (push x pull), gancho 'Push *não* é puxar': maior alcance da série (164) e 7,1 s de tempo médio. A contradição nomeia a palavra que o brasileiro erra.",
+    "30/10 e 08/11 · reel · Quiz relâmpago, gancho 'Acerta as *3*?': melhor retenção nas duas vezes (8,1 s e 6,4 s) e alcance de 145 e 121. Um desafio com número concreto prende tanto quanto a contradição. Isso corrige a regra anterior de 'nunca abrir com pergunta': o que falha é a pergunta vaga.",
+    "30/10 · carrossel · Fala certo (6 erros clássicos), gancho 'Para de *errar* isso': melhor carrossel em salvamentos (3; 39,5 por mil) e comentários (3), com 76 de alcance. Uma lista de erros para a pessoa se testar dá motivo para salvar. O 2º melhor também era um autoteste: o carrossel 'Se você ler isso, seu inglês é B1' (02/11), com 25,6 salvamentos por mil e 2 comentários."
   ],
   "worst": [
-    "02/11 · reel · desafio de leitura, gancho 'Consegue ler *isso*?': pior retenção de toda a série (3,1 s), menor alcance entre os Reels maduros (79) e 0 salvamentos. O gancho é genérico, e um texto longo para ler em vídeo faz a pessoa sair. O mesmo tema em carrossel foi o melhor da semana: o problema é o formato do Reel, não o tema.",
-    "04/11 · carrossel · end up (idiom), capa 'Pare de *dizer*': alcance de 18, 2 curtidas e 0 salvamentos. A capa não diz o que parar de dizer, então não ensina nada sozinha. Nesse dia o Reel também não saiu: foi publicado em 05/11, junto com o do wrong_right.",
-    "05/11 · carrossel · '6 erros de brasileiro na *Disney*': alcance de 17, 1 curtida e 0 salvamentos. O Reel do mesmo tema teve 92 de alcance e 4,6 s, também abaixo da média. O tema Disney, sozinho, não puxou alcance, e o gancho '❌' veio sem a frase errada visível."
+    "02/11 · reel · Lê comigo, gancho 'Consegue ler *isso*?': pior retenção (3,1 s) e pior alcance entre os Reels (79), com 0 salvamentos. É texto demais para vídeo e o gancho é vago. O mesmo tema em carrossel foi bem, então o problema é o formato do Reel.",
+    "07/11 e 08/11 · carrossel · visto e quiz: alcance de 13 e 10, com 0–1 interação. Ainda estão amadurecendo, mas seguem a queda de 04–06/11 (18, 17, 26). A capa no padrão de contradição recomendado ('Tênis não é *tennis*', 26 de alcance e 0 salvamentos) também não salvou o carrossel. A capa sozinha não explica a queda.",
+    "07–08/11 · stories: alcance de 5 a 11 (menos de 1% da base), navegação quase igual às visualizações e 0 respostas. Na série inteira, 0 respostas em 17 stories medidos. Os stories de 31/10 e de 03 a 06/11 vieram sem métricas."
   ],
   "recommendations": [
     {
       "area": "gancho",
-      "change": "Primeiro frame de todo Reel no padrão '[palavra que o brasileiro usa] não é [X]' ou 'Nativo não diz [palavra] aqui', sempre com a palavra em inglês escrita. Exemplos: 'Parents não é parentes', 'Nativo não diz I'm agree', 'Pretend não é pretender'. Proibido abrir com o tema ('Entrevista do visto em inglês', 'Você se vira no hotel?').",
-      "why": "Os 4 Reels com contradição nomeando a palavra (push 7,1 s, autumn 6,8 s, tennis 6,4 s, finished 4,8 s) tiveram média de 6,3 s de tempo médio. Os 6 com gancho de tema ou genérico (leitura 3,1, daily 3,7, visto 4,1, 1.000 4,3, Disney 4,6, hotel 4,6) tiveram média de 4,1 s. Ressalva: não temos a duração dos Reels nem os follows deles, então é sinal, não prova."
+      "change": "No 1º frame de todo Reel, usar só dois modelos de gancho. (a) Contradição com a palavra em inglês escrita: 'Parents não é parentes', 'Pretend não é pretender'. (b) Desafio com número e itens visíveis: 'Acerta as 3? push · parents · lunch'. Não abrir com o nome do tema ('Entrevista do visto em inglês', 'Você se vira no hotel?') nem com pergunta vaga ('Consegue ler isso?').",
+      "why": "Os Reels de contradição tiveram 7,1, 6,8 e 6,4 s de tempo médio (média de 6,8 s), e os de quiz tiveram 8,1 e 6,4 s. Os 6 Reels com gancho de tema ou genérico tiveram 3,1, 3,7, 4,1, 4,3, 4,6 e 4,6 s (média de 4,1 s). Os de maior retenção também tiveram o maior alcance (164, 145, 143). Ressalva: não temos a duração dos Reels."
+    },
+    {
+      "area": "formato",
+      "change": "Transformar o carrossel em autoteste, seja qual for o formato do dia. Capa com número e desafio ('5 frases que brasileiro erra. Quantas você acerta?'). Em cada slide, primeiro a frase errada em inglês e, no slide seguinte, a certa. No último slide, um placar ('Acertou 4+? Seu inglês é B1') e 'Salva pra revisar'.",
+      "why": "Os 2 únicos carrosséis automáticos com salvamento relevante eram autoteste: 6 erros (39,5 salvamentos por mil e 3 comentários) e desafio B1 (25,6 por mil e 2 comentários). Os carrosséis apenas expositivos (hotel, end up, tennis, visto) ficaram com 0 salvamentos e alcance de 13 a 32."
     },
     {
       "area": "reel",
-      "change": "Reformular o Reel 'Lê comigo' (segunda): no máximo 3 frases curtas, uma por tela (até 12 palavras), cada uma com 1 lacuna ou 1 palavra destacada e pausa de 2 s antes da tradução. Trazer para o Reel o gancho que funcionou no carrossel: 'Se você entender esta frase, seu inglês é B1'.",
-      "why": "O Reel de leitura de 02/11 teve 3,1 s e 79 de alcance, os piores da série. O carrossel do mesmo tema, com a promessa 'B1', teve a melhor interação da semana (11 interações, 25,6 salvamentos por mil, 2 visitas ao perfil)."
-    },
-    {
-      "area": "capa",
-      "change": "A capa do carrossel precisa ensinar algo sozinha: escreva a frase errada e a certa, ou a palavra-alvo. Exemplos: 'Pare de dizer I finished to eat → I ended up eating' em vez de 'Pare de dizer'; 'Housekeeping NÃO é porteiro' em vez de 'Inglês do hotel'.",
-      "why": "O alcance dos carrosséis maduros caiu de 55–96 (29–30/10) para 17–45 (01–06/11). As capas genéricas ficaram no fundo: 'Pare de dizer' teve 18 de alcance e 'Inglês do hotel' teve 32. A capa com promessa específica (B1) teve 2 comentários e 1 salvamento com 39 de alcance."
+      "change": "Refazer o 'Lê comigo' de segunda. São 3 frases de até 12 palavras, uma por tela, cada uma com 1 lacuna. Abrir com 'Se você entender estas 3 frases, seu inglês é B1' e dar 2 s de pausa antes de cada resposta, como no quiz.",
+      "why": "O Reel de leitura teve 3,1 s e 79 de alcance, os piores da série. O carrossel do mesmo tema, com a promessa B1, foi o 2º melhor em interação (11 interações e 2 visitas ao perfil em 39 de alcance). Os Reels de quiz, que usam pausa antes da resposta, tiveram a maior retenção."
     },
     {
       "area": "stories",
-      "change": "Cortar para 2 stories por dia (a sugestão anterior não foi aplicada: ainda saem 3–4). Às 12h, uma imagem com a pergunta e a palavra em inglês ('Pretend = fingir ou pretender? Responde no DM'). Às 18h, a resposta e 'A explicação completa está no Reel de hoje'. Além disso, revisar a coleta: os stories de 31/10, 03–06/11 e 08/11 vieram sem métricas.",
-      "why": "O alcance dos stories caiu de 38–43 (30/10) para 7–18 (02 e 07/11), com navegação quase igual às visualizações e 0 respostas nos ~15 stories medidos. Do 1º ao 3º story do dia, o alcance só cai (por exemplo, 18 → 8 em 02/11)."
-    },
-    {
-      "area": "crescimento",
-      "change": "[MANUAL] Com o crescimento parado há 5 dias, buscar alcance fora do algoritmo. Propor 2 collabs por semana com perfis de viagem, Disney ou visto e de carreira para 35+, usando os Reels de contradição como peça (por exemplo, 'Tênis não é tennis'). Responder em até 1 hora cada comentário com uma pergunta de volta. Perguntar por DM a 5 seguidores de Campo Limpo Paulista como conheceram a página, já que a origem dos +191 de 31/10 continua sem explicação.",
-      "why": "Seguidores: 1.214 (03/11) → 1.213 (08/11), com 0 follows atribuídos em todos os posts. A cidade de Campo Limpo Paulista passou de 42 para 45 seguidores e segue em 3º lugar, à frente de Salvador e BH (21): a fonte externa existe e não foi explorada."
+      "change": "Limitar a 2 stories por dia (ainda saem 3–4). Às 12h, uma pergunta com a palavra em inglês ('Pretend = fingir ou pretender? Responde no DM'). Às 18h, a resposta e 'Explicação no Reel de hoje'. Revisar também a coleta, que deixou os stories de 31/10 e de 03 a 06/11 sem métricas.",
+      "why": "O alcance caiu de 38–43 (30/10) para 5–11 (07–08/11). O 1º story do dia sempre alcança mais que os seguintes (18 → 8 em 02/11) e houve 0 respostas em 17 stories medidos. Mais stories não aumentou o alcance nem as respostas."
     },
     {
       "area": "legenda",
-      "change": "Toda legenda termina com um pedido de envio para uma pessoa concreta ligada ao tema ('Manda pra quem vai pra Disney e ainda fala I want a water') e depois 'Segue @inglesleve.br: 1 palavra que você usa errado, por dia'. Conferir se o redator está aplicando isso, porque os números não mostram efeito.",
-      "why": "Houve 1 compartilhamento em ~60 posts (Reel da daily, 31/10), e 0 em todos os posts da semana. Sem compartilhamento, os Reels ficam presos em ~80–130 de alcance."
+      "change": "Toda legenda termina com 2 linhas. 1) Um pedido de envio para uma pessoa concreta: 'Manda pra quem vai pra Disney e ainda fala I want a water', 'Manda pro colega que trava na daily'. 2) 'Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia'.",
+      "why": "Houve 1 compartilhamento em ~60 posts (o Reel da daily, 31/10, justamente um tema com destinatário óbvio: o colega de trabalho). Sem compartilhamento, os Reels ficam presos em 80–165 de alcance, só entre seguidores e vizinhos."
+    },
+    {
+      "area": "crescimento",
+      "change": "[MANUAL] Investigar a única fonte de crescimento provada. Mandar DM a 5 seguidores de Campo Limpo Paulista perguntando como conheceram a página e ver se o +191 de 31/10 veio de algum repost, grupo ou perfil parceiro. Se vier, repetir com 1 collab por semana com perfis de viagem, visto ou carreira para o público de 35 a 54 anos, levando como peça o Reel 'Push não é puxar'.",
+      "why": "Os seguidores estão parados há 5 dias (1.214 → 1.213) e há 0 follows atribuídos a posts. Campo Limpo Paulista é a 3ª cidade (45), à frente de Salvador e de BH (21), um sinal de origem externa. O público é sobretudo de 35 a 54 anos (609 de 1.213)."
     }
   ],
   "writer_tips": [
-    "O primeiro frame ou slide sempre mostra a palavra ou frase em inglês: 'X não é Y' ou 'Nativo não diz X'. Se a capa não ensina nada sozinha, reescreva.",
-    "Nunca abra com o nome do tema ou com uma pergunta vaga ('Consegue ler isso?', 'Inglês do hotel', 'Pare de dizer').",
-    "Uma ideia por tela, no máximo 12 palavras em inglês por frame de Reel ou story.",
-    "Pergunte antes de responder: mostre a dúvida, dê uma pausa ou um slide de suspense e só então revele o certo.",
-    "Termine com 'Manda pra [pessoa concreta] que [situação do tema]' e com a linha de follow com promessa diária."
+    "A 1ª tela mostra a palavra em inglês: 'X não é Y' ou um desafio com número e itens visíveis ('Acerta as 3? push · parents · lunch'). Nunca só o nome do tema.",
+    "Todo post tem um autoteste: mostre a frase errada ou a pergunta antes da resposta, com uma pausa ou um slide de suspense no meio.",
+    "No máximo 12 palavras em inglês por tela de Reel, slide ou story.",
+    "Use situações de adulto (trabalho, viagem, visto, restaurante) e termine com 'Manda pra [pessoa concreta] que [situação]'.",
+    "Feche com 'Salva pra revisar' e com a linha de follow: 'Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia'."
   ],
-  "experiment": "Teste de gancho no Reel (o da semana passada não foi executado). De segunda a sábado, alternar os dias. Segunda, quarta e sexta abrem com contradição nomeando a palavra ('Parents não é parentes'). Terça, quinta e sábado abrem com pergunta ('Como se diz \"fingir\" em inglês?'). O quiz de domingo fica como controle. Anotar a duração de cada Reel. Medir na coleta das 18h, 3 dias após publicar: tempo médio (em s e em % da duração), alcance e salvamentos e compartilhamentos por mil. Na semana seguinte, inverter os dias para não confundir gancho com formato. Só adotar uma versão como padrão se ela vencer em pelo menos 4 das 6 comparações e tiver ao menos 1,5 s a mais de tempo médio. Com a amostra pequena, diferença menor que isso é ruído."
+  "experiment": "Teste de gancho no Reel, contradição contra desafio com número. É a mesma lógica do teste anterior, que ainda não foi executado, agora comparando os dois ganchos que funcionaram. Na próxima semana, segunda, quarta e sexta abrem com contradição nomeando a palavra ('Pretend não é pretender'). Terça, quinta e sábado abrem com desafio numerado mostrando os itens ('Acerta as 3? pretend · actually · push'). O quiz de domingo fica como controle. Na semana seguinte, inverter os dias para não confundir gancho com formato. Anotar a duração de cada Reel. Medir na coleta das 18h, 3 dias após publicar: tempo médio em segundos e em % da duração, alcance e salvamentos e compartilhamentos por mil. Só adotar um gancho como padrão se ele vencer em pelo menos 4 das 6 comparações e com pelo menos 1,5 s a mais de tempo médio. Com n=6, diferença menor que isso é ruído."
 }
