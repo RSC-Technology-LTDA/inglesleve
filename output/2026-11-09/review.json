@@ -1,0 +1,64 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[5].body",
+        "problem": "O CTA promete '1 erro de brasileiro corrigido por dia', mas o post é um desafio de leitura e não corrige nenhum erro. A promessa não combina com o formato.",
+        "fix": "Trocar por algo como 'Segue @inglesleve.br: 1 desafio de inglês por dia' ou outra promessa genérica que sirva para todos os formatos."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[2].say_pt",
+        "problem": "A narração diz 'Voo atrasado é:' e depois fala só 'delayed'. Quem ouve pode achar que 'delayed' significa 'voo atrasado', quando 'voo atrasado' é 'delayed flight'.",
+        "fix": "Usar 'Atrasado é:' ou 'Quando o voo atrasa, ele está:'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].body / feed[4].body",
+        "problem": "Os dois textos têm cerca de 100 palavras num único slide, o que fica no limite da legibilidade na imagem.",
+        "fix": "Garantir fonte legível no template ou dividir em dois slides se o layout ficar apertado. O conteúdo em si está correto e natural."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'Seu inglês já é B1' é uma afirmação exagerada: ler um texto curto não define o nível.",
+        "fix": "Suavizar para 'você já lê no nível B1' ou 'você está pronto pro B1'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[5].emoji",
+        "problem": "O emoji 🏠 só representa 'made it' no contexto do texto ('made it home'). Ele não remete ao sentido geral de 'conseguir chegar/conseguir'.",
+        "fix": "Considerar 🙌 ou 🏁, que expressam a ideia de 'consegui'."
+      }
+    ],
+    "summary": "O pacote está sólido. O texto em inglês é natural, gramaticalmente correto e no nível B1. A tradução é fiel e soa natural em PT-BR. As pronúncias aportuguesadas estão aceitáveis e com a tônica certa. O quiz e o story de completar têm uma única resposta correta, e o story de resposta responde ao de completar. A estrutura do feed está ok: cover primeiro, CTA por último e 6 itens no slide de vocabulário. O reel começa com hook, termina com CTA, tem 6 cenas e o say_en é igual ao inglês da tela. Os termos de terms_used batem com o que foi ensinado. A informação extra sobre 'layover' está correta. Há apenas ajustes de estilo: a promessa do CTA não combina com o formato, a narração do reel tem uma pequena ambiguidade e os slides de leitura são longos."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[4].example_pt",
+        "problem": "'Posso ganhar um voucher de refeição?' soa um pouco estranho. Nesse contexto, 'Can I get' corresponde mais a 'conseguir' ou 'receber'.",
+        "fix": "Trocar por 'Consigo um voucher de refeição?' ou 'Posso receber um voucher de refeição?'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[2].body",
+        "problem": "'Procura essa palavra primeiro!' é ambíguo: não fica claro se a palavra é 'delayed' ou 'canceled'.",
+        "fix": "Especificar, por exemplo: 'No painel, procura pela coluna Status: delayed ou canceled.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].note",
+        "problem": "Se a note aparece no mesmo slide do quiz, ela entrega a resposta antes de o leitor pensar, o que contradiz 'Pensa antes de passar'.",
+        "fix": "Garantir que a resposta só apareça no slide seguinte, ou mover a note para o slide de vocabulário."
+      }
+    ],
+    "summary": "Pacote sólido. O texto em inglês é natural e correto para B1 (delayed, overbooked, on standby, meal voucher, made it). A tradução é fiel e as pronúncias aportuguesadas marcam a tônica certa, inclusive Chicago (xi-CÁ-gou). A estrutura está dentro dos limites: cover primeiro, CTA por último, 6 itens no 'term' e quiz com uma única resposta correta. O bônus sobre layover na legenda está correto. Os stories são coerentes com o tema e o reel tem 6 cenas, começando com hook e terminando com CTA, com say_en igual ao texto da tela. Só há ajustes de estilo menores."
+  }
+]

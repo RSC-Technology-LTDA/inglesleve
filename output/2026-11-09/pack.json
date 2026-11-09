@@ -1,0 +1,255 @@
+{
+  "format": "reading_challenge",
+  "theme": "Desafio de leitura: voo atrasado e conexão perdida",
+  "level": "B1",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Leu sem travar? Você lê no nível *B1*",
+      "subtitle": "Voo atrasado no aeroporto ✈️ · delayed · standby · overbooked",
+      "body": "",
+      "items": [],
+      "note": "",
+      "layout": "dark",
+      "strike": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Leia sem tradutor 👀",
+      "subtitle": "Nível B1 · aeroporto",
+      "body": "My flight to Denver was delayed three hours, so I missed my connection in Chicago. The line at the customer service desk was huge. When I finally got to the agent, she said all the flights were overbooked. She put me on standby for the next one and gave me a meal voucher. Twenty minutes before boarding, I heard my name. I got the last seat, a middle seat next to the restroom. Not great, but I made it home before midnight.",
+      "items": [],
+      "note": "Leu tudo? Antes de ver as palavras, responde o próximo slide.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "'She put me on *standby*' quer dizer:",
+      "subtitle": "Pensa antes de passar 🤔",
+      "body": "",
+      "items": [
+        {
+          "en": "Ela me colocou na lista de espera",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Ela me pediu para ficar em pé",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Ela cancelou minha passagem",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: lista de espera. On standby = esperando sobrar um lugar no voo.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "As palavras que *travam*",
+      "subtitle": "Do texto pro seu vocabulário",
+      "body": "",
+      "items": [
+        {
+          "en": "delayed",
+          "pt": "atrasado",
+          "pronunciation": "di-LEID",
+          "example_en": "Sorry, my train was delayed.",
+          "example_pt": "Desculpa, meu trem atrasou.",
+          "emoji": "🕒"
+        },
+        {
+          "en": "connection",
+          "pt": "conexão (de voo)",
+          "pronunciation": "ko-NÉK-shan",
+          "example_en": "I have a tight connection in Miami.",
+          "example_pt": "Minha conexão em Miami é apertada.",
+          "emoji": "✈️"
+        },
+        {
+          "en": "overbooked",
+          "pt": "com overbooking, lotado",
+          "pronunciation": "ou-ver-BUKT",
+          "example_en": "The flight is overbooked.",
+          "example_pt": "O voo vendeu mais lugares do que tem.",
+          "emoji": "💺"
+        },
+        {
+          "en": "on standby",
+          "pt": "na lista de espera",
+          "pronunciation": "on STÉND-bai",
+          "example_en": "You're on standby for the 6 p.m. flight.",
+          "example_pt": "Você está na lista de espera do voo das 18h.",
+          "emoji": "⏳"
+        },
+        {
+          "en": "meal voucher",
+          "pt": "voucher de refeição",
+          "pronunciation": "MIL VÁU-tcher",
+          "example_en": "Can I get a meal voucher?",
+          "example_pt": "Posso ganhar um voucher de refeição?",
+          "emoji": "🎫"
+        },
+        {
+          "en": "made it",
+          "pt": "consegui chegar / consegui",
+          "pronunciation": "MEI-dit",
+          "example_en": "We made it on time!",
+          "example_pt": "Chegamos a tempo!",
+          "emoji": "🏁"
+        }
+      ],
+      "note": "Made it = conseguir chegar ou conseguir fazer algo a tempo.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "reading",
+      "title": "Tradução completa",
+      "subtitle": "Confere se você entendeu",
+      "body": "Meu voo para Denver atrasou três horas, então perdi minha conexão em Chicago. A fila no balcão de atendimento estava enorme. Quando finalmente cheguei na atendente, ela disse que todos os voos estavam com overbooking. Ela me colocou na lista de espera do próximo e me deu um voucher de refeição. Vinte minutos antes do embarque, ouvi meu nome. Consegui o último lugar, um assento do meio do lado do banheiro. Não foi ótimo, mas cheguei em casa antes da meia-noite.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "E aí, *conseguiu*?",
+      "subtitle": "",
+      "body": "Comenta 'consegui' ou a palavra que te travou 👇 Salva pra revisar antes da próxima viagem. Manda pra aquele amigo que vai viajar e morre de medo de perder a conexão. Segue @inglesleve.br: 1 desafio de inglês por dia",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Se você leu esse texto sem tradutor, você já lê no nível B1 ✈️\n\nBônus que não está nos slides: o tempo que você fica esperando entre um voo e outro é o layover. Exemplo: 'I have a 3-hour layover in Chicago.' = Tenho 3 horas de escala em Chicago. Connection é o voo seguinte; layover é a espera.\n\nComenta 'consegui' ou a palavra que te travou! E você, já perdeu uma conexão em viagem? Conta aqui 👇",
+  "hashtags": [
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "dicasdeingles",
+    "inglesparaviagem",
+    "leituraemingles",
+    "englishreading",
+    "learnenglish",
+    "inglesb1",
+    "vocabulariodeingles",
+    "viagemaoseua",
+    "inglesdodiaadia"
+  ],
+  "stories": [
+    {
+      "kind": "speak",
+      "headline": "I missed my connection in Chicago.",
+      "body": "missed = MIST · connection = ko-NÉK-shan · Chicago = xi-CÁ-gou. Lê em voz alta e manda o áudio no DM! 🎙️",
+      "options": [],
+      "answer": "",
+      "emoji": "🎙️"
+    },
+    {
+      "kind": "fill",
+      "headline": "She put me on ___ for the next flight.",
+      "body": "Qual palavra completa? Responde no DM!",
+      "options": [
+        "standby",
+        "stand up",
+        "stay by"
+      ],
+      "answer": "standby",
+      "emoji": "⏳"
+    },
+    {
+      "kind": "tip",
+      "headline": "Delayed ou canceled?",
+      "body": "No painel do aeroporto: delayed = atrasou, mas vai sair. Canceled = não sai mais. Procura essa palavra primeiro!",
+      "options": [],
+      "answer": "",
+      "emoji": "🕒"
+    },
+    {
+      "kind": "answer",
+      "headline": "Resposta: standby",
+      "body": "'She put me on standby' = ela me colocou na lista de espera. Stand up é levantar, e stay by não se usa assim.",
+      "options": [],
+      "answer": "standby",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "delayed",
+    "connection",
+    "overbooked",
+    "on standby",
+    "meal voucher",
+    "made it"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Consegue *ler* isso?",
+        "text": "Desafio nível B1 · aeroporto",
+        "emoji": "✈️",
+        "say_pt": "Consegue ler isso em inglês?",
+        "say_en": ""
+      },
+      {
+        "kind": "read",
+        "title": "My flight was delayed. I missed my connection. I was on standby.",
+        "text": "",
+        "emoji": "",
+        "say_pt": "",
+        "say_en": "My flight was delayed. I missed my connection. I was on standby."
+      },
+      {
+        "kind": "term",
+        "title": "delayed",
+        "text": "atrasado",
+        "emoji": "🕒",
+        "say_pt": "Atrasado é:",
+        "say_en": "delayed"
+      },
+      {
+        "kind": "term",
+        "title": "connection",
+        "text": "conexão de voo",
+        "emoji": "✈️",
+        "say_pt": "Conexão de voo é:",
+        "say_en": "connection"
+      },
+      {
+        "kind": "term",
+        "title": "on standby",
+        "text": "na lista de espera",
+        "emoji": "⏳",
+        "say_pt": "E estar na lista de espera é:",
+        "say_en": "on standby"
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *um por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Conseguiu? Comenta consegui e segue o perfil!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Leu sem travar? Comenta 'consegui' ou a palavra que te pegou 👇"
+  }
+}
