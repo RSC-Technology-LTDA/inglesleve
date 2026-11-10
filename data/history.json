@@ -404,6 +404,30 @@
     ]
   },
   {
+    "date": "2026-11-10",
+    "format": "visual_vocab",
+    "theme": "Vocabulário visual da entrevista de emprego",
+    "terms": [
+      "résumé",
+      "cover letter",
+      "job opening",
+      "recruiter",
+      "hiring manager",
+      "interviewer",
+      "skills",
+      "strengths",
+      "weakness",
+      "background",
+      "salary",
+      "benefits",
+      "job offer",
+      "start date",
+      "remote",
+      "salary expectations"
+    ],
+    "track": "entrevista"
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",

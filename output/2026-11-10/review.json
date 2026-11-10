@@ -1,0 +1,76 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].items[0].emoji",
+        "problem": "🎤 sugere entrevista de imprensa/TV, não de emprego.",
+        "fix": "Trocar por 🗣️ ou 👔, ou outro emoji mais neutro para quem conduz a entrevista."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[3].emoji",
+        "problem": "🐢 remete a lentidão, não a 'ponto fraco'. A associação é fraca e pode confundir.",
+        "fix": "Usar algo como 📉 ou 🩹, ou manter e aceitar a leitura lúdica."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[2].pronunciation",
+        "problem": "'STRÉNGTS' troca o 'th' final por 't'. É aceitável para A2, mas apaga o som real /strɛŋkθs/.",
+        "fix": "Considerar 'STRÉNGTHS' (com o 'th' de língua entre os dentes) ou 'STRÉNKTHS'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[3].pt",
+        "problem": "Na cover, job offer aparece como 'proposta'. No slide e no reel aparece como 'proposta de emprego'.",
+        "fix": "Padronizar como 'proposta de emprego' (ou 'proposta' em todos os lugares)."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[7]",
+        "problem": "O CTA fala em 'um erro de brasileiro corrigido por dia', mas o reel é de vocabulário, sem erro corrigido. Há também desalinhamento entre o title ('aprender um por dia') e o say_pt.",
+        "fix": "Alinhar o title com a narração, por exemplo 'Segue pra aprender *uma por dia*' e 'Segue o perfil: uma palavra nova por dia!'. Outra opção é manter o slogan do perfil nos dois campos."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'salary expectations' aparece só como bônus na legenda, não nos slides. Está coerente com a legenda, mas não foi ensinado no carrossel.",
+        "fix": "Manter, já que a legenda ensina o termo, ou remover se terms_used deve refletir apenas os slides."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural, as traduções estão certas (incluindo o falso cognato curriculum/résumé e o CV britânico), as pronúncias são boas e as tônicas estão bem marcadas. A estrutura respeita os limites: cover grid com 6 itens, 3 slides de term com 5 itens cada (bate com as '15 palavras' da legenda), quiz com uma única resposta e CTA no fim. Os stories seguem o roteiro de visual_vocab: os guesses têm a contagem de letras correta e a answer cobre ambos. O reel tem 8 cenas, cada question é seguida de reveal e as deixas não citam alternativa errada. Restam apenas ajustes de estilo: emojis de interviewer e weakness, padronização de 'proposta' e alinhamento do CTA do reel."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[2].items[2].pronunciation",
+        "problem": "'STRÉNKTHS' usa o dígrafo 'TH', que não tem leitura natural em português. O aluno A2 pode ler como 'T' + 'H'.",
+        "fix": "Manter, mas indicar o som (ex.: 'STRÉNK(th)S, com a língua entre os dentes') ou usar uma aproximação como 'STRÉNKFS'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[3].emoji / feed[1].items[4].emoji / feed[2].items[0].emoji",
+        "problem": "🧑‍💼 (recruiter), 👩‍💼 (hiring manager) e 👔 (interviewer) são visualmente quase iguais. Num vocabulário visual, isso enfraquece a associação imagem-palavra.",
+        "fix": "Diferenciar os emojis, ex.: recruiter 📞 ou 🔍, hiring manager 🧑‍💼, interviewer 🎤 ou 👔."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[3].say_pt",
+        "problem": "'A pessoa que te chama pra vaga' também poderia descrever o hiring manager. É levemente ambíguo para quem viu o post completo.",
+        "fix": "Especificar: 'E a pessoa de RH que encontra candidatos pra vaga?'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body",
+        "problem": "O body repete o título ('Salva pra revisar') e é um pouco longo para caber confortavelmente no slide.",
+        "fix": "Encurtar: 'Manda pra quem tá caçando vaga gringa! Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia.'"
+      }
+    ],
+    "summary": "Pacote sólido e coerente. Inglês, traduções e notas factuais estão corretos: résumé vs. curriculum, CV mais britânico/acadêmico, e benefits incluindo plano de saúde. Pronúncias estão boas, com flap correto em 'LÉ-rer' e 'ri-KRU-rer'. A estrutura está dentro dos limites: cover grid com 6 itens, terms com 5, quiz com resposta única e CTA no fim. A contagem de 15 palavras na legenda bate, e terms_used inclui o bônus salary expectations. Os stories seguem o formato visual_vocab, com guess, emoji e contagem de letras correta. O reel tem 8 cenas, cada question é seguida de reveal e o say_en é igual ao título. Só há ajustes menores de estilo: emojis repetitivos, um TH na pronúncia, leve ambiguidade no reel e CTA longo."
+  }
+]

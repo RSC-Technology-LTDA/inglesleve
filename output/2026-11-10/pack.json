@@ -1,0 +1,401 @@
+{
+  "format": "visual_vocab",
+  "theme": "Vocabulário visual da entrevista de emprego",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Acerta essas *6* da entrevista?",
+      "subtitle": "Vocabulário pra sua entrevista em inglês",
+      "body": "",
+      "items": [
+        {
+          "en": "résumé",
+          "pt": "currículo",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📄"
+        },
+        {
+          "en": "recruiter",
+          "pt": "recrutador",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "en": "salary",
+          "pt": "salário",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💰"
+        },
+        {
+          "en": "job offer",
+          "pt": "proposta de emprego",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤝"
+        },
+        {
+          "en": "skills",
+          "pt": "habilidades",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛠️"
+        },
+        {
+          "en": "remote",
+          "pt": "remoto",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💻"
+        }
+      ],
+      "note": "",
+      "layout": "grid",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Antes da *entrevista*",
+      "subtitle": "Candidatura e primeiros contatos",
+      "body": "",
+      "items": [
+        {
+          "en": "résumé",
+          "pt": "currículo",
+          "pronunciation": "RÉ-zu-mei",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📄"
+        },
+        {
+          "en": "cover letter",
+          "pt": "carta de apresentação",
+          "pronunciation": "KÂ-ver LÉ-rer",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✉️"
+        },
+        {
+          "en": "job opening",
+          "pt": "vaga",
+          "pronunciation": "DJÁB ÔU-pe-nin",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📌"
+        },
+        {
+          "en": "recruiter",
+          "pt": "recrutador(a)",
+          "pronunciation": "ri-KRU-rer",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "en": "hiring manager",
+          "pt": "gestor(a) da vaga",
+          "pronunciation": "HAI-rin MÉ-ni-djer",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👩‍💼"
+        }
+      ],
+      "note": "Currículo nos EUA é résumé. Curriculum é a grade de um curso!",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Durante a *conversa*",
+      "subtitle": "O que vão perguntar de você",
+      "body": "",
+      "items": [
+        {
+          "en": "interviewer",
+          "pt": "entrevistador(a)",
+          "pronunciation": "ÍN-ter-viu-er",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👔"
+        },
+        {
+          "en": "skills",
+          "pt": "habilidades",
+          "pronunciation": "SKÍLZ",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🛠️"
+        },
+        {
+          "en": "strengths",
+          "pt": "pontos fortes",
+          "pronunciation": "STRÉNKTHS",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💪"
+        },
+        {
+          "en": "weakness",
+          "pt": "ponto fraco",
+          "pronunciation": "UÍK-nes",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📉"
+        },
+        {
+          "en": "background",
+          "pt": "formação e experiência",
+          "pronunciation": "BÉK-graund",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎓"
+        }
+      ],
+      "note": "Clássica: What are your strengths and weaknesses?",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Na hora da *proposta*",
+      "subtitle": "Dinheiro, benefícios e começo",
+      "body": "",
+      "items": [
+        {
+          "en": "salary",
+          "pt": "salário",
+          "pronunciation": "SÉ-la-ri",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💰"
+        },
+        {
+          "en": "benefits",
+          "pt": "benefícios",
+          "pronunciation": "BÉ-ne-fits",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏥"
+        },
+        {
+          "en": "job offer",
+          "pt": "proposta de emprego",
+          "pronunciation": "DJÁB Ó-fer",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤝"
+        },
+        {
+          "en": "start date",
+          "pt": "data de início",
+          "pronunciation": "STÁRT DÊIT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📅"
+        },
+        {
+          "en": "remote",
+          "pt": "remoto",
+          "pronunciation": "ri-MÔUT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💻"
+        }
+      ],
+      "note": "Benefits nos EUA costuma incluir plano de saúde e férias.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Como se diz 'currículo' nos EUA?",
+      "subtitle": "Pensa antes de passar 👀",
+      "body": "",
+      "items": [
+        {
+          "en": "curriculum",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "résumé",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "career letter",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: résumé. Curriculum é a grade do curso; CV é mais britânico.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra revisar 📌",
+      "subtitle": "",
+      "body": "Salva pra revisar antes da próxima entrevista! Manda pra aquele amigo que tá mandando currículo pra vaga gringa. Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Você mandaria seu 'curriculum' pra uma vaga nos EUA? Cuidado: lá é résumé! 📄\n\nHoje tem 15 palavras essenciais da entrevista de emprego: da vaga (job opening) até a proposta (job offer).\n\nBônus que não está nos slides: pretensão salarial é salary expectations. A pergunta vem assim: \"What are your salary expectations?\" e você pode responder: \"I'm looking for something around...\" (Tô buscando algo em torno de...).\n\nQual dessas palavras você não conhecia? Conta nos comentários 👇\n\nManda pra aquele amigo que tá se candidatando pra vaga gringa. Salva pra revisar!\nSegue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "inglesonline",
+    "aprenderingles",
+    "vocabularioemingles",
+    "entrevistadeemprego",
+    "jobinterview",
+    "inglesparatrabalho",
+    "inglesnotrabalho",
+    "curriculoemingles",
+    "carreirainternacional",
+    "dicasdeingles",
+    "inglesbasico"
+  ],
+  "stories": [
+    {
+      "kind": "guess",
+      "headline": "Como se diz isso em inglês?",
+      "body": "_ _ _ _ _ _ · 6 letras (e não é curriculum!) · Responde no DM",
+      "options": [],
+      "answer": "résumé",
+      "emoji": "📄"
+    },
+    {
+      "kind": "guess",
+      "headline": "Como se diz isso em inglês?",
+      "body": "_ _ _ _ _ _ · 6 letras · Todo mundo quer um bom 😅 · Responde no DM",
+      "options": [],
+      "answer": "salary",
+      "emoji": "💰"
+    },
+    {
+      "kind": "tip",
+      "headline": "Currículo ≠ curriculum",
+      "body": "Nos EUA, currículo é résumé. Curriculum é a grade de um curso, e CV é mais usado no Reino Unido ou na área acadêmica.",
+      "options": [],
+      "answer": "",
+      "emoji": "📄"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje 🎉",
+      "body": "📄 = résumé (currículo) · 💰 = salary (salário). Quem acertou as duas já tá pronto pra entrevista!",
+      "options": [],
+      "answer": "résumé · salary",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "résumé",
+    "cover letter",
+    "job opening",
+    "recruiter",
+    "hiring manager",
+    "interviewer",
+    "skills",
+    "strengths",
+    "weakness",
+    "background",
+    "salary",
+    "benefits",
+    "job offer",
+    "start date",
+    "remote",
+    "salary expectations"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Acerta essas *3* da entrevista?",
+        "text": "Adivinha pelo emoji",
+        "emoji": "💼",
+        "say_pt": "Três palavras de entrevista. Acerta todas?",
+        "say_en": ""
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz?",
+        "text": "",
+        "emoji": "📄",
+        "say_pt": "Como se diz currículo em inglês?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "résumé",
+        "text": "currículo (não é curriculum!)",
+        "emoji": "",
+        "say_pt": "Nos Estados Unidos é:",
+        "say_en": "résumé"
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz?",
+        "text": "",
+        "emoji": "🧑‍💼",
+        "say_pt": "E a pessoa que te chama pra vaga?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "recruiter",
+        "text": "recrutador(a)",
+        "emoji": "",
+        "say_pt": "Essa é:",
+        "say_en": "recruiter"
+      },
+      {
+        "kind": "question",
+        "title": "Como se diz?",
+        "text": "",
+        "emoji": "🤝",
+        "say_pt": "E quando a empresa te faz uma proposta?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "job offer",
+        "text": "proposta de emprego",
+        "emoji": "",
+        "say_pt": "Aí você recebe uma:",
+        "say_en": "job offer"
+      },
+      {
+        "kind": "cta",
+        "title": "Segue: 1 erro corrigido *por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil: um erro de brasileiro corrigido por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Quantas você acertou: 1, 2 ou as 3? 📄🧑‍💼🤝 Conta aqui e manda pra quem tá caçando vaga gringa!"
+  }
+}
