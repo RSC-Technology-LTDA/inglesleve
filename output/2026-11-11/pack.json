@@ -1,0 +1,280 @@
+{
+  "format": "idiom",
+  "theme": "Expressão do dia: call it a day (encerrar por hoje)",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Pare de dizer",
+      "subtitle": "no fim do expediente: diga *call it a day*",
+      "body": "",
+      "items": [
+        {
+          "en": "",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🌇"
+        }
+      ],
+      "note": "",
+      "layout": "statement",
+      "strike": "let's close"
+    },
+    {
+      "kind": "quiz",
+      "title": "Fim do expediente. Qual soa *nativo*?",
+      "subtitle": "Responde antes de passar 👉",
+      "body": "",
+      "items": [
+        {
+          "en": "Let's close the day.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Let's call it a day.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Let's call the day.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta no próximo slide 👀",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "A expressão do dia",
+      "subtitle": "Resposta: a 2ª alternativa!",
+      "body": "",
+      "items": [
+        {
+          "en": "call it a day",
+          "pt": "encerrar por hoje, dar o dia por encerrado",
+          "pronunciation": "CÓL-i-ra-DÊI",
+          "example_en": "I'm exhausted. Let's call it a day.",
+          "example_pt": "Tô exausto. Vamos encerrar por hoje.",
+          "emoji": "🌇"
+        }
+      ],
+      "note": "Serve pra trabalho, estudo, treino... qualquer coisa que você para por hoje.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Use em qualquer situação",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "It's 6 p.m. Let's call it a day.",
+          "pt": "Já são 6 da tarde. Vamos encerrar por hoje.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💼"
+        },
+        {
+          "en": "Great meeting, everyone. Let's call it a day.",
+          "pt": "Ótima reunião, pessoal. Vamos parar por aqui.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "👥"
+        },
+        {
+          "en": "We walked for hours. Time to call it a day.",
+          "pt": "Andamos por horas. Hora de encerrar.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧳"
+        },
+        {
+          "en": "I studied for three hours and called it a day.",
+          "pt": "Estudei três horas e parei por hoje.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📚"
+        }
+      ],
+      "note": "No passado: called it a day.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Brasileiro × nativo",
+      "subtitle": "Pra parar de trabalhar",
+      "body": "",
+      "items": [
+        {
+          "en": "Let's close for today.",
+          "pt": "❌ tradução literal de 'vamos encerrar'",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🙅"
+        },
+        {
+          "en": "Let's call it a day.",
+          "pt": "✅ Vamos encerrar por hoje.",
+          "pronunciation": "CÓL-i-ra-DÊI",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "😎"
+        }
+      ],
+      "note": "'Close' funciona pra loja (we're closing) ou 'close out the meeting'. Pra parar de trabalhar: call it a day ou let's wrap it up.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra revisar 📌",
+      "subtitle": "",
+      "body": "Manda pra aquele colega que sempre fica até tarde no trabalho: tá na hora de call it a day! Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Você ainda fala \"let's close for today\" no fim do expediente? 😅\n\nPra parar de trabalhar, o nativo diz \"Let's call it a day\" = vamos encerrar por hoje. Serve pro trabalho, pro estudo, pra viagem...\n\n🎁 Bônus que não está nos slides:\n• Se já é noite, dá pra dizer \"Let's call it a night\" (vamos encerrar a noite), tipo depois de um jantar ou festa.\n• \"Call it quits\" é parecido, mas mais forte: parar de vez, desistir. Ex: \"After ten years, he called it quits.\" (Depois de dez anos, ele largou.)\n\nE você, a que horas costuma call it a day? Responde em inglês nos comentários! 👇\n\nSalva pra revisar e manda pra aquele colega que nunca sai no horário.\nSegue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "expressoesemingles",
+    "idioms",
+    "inglesdodiaadia",
+    "inglesnotrabalho",
+    "dicasdeingles",
+    "englishtips",
+    "inglesfacil",
+    "callitaday"
+  ],
+  "stories": [
+    {
+      "kind": "poll",
+      "headline": "O que significa *call it a day*?",
+      "body": "Vota aí e confere a resposta às 18h 👀",
+      "options": [
+        "Chamar de dia",
+        "Encerrar por hoje"
+      ],
+      "answer": "Encerrar por hoje",
+      "emoji": "🌇"
+    },
+    {
+      "kind": "fix",
+      "headline": "Let's *close for today*.",
+      "body": "Fim da reunião. O que tem de errado? Manda a versão certa no DM!",
+      "options": [],
+      "answer": "Let's call it a day.",
+      "emoji": ""
+    },
+    {
+      "kind": "speak",
+      "headline": "I'm beat. Let's call it a day.",
+      "body": "aim BÍT. léts CÓL-i-ra-DÊI. (Tô morto. Vamos encerrar por hoje.) Manda um áudio no DM! 🎤",
+      "options": [],
+      "answer": "",
+      "emoji": "🎤"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje ✅",
+      "body": "Call it a day NÃO é 'chamar de dia': é encerrar por hoje. E no lugar de 'Let's close for today', diga 'Let's call it a day'. Bônus: 'I'm beat' = tô morto de cansado.",
+      "options": [],
+      "answer": "Call it a day = encerrar por hoje",
+      "emoji": "🌇"
+    }
+  ],
+  "terms_used": [
+    "call it a day",
+    "called it a day",
+    "call it a night",
+    "call it quits",
+    "I'm beat"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Fim do expediente: não diga *close*",
+        "text": "",
+        "emoji": "🌇",
+        "say_pt": "Para de encerrar o dia assim!",
+        "say_en": ""
+      },
+      {
+        "kind": "term",
+        "title": "call it a day",
+        "text": "encerrar por hoje",
+        "emoji": "🌇",
+        "say_pt": "A expressão é:",
+        "say_en": "Call it a day."
+      },
+      {
+        "kind": "example",
+        "title": "It's 6 p.m. Let's call it a day.",
+        "text": "Já são 6 da tarde. Vamos encerrar por hoje.",
+        "emoji": "💼",
+        "say_pt": "No trabalho:",
+        "say_en": "It's 6 p.m. Let's call it a day."
+      },
+      {
+        "kind": "example",
+        "title": "We walked for hours. Time to call it a day.",
+        "text": "Andamos por horas. Hora de encerrar.",
+        "emoji": "🧳",
+        "say_pt": "Na viagem:",
+        "say_en": "We walked for hours. Time to call it a day."
+      },
+      {
+        "kind": "wrong",
+        "title": "Let's close for today.",
+        "text": "tradução literal de 'vamos encerrar'",
+        "emoji": "",
+        "say_pt": "Pra parar de trabalhar, muito brasileiro fala:",
+        "say_en": "Let's close for today."
+      },
+      {
+        "kind": "right",
+        "title": "Let's call it a day.",
+        "text": "Vamos encerrar por hoje.",
+        "emoji": "",
+        "say_pt": "Mas o nativo diz:",
+        "say_en": "Let's call it a day."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *um por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil pra corrigir um erro por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Você ainda fala \"let's close for today\" no fim do expediente? 😅 A que horas você costuma call it a day? Comenta aí!"
+  }
+}

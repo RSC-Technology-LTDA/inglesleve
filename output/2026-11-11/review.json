@@ -1,0 +1,70 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "reel.scenes[2].text",
+        "problem": "'Já são 6h.' é ambíguo e pode ser lido como 6 da manhã. O slide do feed diz '6 da tarde', então há incoerência.",
+        "fix": "Usar 'Já são 18h.' ou 'Já são 6 da tarde.'"
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[3]",
+        "problem": "O exemplo da viagem diverge do feed: o reel usa 'Let's call it a day.' e o feed usa 'Time to call it a day.' (tradução 'Hora de encerrar').",
+        "fix": "Padronizar com a mesma frase e tradução nos dois lugares."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[2].en",
+        "problem": "'We walked all day. Time to call it a day.' repete 'day' e soa um pouco redundante, embora seja correto.",
+        "fix": "Opcional: 'We walked for hours. Time to call it a day.'"
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].title / feed[4].note",
+        "problem": "A afirmação absoluta de que nativo não diz 'let's close' é exagerada. Existem usos naturais como 'let's close out the meeting' ou uma loja dizendo 'we're closing'. O problema é só 'close for today' no sentido de parar de trabalhar.",
+        "fix": "Suavizar o texto, por exemplo: 'Pra parar de trabalhar, nativo não diz let's close'. Também vale mencionar 'let's wrap it up' como alternativa natural."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used[4]",
+        "problem": "'i'm beat' está com o 'I' minúsculo.",
+        "fix": "Usar 'I'm beat' (ou 'be beat')."
+      }
+    ],
+    "summary": "O pacote está sólido. O inglês está correto e natural, a tradução de 'call it a day' está certa e a pronúncia 'CÓL-i-ra-DÊI' aproxima bem o flap americano com a tônica correta. A estrutura respeita os limites: cover statement com strike, quiz com uma única resposta, compare com 2 itens, CTA por último. Os stories seguem o roteiro e o reel começa com hook e termina com cta, com 7 cenas. Os bônus da legenda ('call it a night', 'call it quits') são precisos. Só há ajustes menores de coerência entre feed e reel e uma afirmação um pouco absoluta sobre 'close'. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[0].strike / reel.scenes[0].title",
+        "problem": "O 'proibido' está amplo demais. O strike 'let's close' e o hook 'não diga *close*' sugerem que 'close' é errado, mas 'We're closing' (loja) e 'close out the meeting' são naturais, como o próprio slide compare reconhece. Há também inconsistência com o resto do pacote, que usa 'let's close for today'.",
+        "fix": "Usar strike 'let's close for today' na cover e no hook algo como 'Fim do expediente: não diga *close for today*'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[0].pt",
+        "problem": "'tradução literal de vamos encerrar' é impreciso: 'close' corresponde mais a 'fechar'. O decalque real seria de 'vamos fechar por hoje'.",
+        "fix": "Trocar por \"❌ tradução literal de 'vamos fechar por hoje'\" (e o mesmo em reel.scenes[4].text)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[2].emoji",
+        "problem": "🧳 (mala) não representa bem 'andar por horas'. Remete a viagem, mas não à caminhada.",
+        "fix": "Usar 🚶 ou 🥾, ou manter 🧳 só se o contexto de viagem ficar explícito na frase (ex.: 'We toured the city for hours...')."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[0].say_pt",
+        "problem": "'Para de encerrar o dia assim!' é um gancho vago: 'assim' não aponta para nada visível na tela, já que o erro só aparece na cena 5.",
+        "fix": "Algo mais concreto, ex.: 'Fim do expediente? Para de dizer close!' ou 'Brasileiro erra isso todo fim de expediente!'."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural ('call it a day', 'called it a day', 'call it a night', 'call it quits', 'I'm beat'). Traduções e pronúncias (CÓL-i-ra-DÊI, aim BÍT) estão boas. O quiz tem uma única resposta certa, e a estrutura de feed, stories e reel está dentro das regras. Ficam apenas ajustes menores: o 'proibido' da cover e do hook está amplo demais ('close' sozinho não é erro), o rótulo de tradução literal é impreciso, um emoji é fraco e o gancho do reel é vago. Aprovado."
+  }
+]
