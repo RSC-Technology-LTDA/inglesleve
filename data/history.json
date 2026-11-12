@@ -440,6 +440,22 @@
     ]
   },
   {
+    "date": "2026-11-12",
+    "format": "confusing_pairs",
+    "theme": "Não confunda no trabalho de dev: attend × assist, agenda × schedule, lose × loose",
+    "terms": [
+      "attend",
+      "assist",
+      "agenda",
+      "schedule",
+      "calendar",
+      "lose",
+      "loose",
+      "attend to"
+    ],
+    "track": "trabalho_dev"
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",

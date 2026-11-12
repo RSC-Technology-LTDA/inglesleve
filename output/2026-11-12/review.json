@@ -1,0 +1,82 @@
+[
+  {
+    "round": 1,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[4].items[0].en",
+        "problem": "'My agenda is full today' não é um erro claro para um nativo. 'Agenda' também significa lista de coisas a fazer, e 'I have a full agenda today' é natural em inglês. O slide de 'fix' acaba ensinando que algo aceitável é errado. Além disso, o compare define agenda só como 'pauta da reunião', o que é estreito demais.",
+        "fix": "Use um erro mais claro, como 'Let me check my *agenda*.' → 'Let me check my *calendar*.' (consultar a agenda do Google/celular). Outra opção é manter o par, mas mudar a nota para 'Soa estranho: o natural é schedule'. No compare, ajuste a tradução para 'pauta, lista de assuntos'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[0].emoji",
+        "problem": "O emoji 💻 não representa 'attend' (participar/comparecer) e diverge do 📅 usado no slide de compare.",
+        "fix": "Use 📅 ou 🙋 para attend, mantendo consistência com o compare."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items[0].example_en / items[1].example_en",
+        "problem": "'I'll attend the standup' e 'Can you assist me with this bug?' estão corretos, mas soam formais para o contexto de dev. Nativos diriam 'I'll join the standup' e 'Can you help me with this bug?'.",
+        "fix": "Opcional: acrescentar na nota que, no dia a dia, 'join' e 'help' são mais comuns, e que attend e assist soam mais formais."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].example_pt",
+        "problem": "Mistura de registros: 'Não perca' (formal) com 'Faz commit' (informal).",
+        "fix": "'Não perde suas alterações. Faz commit antes.' ou 'Não perca suas alterações. Faça commit antes.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[6].body",
+        "problem": "O body repete o title 'Salva pra revisar', e o texto fica longo para caber na imagem.",
+        "fix": "Encurtar: 'Manda pra aquele dev que vive dizendo assist the meeting. Segue @inglesleve.br: 1 erro corrigido por dia.'"
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes",
+        "problem": "O reel cobre attend/assist e agenda/schedule, mas não lose/loose, que é um dos 3 pares do post.",
+        "fix": "Opcional: trocar uma cena ou adicionar um versus 'lose | loose' com 'perder | solto' (ainda dentro do limite de 9 cenas)."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto, as pronúncias aportuguesadas são boas (a-TÉND, a-DJÉN-da, LUUZ/LUUS) e a etimologia/bônus de 'attend to' está correta. A estrutura cumpre as regras: cover versus com 2 itens, compares com 2, quiz com uma única resposta, CTA por último. Os stories seguem o formato (poll com 2 opções, answer cobre tudo) e o reel tem hook→cta, 6 cenas e question seguida de reveal com deixa neutra. O único ponto a reavaliar é o slide 'fix': 'My agenda is full' não é propriamente erro em inglês, então vale trocar por 'check my agenda → check my calendar'. O resto são ajustes de estilo."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[0].example_pt",
+        "problem": "'Não perde suas alterações. Faz commit antes.' usa um imperativo coloquial. Funciona na fala, mas no slide lido fica um pouco estranho ao lado do inglês, que é neutro.",
+        "fix": "Usar 'Não perca suas alterações. Faça commit antes.' ou manter o tom informal com 'Não vai perder suas alterações: faz commit antes.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2] / feed[4]",
+        "problem": "O slide de agenda traduz 'agenda' como 'schedule', e o slide fix traduz como 'calendar'. As duas traduções estão corretas: schedule são os compromissos e horários, calendar é a ferramenta. Mas o aluno A2 pode achar que há contradição.",
+        "fix": "Ajustar a note do fix para algo como 'Agenda do Google/celular = calendar. Seus compromissos = schedule.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].subtitle",
+        "problem": "'3 pares que dev brasileiro troca na reunião': lose × loose é um erro de escrita (Slack, PRs), não algo que se troca falando na reunião.",
+        "fix": "Trocar por '3 pares que dev brasileiro troca no trabalho'."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[2].answer",
+        "problem": "A resposta do story 1 (verdadeiro/falso) é 'Falso', mas o campo answer traz 'attend', que é a correção e não a resposta direta à pergunta.",
+        "fix": "Usar 'Falso (attend) · lose'."
+      },
+      {
+        "severity": "minor",
+        "location": "caption",
+        "problem": "'o gringo entendeu que você ia AJUDAR na reunião' exagera um pouco. 'Assist the meeting' é agramatical, e o nativo provavelmente só estranharia ou deduziria o sentido. A ideia de 'ajudar' é a leitura mais próxima, mas não é certa.",
+        "fix": "Suavizar para 'soa como se você fosse AJUDAR a reunião, e não participar dela 😅'."
+      }
+    ],
+    "summary": "Pacote sólido. O inglês está correto e natural, as pronúncias aportuguesadas são boas (LUUZ/LUUS bem diferenciadas) e a estrutura está dentro dos limites: cover versus com 2 itens, 3 compares com 2 itens cada, fix com erro real e correção, quiz com uma única resposta certa e CTA no final. A informação sobre 'attend to' na legenda está correta. Stories e reel seguem o roteiro: o reel começa no hook e termina no cta, os versus estão no formato 'a | b', a question é seguida de reveal e o say_en é idêntico à tela. Só há ajustes de estilo e clareza; aprovado."
+  }
+]

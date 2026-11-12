@@ -1,0 +1,302 @@
+{
+  "format": "confusing_pairs",
+  "theme": "Não confunda no trabalho de dev: attend × assist, agenda × schedule, lose × loose",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "*Assist* não é assistir",
+      "subtitle": "3 pares que dev brasileiro troca na reunião",
+      "body": "",
+      "items": [
+        {
+          "en": "attend",
+          "pt": "participar de",
+          "pronunciation": "a-TÉND",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📅"
+        },
+        {
+          "en": "assist",
+          "pt": "ajudar",
+          "pronunciation": "a-SÍST",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🤝"
+        }
+      ],
+      "note": "",
+      "layout": "versus",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "*Attend* × assist",
+      "subtitle": "Na daily, você participa ou ajuda?",
+      "body": "",
+      "items": [
+        {
+          "en": "attend",
+          "pt": "participar de, comparecer",
+          "pronunciation": "a-TÉND",
+          "example_en": "I'll attend the standup tomorrow.",
+          "example_pt": "Vou participar da daily amanhã.",
+          "emoji": "📅"
+        },
+        {
+          "en": "assist",
+          "pt": "ajudar, dar suporte",
+          "pronunciation": "a-SÍST",
+          "example_en": "Can you assist me with this bug?",
+          "example_pt": "Pode me ajudar com esse bug?",
+          "emoji": "🤝"
+        }
+      ],
+      "note": "Ambos soam formais. No dia a dia: join e help. Assistir (ver) = watch.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Agenda × *schedule*",
+      "subtitle": "A 'agenda' do gringo é outra coisa",
+      "body": "",
+      "items": [
+        {
+          "en": "agenda",
+          "pt": "pauta, lista de assuntos",
+          "pronunciation": "a-DJÉN-da",
+          "example_en": "What's on the agenda today?",
+          "example_pt": "Qual é a pauta de hoje?",
+          "emoji": "📋"
+        },
+        {
+          "en": "schedule",
+          "pt": "agenda, horários",
+          "pronunciation": "SKÉ-djul",
+          "example_en": "My schedule is packed today.",
+          "example_pt": "Minha agenda tá lotada hoje.",
+          "emoji": "🗓️"
+        }
+      ],
+      "note": "Agenda = o que vai ser discutido. Schedule = seus horários.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "compare",
+      "title": "Lose × *loose*",
+      "subtitle": "Uma letra muda tudo no Slack",
+      "body": "",
+      "items": [
+        {
+          "en": "lose",
+          "pt": "perder",
+          "pronunciation": "LUUZ",
+          "example_en": "Don't lose your changes. Commit first.",
+          "example_pt": "Não perde suas alterações. Faz commit antes.",
+          "emoji": "😱"
+        },
+        {
+          "en": "loose",
+          "pt": "solto, frouxo",
+          "pronunciation": "LUUS",
+          "example_en": "There's a loose cable under my desk.",
+          "example_pt": "Tem um cabo solto embaixo da minha mesa.",
+          "emoji": "🔌"
+        }
+      ],
+      "note": "Lose tem som de Z; loose, som de S.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Let me check my *agenda*.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Let me check my *calendar*.",
+          "pt": "Deixa eu ver minha agenda.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Agenda do Google/celular = calendar.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Qual frase está certa?",
+      "subtitle": "Pensa antes de olhar a resposta 👀",
+      "body": "",
+      "items": [
+        {
+          "en": "I'll assist the meeting at 3.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I'll attend the meeting at 3.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "I'll loose the meeting at 3.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: 2. Attend = participar. Assist = ajudar.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra revisar",
+      "subtitle": "Antes da próxima reunião com o time gringo",
+      "body": "Manda pra aquele dev que vive dizendo 'assist the meeting'. Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Se você já disse 'I'll assist the meeting', o gringo entendeu que você ia AJUDAR na reunião 😅\n\nHoje são 3 pares que confundem dev brasileiro: attend × assist, agenda × schedule e lose × loose.\n\nBônus que não está nos slides: 'attend' sem 'to' é participar (attend the meeting). Já 'attend to' é cuidar de algo: 'I need to attend to an urgent bug' = preciso resolver um bug urgente.\n\nQual desses você já trocou? Conta aqui nos comentários 👇\n\nSalva pra revisar e manda pra aquele colega que tem reunião com time gringo amanhã.\nSegue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+  "hashtags": [
+    "inglesparadevs",
+    "inglesparaprogramadores",
+    "inglesnotrabalho",
+    "falsoscognatos",
+    "aprenderingles",
+    "dicasdeingles",
+    "inglesonline",
+    "techenglish",
+    "devbrasil",
+    "englishtips",
+    "inglesbasico",
+    "inglesparabrasileiros"
+  ],
+  "stories": [
+    {
+      "kind": "truefalse",
+      "headline": "'Assist the meeting' significa 'assistir à reunião'.",
+      "body": "Verdadeiro ou falso? Responde no DM 📩",
+      "options": [],
+      "answer": "Falso: assist é ajudar. Participar da reunião é 'attend the meeting'.",
+      "emoji": "🤔"
+    },
+    {
+      "kind": "poll",
+      "headline": "Don't ___ your changes. Commit first!",
+      "body": "Qual completa a frase? Vota e manda no DM por quê 👇",
+      "options": [
+        "lose",
+        "loose"
+      ],
+      "answer": "lose",
+      "emoji": "💾"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje ✅",
+      "body": "1) Falso: assist = ajudar. Participar = attend the meeting.\n2) lose = perder (som de Z). Loose = solto (som de S).",
+      "options": [],
+      "answer": "attend · lose",
+      "emoji": "🦉"
+    }
+  ],
+  "terms_used": [
+    "attend",
+    "assist",
+    "agenda",
+    "schedule",
+    "calendar",
+    "lose",
+    "loose",
+    "attend to"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "*Assist* não é assistir",
+        "text": "",
+        "emoji": "💻",
+        "say_pt": "Dev brasileiro erra isso na reunião!",
+        "say_en": ""
+      },
+      {
+        "kind": "versus",
+        "title": "attend | assist",
+        "text": "participar | ajudar",
+        "emoji": "",
+        "say_pt": "Não confunda:",
+        "say_en": "attend, assist"
+      },
+      {
+        "kind": "versus",
+        "title": "agenda | schedule",
+        "text": "pauta | agenda, horários",
+        "emoji": "",
+        "say_pt": "E esse também:",
+        "say_en": "agenda, schedule"
+      },
+      {
+        "kind": "versus",
+        "title": "lose | loose",
+        "text": "perder | solto",
+        "emoji": "",
+        "say_pt": "E esse que confunde no Slack:",
+        "say_en": "lose, loose"
+      },
+      {
+        "kind": "question",
+        "title": "I'll ___ the standup at 10.",
+        "text": "assist | attend",
+        "emoji": "",
+        "say_pt": "Qual completa a frase? Pensa rápido!",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "I'll *attend* the standup at 10.",
+        "text": "Vou participar da daily às 10. (assist = ajudar)",
+        "emoji": "",
+        "say_pt": "A resposta certa é:",
+        "say_en": "I'll attend the standup at 10."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra aprender *um por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue pra corrigir um erro por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "'I'll assist the meeting' faz o gringo achar que você vai AJUDAR na reunião 😅 Você acertou a pergunta? Comenta aqui!"
+  }
+}
