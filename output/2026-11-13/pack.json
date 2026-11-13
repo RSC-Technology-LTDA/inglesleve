@@ -1,0 +1,298 @@
+{
+  "format": "word_curiosity",
+  "theme": "Breakfast: por que café da manhã é 'quebrar o jejum'",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "De onde vem *breakfast*?",
+      "subtitle": "A palavra esconde uma frase inteira",
+      "body": "",
+      "items": [
+        {
+          "en": "break",
+          "pt": "quebrar",
+          "pronunciation": "BRÊIK",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🔨"
+        },
+        {
+          "en": "fast",
+          "pt": "jejum",
+          "pronunciation": "FÉST",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏳"
+        },
+        {
+          "en": "breakfast",
+          "pt": "café da manhã",
+          "pronunciation": "BRÉK-fâst",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🍳"
+        }
+      ],
+      "note": "",
+      "layout": "equation",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Em breakfast, o que significa *fast*?",
+      "subtitle": "Pensa antes de passar 👀",
+      "body": "",
+      "items": [
+        {
+          "en": "rápido",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "jejum",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "festa",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta no próximo slide 👉",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "term",
+      "title": "Breakfast = quebrar o *jejum*",
+      "subtitle": "Você passa a noite sem comer... e quebra o jejum de manhã",
+      "body": "",
+      "items": [
+        {
+          "en": "break",
+          "pt": "quebrar, interromper",
+          "pronunciation": "BRÊIK",
+          "example_en": "Don't break the rules.",
+          "example_pt": "Não quebre as regras.",
+          "emoji": "🔨"
+        },
+        {
+          "en": "fast",
+          "pt": "jejum (aqui não é 'rápido'!)",
+          "pronunciation": "FÉST",
+          "example_en": "I'm doing a 12-hour fast.",
+          "example_pt": "Tô fazendo jejum de 12 horas.",
+          "emoji": "⏳"
+        },
+        {
+          "en": "breakfast",
+          "pt": "café da manhã",
+          "pronunciation": "BRÉK-fâst",
+          "example_en": "Breakfast is ready!",
+          "example_pt": "O café tá pronto!",
+          "emoji": "🍳"
+        }
+      ],
+      "note": "Atenção: fala-se BRÉK-fâst, não 'brêik-fást'. A pronúncia mudou com o tempo.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Não diga × diga",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "Let's *take* breakfast.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Let's *have* breakfast.",
+          "pt": "Vamos tomar café da manhã.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "No inglês do dia a dia (principalmente americano), o natural é have: have breakfast, lunch, dinner.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Breakfast no dia a dia",
+      "subtitle": "Hotel, trabalho e casa",
+      "body": "",
+      "items": [
+        {
+          "en": "Is breakfast included?",
+          "pt": "O café da manhã está incluso?",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏨"
+        },
+        {
+          "en": "I usually skip breakfast.",
+          "pt": "Eu costumo pular o café da manhã.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🙅"
+        },
+        {
+          "en": "Let's grab breakfast before the meeting.",
+          "pt": "Bora tomar café da manhã antes da reunião.",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏃"
+        },
+        {
+          "en": "The hotel has a continental breakfast.",
+          "pt": "O hotel tem café da manhã continental (simples).",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🥐"
+        }
+      ],
+      "note": "'Continental breakfast' é o café básico de hotel: pão, fruta e café, sem ovos e bacon.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra revisar 📌",
+      "subtitle": "",
+      "body": "Manda pro amigo que vai pra Orlando e sempre esquece de perguntar se o café do hotel tá incluso. Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Você fala breakfast todo dia e nem sabe que tá dizendo 'quebrar o jejum' 🍳\n\nBreak = quebrar, fast = jejum. Depois de uma noite inteira sem comer, a primeira refeição 'quebra o jejum'.\n\nBônus: o espanhol fez a mesma coisa! Desayuno = des + ayuno (jejum). E até o 'dinner' vem de um verbo do francês antigo que também significava quebrar o jejum.\n\nE você, é do time que toma café caprichado ou do time 'I usually skip breakfast'? Conta aqui 👇\n\nSalva pra revisar e manda pro amigo que vai viajar e precisa perguntar 'Is breakfast included?' no hotel.\nSegue @inglesleve.br: 1 erro de brasileiro corrigido por dia.",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "aprenderingles",
+    "inglesonline",
+    "vocabularioingles",
+    "curiosidadesdoingles",
+    "inglesbasico",
+    "dicasdeingles",
+    "inglesparaviagem",
+    "breakfast",
+    "inglesdodia",
+    "englishtips",
+    "pronunciaingles"
+  ],
+  "stories": [
+    {
+      "kind": "truefalse",
+      "headline": "A palavra 'dinner' também nasceu de 'quebrar o jejum'.",
+      "body": "Verdadeiro ou falso? Responde no DM 👀",
+      "options": [],
+      "answer": "Verdadeiro! Dinner vem do francês antigo 'disner', que significava quebrar o jejum.",
+      "emoji": "🍽️"
+    },
+    {
+      "kind": "guess",
+      "headline": "Que palavra em inglês é essa?",
+      "body": "_ _ _ _ · 4 letras · em inglês, 'jejum'",
+      "options": [],
+      "answer": "fast",
+      "emoji": "⏳"
+    },
+    {
+      "kind": "tip",
+      "headline": "Café da manhã? Use have, não take!",
+      "body": "No inglês do dia a dia (principalmente americano), o natural é 'Let's have breakfast' ou 'Let's grab breakfast'.",
+      "options": [],
+      "answer": "",
+      "emoji": "☕"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje ✅",
+      "body": "1) Verdadeiro! Dinner vem do francês antigo 'disner', que significava quebrar o jejum. 2) A palavra do emoji era fast (FÉST) = jejum, a 2ª metade de breakfast.",
+      "options": [],
+      "answer": "Verdadeiro (dinner também é 'quebrar o jejum') · fast",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "breakfast",
+    "break (quebrar)",
+    "fast (jejum)",
+    "break the fast",
+    "have breakfast",
+    "skip breakfast",
+    "grab breakfast",
+    "is breakfast included",
+    "continental breakfast"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Breakfast tem um *segredo* escondido",
+        "text": "",
+        "emoji": "🍳",
+        "say_pt": "Você fala isso todo dia e não sabe!",
+        "say_en": ""
+      },
+      {
+        "kind": "question",
+        "title": "O que significa *fast* em breakfast?",
+        "text": "rápido | jejum | festa",
+        "emoji": "",
+        "say_pt": "O que significa fast em breakfast? Pensa aí!",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "fast = *jejum*",
+        "text": "break the fast = quebrar o jejum (não é 'rápido')",
+        "emoji": "⏳",
+        "say_pt": "Significa jejum! Escuta:",
+        "say_en": "fast"
+      },
+      {
+        "kind": "example",
+        "title": "Is breakfast included?",
+        "text": "O café da manhã está incluso?",
+        "emoji": "🏨",
+        "say_pt": "No hotel, pergunte:",
+        "say_en": "Is breakfast included?"
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra *1 erro corrigido por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil pra corrigir um erro de inglês por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Breakfast quer dizer 'quebrar o jejum' 🤯 Você já sabia? Comenta qual palavra você quer que a gente explique!"
+  }
+}

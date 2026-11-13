@@ -1,0 +1,107 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "reel.scenes[2].say_pt",
+        "problem": "A narração do reveal deveria ser só uma deixa ('A resposta certa é:'). Ela entrega a resposta em português ('É jejum!') e ainda cita outra palavra em inglês ('Breakfast'), o que quebra a regra do formato do reveal.",
+        "fix": "Trocar por 'A resposta certa é:' e manter say_en = 'break the fast'. Se quiser reforçar 'jejum', use o campo text da tela, que já explica."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[1..4].emoji",
+        "problem": "Só o primeiro item da lista tem emoji (🏨); os outros quatro estão vazios. O visual fica inconsistente.",
+        "fix": "Preencher todos ou deixar todos vazios. Sugestões: 🙅 (skip), 🏃 (grab), 🥐 (continental), 🥞 (breakfast for dinner)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[2].pt",
+        "problem": "'Bora tomar um café' pode ser lido como só a bebida café. 'Grab breakfast' é a refeição.",
+        "fix": "'Bora tomar café da manhã antes da reunião.' ou 'Bora comer alguma coisa antes da reunião.'"
+      },
+      {
+        "severity": "minor",
+        "location": "stories[2].headline",
+        "problem": "'Não take o café: have!' é uma construção truncada e estranha em PT-BR.",
+        "fix": "'Café da manhã? Use have, não take!'"
+      },
+      {
+        "severity": "minor",
+        "location": "stories[1]",
+        "problem": "O 'guess' fica fácil demais, porque o tema inteiro do dia já é breakfast.",
+        "fix": "Opcional: tornar mais desafiador, por exemplo adivinhar 'fast' (4 letras, 'jejum') com emoji ⏳."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].body / reel.scenes[4]",
+        "problem": "O CTA promete '1 erro de brasileiro corrigido por dia', mas o post é de curiosidade. O CTA do reel diz 'um por dia' sem especificar. A mensagem fica pouco coerente.",
+        "fix": "Alinhar o slogan ao formato, ex.: '1 curiosidade de inglês por dia', ou manter um slogan único e genérico em todos os lugares."
+      },
+      {
+        "severity": "minor",
+        "location": "terms_used",
+        "problem": "'break' (quebrar, interromper) foi ensinado com exemplo no slide term, mas não aparece na lista.",
+        "fix": "Adicionar 'break (quebrar)' a terms_used."
+      }
+    ],
+    "summary": "O pacote está muito bom. O inglês é natural e correto (have/grab/skip breakfast, Is breakfast included?, continental breakfast, breakfast for dinner) e a etimologia é verdadeira: breakfast = break + fast; desayuno vem de des + ayuno; dinner vem do francês antigo disner, do latim vulgar *disjejunare. As pronúncias são boas aproximações e a estrutura do feed, dos stories e do quiz está correta. O único problema que barra a publicação é a narração do reveal no reel, que deveria ser só a deixa 'A resposta certa é:' sem citar 'Breakfast'. Os demais pontos são ajustes de estilo e consistência."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "reel.scenes[2]",
+        "problem": "A pergunta do reel pede o significado de 'fast' e oferece 'rápido | jejum | festa', mas o reveal mostra 'break the fast' como título e diz 'break the fast' em voz. A alternativa certa ('jejum') só aparece no texto secundário, então a ligação entre pergunta e resposta fica menos imediata.",
+        "fix": "Usar title 'fast = *jejum*' com say_en 'fast', ou manter 'break the fast' e destacar *jejum* no text, ex.: 'fast = *jejum* → break the fast = quebrar o jejum'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[3] / stories[2]",
+        "problem": "'Take breakfast' não está propriamente errado. Ainda aparece no inglês britânico formal ou antigo e no inglês indiano. Para o público americano, porém, soa estranho, como o post afirma. Dizer genericamente que 'soa estranho pro nativo' é um pouco absoluto.",
+        "fix": "Opcional: ajustar a nota/tip para 'No inglês do dia a dia (principalmente americano), o natural é have breakfast'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[3].pt",
+        "problem": "A tradução 'O hotel tem café simples (pão, fruta, café).' é longa para o slide e explica mais do que traduz. A nota logo abaixo já faz essa explicação.",
+        "fix": "Encurtar para 'O hotel tem café da manhã continental (simples).' e deixar o detalhe para a nota."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural, e as traduções e as pronúncias aportuguesadas estão boas (BRÊIK, FÉST, BRÉK-fâst). As etimologias são verdadeiras: breakfast vem de break + fast, desayuno de des + ayuno, e dinner do francês antigo disner, 'quebrar o jejum'. A estrutura está dentro dos limites: cover equation com 2 + resultado, quiz com uma única resposta certa, fix com erro típico de brasileiro e 'answer' respondendo a todos os stories. O reel tem 5 cenas, começa com hook, termina com cta e a pergunta é seguida de reveal com deixa correta. Restam só ajustes de estilo: o reveal poderia destacar 'jejum' diretamente e a afirmação sobre 'take breakfast' poderia ser um pouco menos absoluta. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "reel.scenes[2].say_pt",
+        "problem": "O roteiro pede que o say_pt da reveal seja só uma deixa ('A resposta certa é:'). 'Significa jejum! Escuta:' já entrega a resposta em português antes do áudio em inglês.",
+        "fix": "Trocar por 'A resposta certa é:' e deixar o say_en 'fast' e a tela fazerem a revelação."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[1].say_pt",
+        "problem": "O say_pt traz palavras em inglês ('fast', 'breakfast'). Lidas por voz em português, podem sair com pronúncia aportuguesada, justo num post que corrige a pronúncia de breakfast.",
+        "fix": "Usar 'O que significa essa palavra? Pensa aí!' e deixar o inglês só na tela."
+      },
+      {
+        "severity": "minor",
+        "location": "stories[0].answer / stories[3].body",
+        "problem": "'Disner' em francês antigo significava 'fazer a primeira refeição do dia, jantar'. O sentido de 'quebrar o jejum' vem da raiz latina vulgar *disjejunare. A afirmação simplifica um pouco.",
+        "fix": "Opcional: 'Dinner vem do francês antigo disner, que vem do latim disjejunare: quebrar o jejum.'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].items",
+        "problem": "As alternativas do quiz estão em português, mas foram colocadas no campo 'en'. Pode estar certo se o template exibir apenas 'en', mas vale conferir.",
+        "fix": "Confirmar que o template do quiz renderiza o campo 'en' como texto da alternativa."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. A etimologia de breakfast, desayuno e dinner está correta. O inglês está natural ('have/grab/skip breakfast', 'Is breakfast included?', 'I'm doing a 12-hour fast'). O erro corrigido ('take breakfast') é típico de brasileiro, e as pronúncias BRÉK-fâst e BRÊIK estão boas. A estrutura respeita os limites: equation com 2 + resultado, quiz com resposta única, fix com 2 itens e reel com 5 cenas de hook a cta. Os stories são respondidos no slide final. Só há ajustes de estilo na deixa da reveal do reel e uma leve simplificação etimológica sobre 'disner'. Aprovado."
+  }
+]
