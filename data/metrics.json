@@ -59,6 +59,11 @@
       "date": "2026-11-11",
       "followers": 1215,
       "media": 46
+    },
+    {
+      "date": "2026-11-12",
+      "followers": 1224,
+      "media": 47
     }
   ],
   "media": {
@@ -75,7 +80,7 @@
       "theme": "Quiz da semana: Halloween, freak out e falsos amigos",
       "kind": "reel",
       "hook": "Acerta as *3*?",
-      "updated": "2026-11-12T02:09:39+00:00",
+      "updated": "2026-11-13T01:43:56+00:00",
       "insights": {
         "reach": 145,
         "views": 166,
@@ -100,7 +105,7 @@
       "theme": "Fall x autumn: por que americano diz fall",
       "kind": "carousel",
       "hook": "Dois jeitos de dizer *outono*",
-      "updated": "2026-11-12T02:09:40+00:00",
+      "updated": "2026-11-13T01:43:56+00:00",
       "insights": {
         "reach": 55,
         "views": 107,
@@ -126,10 +131,10 @@
       "theme": "6 erros clássicos de brasileiro no dia a dia",
       "kind": "carousel",
       "hook": "Para de *errar* isso",
-      "updated": "2026-11-12T02:09:41+00:00",
+      "updated": "2026-11-13T01:43:57+00:00",
       "insights": {
-        "reach": 76,
-        "views": 148,
+        "reach": 77,
+        "views": 150,
         "saved": 3,
         "shares": 0,
         "likes": 8,
@@ -143,20 +148,20 @@
       "permalink": "https://www.instagram.com/p/DfHWb3xMeSl/",
       "timestamp": "2026-10-30T10:18:43+0000",
       "media_type": "IMAGE",
-      "like_count": 11,
+      "like_count": 14,
       "comments_count": 0,
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:41+00:00",
+      "updated": "2026-11-13T01:43:57+00:00",
       "insights": {
-        "reach": 86,
-        "views": 140,
+        "reach": 91,
+        "views": 145,
         "saved": 0,
         "shares": 0,
-        "likes": 11,
+        "likes": 14,
         "comments": 0,
-        "total_interactions": 11,
+        "total_interactions": 14,
         "follows": 0,
         "profile_visits": 4
       }
@@ -174,7 +179,7 @@
       "theme": "Falsos amigos do dia a dia: push x pull, parents x relatives, lunch x snack",
       "kind": "reel",
       "hook": "Push *não* é puxar",
-      "updated": "2026-11-12T02:09:41+00:00",
+      "updated": "2026-11-13T01:43:58+00:00",
       "insights": {
         "reach": 164,
         "views": 188,
@@ -199,7 +204,7 @@
       "theme": "Falsos amigos do dia a dia: push x pull, parents x relatives, lunch x snack",
       "kind": "carousel",
       "hook": "Não *confunda*",
-      "updated": "2026-11-12T02:09:42+00:00",
+      "updated": "2026-11-13T01:43:59+00:00",
       "insights": {
         "reach": 68,
         "views": 145,
@@ -225,7 +230,7 @@
       "theme": "Frases para usar na farmácia",
       "kind": "carousel",
       "hook": "Doente nos *EUA*?",
-      "updated": "2026-11-12T02:09:42+00:00",
+      "updated": "2026-11-13T01:43:59+00:00",
       "insights": {
         "reach": 96,
         "views": 193,
@@ -247,7 +252,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:43+00:00",
+      "updated": "2026-11-13T01:44:00+00:00",
       "insights": {
         "reach": 87,
         "views": 154,
@@ -269,7 +274,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:44+00:00",
+      "updated": "2026-11-13T01:44:00+00:00",
       "insights": {
         "reach": 130,
         "views": 245,
@@ -291,7 +296,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:44+00:00",
+      "updated": "2026-11-13T01:44:01+00:00",
       "insights": {
         "reach": 74,
         "views": 127,
@@ -313,7 +318,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:45+00:00",
+      "updated": "2026-11-13T01:44:02+00:00",
       "insights": {
         "reach": 61,
         "views": 100,
@@ -335,7 +340,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:45+00:00",
+      "updated": "2026-11-13T01:44:02+00:00",
       "insights": {
         "reach": 79,
         "views": 156,
@@ -357,7 +362,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:45+00:00",
+      "updated": "2026-11-13T01:44:03+00:00",
       "insights": {
         "reach": 78,
         "views": 135,
@@ -379,7 +384,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:46+00:00",
+      "updated": "2026-11-13T01:44:03+00:00",
       "insights": {
         "reach": 78,
         "views": 125,
@@ -401,7 +406,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:46+00:00",
+      "updated": "2026-11-13T01:44:04+00:00",
       "insights": {
         "reach": 78,
         "views": 146,
@@ -423,7 +428,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:47+00:00",
+      "updated": "2026-11-13T01:44:04+00:00",
       "insights": {
         "reach": 115,
         "views": 227,
@@ -445,7 +450,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:47+00:00",
+      "updated": "2026-11-13T01:44:04+00:00",
       "insights": {
         "reach": 57,
         "views": 93,
@@ -467,7 +472,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:48+00:00",
+      "updated": "2026-11-13T01:44:06+00:00",
       "insights": {
         "reach": 65,
         "views": 114,
@@ -489,7 +494,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:48+00:00",
+      "updated": "2026-11-13T01:44:06+00:00",
       "insights": {
         "reach": 65,
         "views": 119,
@@ -506,20 +511,20 @@
       "permalink": "https://www.instagram.com/p/DfAi0YxFERv/",
       "timestamp": "2026-10-27T18:52:10+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 34,
+      "like_count": 37,
       "comments_count": 3,
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:49+00:00",
+      "updated": "2026-11-13T01:44:07+00:00",
       "insights": {
-        "reach": 101,
-        "views": 178,
+        "reach": 104,
+        "views": 181,
         "saved": 0,
         "shares": 0,
-        "likes": 34,
+        "likes": 37,
         "comments": 3,
-        "total_interactions": 40,
+        "total_interactions": 43,
         "follows": 0,
         "profile_visits": 0
       }
@@ -533,7 +538,7 @@
       "product": "FEED",
       "caption": "",
       "kind": "manual",
-      "updated": "2026-11-12T02:09:49+00:00",
+      "updated": "2026-11-13T01:44:07+00:00",
       "insights": {
         "reach": 66,
         "views": 125,
@@ -657,7 +662,7 @@
         "total_interactions": 5,
         "ig_reels_avg_watch_time": 6813
       },
-      "updated": "2026-11-12T02:09:39+00:00"
+      "updated": "2026-11-13T01:43:55+00:00"
     },
     "18167184700490864": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4019602937604016973",
@@ -695,16 +700,16 @@
       "kind": "reel",
       "hook": "Sua *daily* em inglês, pronta",
       "insights": {
-        "reach": 133,
-        "views": 162,
+        "reach": 134,
+        "views": 164,
         "saved": 0,
         "shares": 1,
         "likes": 7,
         "comments": 0,
         "total_interactions": 8,
-        "ig_reels_avg_watch_time": 3723
+        "ig_reels_avg_watch_time": 3725
       },
-      "updated": "2026-11-12T02:09:38+00:00"
+      "updated": "2026-11-13T01:43:54+00:00"
     },
     "18311702047305009": {
       "permalink": "https://www.instagram.com/p/DfKcORNmBcO/",
@@ -720,7 +725,7 @@
       "kind": "carousel",
       "hook": "Daily em inglês *sem travar*",
       "insights": {
-        "reach": 34,
+        "reach": 35,
         "views": 72,
         "saved": 0,
         "shares": 0,
@@ -728,9 +733,9 @@
         "comments": 0,
         "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 2
       },
-      "updated": "2026-11-12T02:09:38+00:00"
+      "updated": "2026-11-13T01:43:54+00:00"
     },
     "18092826905196934": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4020327685561670083",
@@ -807,7 +812,7 @@
         "total_interactions": 12,
         "ig_reels_avg_watch_time": 4313
       },
-      "updated": "2026-11-12T02:09:36+00:00"
+      "updated": "2026-11-13T01:43:52+00:00"
     },
     "18133371298818630": {
       "permalink": "https://www.instagram.com/p/DfNJKjvGAWh/",
@@ -823,7 +828,7 @@
       "kind": "carousel",
       "hook": "*November* nos EUA",
       "insights": {
-        "reach": 45,
+        "reach": 46,
         "views": 102,
         "saved": 0,
         "shares": 0,
@@ -831,9 +836,9 @@
         "comments": 3,
         "total_interactions": 9,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "updated": "2026-11-12T02:09:37+00:00"
+      "updated": "2026-11-13T01:43:53+00:00"
     },
     "18102024401648388": {
       "permalink": "https://www.instagram.com/p/DfNA3TajQV4/",
@@ -849,8 +854,8 @@
       "kind": "carousel",
       "hook": "*1.000* vezes obrigado!",
       "insights": {
-        "reach": 42,
-        "views": 112,
+        "reach": 43,
+        "views": 113,
         "saved": 0,
         "shares": 0,
         "likes": 9,
@@ -859,7 +864,7 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "updated": "2026-11-12T02:09:37+00:00"
+      "updated": "2026-11-13T01:43:53+00:00"
     },
     "17994201651049036": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4021052463632943822",
@@ -927,7 +932,7 @@
         "total_interactions": 7,
         "ig_reels_avg_watch_time": 3130
       },
-      "updated": "2026-11-12T02:09:35+00:00"
+      "updated": "2026-11-13T01:43:51+00:00"
     },
     "18357687712264473": {
       "permalink": "https://www.instagram.com/p/DfPljAGoPFF/",
@@ -953,7 +958,7 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "updated": "2026-11-12T02:09:36+00:00"
+      "updated": "2026-11-13T01:43:52+00:00"
     },
     "17978985627136418": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4021777288303946363",
@@ -1066,7 +1071,7 @@
         "total_interactions": 5,
         "ig_reels_avg_watch_time": 4606
       },
-      "updated": "2026-11-12T02:09:34+00:00"
+      "updated": "2026-11-13T01:43:50+00:00"
     },
     "18017872424970680": {
       "permalink": "https://www.instagram.com/p/DfSKkv5jvzr/",
@@ -1092,7 +1097,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:35+00:00"
+      "updated": "2026-11-13T01:43:50+00:00"
     },
     "17887247637689500": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4022503621069872094",
@@ -1169,7 +1174,7 @@
         "total_interactions": 10,
         "ig_reels_avg_watch_time": 4793
       },
-      "updated": "2026-11-12T02:09:33+00:00"
+      "updated": "2026-11-13T01:43:49+00:00"
     },
     "18018074432748507": {
       "permalink": "https://www.instagram.com/p/DfUvKffj-4u/",
@@ -1195,7 +1200,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:33+00:00"
+      "updated": "2026-11-13T01:43:49+00:00"
     },
     "18123062938901842": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4023357480540930163",
@@ -1259,7 +1264,7 @@
         "total_interactions": 3,
         "ig_reels_avg_watch_time": 4561
       },
-      "updated": "2026-11-12T02:09:32+00:00"
+      "updated": "2026-11-13T01:43:48+00:00"
     },
     "17936059341145076": {
       "permalink": "https://www.instagram.com/p/DfXUBdrDMMq/",
@@ -1275,8 +1280,8 @@
       "kind": "carousel",
       "hook": "6 erros de brasileiro na *Disney*",
       "insights": {
-        "reach": 18,
-        "views": 59,
+        "reach": 19,
+        "views": 60,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -1285,7 +1290,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:32+00:00"
+      "updated": "2026-11-13T01:43:48+00:00"
     },
     "18148845412536017": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4023951658984638492",
@@ -1349,7 +1354,7 @@
         "total_interactions": 3,
         "ig_reels_avg_watch_time": 6361
       },
-      "updated": "2026-11-12T02:09:31+00:00"
+      "updated": "2026-11-13T01:43:46+00:00"
     },
     "17880320982562810": {
       "permalink": "https://www.instagram.com/p/DfZ4zSKjai5/",
@@ -1365,8 +1370,8 @@
       "kind": "carousel",
       "hook": "Tênis não é *tennis*",
       "insights": {
-        "reach": 29,
-        "views": 83,
+        "reach": 31,
+        "views": 89,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -1375,7 +1380,7 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "updated": "2026-11-12T02:09:31+00:00"
+      "updated": "2026-11-13T01:43:47+00:00"
     },
     "17966471472234150": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4024676395673303115",
@@ -1443,16 +1448,16 @@
       "kind": "reel",
       "hook": "Entrevista do visto *em inglês*",
       "insights": {
-        "reach": 115,
-        "views": 140,
+        "reach": 116,
+        "views": 141,
         "saved": 1,
         "shares": 0,
         "likes": 4,
         "comments": 0,
         "total_interactions": 5,
-        "ig_reels_avg_watch_time": 4210
+        "ig_reels_avg_watch_time": 4176
       },
-      "updated": "2026-11-12T02:09:30+00:00"
+      "updated": "2026-11-13T01:43:46+00:00"
     },
     "18079598594452253": {
       "permalink": "https://www.instagram.com/p/DfcdlFnDUKX/",
@@ -1468,8 +1473,8 @@
       "kind": "carousel",
       "hook": "Entrevista do *visto* em inglês",
       "insights": {
-        "reach": 15,
-        "views": 52,
+        "reach": 16,
+        "views": 53,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -1478,7 +1483,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:31+00:00"
+      "updated": "2026-11-13T01:43:46+00:00"
     },
     "18445157065182326": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4025401114270950166",
@@ -1550,7 +1555,7 @@
       "permalink": "https://www.instagram.com/reel/DffrEk2k6tE/",
       "timestamp": "2026-11-08T21:01:09+0000",
       "media_type": "VIDEO",
-      "like_count": 5,
+      "like_count": 9,
       "comments_count": 0,
       "product": "REELS",
       "caption": "Quiz relâmpago: você acerta as 3 sem pausar? Comenta seu placar 👇\n\n#inglesleve #inglesparabrasileiros #aprenderingles #i",
@@ -1560,22 +1565,22 @@
       "kind": "reel",
       "hook": "Acerta as *3*?",
       "insights": {
-        "reach": 204,
-        "views": 233,
+        "reach": 208,
+        "views": 237,
         "saved": 0,
         "shares": 0,
-        "likes": 5,
+        "likes": 9,
         "comments": 0,
-        "total_interactions": 5,
-        "ig_reels_avg_watch_time": 6631
+        "total_interactions": 9,
+        "ig_reels_avg_watch_time": 6695
       },
-      "updated": "2026-11-12T02:09:29+00:00"
+      "updated": "2026-11-13T01:43:45+00:00"
     },
     "18114062024135348": {
       "permalink": "https://www.instagram.com/p/DffCkwhmlcn/",
       "timestamp": "2026-11-08T15:07:00+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 0,
       "product": "FEED",
       "caption": "5 perguntas da semana: você acerta todas sem colar? 👀\n\nBônus de hotel: quer sair do quarto mais tarde no último dia? Per",
@@ -1585,17 +1590,17 @@
       "kind": "carousel",
       "hook": "Sabe dizer *estas* 5?",
       "insights": {
-        "reach": 14,
-        "views": 48,
+        "reach": 17,
+        "views": 51,
         "saved": 0,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:30+00:00"
+      "updated": "2026-11-13T01:43:45+00:00"
     },
     "18080393990721319": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4026125907726720090",
@@ -1689,29 +1694,29 @@
       "permalink": "https://www.instagram.com/p/DfijwZHlL_V/",
       "timestamp": "2026-11-09T23:54:36+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 0,
+      "like_count": 4,
       "comments_count": 0,
       "product": "FEED",
       "caption": "Para de traduzir palavra por palavra 🛑\n\nExpressão em inglês se aprende em bloco: \"piece of cake\" não tem nada a ver com ",
       "kind": "manual",
       "insights": {
-        "reach": 20,
-        "views": 58,
+        "reach": 24,
+        "views": 64,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:28+00:00"
+      "updated": "2026-11-13T01:43:44+00:00"
     },
     "18643697320011094": {
       "permalink": "https://www.instagram.com/p/DfhnO49GJcc/",
       "timestamp": "2026-11-09T15:05:49+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1,
+      "like_count": 4,
       "comments_count": 0,
       "product": "FEED",
       "caption": "Se você leu esse texto sem tradutor, você já lê no nível B1 ✈️\n\nBônus que não está nos slides: o tempo que você fica esp",
@@ -1721,17 +1726,17 @@
       "kind": "carousel",
       "hook": "Leu sem travar? Você lê no nível *B1*",
       "insights": {
-        "reach": 19,
-        "views": 56,
+        "reach": 24,
+        "views": 61,
         "saved": 0,
         "shares": 0,
-        "likes": 1,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:29+00:00"
+      "updated": "2026-11-13T01:43:44+00:00"
     },
     "18161698777515691": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4026672426201414937",
@@ -1803,7 +1808,7 @@
       "permalink": "https://www.instagram.com/reel/Dfk0qiwj3aU/",
       "timestamp": "2026-11-10T21:01:10+0000",
       "media_type": "VIDEO",
-      "like_count": 0,
+      "like_count": 4,
       "comments_count": 0,
       "product": "REELS",
       "caption": "Quantas você acertou: 1, 2 ou as 3? 📄🧑‍💼🤝 Conta aqui e manda pra quem tá caçando vaga gringa!\n\n#inglesleve #inglesparabr",
@@ -1813,22 +1818,22 @@
       "kind": "reel",
       "hook": "Acerta essas *3* da entrevista?",
       "insights": {
-        "reach": 80,
-        "views": 89,
+        "reach": 85,
+        "views": 94,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 0,
-        "ig_reels_avg_watch_time": 3638
+        "total_interactions": 4,
+        "ig_reels_avg_watch_time": 3591
       },
-      "updated": "2026-11-12T02:09:28+00:00"
+      "updated": "2026-11-13T01:43:43+00:00"
     },
     "18090389222700692": {
       "permalink": "https://www.instagram.com/p/DfkaJkEje2W/",
       "timestamp": "2026-11-10T17:09:08+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 0,
+      "like_count": 4,
       "comments_count": 0,
       "product": "FEED",
       "caption": "Você mandaria seu 'curriculum' pra uma vaga nos EUA? Cuidado: lá é résumé! 📄\n\nHoje tem 15 palavras essenciais da entrevi",
@@ -1838,17 +1843,17 @@
       "kind": "carousel",
       "hook": "Acerta essas *6* da entrevista?",
       "insights": {
-        "reach": 13,
-        "views": 42,
+        "reach": 19,
+        "views": 55,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:28+00:00"
+      "updated": "2026-11-13T01:43:43+00:00"
     },
     "18038108147884954": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4027575503195921228",
@@ -1906,7 +1911,7 @@
       "permalink": "https://www.instagram.com/p/DfnfTbtlyCj/",
       "timestamp": "2026-11-11T21:51:58+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1,
+      "like_count": 6,
       "comments_count": 0,
       "product": "FEED",
       "caption": "Você ainda fala \"let's close for today\" no fim do expediente? 😅\n\nPra parar de trabalhar, o nativo diz \"Let's call it a d",
@@ -1916,17 +1921,17 @@
       "kind": "carousel",
       "hook": "Pare de dizer",
       "insights": {
-        "reach": 7,
-        "views": 14,
+        "reach": 17,
+        "views": 33,
         "saved": 0,
         "shares": 0,
-        "likes": 1,
+        "likes": 6,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 0
       },
-      "updated": "2026-11-12T02:09:27+00:00"
+      "updated": "2026-11-13T01:43:42+00:00"
     },
     "18179425936453947": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4028455381361453804",
@@ -1939,7 +1944,7 @@
       "kind": "story",
       "story_kind": "answer",
       "hook": "Respostas de hoje ✅",
-      "updated": "2026-11-12T02:09:50+00:00"
+      "updated": "2026-11-13T01:44:08+00:00"
     },
     "18117132761275981": {
       "permalink": "https://www.instagram.com/stories/inglesleve.br/4028326282052196319",
@@ -1966,6 +1971,71 @@
       "story_kind": "poll",
       "hook": "O que significa *call it a day*?",
       "updated": "2026-11-12T02:09:50+00:00"
+    },
+    "17919302844263385": {
+      "permalink": "https://www.instagram.com/p/DfpVka3lIYh/",
+      "timestamp": "2026-11-12T15:05:24+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 2,
+      "comments_count": 0,
+      "product": "FEED",
+      "caption": "Se você já disse 'I'll assist the meeting', o gringo entendeu que você ia AJUDAR na reunião 😅\n\nHoje são 3 pares que conf",
+      "date": "2026-11-12",
+      "format": "confusing_pairs",
+      "theme": "Não confunda no trabalho de dev: attend × assist, agenda × schedule, lose × loose",
+      "kind": "carousel",
+      "hook": "*Assist* não é assistir",
+      "insights": {
+        "reach": 10,
+        "views": 30,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "updated": "2026-11-13T01:43:42+00:00"
+    },
+    "18074117873771748": {
+      "permalink": "https://www.instagram.com/stories/inglesleve.br/4029167137117202884",
+      "timestamp": "2026-11-13T01:43:03+0000",
+      "product": "STORY",
+      "caption": "",
+      "date": "2026-11-12",
+      "format": "confusing_pairs",
+      "theme": "Não confunda no trabalho de dev: attend × assist, agenda × schedule, lose × loose",
+      "kind": "story",
+      "story_kind": "answer",
+      "hook": "Respostas de hoje ✅",
+      "updated": "2026-11-13T01:44:08+00:00"
+    },
+    "17977885527156495": {
+      "permalink": "https://www.instagram.com/stories/inglesleve.br/4028846352763240848",
+      "timestamp": "2026-11-12T15:05:41+0000",
+      "product": "STORY",
+      "caption": "",
+      "date": "2026-11-12",
+      "format": "confusing_pairs",
+      "theme": "Não confunda no trabalho de dev: attend × assist, agenda × schedule, lose × loose",
+      "kind": "story",
+      "story_kind": "poll",
+      "hook": "Don't ___ your changes. Commit first!",
+      "updated": "2026-11-13T01:44:08+00:00"
+    },
+    "18015944021763315": {
+      "permalink": "https://www.instagram.com/stories/inglesleve.br/4028846311684210522",
+      "timestamp": "2026-11-12T15:05:30+0000",
+      "product": "STORY",
+      "caption": "",
+      "date": "2026-11-12",
+      "format": "confusing_pairs",
+      "theme": "Não confunda no trabalho de dev: attend × assist, agenda × schedule, lose × loose",
+      "kind": "story",
+      "story_kind": "truefalse",
+      "hook": "'Assist the meeting' significa 'assistir à reunião'.",
+      "updated": "2026-11-13T01:44:08+00:00"
     }
   }
 }
