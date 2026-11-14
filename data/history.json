@@ -472,6 +472,27 @@
     ]
   },
   {
+    "date": "2026-11-14",
+    "format": "situation_phrases",
+    "theme": "Frases essenciais para calls de trabalho em inglês",
+    "terms": [
+      "can everyone hear me",
+      "can you see my screen",
+      "let me share my screen",
+      "sorry i'm late",
+      "running late",
+      "on mute",
+      "you're breaking up",
+      "i think we lost you",
+      "you're frozen",
+      "sorry, go ahead",
+      "can i jump in",
+      "hard stop",
+      "follow up by email"
+    ],
+    "track": "trabalho"
+  },
+  {
     "date": "2026-12-01",
     "format": "month_facts",
     "theme": "Dezembro nos EUA: datas, tradições e o inglês delas",

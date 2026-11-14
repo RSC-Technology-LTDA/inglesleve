@@ -1,0 +1,107 @@
+[
+  {
+    "round": 1,
+    "approved": false,
+    "issues": [
+      {
+        "severity": "major",
+        "location": "feed[5].items[2]",
+        "problem": "O distrator 'Sorry, you speak first.' não é claramente errado. É gramatical, e um nativo entende e até poderia dizer algo parecido ('Sorry, you go first' é totalmente natural). Com isso, o quiz pode ter mais de uma resposta aceitável e gerar comentários contestando o gabarito.",
+        "fix": "Troque por um erro inequívoco de brasileiro, como 'Sorry, can speak.' ou 'Sorry, speak you.'. Outra opção é manter o distrator e explicar na note que 'you go first' também funciona, mas 'go ahead' é o mais comum."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[1].note",
+        "problem": "'Em calls é sempre ON' generaliza demais. 'In a meeting' é o padrão, e 'in a call' também é usado (menos que 'on a call', mas não é errado). Alunos podem aplicar a regra a 'in a meeting'.",
+        "fix": "Reescreva como: 'Mudo é ON: on mute, on speaker, on a call (mas: in a meeting).'"
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[3].pt",
+        "problem": "'Hora pra sair' é vago e não passa a ideia de horário inegociável.",
+        "fix": "Use 'Horário limite' ou 'Saída em ponto', coerente com a note do slide 5."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[0].emoji",
+        "problem": "🎤 representa o microfone, não o estado 'no mudo'. O mesmo vale para 📞 em 'Breaking up', que não sugere falha de sinal.",
+        "fix": "Use 🔇 para 'On mute' e 📶 para 'Breaking up' (aplique também no slide 4 e nos stories/reel, se quiser consistência)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[3]",
+        "problem": "'Sorry, I'm running late' se diz antes de entrar (por chat/mensagem). Dentro da call, ao chegar, o natural é 'Sorry I'm late'. No slide 'Abrindo a call' a frase pode confundir.",
+        "fix": "Adicione na note 'mande por mensagem antes de entrar' ou troque por 'Sorry I'm late.' (Desculpa o atraso.)."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].title / theme",
+        "problem": "O tema e a capa falam de 'call travou / conexão falha', mas metade do conteúdo (hard stop, jump in, follow up, share screen) é etiqueta geral de reunião.",
+        "fix": "Amplie o título para algo como 'Frases essenciais pra calls em inglês' ou ajuste o theme."
+      }
+    ],
+    "summary": "O pacote é sólido: o inglês das frases é natural e correto, as pronúncias estão boas, a estrutura do feed, dos stories e do reel segue as regras, e a legenda é coerente. O único problema relevante é o quiz, em que 'Sorry, you speak first' não é inequivocamente errado, o que ameaça a regra de resposta única. Também há ajustes menores: a generalização sobre ON na note, a tradução de 'hard stop' na capa, os emojis e o contexto de 'running late'. Corrija o distrator do quiz e o pacote pode ser aprovado."
+  },
+  {
+    "round": 2,
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[3].items[3].en",
+        "problem": "'Your screen is frozen' está correto, mas numa call o nativo costuma dizer 'You're frozen' ou 'Your video froze'. 'Screen' pode soar como a tela compartilhada, não o vídeo da pessoa.",
+        "fix": "Trocar por 'You're frozen.' (Você travou.) ou 'Your video froze.' Atualizar a pronúncia ('iór FRÔU-zen') e terms_used."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[5].items[0] / feed[5].items[2]",
+        "problem": "Os distratores 'Sorry, continue you.' e 'Sorry, speak you.' são artificiais demais. Nenhum brasileiro diria isso, então o quiz fica óbvio.",
+        "fix": "Usar erros plausíveis, por exemplo 'Sorry, you can talk.' ou 'Sorry, can speak.', mantendo 'Sorry, go ahead.' como a única resposta natural."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[3].pt",
+        "problem": "'Horário limite' é vago para 'hard stop'. A nuance é 'preciso sair em ponto'.",
+        "fix": "Usar 'Saída em ponto' ou 'Horário pra sair'."
+      },
+      {
+        "severity": "minor",
+        "location": "reel.scenes[6].title",
+        "problem": "'Segue pra aprender um por dia' não deixa claro o que é 'um', e o slogan do perfil é '1 erro de brasileiro corrigido por dia'.",
+        "fix": "Trocar por 'Segue pra corrigir *1 erro por dia*'."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural: 'on mute', 'breaking up', 'hard stop', 'jump in', 'acting up' e 'give you some time back' são todas expressões reais de calls. O 'fix' é um erro brasileiro real ('in mute'), e a nota sobre 'in a meeting' está certa. A estrutura respeita os limites: cover grid com 5 itens, listas com 4 e quiz com uma única resposta. Os stories têm uma só resposta certa e o answer cobre tudo. O reel tem 7 cenas, com question seguida de reveal e say_pt neutro. Só há ajustes de estilo: 'Your screen is frozen' poderia ser mais idiomático, os distratores do quiz são pouco plausíveis e a tradução de 'hard stop' na capa é vaga. Aprovado."
+  },
+  {
+    "round": "polish",
+    "approved": true,
+    "issues": [
+      {
+        "severity": "minor",
+        "location": "feed[5].items[0]",
+        "problem": "'Sorry, you can talk.' é gramatical. Soa estranho e um pouco seco, mas não é claramente errado, o que pode gerar discussão nos comentários sobre haver mais de uma resposta aceitável.",
+        "fix": "Trocar por uma opção inequivocamente errada e típica de brasileiro, como 'Sorry, you can to speak.' ou 'Sorry, can talk.', ou deixar claro na nota que a frase é gramatical, mas um nativo não diria isso."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[4].items[1].pt",
+        "problem": "'Posso fazer um comentário?' não capta bem a ideia de 'jump in', que é entrar na conversa ou interromper educadamente.",
+        "fix": "Usar 'Posso entrar aqui rapidinho?' ou 'Posso interromper rapidinho?'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[0].items[3].pt",
+        "problem": "'Saída em ponto' soa artificial como tradução de 'hard stop'.",
+        "fix": "Usar 'Horário pra sair (sem falta)' ou 'Limite de horário'."
+      },
+      {
+        "severity": "minor",
+        "location": "feed[2].items[0].pronunciation / feed[4].items[1].pronunciation",
+        "problem": "'kén' para 'can' em pergunta não enfatizada exagera a vogal; na fala natural ela é reduzida.",
+        "fix": "Considerar 'kân' ou 'kãn' para refletir a forma fraca, mas é aceitável como está."
+      }
+    ],
+    "summary": "Pacote sólido e coerente. O inglês está correto e natural em todos os itens ('on mute', 'breaking up', 'hard stop', 'jump in', 'acting up', 'give you some time back'). O slide fix traz um erro plausível com a correção e a nota correta sobre on/in. A estrutura está dentro dos limites: cover grid com 5 itens, listas com 4 itens e quiz com uma resposta claramente melhor. Os stories estão completos e o answer cobre enquete e lacuna. O reel tem 7 cenas, com question seguida de reveal e say_en igual ao texto da tela. Há só ajustes menores: uma alternativa do quiz é gramatical, e algumas traduções e pronúncias podem ficar mais naturais. Aprovado."
+  }
+]

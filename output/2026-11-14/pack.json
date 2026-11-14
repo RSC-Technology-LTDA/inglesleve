@@ -1,0 +1,392 @@
+{
+  "format": "situation_phrases",
+  "theme": "Frases essenciais para calls de trabalho em inglês",
+  "level": "A2",
+  "feed": [
+    {
+      "kind": "cover",
+      "title": "Frases essenciais pra *calls* em inglês",
+      "subtitle": "Do começo ao fim da reunião",
+      "body": "",
+      "items": [
+        {
+          "en": "On mute",
+          "pt": "No mudo",
+          "pronunciation": "ón MIÚT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🔇"
+        },
+        {
+          "en": "Breaking up",
+          "pt": "Cortando",
+          "pronunciation": "BREI-kin ÂP",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📶"
+        },
+        {
+          "en": "Go ahead",
+          "pt": "Pode falar",
+          "pronunciation": "gôu a-RÉD",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🙋"
+        },
+        {
+          "en": "Hard stop",
+          "pt": "Saída em ponto",
+          "pronunciation": "RÁRD STÓP",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏰"
+        },
+        {
+          "en": "Share my screen",
+          "pt": "Compartilhar tela",
+          "pronunciation": "XÉR mai SKRÍN",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💻"
+        }
+      ],
+      "note": "",
+      "layout": "grid",
+      "strike": ""
+    },
+    {
+      "kind": "fix",
+      "title": "Seu colega fala, mas ninguém ouve",
+      "subtitle": "",
+      "body": "",
+      "items": [
+        {
+          "en": "You're *in* mute.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "You're *on* mute.",
+          "pt": "Você tá no mudo.",
+          "pronunciation": "iór ón MIÚT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Mudo é ON: on mute, on speaker, on a call (mas: in a meeting).",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Abrindo a call",
+      "subtitle": "Antes de começar a reunião",
+      "body": "",
+      "items": [
+        {
+          "en": "Can everyone hear me?",
+          "pt": "Todo mundo tá me ouvindo?",
+          "pronunciation": "kén É-vri-uan RÍR mi",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🎧"
+        },
+        {
+          "en": "Can you see my screen?",
+          "pt": "Vocês tão vendo minha tela?",
+          "pronunciation": "kén iu SÍ mai SKRÍN",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "💻"
+        },
+        {
+          "en": "Let me share my screen.",
+          "pt": "Deixa eu compartilhar minha tela.",
+          "pronunciation": "LÉ-mi XÉR mai SKRÍN",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🖥️"
+        },
+        {
+          "en": "Sorry I'm late.",
+          "pt": "Desculpa o atraso.",
+          "pronunciation": "SÓ-ri aim LEIT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🏃"
+        }
+      ],
+      "note": "Vai atrasar? Antes de entrar, manda no chat: 'Running late!'",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Quando a conexão falha",
+      "subtitle": "Áudio, vídeo e internet",
+      "body": "",
+      "items": [
+        {
+          "en": "You're on mute.",
+          "pt": "Você tá no mudo.",
+          "pronunciation": "iór ón MIÚT",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🔇"
+        },
+        {
+          "en": "You're breaking up.",
+          "pt": "Seu áudio tá cortando.",
+          "pronunciation": "iór BREI-kin ÂP",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📶"
+        },
+        {
+          "en": "I think we lost you.",
+          "pt": "Acho que você caiu.",
+          "pronunciation": "ai THINK ui LÓST iu",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📵"
+        },
+        {
+          "en": "You're frozen.",
+          "pt": "Você travou.",
+          "pronunciation": "iór FRÔU-zen",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🧊"
+        }
+      ],
+      "note": "Breaking up aqui não é terminar namoro: é o áudio picotando.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "list",
+      "title": "Conversa e encerramento",
+      "subtitle": "Pra falar na hora certa",
+      "body": "",
+      "items": [
+        {
+          "en": "Sorry, go ahead.",
+          "pt": "Desculpa, pode falar.",
+          "pronunciation": "SÓ-ri, gôu a-RÉD",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "🙋"
+        },
+        {
+          "en": "Can I jump in?",
+          "pt": "Posso fazer um comentário?",
+          "pronunciation": "kén ai DJÂMP in",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "✋"
+        },
+        {
+          "en": "I have a hard stop at 3.",
+          "pt": "Preciso sair às 3 em ponto.",
+          "pronunciation": "ai RÉV a RÁRD STÓP ét THRÍ",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "⏰"
+        },
+        {
+          "en": "Let's follow up by email.",
+          "pt": "Vamos continuar por e-mail.",
+          "pronunciation": "léts FÓ-lou âp bai Í-meil",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": "📧"
+        }
+      ],
+      "note": "Hard stop = horário que você PRECISA sair, sem tolerância.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "quiz",
+      "title": "Vocês falaram juntos. O que você diz?",
+      "subtitle": "Teste rápido",
+      "body": "",
+      "items": [
+        {
+          "en": "Sorry, you can talk.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Sorry, go ahead.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        },
+        {
+          "en": "Sorry, can speak.",
+          "pt": "",
+          "pronunciation": "",
+          "example_en": "",
+          "example_pt": "",
+          "emoji": ""
+        }
+      ],
+      "note": "Resposta: Sorry, go ahead. (Desculpa, pode falar.) As outras são tradução literal do 'pode falar'.",
+      "layout": "auto",
+      "strike": ""
+    },
+    {
+      "kind": "cta",
+      "title": "Salva pra revisar",
+      "subtitle": "",
+      "body": "Salva pra revisar antes da próxima call. Manda pra aquele colega que sempre fala no mudo 😅 Segue @inglesleve.br: 1 erro de brasileiro corrigido por dia",
+      "items": [],
+      "note": "",
+      "layout": "auto",
+      "strike": ""
+    }
+  ],
+  "caption": "Call em inglês e deu branco na hora de falar? 😬\n\nBônus que não está nos slides: se o problema for a SUA internet, diga \"Sorry, my Wi-Fi is acting up\" (desculpa, meu Wi-Fi tá de palhaçada). E se a reunião acabar mais cedo, todo mundo ama ouvir: \"I'll give you some time back\" (vou devolver um tempinho pra vocês).\n\nQual dessas frases você mais precisa nas suas reuniões? Conta aqui 👇\n\nManda pra aquele colega que sempre esquece o microfone no mudo.\nSalva pra revisar.\nSegue @inglesleve.br: 1 erro de brasileiro corrigido por dia",
+  "hashtags": [
+    "inglesleve",
+    "inglesparabrasileiros",
+    "inglesnotrabalho",
+    "inglescorporativo",
+    "businessenglish",
+    "aprenderingles",
+    "inglesonline",
+    "dicasdeingles",
+    "reuniaoemingles",
+    "inglesparaprofissionais",
+    "vocabularioemingles",
+    "englishtips",
+    "trabalhoremoto"
+  ],
+  "stories": [
+    {
+      "kind": "poll",
+      "headline": "Qual você usaria?",
+      "body": "Seu colega fala, mas ninguém ouve nada. Você avisa:",
+      "options": [
+        "Your microphone is closed.",
+        "You're on mute."
+      ],
+      "answer": "You're on mute.",
+      "emoji": "🔇"
+    },
+    {
+      "kind": "fill",
+      "headline": "O áudio tá picotando: You're breaking ___.",
+      "body": "Responde no DM!",
+      "options": [
+        "up",
+        "down",
+        "out"
+      ],
+      "answer": "up",
+      "emoji": "📶"
+    },
+    {
+      "kind": "speak",
+      "headline": "Can everyone hear me?",
+      "body": "kén É-vri-uan RÍR mi? · Grava um áudio e manda no DM!",
+      "options": [],
+      "answer": "",
+      "emoji": "🎧"
+    },
+    {
+      "kind": "answer",
+      "headline": "Respostas de hoje",
+      "body": "Enquete: o natural é 'You're on mute' (no mudo). Lacuna: 'You're breaking up' = seu áudio tá cortando.",
+      "options": [],
+      "answer": "You're on mute · You're breaking up",
+      "emoji": "✅"
+    }
+  ],
+  "terms_used": [
+    "can everyone hear me",
+    "can you see my screen",
+    "let me share my screen",
+    "sorry i'm late",
+    "running late",
+    "on mute",
+    "you're breaking up",
+    "i think we lost you",
+    "you're frozen",
+    "sorry, go ahead",
+    "can i jump in",
+    "hard stop",
+    "follow up by email"
+  ],
+  "reel": {
+    "scenes": [
+      {
+        "kind": "hook",
+        "title": "Call em inglês? Fala *isso*",
+        "text": "",
+        "emoji": "💻",
+        "say_pt": "Call em inglês? Anota essas!",
+        "say_en": ""
+      },
+      {
+        "kind": "example",
+        "title": "Can everyone hear me?",
+        "text": "Todo mundo tá me ouvindo?",
+        "emoji": "🎧",
+        "say_pt": "Pra começar a call:",
+        "say_en": "Can everyone hear me?"
+      },
+      {
+        "kind": "question",
+        "title": "Como avisar que o colega tá no mudo?",
+        "text": "Your mic is closed | You're on mute",
+        "emoji": "",
+        "say_pt": "Seu colega tá falando no mudo. Como você avisa?",
+        "say_en": ""
+      },
+      {
+        "kind": "reveal",
+        "title": "You're on mute.",
+        "text": "Você tá no mudo (nada de 'mic is closed')",
+        "emoji": "",
+        "say_pt": "A resposta certa é:",
+        "say_en": "You're on mute."
+      },
+      {
+        "kind": "example",
+        "title": "You're breaking up.",
+        "text": "Seu áudio tá cortando.",
+        "emoji": "📶",
+        "say_pt": "Se o áudio picotar:",
+        "say_en": "You're breaking up."
+      },
+      {
+        "kind": "example",
+        "title": "Sorry, go ahead.",
+        "text": "Desculpa, pode falar.",
+        "emoji": "🙋",
+        "say_pt": "E se falarem juntos:",
+        "say_en": "Sorry, go ahead."
+      },
+      {
+        "kind": "cta",
+        "title": "Segue pra corrigir *1 erro por dia*",
+        "text": "",
+        "emoji": "",
+        "say_pt": "Segue o perfil pra corrigir um erro de inglês por dia!",
+        "say_en": ""
+      }
+    ],
+    "caption": "Call em inglês e deu branco? 😬 Qual dessas frases você já precisou usar numa reunião?"
+  }
+}
