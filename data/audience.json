@@ -13,8 +13,8 @@
     "NG": 2,
     "CD": 1,
     "DE": 1,
-    "JO": 1,
     "IN": 1,
+    "JO": 1,
     "BJ": 1,
     "DO": 1,
     "MZ": 1,
@@ -26,9 +26,9 @@
     "IE": 1
   },
   "city": {
-    "São Paulo, São Paulo (state)": 123,
+    "São Paulo, São Paulo (state)": 124,
     "Rio de Janeiro, Rio de Janeiro (state)": 68,
-    "Campo Limpo Paulista, São Paulo (state)": 43,
+    "Campo Limpo Paulista, São Paulo (state)": 44,
     "Belo Horizonte, Minas Gerais": 21,
     "Salvador, Bahia": 20,
     "Goiânia, Goiás": 17,
@@ -55,40 +55,40 @@
     "Francisco Morato, São Paulo (state)": 7,
     "Belém, Pará": 7,
     "Anápolis, Goiás": 6,
+    "Maceió, Alagoas": 6,
     "São Bernardo do Campo, São Paulo (state)": 6,
     "Niterói, Rio de Janeiro (state)": 6,
     "São José, Santa Catarina": 6,
     "Jaboatão dos Guararapes, Pernambuco": 6,
     "Cuiabá, Mato Grosso": 6,
     "São Vicente, São Paulo (state)": 5,
-    "Maceió, Alagoas": 5,
     "Uberlândia, Minas Gerais": 5,
     "Vila Velha, Espírito Santo": 5,
     "Cariacica, Espírito Santo": 5,
+    "Cabo Frio, Rio de Janeiro (state)": 5,
     "Franca, São Paulo (state)": 5,
     "Brasília, Federal District": 5,
     "São José do Rio Prêto, São Paulo (state)": 5,
-    "Campos dos Goytacazes, Rio de Janeiro (state)": 5,
     "Santo André, São Paulo (state)": 5,
-    "Grajaú, Maranhão": 4
+    "Campos dos Goytacazes, Rio de Janeiro (state)": 5
   },
   "age": {
     "35-44": 358,
-    "25-34": 318,
+    "25-34": 317,
     "45-54": 264,
     "55-64": 119,
-    "18-24": 108,
+    "18-24": 109,
     "65+": 42,
     "13-17": 23
   },
   "gender": {
-    "F": 623,
-    "M": 432,
-    "U": 177
+    "F": 622,
+    "M": 434,
+    "U": 176
   },
   "state": {
-    "São Paulo": 270,
-    "Rio de Janeiro": 105,
+    "São Paulo": 272,
+    "Rio de Janeiro": 110,
     "Minas Gerais": 26,
     "Pernambuco": 25,
     "Goiás": 23,
@@ -96,15 +96,15 @@
     "Ceará": 15,
     "Paraná": 15,
     "Federal District": 14,
-    "Maranhão": 12,
     "Amazonas": 11,
     "Mato Grosso do Sul": 10,
     "Rio Grande do Norte": 10,
     "Espírito Santo": 10,
     "Rio Grande do Sul": 9,
+    "Maranhão": 8,
     "Pará": 7,
+    "Alagoas": 6,
     "Santa Catarina": 6,
-    "Mato Grosso": 6,
-    "Alagoas": 5
+    "Mato Grosso": 6
   }
 }
