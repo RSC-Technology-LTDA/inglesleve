@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-24",
   "country": {
-    "BR": 1181,
+    "BR": 1183,
     "PT": 8,
     "AO": 5,
     "US": 5,
@@ -26,7 +26,7 @@
     "GB": 1
   },
   "city": {
-    "São Paulo, São Paulo (state)": 123,
+    "São Paulo, São Paulo (state)": 124,
     "Rio de Janeiro, Rio de Janeiro (state)": 66,
     "Campo Limpo Paulista, São Paulo (state)": 44,
     "Belo Horizonte, Minas Gerais": 22,
@@ -70,24 +70,24 @@
     "Santo André, São Paulo (state)": 5,
     "Nilópolis, Rio de Janeiro (state)": 5,
     "Itupeva, São Paulo (state)": 4,
-    "Franco da Rocha, São Paulo (state)": 4
+    "Vitória, Espírito Santo": 4
   },
   "age": {
     "35-44": 357,
-    "25-34": 313,
-    "45-54": 265,
+    "25-34": 314,
+    "45-54": 266,
     "55-64": 120,
     "18-24": 106,
     "65+": 42,
     "13-17": 23
   },
   "gender": {
-    "F": 623,
-    "M": 433,
-    "U": 170
+    "F": 624,
+    "M": 435,
+    "U": 169
   },
   "state": {
-    "São Paulo": 282,
+    "São Paulo": 279,
     "Rio de Janeiro": 100,
     "Pernambuco": 24,
     "Minas Gerais": 22,
@@ -95,10 +95,10 @@
     "Bahia": 20,
     "Paraná": 17,
     "Ceará": 14,
+    "Espírito Santo": 14,
     "Maranhão": 13,
     "Amazonas": 12,
     "Rio Grande do Norte": 10,
-    "Espírito Santo": 10,
     "Rio Grande do Sul": 9,
     "Mato Grosso do Sul": 9,
     "Federal District": 8,
