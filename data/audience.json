@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "country": {
     "BR": 1183,
     "PT": 8,
@@ -41,10 +41,10 @@
     "Guarulhos, São Paulo (state)": 11,
     "São Gonçalo, Rio de Janeiro (state)": 11,
     "Natal, Rio Grande do Norte": 10,
+    "Campinas, São Paulo (state)": 10,
     "Osasco, São Paulo (state)": 9,
     "Porto Alegre, Rio Grande do Sul": 9,
     "Campo Grande, Mato Grosso do Sul": 9,
-    "Campinas, São Paulo (state)": 9,
     "São Luís, Maranhão": 8,
     "Taguatinga, Federal District": 8,
     "São José dos Campos, São Paulo (state)": 7,
@@ -69,15 +69,15 @@
     "São José do Rio Prêto, São Paulo (state)": 5,
     "Santo André, São Paulo (state)": 5,
     "Nilópolis, Rio de Janeiro (state)": 5,
-    "Itupeva, São Paulo (state)": 4,
+    "Uberaba, Minas Gerais": 4,
     "Vitória, Espírito Santo": 4
   },
   "age": {
     "35-44": 357,
-    "25-34": 314,
+    "25-34": 315,
     "45-54": 266,
     "55-64": 120,
-    "18-24": 106,
+    "18-24": 105,
     "65+": 42,
     "13-17": 23
   },
@@ -87,10 +87,10 @@
     "U": 169
   },
   "state": {
-    "São Paulo": 279,
+    "São Paulo": 276,
     "Rio de Janeiro": 100,
+    "Minas Gerais": 26,
     "Pernambuco": 24,
-    "Minas Gerais": 22,
     "Goiás": 22,
     "Bahia": 20,
     "Paraná": 17,
